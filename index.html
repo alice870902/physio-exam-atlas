@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Physio Exam Atlas</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{--bg:#f7f5f1;--panel:#fff;--fg:#1d1b17;--muted:#6b665c;--line:#e3ded4;--accent:#1f5f6b;--accent-soft:#e3eff1;
+--display:"Fraunces","Noto Sans TC",Georgia,serif;--body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--panel:#1d2024;--fg:#ebe7df;--muted:#a19b90;--line:#2d3137;--accent:#6fb9c6;--accent-soft:#1d3237;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);line-height:1.65;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 60px}
+main{max-width:820px;margin:0 auto}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-size:clamp(32px,6vw,48px);font-weight:700;line-height:1.1;margin:6px 0 10px;text-wrap:balance}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+a.card,div.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;text-decoration:none;color:inherit}
+a.card:hover{border-color:var(--accent);background:var(--accent-soft)}
+.card b{display:block;font-family:var(--display);font-size:22px;font-weight:600}
+.card small{color:var(--muted);display:block}
+.card i{display:block;font-family:var(--mono);font-size:11.5px;color:var(--accent);margin-top:8px;font-style:normal}
+div.card{opacity:.55}
+footer{margin-top:40px;font-size:12.5px;color:var(--muted);max-width:65ch}
+footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Physiotutors 影片導讀 · 繁中段落 + 英文術語</div>
+  <h1>Physio Exam Atlas</h1>
+  <p class="lead">把 Physiotutors 的理學檢查影片依部位、主題整理成可按順序學習的課程頁。每支影片附目的、操作步驟、陽性判讀、診斷準確度與臨床重點。</p>
+  <div class="grid">
+    <a class="card" href="shoulder/"><b>肩部</b><small>Shoulder</small><i>74 支影片 · 10 個主題</i></a>
+    <div class="card"><b>膝部</b><small>Knee</small><i>規劃中</i></div>
+    <div class="card"><b>髖部</b><small>Hip</small><i>規劃中</i></div>
+    <div class="card"><b>腰椎</b><small>Lumbar spine</small><i>規劃中</i></div>
+  </div>
+  <footer>影片與原始內容版權屬 <a href="https://www.physiotutors.com/" target="_blank" rel="noopener">Physiotutors</a>；本站僅嵌入 YouTube 播放並整理個人學習筆記，非官方網站。</footer>
+</main>
+</body>
+</html>
