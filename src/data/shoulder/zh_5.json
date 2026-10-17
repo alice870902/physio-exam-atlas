@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "pectoralis-minor-length-test",
+  "title_zh": "胸小肌長度測試 Pectoralis Minor Length Test",
+  "purpose_zh": "胸小肌 (pectoralis minor) 的肌肉長度測試。原頁指出胸肌容易縮短，主因是久坐桌前、肩膀前突 (protraction)、手臂內轉內收的生活型態。",
+  "structure_zh": "胸小肌（喙突到第 3–5 肋）；肩胛骨前突與前傾。",
+  "procedure_zh": "病人仰臥。檢查者把兩手掌根放在病人兩側喙突 (coracoid process) 上，向下（向後）施壓。",
+  "positive_zh": "病人感到肌肉被拉伸，表示胸小肌緊繃。",
+  "notes_zh": "原頁沒有給正常參考值（例如喙突離床面的高度），也沒有信度或準確度資料。影片嵌入從較長影片的第 66 秒開始播放。相關長度測試：胸大肌 (pectoralis major)、肱二頭肌、肱三頭肌。原站把這頁歸在「Chest Assessment」。",
+  "tags": ["胸小肌 pectoralis minor", "肌肉長度 muscle length", "姿勢 posture"]
+ },
+ {
+  "slug": "biceps-brachii-length-test",
+  "title_zh": "肱二頭肌長度測試 Biceps Brachii Length Test",
+  "purpose_zh": "肱二頭肌 (biceps brachii) 的肌肉長度測試。原頁依 Janda 的分類視其為張力性肌肉 (tonic muscle)、容易緊縮；功能是肩屈曲、外展、內轉，以及肘屈曲與旋後。",
+  "structure_zh": "跨越肩與肘的肱二頭肌（長頭與短頭）。",
+  "procedure_zh": "病人仰臥，肩關節伸展（手臂垂出床尾）、手肘屈曲、前臂旋後。檢查者把手肘伸直。",
+  "positive_zh": "正常：手肘能完全伸直，末端感覺為骨對骨 (bone-to-bone)。陽性：手肘無法完全伸直，且病人感到肌肉被拉伸。",
+  "notes_zh": "沒有信度或準確度資料。相關：胸大肌、胸小肌、肱三頭肌長度測試。原站把這頁歸在「Shoulder & Elbow Assessment」；本站放肩部，因為拉伸是由肩關節伸展的擺位決定的。",
+  "tags": ["肱二頭肌 biceps brachii", "肌肉長度 muscle length", "Janda"]
+ },
+ {
+  "slug": "triceps-brachii-length-test",
+  "title_zh": "肱三頭肌長度測試 Triceps Brachii Length Test",
+  "purpose_zh": "肱三頭肌 (triceps brachii) 的肌肉長度測試。原頁依 Janda 理論視其為相位性肌肉 (phasic muscle)、少用時容易無力；功能是肩伸展、內收與肘伸展。",
+  "structure_zh": "肱三頭肌，尤其是跨越肩關節的長頭。",
+  "procedure_zh": "病人坐姿，手臂完全向前屈曲並外轉。檢查者固定肱骨，再屈曲病人的手肘。",
+  "positive_zh": "正常：手肘屈曲到底時，末端感覺是肱二頭肌與前臂之間的軟組織靠攏。陽性：手肘屈曲受限，且末端感覺是肌肉拉伸。",
+  "notes_zh": "沒有信度或準確度資料。相關：胸大肌、胸小肌、肱二頭肌長度測試。原站把這頁歸在「Shoulder & Elbow Assessment」；本站放肩部，因為拉伸是由肩關節完全屈曲的擺位決定的。",
+  "tags": ["肱三頭肌 triceps brachii", "肌肉長度 muscle length", "Janda"]
+ }
+]

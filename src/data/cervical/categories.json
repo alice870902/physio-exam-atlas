@@ -1,14 +1,78 @@
 [
-  {"id": "screen", "zh": "紅旗篩檢：內臟轉移痛與椎基底動脈", "en": "Red Flags: Visceral Referred Pain & Vertebrobasilar Insufficiency",
-   "slugs": ["cervical-referred-pain", "extension-rotation-test"]},
-  {"id": "instab", "zh": "上頸椎不穩定與韌帶測試", "en": "Upper Cervical Instability & Ligament Tests",
-   "slugs": ["sharp-purser-test", "transverse-ligament-test", "upper-cervical-flexion-test", "alar-ligament-stress-test", "lateral-shear-test"]},
-  {"id": "radic", "zh": "頸神經根症候群", "en": "Cervical Radicular Syndrome",
-   "slugs": ["spurlings-test-cervical-radicular-syndrome", "cervical-distraction-test", "upper-limb-tension-test-1", "cluster-of-wainner", "valsalva-maneuver", "shoulder-abduction-sign", "arm-squeeze-test", "neck-tornado-test"]},
-  {"id": "neuro", "zh": "上肢神經學檢查（皮節、肌節、反射）", "en": "Upper Limb Neurological Examination",
-   "slugs": ["dermatomes-upper-limb", "myotomes-upper-limb", "reflex-testing-upper-limb"]},
-  {"id": "myelo", "zh": "頸脊髓病變與上運動神經元徵象", "en": "Cervical Myelopathy & Upper Motor Neuron Signs",
-   "slugs": ["cervical-myelopathy-cluster", "lhermittes-sign"]},
-  {"id": "motor", "zh": "動作控制、頸肌耐力與上頸椎活動度", "en": "Motor Control, Neck Muscle Endurance & Upper Cervical Mobility",
-   "slugs": ["clinical-cervical-instability", "craniocervical-flexion-test", "deep-neck-flexor-endurance-test", "cervical-extensor-endurance-test", "flexion-rotation-test"]}
+ {
+  "id": "screen",
+  "zh": "紅旗篩檢：內臟轉移痛與椎基底動脈",
+  "en": "Red Flags: Visceral Referred Pain & Vertebrobasilar Insufficiency",
+  "slugs": [
+   "cervical-referred-pain",
+   "extension-rotation-test"
+  ]
+ },
+ {
+  "id": "instab",
+  "zh": "上頸椎不穩定與韌帶測試",
+  "en": "Upper Cervical Instability & Ligament Tests",
+  "slugs": [
+   "sharp-purser-test",
+   "transverse-ligament-test",
+   "upper-cervical-flexion-test",
+   "alar-ligament-stress-test",
+   "lateral-shear-test"
+  ]
+ },
+ {
+  "id": "radic",
+  "zh": "頸神經根症候群",
+  "en": "Cervical Radicular Syndrome",
+  "slugs": [
+   "spurlings-test-cervical-radicular-syndrome",
+   "cervical-distraction-test",
+   "upper-limb-tension-test-1",
+   "cluster-of-wainner",
+   "valsalva-maneuver",
+   "shoulder-abduction-sign",
+   "arm-squeeze-test",
+   "neck-tornado-test",
+   "upper-limb-nerve-sliders-tensioners"
+  ]
+ },
+ {
+  "id": "neuro",
+  "zh": "上肢神經學檢查（皮節、肌節、反射）",
+  "en": "Upper Limb Neurological Examination",
+  "slugs": [
+   "dermatomes-upper-limb",
+   "myotomes-upper-limb",
+   "reflex-testing-upper-limb"
+  ]
+ },
+ {
+  "id": "myelo",
+  "zh": "頸脊髓病變與上運動神經元徵象",
+  "en": "Cervical Myelopathy & Upper Motor Neuron Signs",
+  "slugs": [
+   "cervical-myelopathy-cluster",
+   "lhermittes-sign"
+  ]
+ },
+ {
+  "id": "motor",
+  "zh": "動作控制、頸肌耐力與上頸椎活動度",
+  "en": "Motor Control, Neck Muscle Endurance & Upper Cervical Mobility",
+  "slugs": [
+   "clinical-cervical-instability",
+   "craniocervical-flexion-test",
+   "deep-neck-flexor-endurance-test",
+   "cervical-extensor-endurance-test",
+   "flexion-rotation-test"
+  ]
+ },
+ {
+  "id": "ex",
+  "zh": "運動治療（頸痛）",
+  "en": "Exercise & Rehab (Neck Pain)",
+  "slugs": [
+   "tight-upper-traps"
+  ]
+ }
 ]

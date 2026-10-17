@@ -88,6 +88,15 @@
   ]
  },
  {
+  "id": "groin",
+  "zh": "鼠蹊痛：核心肌損傷與運動疝氣",
+  "en": "Groin Pain: Core Muscle Injury & Sports Hernia",
+  "slugs": [
+   "resisted-cross-body-sit-up-test",
+   "straight-leg-sit-up-test"
+  ]
+ },
+ {
   "id": "sij",
   "zh": "薦髂關節",
   "en": "Sacroiliac Joint (SIJ)",

@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "elbow-active-range-of-motion",
+  "title_zh": "肘關節主動活動度 Elbow Active Range of Motion",
+  "purpose_zh": "肘關節主動活動度 (active range of motion, AROM)：找出疼痛等症狀及其位置、性質與強度，觀察關節活動是否順暢，並留意代償動作。",
+  "structure_zh": "肱尺、肱橈與近端橈尺關節；跨越肘與前臂的肌肉。",
+  "procedure_zh": "屈曲／伸展：請病人雙臂完全伸直，再盡量屈曲。旋前／旋後：手肘屈曲約 90°，請病人前臂向內轉（旋前 pronation）與向外轉（旋後 supination）；注意旋後時手臂不可再內收，否則會假性增加旋後角度。",
+  "positive_zh": "不適用：與標準值比較。屈曲 140–150°、伸展 0–10°、旋前 90°、旋後 90°。",
+  "notes_zh": "主動活動度受限時接著做被動活動度，再做等長阻力測試。⚠ 原頁結尾的連結文字寫「肩關節的被動活動度」（從肩部頁複製），實際連到肘關節 PROM 頁。原站把這頁歸在「Basic Assessment」。",
+  "tags": ["肘 elbow", "活動度 ROM", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "elbow-passive-range-of-motion",
+  "title_zh": "肘關節被動活動度 Elbow Passive Range of Motion",
+  "purpose_zh": "肘關節被動活動度 (passive range of motion, PROM)：主動活動度受限時進行，目的是取得末端感覺 (end-feel)，判斷是什麼限制了活動範圍。",
+  "structure_zh": "肘與前臂關節；關節囊、韌帶與肌肉軟組織。",
+  "procedure_zh": "檢查者被動把肘關節帶到伸展、屈曲、旋前與旋後的末端，依原頁的正常／異常末端感覺表判斷末端感覺。",
+  "positive_zh": "不適用：原頁給的正常末端感覺——伸展為硬（韌帶性）、屈曲為軟組織靠攏 (tissue approximation)、旋前與旋後為組織伸展 (tissue stretch)。",
+  "notes_zh": "⚠ 原頁的末端感覺清單把「屈曲」列了兩次、給了兩種不同的末端感覺（軟組織靠攏與組織伸展）。⚠ 正常／異常末端感覺總表在原頁是圖片、不在文字層。⚠ 結尾連結文字寫「肩關節的主動活動度」（從肩部頁複製）。原站把這頁歸在「Basic Assessment」。",
+  "tags": ["肘 elbow", "末端感覺 end-feel", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "elbow-resisted-isometric-testing",
+  "title_zh": "肘關節等長阻力測試 Elbow Resisted Isometric Testing",
+  "purpose_zh": "主動與被動活動度之後的等長阻力肌力測試 (resisted isometric testing)，因前臂肌肉附著在肱骨上髁，所以一併測腕屈曲與腕伸展。",
+  "structure_zh": "肘屈肌／伸肌、旋前肌／旋後肌、腕屈肌（內上髁）與腕伸肌（外上髁）。",
+  "procedure_zh": "病人坐姿，手肘屈曲 90°，請病人抵抗以下動作。屈曲：檢查者在前臂遠端把肘往伸展方向推。伸展：在前臂遠端把肘往屈曲方向拉。旋前：前臂中立位，從內側握住尺骨遠端、掌根放在橈骨遠端，請病人往掌心朝下的方向轉並抵抗。旋後：前臂中立位，從外側握住尺骨遠端、掌根放在橈骨遠端，請病人往掌心朝上的方向轉並抵抗。腕屈曲：前臂放在治療床上掌心朝上，請病人屈腕，檢查者往伸展方向施阻力。腕伸展：前臂放在床上掌心朝下，請病人伸腕，檢查者往屈曲方向施阻力。",
+  "positive_zh": "不適用：某個阻力動作出現疼痛和／或無力，指向該收縮性結構（例如外上髁痛者阻力腕伸展會痛）。",
+  "notes_zh": "⚠ 結尾連結文字寫「肩關節的主動與被動活動度評估」（從肩部頁複製）。原站把這頁歸在「Basic Assessment」。",
+  "tags": ["肘 elbow", "等長肌力測試 isometric testing", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "tennis-elbow-exercises",
+  "title_zh": "網球肘運動治療 Tennis Elbow Exercises",
+  "purpose_zh": "治療頁：外上髁痛（lateral epicondylalgia, LE，網球肘）的漸進負荷運動，並整理運動 vs 等待觀察、離心 vs 向心負荷的證據。",
+  "structure_zh": "外上髁的伸肌總腱 (common extensor tendon)：腕伸肌與旋後肌。",
+  "procedure_zh": "依 Kenas 等人 (2015) 的運動並加入向心階段：每次一個腕伸展運動加一個旋後運動，各 2 組 10 下，動作緩慢受控，每週 3 次、兩次之間休息 24–48 小時以利膠原蛋白淨合成。負荷管理：暫時避免或減少會加重疼痛的活動，從病人能無痛耐受的訓練量開始，觀察運動後 24 小時的反應；若 24 小時後沒有加重，就逐步增加次數、組數或阻力。",
+  "positive_zh": "不適用（治療頁）。",
+  "notes_zh": "原頁引用的證據：LE 自然病程良好，1 年追蹤 89% 疼痛改善，但 Peterson 等人 (2011) 的隨機試驗顯示每日漸進運動在 3 個月時疼痛優於等待觀察；Coombes 等人 (2016) 發現等長運動若強度高於（而非低於）個人疼痛閾值會增加疼痛，所以在肘部超過疼痛閾值的等長運動可能較不適用；Peterson 等人 (2014) 比較離心與向心居家運動，離心組從第 2 個月起疼痛下降與肌力增加較快，但 12 個月時兩組差異不顯著，作者結論兩種都可用、但強調離心階段可能較有利。相關診斷測試：Mills 測試、Cozen 測試、Maudsley 測試。",
+  "tags": ["網球肘 tennis elbow", "肌腱病變 tendinopathy", "運動治療 exercise"]
+ }
+]

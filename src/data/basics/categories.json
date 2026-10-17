@@ -1,0 +1,10 @@
+[
+  {"id": "scales", "zh": "量表：關節鬆弛（Beighton）、肌力分級（MRC）、軀幹控制（TCT）", "en": "Scales: Joint Hypermobility (Beighton), Muscle Strength (MRC), Trunk Control (TCT)",
+   "slugs": ["beighton-score", "mrc-scale", "trunk-control-test"]},
+  {"id": "gaitpost", "zh": "步態與姿勢觀察", "en": "Gait & Posture Observation",
+   "slugs": ["gait-cycle-gait-analysis", "observation-posture-analysis"]},
+  {"id": "anatomy", "zh": "解剖基礎：平面與軸", "en": "Anatomy Basics: Planes & Axes",
+   "slugs": ["anatomy-planes-axes"]},
+  {"id": "other", "zh": "其他：肌肉抽筋的機轉與處置", "en": "Other: Muscle Cramps Explained",
+   "slugs": ["muscle-cramps-explained"]}
+]

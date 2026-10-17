@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "acute-achilles-tendon-rupture-repair-rehab",
+  "title_zh": "阿基里斯腱斷裂修補術後復健：急性期 Acute Achilles Tendon Rupture Rehab",
+  "purpose_zh": "治療頁：急性阿基里斯腱 (Achilles tendon) 斷裂手術修補後，加速復健 (accelerated rehabilitation) 的第一階段（約術後前 2 週）。",
+  "structure_zh": "阿基里斯腱（比目魚肌與腓腸肌止於跟骨）；周邊的髖與足部肌肉。",
+  "procedure_zh": "目標：向病人說明預期病程、確保傷口癒合與控制腫脹、強化周邊肌肉。病人通常穿蹠屈 30° 的步行靴 (walker boot)，但可以全負重行走。運動：腳趾屈伸；直腿抬高；蚌殼式 (clam shells)，可加或不加彈力帶；側躺髖外展，可加彈力帶或腳踝沙袋。",
+  "positive_zh": "不適用（治療頁）。",
+  "notes_zh": "三個階段頁共用的背景：斷裂多發生在高衝擊運動的男性運動員；2017 年的回顧（Deng 等人）顯示手術與保守治療結果沒有顯著差異，但保守治療的再斷裂率較高，且不一定適合每種傷勢；含早期活動的加速復健優於固定不動（Brumann 等人 2014）。⚠ 原頁結尾「延伸閱讀」列的是本頁自己加中期頁，漏掉晚期頁。接續中期與晚期頁。",
+  "tags": ["阿基里斯腱斷裂 Achilles rupture", "術後復健 postoperative rehab", "治療 treatment"]
+ },
+ {
+  "slug": "intermediate-achilles-tendon-rupture-repair-rehab",
+  "title_zh": "阿基里斯腱斷裂修補術後復健：中期 Intermediate Achilles Tendon Rupture Repair Rehab",
+  "purpose_zh": "治療頁：阿基里斯腱斷裂修補術後加速復健的第二階段（最長約 3 週），重點轉到踝關節。",
+  "structure_zh": "阿基里斯腱與踝關節（蹠屈、旋後／旋前）；步態。",
+  "procedure_zh": "進入條件：休息時無痛、腫脹沒有增加。目標：達到踝中立位與完整蹠屈活動度，傷口持續癒合、腫脹持續消退，恢復正常步態。延續第一階段的運動並增加負荷（腳趾屈伸、直腿抬高、蚌殼式、側躺外展），再進階到：踝／足做到完整蹠屈再回中立；旋後與旋前（避免背屈）；前兩項可加彈力帶阻力。進入第三階段的條件：休息時無痛、背屈達中立位、殘餘腫脹或發炎消失。",
+  "positive_zh": "不適用（治療頁）。",
+  "notes_zh": "背景段落與急性期頁相同（Deng 等人 2017 回顧、Brumann 等人 2014 加速復健流程）。這個階段仍避免背屈。",
+  "tags": ["阿基里斯腱斷裂 Achilles rupture", "術後復健 postoperative rehab", "治療 treatment"]
+ },
+ {
+  "slug": "late-achilles-tendon-rupture-repair-rehab",
+  "title_zh": "阿基里斯腱斷裂修補術後復健：晚期 Late Achilles Tendon Rupture Repair Rehab",
+  "purpose_zh": "治療頁：阿基里斯腱斷裂修補術後加速復健的第三階段（最長約 9 週）：恢復完整活動度、本體感覺、平衡、協調與肌力，為專項運動復健做準備。",
+  "structure_zh": "阿基里斯腱與小腿；踝關節本體感覺與單腳控制。",
+  "procedure_zh": "運動：交替踮腳踩步；單腳站立（進階到 Airex 軟墊或 Bosu 球）訓練平衡與本體感覺；深蹲至少膝屈 30°（可加重量進階）；在踏階上做單腳深蹲；雙腳與單腳提踵；雙腳跳進階到單腳跳。",
+  "positive_zh": "不適用（治療頁）。",
+  "notes_zh": "背景段落與急性期頁相同（Deng 等人 2017、Brumann 等人 2014）。⚠ 原頁內文寫「restore full function of the angle」，應為 ankle。第一、二階段見急性期與中期頁。",
+  "tags": ["阿基里斯腱斷裂 Achilles rupture", "術後復健 postoperative rehab", "回場 return to sport"]
+ }
+]

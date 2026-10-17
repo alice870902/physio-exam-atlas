@@ -1,0 +1,50 @@
+[
+ {
+  "slug": "elbow-active-range-of-motion", "id": 12523, "title": "Elbow Active Range of Motion",
+  "link": "https://www.physiotutors.com/wiki/elbow-active-range-of-motion/",
+  "youtube_ids": ["PNWRcx6ZYKg"],
+  "purpose": "Active range of motion (AROM) of the elbow: detect symptoms such as pain (location, quality, intensity), see how freely the joint moves and spot compensatory strategies.",
+  "structure": "Humeroulnar, humeroradial and proximal radioulnar joints; muscles acting over the elbow and forearm.",
+  "procedure": "Flexion/extension: the patient fully extends both arms, then flexes as far as possible. Pronation/supination: with the elbows flexed to about 90° the patient rotates the forearms inward (pronation) and outward (supination); make sure the arm is not adducted further during supination, which fakes extra supination.",
+  "positive": "n/a: compare with the standard values. Flexion 140-150°, extension 0-10°, pronation 90°, supination 90°.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (basic assessment; no references listed)"},
+  "notes": "Followed by passive ROM when AROM is limited, then resisted isometric testing. ⚠ The page's closing link text says 'passive range of motion in the shoulder' (copied from the shoulder page); the linked content is the elbow PROM page. The source files this page under 'Basic Assessment'.",
+  "status": "ok"
+ },
+ {
+  "slug": "elbow-passive-range-of-motion", "id": 12527, "title": "Elbow Passive Range of Motion",
+  "link": "https://www.physiotutors.com/wiki/elbow-passive-range-of-motion/",
+  "youtube_ids": ["309Q8IJDq7s"],
+  "purpose": "Passive range of motion (PROM) of the elbow, done when AROM is limited, to obtain the end-feel and determine what limits the range.",
+  "structure": "Elbow and forearm joints; capsule, ligaments, muscle bulk.",
+  "procedure": "The examiner moves the elbow passively through extension, flexion, pronation and supination to the end of range and judges the end-feel against the normal/abnormal end-feel table shown on the page.",
+  "positive": "n/a: normal end-feels per the page are extension hard (ligamentous), flexion tissue approximation, pronation tissue stretch, supination tissue stretch.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (basic assessment; no references listed)"},
+  "notes": "⚠ The page's end-feel list names flexion twice with two different end-feels (tissue approximation and tissue stretch). ⚠ The normal/abnormal end-feel overview is an image, not in the page text. ⚠ The closing link text says 'active range of motion in the shoulder' (copied from the shoulder page). Source files this under 'Basic Assessment'.",
+  "status": "ok"
+ },
+ {
+  "slug": "elbow-resisted-isometric-testing", "id": 12532, "title": "Elbow Resisted Isometric Testing",
+  "link": "https://www.physiotutors.com/wiki/elbow-resisted-isometric-testing/",
+  "youtube_ids": ["BwUrosRGhzw"],
+  "purpose": "Resisted isometric muscle testing of the elbow complex after AROM and PROM, including wrist flexion and extension because forearm muscles attach at the humeral epicondyles.",
+  "structure": "Elbow flexors/extensors, pronators/supinators, wrist flexors (medial epicondyle) and wrist extensors (lateral epicondyle).",
+  "procedure": "Patient sitting, elbow flexed to 90°, resisting each movement. Flexion: the examiner pushes the distal forearm into extension. Extension: pulls the distal forearm into flexion. Pronation: forearm neutral, examiner grasps the distal ulna from the inside with the heel of the hand on the distal radius and resists palm-down rotation. Supination: forearm neutral, grasp the distal ulna from the outside, heel of the hand on the distal radius, resist palm-up rotation. Wrist flexion: forearm on the table palm up, resist flexion toward extension. Wrist extension: forearm on the table palm down, resist extension toward flexion.",
+  "positive": "n/a: pain and/or weakness on a specific resisted movement points to the contractile structure (e.g. painful resisted wrist extension in lateral epicondylalgia).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (basic assessment; no references listed)"},
+  "notes": "⚠ The closing link text refers to 'active and passive range of motion assessment of the shoulder' (copied from the shoulder page). Source files this under 'Basic Assessment'.",
+  "status": "ok"
+ },
+ {
+  "slug": "tennis-elbow-exercises", "id": 9424, "title": "Tennis Elbow Exercises",
+  "link": "https://www.physiotutors.com/wiki/tennis-elbow-exercises/",
+  "youtube_ids": ["Lf695_IJO8g"],
+  "purpose": "Treatment: progressive loading exercises for lateral epicondylalgia (LE, tennis elbow) with the evidence behind exercise versus wait-and-see and eccentric versus concentric loading.",
+  "structure": "Common extensor tendon at the lateral epicondyle (wrist extensors, supinator).",
+  "procedure": "Exercises after Kenas et al. 2015, modified to include the concentric phase: one wrist extension exercise and one supination exercise per session, 2 sets of 10 slow controlled repetitions, 3 times a week with 24-48 h rest between sessions. Load management: temporarily avoid or reduce aggravating activities, start at a volume the patient tolerates pain-free, watch the 24-hour response, and progress repetitions, sets or resistance when there is no aggravation beyond 24 h.",
+  "positive": "n/a (treatment page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (treatment page)"},
+  "notes": "Evidence quoted: 89% improve in pain at 1 year, but Peterson et al. 2011 found daily progressive exercise superior to wait-and-see for pain at 3 months; Coombes et al. 2016 found isometric exercise above (not below) the individual pain threshold increased pain in LE; Peterson et al. 2014 found eccentric loading reduced pain and increased strength faster from 2 months, but the groups did not differ at 12 months, so either mode may be used with emphasis on the eccentric phase. Diagnostic tests linked: Mills, Cozen's, Maudsley's.",
+  "status": "ok"
+ }
+]

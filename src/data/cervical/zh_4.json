@@ -1,0 +1,22 @@
+[
+ {
+  "slug": "upper-limb-nerve-sliders-tensioners",
+  "title_zh": "上肢神經滑動與張力運動 Upper Limb Nerve Sliders and Tensioners",
+  "purpose_zh": "治療頁：正中神經、尺神經與橈神經的神經鬆動術 (neural mobilization)——滑動 (slider) 與張力 (tensioner) 技巧，用 Theratube 彈力管模擬神經走向來示範（概念來自 David Butler）。",
+  "structure_zh": "從頸椎到手指的正中神經 (median nerve)、尺神經 (ulnar nerve) 與橈神經 (radial nerve)；以上肢張力測試 (ULTT) 的擺位當作治療姿勢。",
+  "procedure_zh": "正中神經：彈力管從頸部拉到中指，擺成 ULTT1 的姿勢；張力技巧＝頸部向對側側屈加手肘與手腕伸展；滑動技巧＝屈腕同時頭轉離，再反向操作讓神經往遠端滑。尺神經：彈力管套在小指、固定在內上髁後方；張力技巧＝手以旋前、伸腕的姿勢朝耳朵靠近，頭轉離；滑動技巧＝減少肘屈曲或腕伸展並把頭轉向手，再反向。橈神經：彈力管繞過上臂到食指；張力技巧＝肩與前臂內轉、旋前並屈腕；滑動技巧＝伸腕讓神經往近端滑，再屈腕滑回、頭同時轉向對側。劑量：每次擺盪只要有輕微拉伸感或輕微症狀即可。",
+  "positive_zh": "不適用（治療頁）。",
+  "notes_zh": "原頁引用的證據：Ellis 與 Hing (2008)、McKeon 與 Yancosek (2008) 的系統性回顧顯示神經鬆動術對腕隧道症候群有正向趨勢，對下背痛、頸臂神經性疼痛與外上髁痛有顯著好處，但納入試驗的方法學品質低。因發炎造成神經敏感化、但沒有可偵測神經損傷的病人，是最可能有反應的一群。這是四支 ULTT 頁的治療配套，本站放在頸神經根症候群類；原頁參考文獻印了兩次。",
+  "tags": ["神經動力學 neurodynamics", "神經鬆動術 neural mobilization", "治療 treatment"]
+ },
+ {
+  "slug": "tight-upper-traps",
+  "title_zh": "上斜方肌緊繃的運動治療 Tight Upper Traps",
+  "purpose_zh": "治療頁：說明「緊繃」的上斜方肌 (upper trapezius) 應該強化而不是伸展或放鬆，並介紹哪些聳肩變化式最能訓練它。",
+  "structure_zh": "上斜方肌（以及一起工作或互相競爭的中／下斜方肌、前鋸肌 serratus anterior、提肩胛肌 levator scapulae）。",
+  "procedure_zh": "過頭聳肩（Castelein 等人 2016，可降低提肩胛肌活性）：面向牆壁、距離約一個前臂長，手臂舉過頭靠在牆上做聳肩；進階改持自由重量在空中做，手肘盡量伸直，不可用三角肌或肱三頭肌代償。肩外展 30° 的上旋聳肩（Pizzari 等人 2014，上／中／下斜方肌與前鋸肌活性都較高）：在兩個滑輪之間做傳統聳肩，或做「猴子聳肩」(monkey shrugs)——雙手持啞鈴在髖部高度、手肘屈曲，聳肩時不改變肘角。複合動作：彈力帶或啞鈴側平舉（Andersen 等人 2008 顯示上斜方肌活化高）；外展動作會以相近程度活化四條旋轉肌袖（Wattanaprakornkul 等人 2011）。",
+  "positive_zh": "不適用（治療頁）。",
+  "notes_zh": "原頁的論點：肌電圖 (EMG) 顯示上斜方肌活性高，反映的是無力、疲勞與疼痛（常是代償無力的旋轉肌袖），不代表需要伸展；EMG 反應較大不等於運動單位徵召較多（Vigotsky 等人）；高強度肌力訓練可改善慢性疼痛上斜方肌的功能（Andersen 等人 2014）。傳統聳肩不是最佳選擇，因為肩外展 0° 時肌纖維角度不理想、且提肩胛肌活性高。⚠ 內文寫 Vigotsky「2015 年」，參考文獻是 2017 年；內文的「Wattanprakornul 2011」在參考文獻是 Wattanaprakornkul。",
+  "tags": ["上斜方肌 upper trapezius", "頸痛 neck pain", "運動治療 exercise"]
+ }
+]

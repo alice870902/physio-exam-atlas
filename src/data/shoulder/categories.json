@@ -148,7 +148,22 @@
    "costoclavicular-maneuver",
    "eden-test",
    "cyriax-release-test",
-   "tinel-sign-tos"
+   "tinel-sign-tos",
+   "thoracic-outlet-syndrome-explained",
+   "neurological-thoracic-outlet-syndrome",
+   "morley-test",
+   "wrights-test",
+   "roos-test"
+  ]
+ },
+ {
+  "id": "length",
+  "zh": "肌肉長度測試",
+  "en": "Muscle Length Tests",
+  "slugs": [
+   "pectoralis-minor-length-test",
+   "biceps-brachii-length-test",
+   "triceps-brachii-length-test"
   ]
  },
  {

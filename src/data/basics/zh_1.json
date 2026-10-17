@@ -1,0 +1,72 @@
+[
+ {
+  "slug": "beighton-score",
+  "title_zh": "Beighton 評分 Beighton Score",
+  "purpose_zh": "全身性關節過動（鬆弛，generalized joint hypermobility／laxity）的評分系統；原頁只有標題。",
+  "structure_zh": "全身性關節鬆弛（原頁只有標題）。",
+  "procedure_zh": "原頁沒有描述：沒有內文、沒有影片，只有頁首「Beighton Score | Generalized Joint Hypermobility (Laxity) Assessment」。",
+  "positive_zh": "原頁沒有描述。",
+  "notes_zh": "⚠ 這個 wiki 頁除了標題之外是空的：沒有操作步驟、沒有計分方式、沒有影片。⚠ 頁面列的兩篇參考文獻（Bower 2019《Medical Statistics from Scratch》、Akobeng 2016 談第一型／第二型錯誤）是統計學文獻，與 Beighton 評分無關。保留在圖譜裡是為了讓缺口看得見；評分內容需另找來源。",
+  "tags": ["關節過動 hypermobility", "量表 scale", "原頁空白"]
+ },
+ {
+  "slug": "mrc-scale",
+  "title_zh": "MRC 肌力分級 MRC Scale",
+  "purpose_zh": "英國醫學研究委員會 (Medical Research Council, MRC) 的肌力分級量表，0–5 級；影片以膝伸展（股四頭肌 quadriceps）示範。",
+  "structure_zh": "任何肌肉或肌群；示範肌肉是股四頭肌。",
+  "procedure_zh": "0 級：請病人收縮肌肉（股四頭肌：把膝後方往床面壓），看不到也摸不到任何收縮。1 級：看得到或摸得到肌肉顫動 (flicker) 但肢體不動。2 級：只有去除重力才能做完整個活動範圍——改側躺，檢查者托住腿，從完全屈曲做到伸展；完全不能動則是 1 級。3 級：能對抗重力完成全範圍，檢查者不給阻力。4 級：對抗中等阻力完成全範圍。5 級：對抗最大阻力完成全範圍；區分 4 與 5 級時要比較兩側。",
+  "positive_zh": "不適用（分級量表）：逐肌肉記錄 0–5 級。",
+  "notes_zh": "區分 1 級與 2 級需要去重力的擺位，所以病人必須換姿勢。原頁沒有列參考文獻。",
+  "tags": ["肌力 muscle strength", "MRC", "徒手肌力測試 MMT"]
+ },
+ {
+  "slug": "trunk-control-test",
+  "title_zh": "軀幹控制測試 Trunk Control Test",
+  "purpose_zh": "軀幹控制測試 (Trunk Control Test, TCT)：評估中風等神經疾病病人的軀幹動作，分數與日後行走的預後相關。",
+  "structure_zh": "中風後的軀幹動作控制。",
+  "procedure_zh": "在床上進行，共四項：翻身到患側、翻身到健側、坐在床緣雙腳離地維持平衡至少 30 秒、從躺姿坐起。每項計 0 分（沒有協助無法完成）、12 分（借助輔具可完成）或 25 分（可完成）。總分為四項相加，0–100 分，越高越好。",
+  "positive_zh": "不適用（0–100 分的量表）。",
+  "notes_zh": "原頁放的是一般 YouTube 連結（youtu.be/KsfnHkm99eY）而非嵌入影片，依本站規則不算影片。來源：Collin 與 Wade 1990，J Neurol Neurosurg Psychiatry 的信度先導研究。",
+  "tags": ["中風 stroke", "軀幹控制 trunk control", "量表 scale"]
+ },
+ {
+  "slug": "gait-cycle-gait-analysis",
+  "title_zh": "步態週期與步態分析 Gait Cycle and Gait Analysis",
+  "purpose_zh": "解說步態週期 (gait cycle) 各期，並示範以 Nijmegen 骨科步態分析表 (Nijmegen Orthopaedic Gait Analysis Form) 做觀察式步態分析。",
+  "structure_zh": "行走時的整個下肢、骨盆與軀幹。",
+  "procedure_zh": "定義：一步 (step) 從一腳初次著地到另一腳初次著地；一跨步 (stride) 從一腳初次著地到同一腳下次著地，等於兩步。站立期 (stance phase) 佔 60%：承重反應 (loading response，腳跟著地到對側腳離地，前 10%)、站立中期 (mid-stance，到腳跟離地，30%)、站立末期 (terminal stance，到對側初次著地，50%)、擺盪前期 (pre-swing，60%)。擺盪期 (swing phase) 佔 40%：擺盪初期（腳趾離地到雙腳並列，73%）、擺盪中期（到脛骨垂直，87%）、擺盪末期（到腳跟著地）。分析時從前、後、側面觀察，可錄影放慢，請病人以平常速度走（示範者走 3 km/h），並比較左右。",
+  "positive_zh": "檢查表項目：站立期縮短（最明顯的異常，例如跛行）；軀幹在髖的前方或後方、或側屈；手臂擺動減少；骨盆後旋過多；髖伸展減少；膝伸展減少、膝屈曲動作消失；踝蹠屈 (plantarflexion) 減少；下肢內轉或外轉。",
+  "notes_zh": "這是教學頁而非測試；百分比是標準的步態週期分界點。評估骨盆項目時可能要請病人露出骨性標記。參考文獻：Brunnekreef 等人 2005，錄影觀察式步態分析的信度。",
+  "tags": ["步態 gait", "步態週期 gait cycle", "功能評估 functional assessment"]
+ },
+ {
+  "slug": "observation-posture-analysis",
+  "title_zh": "觀察與姿勢分析 Observation and Posture Analysis",
+  "purpose_zh": "觀察是理學檢查的第一步：在額狀面、矢狀面與從背面檢視站姿，找出可能與主訴相關的結構異常。",
+  "structure_zh": "全身骨性標記：頭、鎖骨、髂嵴、髂前上棘 (ASIS)／髂後上棘 (PSIS)、髕骨、內踝、脊柱曲線、肩胛骨。",
+  "procedure_zh": "病人脫到只剩短褲、脫鞋，站直向前看，肩膀放鬆、手臂自然下垂。正面：鼻尖經下巴中點到胸骨柄 (manubrium) 的連線；頭是否旋轉或側傾；兩肩高度與鎖骨角度；乳頭高度（女性不採用）；兩側髂嵴與 ASIS；軀幹與手臂之間的空隙；指尖高度（手臂長度差）；髕骨尖高度與膝內翻 (varus)／外翻 (valgus)；兩側內踝。側面：Appleton 側向鉛垂線，從耳垂經肱骨頭；頭是否過度前傾或後移；肩前突或後縮；腰椎前凸 (lordosis) 與胸椎後凸 (kyphosis)；ASIS 與 PSIS 的夾角（通常約 15°）；膝是否過度伸展。背面：頭旋轉或側傾；脊柱側移（脊柱側彎 scoliosis）；兩側肩峰、肩胛棘與肩胛下角；肩胛骨內緣距脊柱的距離；髂嵴、PSIS 與臀溝；膝內翻／外翻；內踝，以及阿基里斯腱旁看得到幾根腳趾（判斷下肢旋轉）。",
+  "positive_zh": "不適用：記錄不對稱或偏離，再與主訴連結；看起來異常不等於病理。",
+  "notes_zh": "原頁另有一支「姿勢與疼痛的相關性」影片，並提醒觀察到的異常不一定是病理。參考來源：Magee《Orthopedic Physical Assessment》2014。",
+  "tags": ["姿勢 posture", "觀察 observation", "鉛垂線 plumb line"]
+ },
+ {
+  "slug": "anatomy-planes-axes",
+  "title_zh": "解剖平面與軸 Anatomy Planes and Axes",
+  "purpose_zh": "解說描述關節骨骼運動學 (osteokinematic) 動作所用的解剖平面與軸，以肩、髖、膝為例。",
+  "structure_zh": "矢狀面、額狀面、橫狀面（水平面）；橫軸（額狀軸）、矢狀軸、縱軸；關節的自由度。",
+  "procedure_zh": "所有動作都從解剖姿勢開始描述。矢狀面（分左右）：繞橫軸的動作＝屈曲／伸展（肩關節也稱前舉 anteversion／後舉 retroversion）。額狀面（分前後）：繞矢狀軸的動作＝外展／內收。橫狀面（分上下）：繞縱軸的動作＝外轉（側轉）／內轉（內側轉）。觀察某個動作時，站在與該平面垂直、沿著動作軸延伸的位置。肩與髖是球窩關節，有 3 個自由度；膝是鉸鏈關節，只有 1 個自由度（矢狀面的屈曲／伸展），其微量旋轉與外展／內收忽略不計。",
+  "positive_zh": "不適用（解說頁）。",
+  "notes_zh": "原頁的記憶法：矢狀軸 (sagittal axis) 想成射手座 (Sagittarius) 射一支箭穿過你的心臟（前後向）。",
+  "tags": ["解剖 anatomy", "平面與軸 planes and axes", "自由度 degrees of freedom"]
+ },
+ {
+  "slug": "muscle-cramps-explained",
+  "title_zh": "肌肉抽筋機轉與處置 Muscle Cramps Explained",
+  "purpose_zh": "解說頁：運動相關肌肉抽筋 (exercise-associated muscle cramps, EAMC) 的機轉、危險因子，以及治療與預防選項。",
+  "structure_zh": "α 運動神經元的反射控制：疲勞肌肉中肌梭 (muscle spindle) 的興奮輸入增加、高爾基腱器 (Golgi tendon organ, GTO) 的抑制輸入減少。",
+  "procedure_zh": "不是測試。馬拉松 12 年醫療紀錄：抽筋佔醫療事件 6.1%，每 1,000 名參賽者 1.2 例。脫水／電解質失衡理論（流汗使組織間液減少，並流失鈉、鈣、鎂、氯、鉀，導致神經末梢變形與自發放電）缺乏因果證據，也解釋不了為何只有作功的肌肉抽筋、且伸展能立即緩解。Schwellnus (2009)：神經肌肉疲勞改變反射控制——肌梭興奮增加、GTO 抑制減少；肌肉在縮短位置收縮時 GTO 訊號被壓抑，這也是伸展有效的原因。危險因子：個人的抽筋閾值頻率、曾經抽筋（最強的危險因子）、家族史與特定膠原蛋白基因、男性（快縮肌纖維比例較高）、運動強度與時間較高（Schwabe 等人）、肌腱或韌帶受傷史（Shang 等人）。",
+  "positive_zh": "不適用。處置：伸展是急性抽筋最有效的治療（增加 GTO 張力、提高反射抑制）。鹽錠與鎂補充缺乏證據；奎寧 (quinine) 可減少夜間與原發性抽筋，但會降低血小板，美國已不允許使用。Nelson (2016) 列出有希望但尚未經高品質試驗證實的策略：重新訓練主動肌（如腿後肌易抽筋者訓練臀大肌）、肌內效貼布與壓縮衣、按摩、過度換氣、約 1 ml/kg 的酸黃瓜汁 (pickle juice)。",
+  "notes_zh": "⚠ 原頁內文引用「Wagnet et al. 2010」（參考文獻寫 Wagner 等人 2010）、「Shang et al.」與「Marban et al. 2011」，後兩者不在參考文獻清單裡（清單只放了一個 redalyc.org 的 PDF 連結）。不是理學檢查，歸在基礎評估區當一般知識。",
+  "tags": ["肌肉抽筋 muscle cramps", "神經肌肉疲勞 neuromuscular fatigue", "解說頁 explainer"]
+ }
+]

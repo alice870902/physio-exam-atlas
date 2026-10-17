@@ -1,0 +1,38 @@
+[
+ {
+  "slug": "pectoralis-minor-length-test", "id": 12425, "title": "Pectoralis Minor Length Test",
+  "link": "https://www.physiotutors.com/wiki/pectoralis-minor-length-test/",
+  "youtube_ids": ["6WSybz0modY"],
+  "purpose": "Muscle length test for tightness of the pectoralis minor, a muscle that shortens with prolonged desk posture (protracted shoulders, arms in internal rotation and adduction).",
+  "structure": "Pectoralis minor (coracoid process to ribs 3-5); scapular protraction and anterior tilt.",
+  "procedure": "Patient supine. The examiner places the heels of the hands on both coracoid processes and applies downward (posterior) pressure.",
+  "positive": "A muscle-stretch sensation reported by the patient indicates pectoralis minor tightness.",
+  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "none (Magee 2014 as the only reference)"},
+  "notes": "The page gives no normal reference (e.g. coracoid height from the table) and no reliability data. The video embed starts at 66 s of a longer video (t=66). Related length tests: pectoralis major, biceps brachii, triceps brachii. Source files this under 'Chest Assessment'.",
+  "status": "ok"
+ },
+ {
+  "slug": "biceps-brachii-length-test", "id": 12420, "title": "Biceps Brachii Length Test",
+  "link": "https://www.physiotutors.com/wiki/biceps-brachii-length-test/",
+  "youtube_ids": ["XA2rvd0zBAM"],
+  "purpose": "Muscle length test for the biceps brachii, a tonic muscle that tends to tighten; it flexes, abducts and internally rotates the shoulder and flexes and supinates the elbow.",
+  "structure": "Biceps brachii across the shoulder and elbow (both heads).",
+  "procedure": "Patient supine with the shoulder extended (arm off the end of the table), the elbow flexed and the forearm supinated. The examiner extends the elbow.",
+  "positive": "Normal: full elbow extension with a bone-to-bone end-feel. Positive: elbow extension cannot be completed and the patient feels a muscular stretch.",
+  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "none (Magee 2014 as the only reference)"},
+  "notes": "Janda-type classification (tonic muscle). No reliability or accuracy data. Related: pectoralis major, pectoralis minor and triceps length tests. Source files this under 'Shoulder & Elbow Assessment'; placed in shoulder because shoulder extension sets the stretch.",
+  "status": "ok"
+ },
+ {
+  "slug": "triceps-brachii-length-test", "id": 12428, "title": "Triceps Brachii Length Test",
+  "link": "https://www.physiotutors.com/wiki/triceps-brachii-length-test/",
+  "youtube_ids": ["oyRbGqmOeB4"],
+  "purpose": "Muscle length test for the triceps brachii, a phasic muscle (Janda) that tends to weaken when underused; it extends and adducts the shoulder and extends the elbow.",
+  "structure": "Triceps brachii, especially the long head across the shoulder.",
+  "procedure": "Patient sitting with the arm fully forward flexed and in lateral rotation. The examiner stabilises the humerus and flexes the patient's elbow.",
+  "positive": "Normal: elbow flexion ends with soft tissue approximation between the biceps and the forearm. Positive: elbow flexion is limited and the end-feel is muscle stretch.",
+  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "none (Magee 2014 as the only reference)"},
+  "notes": "No reliability or accuracy data. Related: pectoralis major, pectoralis minor and biceps length tests. Source files this under 'Shoulder & Elbow Assessment'; placed in shoulder because full shoulder flexion sets the stretch.",
+  "status": "ok"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "slug": "acute-achilles-tendon-rupture-repair-rehab", "id": 10455, "title": "Acute Achilles Tendon Rupture Rehab",
+  "link": "https://www.physiotutors.com/wiki/acute-achilles-tendon-rupture-repair-rehab/",
+  "youtube_ids": ["VFEUc0KYUp0"],
+  "purpose": "Treatment: phase 1 (about the first 2 weeks) of accelerated rehabilitation after surgical repair of an acute Achilles tendon rupture.",
+  "structure": "Achilles tendon (soleus and gastrocnemius insertion on the calcaneus); surrounding hip and foot muscles.",
+  "procedure": "Goals: educate the patient on the expected course, ensure wound healing and swelling control, strengthen the surrounding muscles. The patient usually wears a walker boot in 30° plantar flexion but may walk with full weight-bearing. Exercises: toe flexion and extension; straight leg raise; clam shells with and without resistance band; side-lying abduction with or without band or ankle weight.",
+  "positive": "n/a (treatment page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (treatment page)"},
+  "notes": "Background shared by the three phase pages: ruptures occur mostly in high-impact sports in male athletes; a 2017 review (Deng et al.) found no outcome difference between surgery and conservative care but a higher re-rupture rate with conservative management; accelerated rehab with early mobilisation beats immobilisation (Brumann et al. 2014). ⚠ The page's 'check out the posts below' list links to this same acute page plus the intermediate page (the late page is the one missing). Continue with the intermediate and late phase pages.",
+  "status": "ok"
+ },
+ {
+  "slug": "intermediate-achilles-tendon-rupture-repair-rehab", "id": 10462, "title": "Intermediate Achilles Tendon Rupture Repair Rehab",
+  "link": "https://www.physiotutors.com/wiki/intermediate-achilles-tendon-rupture-repair-rehab/",
+  "youtube_ids": ["kjAEKBiabT4"],
+  "purpose": "Treatment: phase 2 (up to about 3 weeks) of accelerated rehabilitation after Achilles tendon rupture repair, focusing on the ankle.",
+  "structure": "Achilles tendon and ankle (plantar flexion, supination/pronation); gait.",
+  "procedure": "Entry: no pain at rest and no increase in swelling. Goals: neutral ankle position and full plantar flexion range, continued wound healing and swelling reduction, restoration of a normal gait pattern. Continue the phase 1 exercises with more load (toe flexion/extension, straight leg raise, clam shells, side-lying abduction) and progress to: ankle/foot into full plantar flexion and back to neutral; supination and pronation (avoid dorsiflexion); add Theraband resistance to the first two. Exit to phase 3: pain-free at rest, neutral dorsiflexion achieved, remaining swelling or inflammation gone.",
+  "positive": "n/a (treatment page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (treatment page)"},
+  "notes": "Same background paragraph as the acute page (Deng et al. 2017 review, Brumann et al. 2014 accelerated protocol). Dorsiflexion is still avoided in this phase.",
+  "status": "ok"
+ },
+ {
+  "slug": "late-achilles-tendon-rupture-repair-rehab", "id": 10450, "title": "Late Achilles Tendon Rupture Repair Rehab",
+  "link": "https://www.physiotutors.com/wiki/late-achilles-tendon-rupture-repair-rehab/",
+  "youtube_ids": ["CteKOmI37d8"],
+  "purpose": "Treatment: phase 3 (up to about 9 weeks) of accelerated rehabilitation after Achilles tendon rupture repair: full range of motion, proprioception, balance, coordination and strength before sport-specific rehab.",
+  "structure": "Achilles tendon and calf; ankle proprioception and single-leg control.",
+  "procedure": "Exercises: alternating stepping onto the toes; single-leg stance (progress to an Airex mat or Bosu) for balance and proprioception; squats to at least 30° knee flexion (progress with weight); single-leg squats on a stepper; double- and single-leg calf raises; double-leg hops progressed to single-leg hops.",
+  "positive": "n/a (treatment page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (treatment page)"},
+  "notes": "Same background paragraph as the acute page (Deng et al. 2017, Brumann et al. 2014). ⚠ The text says 'restore full function of the angle' (ankle). Phases 1 and 2 are the acute and intermediate pages.",
+  "status": "ok"
+ }
+]

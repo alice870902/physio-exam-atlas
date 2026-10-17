@@ -1,0 +1,112 @@
+[
+ {
+  "slug": "thoracic-outlet-syndrome-explained",
+  "id": 12691,
+  "title": "Thoracic Outlet Syndrome Explained",
+  "link": "https://www.physiotutors.com/wiki/thoracic-outlet-syndrome-explained/",
+  "youtube_ids": [
+   "H_tGstO-0N4"
+  ],
+  "purpose": "Explanation page: definition and classification of thoracic outlet syndrome (TOS), the compression intervals and the list of provocation tests.",
+  "structure": "Brachial plexus and subclavian vessels in the interscalene triangle, the costoclavicular space and the retropectoralis minor space.",
+  "procedure": "Not a test. TOS is a symptom complex rather than an ICD diagnosis; it is made by excluding other causes of neurological or vascular arm symptoms such as cervical radicular syndrome and carpal tunnel syndrome. The page divides TOS into four classifications and lists the intervals where neural or vascular entrapment occurs. Davidovic et al. 2003: incidence up to 8%, rare in children, male-to-female ratio 1:2 to 1:4; 98% of causes neurogenic, 2% vascular compression.",
+  "positive": "n/a. Common tests listed: Adson test, Eden/military brace test, Wright's test, Tinel's sign, Morley/brachial plexus compression test, Cyriax release test, costoclavicular manoeuvre/Halstead test.",
+  "accuracy": {
+   "sensitivity": "n/a",
+   "specificity": "n/a",
+   "lr_plus": "n/a",
+   "lr_minus": "n/a",
+   "source": "n/a (explanation page)"
+  },
+  "notes": "⚠ The four-type classification table and the list of entrapment intervals are images on the source page and are not in its text; this record only states that they exist. References: Davidovic 2003, Watson et al. 2009 (part 1) and 2010 (part 2). Listed in both the thoracic spine region and the shoulder region (copy of the thoracic record).",
+  "status": "ok"
+ },
+ {
+  "slug": "neurological-thoracic-outlet-syndrome",
+  "id": 12697,
+  "title": "Neurological Thoracic Outlet Syndrome",
+  "link": "https://www.physiotutors.com/wiki/neurological-thoracic-outlet-syndrome/",
+  "youtube_ids": [
+   "iHP0F3flLzY"
+  ],
+  "purpose": "Criteria page: the Society for Vascular Surgery reporting standards (Illig et al. 2016) that define neurogenic thoracic outlet syndrome (nTOS).",
+  "structure": "Brachial plexus at the scalene triangle and at the pectoralis minor insertion.",
+  "procedure": "Not a test. nTOS is defined by 3 of the following 4: (1) local findings: history of symptoms consistent with irritation or inflammation at the compression site (scalene triangle or pectoralis insertion) with referred pain to the chest wall, axilla, upper back, shoulder, trapezius region, neck or head (including headache), and pain on palpation of that area; (2) peripheral findings: arm or hand symptoms of nerve compression (numbness, pain, paraesthesia, vasomotor changes, weakness, wasting in extreme cases), often worsened by manoeuvres that narrow the outlet (arms overhead) or stretch the plexus (dangling, driving, walking/running), and reproduced by palpation or by provocative manoeuvres such as the Roos test (elevated arm stress test) or ULTT1; (3) absence of other reasonably likely diagnoses (cervical disc disease, shoulder disease, carpal tunnel syndrome, complex regional pain syndrome, brachial neuritis); (4) a positive response to a properly performed test injection in those who undergo it.",
+  "positive": "n/a (criteria page). Most patients have symptoms for more than 6 months, deteriorate over time and have a trauma history, but these are not required.",
+  "accuracy": {
+   "sensitivity": "n/a",
+   "specificity": "n/a",
+   "lr_plus": "n/a",
+   "lr_minus": "n/a",
+   "source": "n/a (criteria page, Illig et al. 2016)"
+  },
+  "notes": "The source stresses that the subjective nature of many of these findings keeps the validity of the nTOS diagnosis controversial. Lists the same common TOS tests as the TOS explained page. Listed in both the thoracic spine region and the shoulder region (copy of the thoracic record).",
+  "status": "ok"
+ },
+ {
+  "slug": "morley-test",
+  "id": 11148,
+  "title": "Morley Test",
+  "link": "https://www.physiotutors.com/wiki/morley-test/",
+  "youtube_ids": [
+   "ZRKPVtlN59k"
+  ],
+  "purpose": "Provocation test for thoracic outlet syndrome that compresses the neurovascular bundle in the supraclavicular fossa (brachial plexus compression test).",
+  "structure": "Brachial plexus and subclavian vessels in the supraclavicular fossa (interscalene triangle).",
+  "procedure": "The patient sits upright with the arms at the sides. The examiner compresses the supraclavicular fossa for 30 seconds.",
+  "positive": "Reproduction of an aching sensation and the typical localised paraesthesia, not mere tenderness of the area.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "No diagnostic accuracy study exists (Watson et al. 2009)"
+  },
+  "notes": "Clinical value questionable because no sensitivity or specificity has been reported. Fullness or a palpable hard mass in the supraclavicular fossa may indicate a true structural lesion causing vascular or true neurological TOS and must itself be examined. The test is probably positive in both cervical radiculopathy and TOS, so it is unlikely to distinguish them. Listed in both the thoracic spine region and the shoulder region (copy of the thoracic record).",
+  "status": "ok"
+ },
+ {
+  "slug": "wrights-test",
+  "id": 8814,
+  "title": "Wright’s Test",
+  "link": "https://www.physiotutors.com/wiki/wrights-test/",
+  "youtube_ids": [
+   "e-6AiDPyd2Q"
+  ],
+  "purpose": "Provocation test for thoracic outlet syndrome: the first part narrows the retropectoralis minor space, the second part implicates the costoclavicular interval.",
+  "structure": "Retropectoralis minor space and costoclavicular space; brachial plexus and subclavian artery (radial pulse).",
+  "procedure": "The patient sits comfortably. Part 1: the arm is passively brought into 90° abduction and external rotation without tilting the head, the elbow flexed no more than 45°, and held for 1 minute while the examiner monitors symptom onset and the quality of the radial pulse. Part 2: the test is repeated in hyperabduction (end-range abduction). Other authors add cervical flexion, extension and rotation to each side.",
+  "positive": "A decrease of the radial pulse and/or reproduction of the patient's symptoms.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Gillard et al. 2001: the unclear description of how the test was performed prevents any accuracy statement"
+  },
+  "notes": "Clinical value in practice is questionable. Listed in both the thoracic spine region and the shoulder region (copy of the thoracic record).",
+  "status": "ok"
+ },
+ {
+  "slug": "roos-test",
+  "id": 8808,
+  "title": "Roos Test",
+  "link": "https://www.physiotutors.com/wiki/roos-test/",
+  "youtube_ids": [
+   "0oGGdcQsBKY"
+  ],
+  "purpose": "Elevated arm stress test for thoracic outlet syndrome, believed to stress all three intervals because the position tensions the arterial, venous and neural structures.",
+  "structure": "Interscalene triangle, costoclavicular space and retropectoralis minor space.",
+  "procedure": "The patient sits with the head neutral, arms abducted and externally rotated to 90° and elbows flexed to 90°, then opens and closes the fingers for up to 3 minutes. The examiner watches for dropping of the arm (fatigue or arterial compromise), compares the colour of the distal extremity left versus right and monitors symptom onset.",
+  "positive": "The patient cannot maintain the elevation for 3 minutes, or symptoms are induced.",
+  "accuracy": {
+   "sensitivity": "84%",
+   "specificity": "30%",
+   "lr_plus": "1.2 (derived)",
+   "lr_minus": "0.53 (derived)",
+   "source": "Gillard et al. 2001, Joint Bone Spine (48 patients; no MRI gold standard)"
+  },
+  "notes": "Low specificity and no MRI reference standard: the source rates the clinical value as rather weak. Listed in both the thoracic spine region and the shoulder region (copy of the thoracic record).",
+  "status": "ok"
+ }
+]

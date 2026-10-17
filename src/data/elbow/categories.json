@@ -4,6 +4,9 @@
   "zh": "整體評估與關節活動",
   "en": "Elbow Assessment & Joint Play",
   "slugs": [
+   "elbow-active-range-of-motion",
+   "elbow-passive-range-of-motion",
+   "elbow-resisted-isometric-testing",
    "joint-play-elbow"
   ]
  },
@@ -67,6 +70,14 @@
    "tilt-sign",
    "supination-pronation-test",
    "ludingtons-test"
+  ]
+ },
+ {
+  "id": "ex",
+  "zh": "運動治療（網球肘）",
+  "en": "Exercise & Rehab (Tennis Elbow)",
+  "slugs": [
+   "tennis-elbow-exercises"
   ]
  }
 ]

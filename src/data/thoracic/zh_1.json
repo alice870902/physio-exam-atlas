@@ -1,0 +1,112 @@
+[
+ {
+  "slug": "rib-joint-play",
+  "title_zh": "肋骨關節鬆動度評估 Rib Joint Play",
+  "purpose_zh": "評估（並可直接用來鬆動）第 2–12 肋的肋橫突關節 (costotransverse joint) 關節鬆動度 (joint play)，判斷關節反應性、末端感覺 (end-feel) 與關節囊受限。",
+  "structure_zh": "肋橫突關節；肋骨角 (angulus costae) 與胸椎橫突 (transverse process)。",
+  "procedure_zh": "病人俯臥，頭轉向受檢側，該側手臂垂出床緣讓肩胛骨前突 (protraction)，檢查者站在對側。第 2–7 肋：固定手的小魚際 (hypothenar) 放在受檢節段與上一節段的對側橫突；操作手以交叉握法 (cross grip) 把小魚際放在肋骨角，前臂指向腹側、外側與尾側；病人吐氣時評估關節鬆動度與末端感覺。第 8–12 肋：擺位相同，但兩手互換，操作手前臂改指向腹側、外側與頭側。若發現鬆動度受限，同一手法可當鬆動術 (mobilization) 使用，以 Maitland 分級調整劑量。",
+  "positive_zh": "不是陽性／陰性型的測試：與鄰近節段或對側相比，肋橫突關節鬆動度受限或末端感覺異常即為異常發現。",
+  "notes_zh": "這是評估兼治療頁，不是診斷測試。來源把臨床價值評為弱，因為 Heiderscheit 與 Boissonnault (2008)、Beynon 等人 (2018) 兩項研究對胸椎與肋椎關節活動度／僵硬的評估者間一致性都只有「些微一致」(slight agreement)。⚠ 原頁內文把第一作者拼成 Heiderscheidt，參考文獻寫 Heiderscheit。相關頁：第一肋評估 (First Rib Assessment)、頸椎旋轉側屈測試 (Cervical Rotation Lateral Flexion Test)。",
+  "tags": ["肋橫突關節 costotransverse joint", "關節鬆動度 joint play", "徒手治療 manual therapy"]
+ },
+ {
+  "slug": "first-rib-assessment",
+  "title_zh": "第一肋評估 First Rib Assessment",
+  "purpose_zh": "直接評估第一肋 (first rib) 的活動度是否不足 (hypomobility)，用於胸廓出口症狀 (thoracic outlet symptoms) 或頸胸交界 (cervicothoracic junction) 疼痛的評估。",
+  "structure_zh": "第一肋及其與 T1 的關節；上胸廓出口 (upper thoracic aperture)；以側屈放鬆上斜方肌 (upper trapezius)。",
+  "procedure_zh": "共三種擺位。坐姿：檢查者站在病人後方，先找到 T1 定位，把頭轉向受檢側（第一肋會往後移、較易觸及），再加側屈放鬆斜方肌，用手肘頂住胸骨固定姿勢；第一掌指關節 (MCP 1) 放在第一肋上，朝尾側、腹側與內側（即朝向對側髂前上棘 ASIS）輕推，評估末端感覺、症狀是否重現，並與對側比較。仰臥：病人略斜躺在治療床上，頭轉向受檢側，一手固定頸椎並對枕骨施以輕微牽引；MCP 1 平放在肋骨上、手固定在檢查者骨盆，由身體帶出腹側、尾側與內側的力量；也可改用交叉握法。俯臥：做法與仰臥版相同。",
+  "positive_zh": "不是陽性／陰性型的測試：與對側相比第一肋移動減少、末端感覺偏硬，或重現病人的症狀即為異常發現。",
+  "notes_zh": "共三支影片（坐姿、仰臥、俯臥）。評估者間信度極低：Fjellner 等人 (1999) 第一肋活動度評估的加權 kappa 只有 0.06，所以單獨的發現不能作為依據。間接的替代方法是頸椎旋轉側屈測試 (Cervical Rotation Lateral Flexion Test)；第 2–12 肋見肋骨關節鬆動度評估 (Rib Joint Play)。",
+  "tags": ["第一肋 first rib", "胸廓出口症候群 TOS", "頸胸交界 cervicothoracic junction"]
+ },
+ {
+  "slug": "cervical-rotation-lateral-flexion-test",
+  "title_zh": "頸椎旋轉側屈測試 Cervical Rotation Lateral Flexion Test",
+  "purpose_zh": "篩檢第一肋活動度不足（第一肋抬高），用於有胸廓出口症狀或頸椎活動度受限的病人。",
+  "structure_zh": "第一肋及其肋橫突關節，位於上胸廓出口；Lindgren 提出的機轉是第一肋活動度不足造成神經刺激。",
+  "procedure_zh": "病人坐姿。先把頭轉離患側，再往另一個方向加側屈，讓耳朵朝胸口靠近。",
+  "positive_zh": "沿肋橫突關節軸線沒有側屈動作，或動作被骨性阻擋即為陽性。",
+  "notes_zh": "Lindgren 等人 1990 年提出此測試，1992 年在 23 位病人評估評估者間信度與效度：kappa 為 1.0，陽性結果與電影放射攝影 (cineradiography) 上第一肋抬高受限相關。但樣本小、而且這是唯一描述過此測試的研究，所以即使 kappa 完美，臨床價值仍存疑。⚠ 原頁內文把作者拼成 Lindren，參考文獻寫 Lindgren。直接評估見第一肋評估 (First Rib Assessment)。",
+  "tags": ["第一肋 first rib", "胸廓出口症候群 TOS", "信度 reliability"]
+ },
+ {
+  "slug": "thoracic-outlet-syndrome-explained",
+  "title_zh": "胸廓出口症候群解說 Thoracic Outlet Syndrome Explained",
+  "purpose_zh": "解說頁：胸廓出口症候群 (thoracic outlet syndrome, TOS) 的定義與分類、壓迫發生的間隙，以及常用的誘發測試清單。",
+  "structure_zh": "臂神經叢 (brachial plexus) 與鎖骨下血管 (subclavian vessels) 在斜角肌三角 (interscalene triangle)、肋鎖間隙 (costoclavicular space) 與胸小肌後間隙 (retropectoralis minor space) 的通道。",
+  "procedure_zh": "不是測試。依國際疾病分類 (ICD)，TOS 不是一個正式診斷而是症狀群，需先排除其他會引起上肢神經或血管症狀的病理（如頸神經根症候群、腕隧道症候群）才成立。原頁把 TOS 分成四類，並列出神經或血管可能被卡壓的間隙。Davidovic 等人 (2003)：發生率最高可達 8%，兒童罕見，男女比 1:2 到 1:4；98% 的成因是神經性、2% 是血管壓迫。",
+  "positive_zh": "不適用。原頁列出的常用測試：Adson 測試、Eden／軍姿測試 (military brace test)、Wright 測試、Tinel 徵象、Morley／臂神經叢壓迫測試、Cyriax 釋放測試 (release test)、肋鎖手法／Halstead 測試。",
+  "notes_zh": "⚠ 四型分類表與卡壓間隙清單在原頁是圖片、不在文字層，本筆記只記錄「有這兩張表」，未抄錄內容。參考文獻：Davidovic 2003、Watson 等人 2009（第一部分）與 2010（第二部分）。",
+  "tags": ["胸廓出口症候群 TOS", "分類 classification", "解說頁 explainer"]
+ },
+ {
+  "slug": "neurological-thoracic-outlet-syndrome",
+  "title_zh": "神經型胸廓出口症候群 Neurological Thoracic Outlet Syndrome",
+  "purpose_zh": "診斷準則頁：美國血管外科學會 (Society for Vascular Surgery) 報告標準（Illig 等人 2016）對神經型胸廓出口症候群 (neurogenic TOS, nTOS) 的定義。",
+  "structure_zh": "臂神經叢在斜角肌三角 (scalene triangle) 與胸小肌 (pectoralis minor) 附著處的壓迫。",
+  "procedure_zh": "不是測試。nTOS 需符合以下四項中的三項：(1) 局部表現：病史有壓迫部位（斜角肌三角或胸小肌附著處）刺激或發炎的症狀，並轉移痛到胸壁、腋下、上背、肩、斜方肌區、頸或頭（含頭痛）；該區壓痛。(2) 周邊表現：上肢或手有神經壓迫的症狀（麻木、疼痛、感覺異常、血管運動變化、無力，極端時肌肉萎縮），常因讓胸廓出口變窄的動作（手舉過頭）或拉扯臂神經叢的動作（手臂下垂、開車、走路／跑步）惡化；壓迫該區或做誘發手法（如 Roos 測試／上肢抬高壓力測試、ULTT1）可重現症狀。(3) 排除其他合理的診斷：頸椎椎間盤疾病、肩部疾病、腕隧道症候群、複雜性區域疼痛症候群 (CRPS)、臂神經炎 (brachial neuritis)。(4) 有做測試性注射 (test injection) 者，反應為陽性。",
+  "positive_zh": "不適用（準則頁）。多數病人症狀超過 6 個月、隨時間惡化、有外傷史，但這些不是診斷必要條件。",
+  "notes_zh": "原頁強調這些表現多半主觀，所以 nTOS 診斷的效度至今仍有爭議。常用 TOS 測試清單與「胸廓出口症候群解說」頁相同。",
+  "tags": ["胸廓出口症候群 TOS", "診斷準則 criteria", "神經型 nTOS"]
+ },
+ {
+  "slug": "morley-test",
+  "title_zh": "Morley 測試（臂神經叢壓迫測試） Morley Test",
+  "purpose_zh": "胸廓出口症候群的誘發測試：直接壓迫鎖骨上窩 (supraclavicular fossa) 的神經血管束（又稱臂神經叢壓迫測試 brachial plexus compression test）。",
+  "structure_zh": "鎖骨上窩（斜角肌三角）內的臂神經叢與鎖骨下血管。",
+  "procedure_zh": "病人坐直，雙臂放在身體兩側。檢查者壓迫鎖骨上窩 30 秒。",
+  "positive_zh": "重現酸痛感與病人典型的局部感覺異常 (paresthesia) 才算陽性；單純局部壓痛不算。",
+  "notes_zh": "沒有任何診斷準確度研究報告過敏感度／特異度，所以臨床價值存疑（Watson 等人 2009）。若鎖骨上窩有飽滿感甚至可觸及硬塊，可能代表真正的結構性病灶造成血管型或真正神經型 TOS，但腫塊本身也必須另行檢查。此測試在頸神經根病變 (cervical radiculopathy) 與 TOS 都可能呈陽性，所以不太能區分兩者。",
+  "tags": ["胸廓出口症候群 TOS", "臂神經叢 brachial plexus", "誘發測試 provocation"]
+ },
+ {
+  "slug": "wrights-test",
+  "title_zh": "Wright 測試 Wright’s Test",
+  "purpose_zh": "胸廓出口症候群的誘發測試：第一步縮小胸小肌後間隙 (retropectoralis minor space)，第二步牽涉肋鎖間隙 (costoclavicular interval)。",
+  "structure_zh": "胸小肌後間隙與肋鎖間隙；臂神經叢與鎖骨下動脈（監測橈動脈脈搏）。",
+  "procedure_zh": "病人舒適坐姿。第一步：被動把手臂帶到外展 90° 加外轉，頭不傾斜，手肘屈曲不超過 45°，維持 1 分鐘，期間觀察症狀出現與橈動脈脈搏的品質。第二步：改在過度外展（外展末端）重做一次。其他作者會再加上頸椎屈曲、伸展與左右旋轉的影響。",
+  "positive_zh": "橈動脈脈搏減弱，和／或重現病人的症狀。",
+  "notes_zh": "Gillard 等人 (2001) 研究中對此測試的操作描述不清楚，無法對準確度下任何結論，所以臨床價值存疑。",
+  "tags": ["胸廓出口症候群 TOS", "胸小肌 pectoralis minor", "橈動脈 radial pulse"]
+ },
+ {
+  "slug": "roos-test",
+  "title_zh": "Roos 測試（上肢抬高壓力測試） Roos Test",
+  "purpose_zh": "胸廓出口症候群的上肢抬高壓力測試 (elevated arm stress test)，此姿勢同時讓動脈、靜脈與神經受到張力，被認為能同時測到三個間隙。",
+  "structure_zh": "斜角肌三角、肋鎖間隙與胸小肌後間隙。",
+  "procedure_zh": "病人坐姿，頭部中立，雙臂外展加外轉 90°、手肘屈曲 90°，然後反覆張開與握拳最長 3 分鐘。檢查者觀察手臂是否下垂（可能是疲勞或動脈供血不足）、比較兩側遠端肢體的顏色，並注意症狀何時出現。",
+  "positive_zh": "無法維持抬高姿勢滿 3 分鐘，或誘發出症狀。",
+  "notes_zh": "Gillard 等人 (2001)：敏感度 84%、特異度 30%（48 位病人）；似然比由敏感度／特異度推算。特異度低、而且該研究沒有以 MRI 當黃金標準，所以來源把臨床價值評為偏弱。",
+  "tags": ["胸廓出口症候群 TOS", "誘發測試 provocation", "敏感度 sensitivity"]
+ },
+ {
+  "slug": "referred-pain-thoracic-spine",
+  "title_zh": "胸椎轉移痛與內臟篩檢 Referred Pain Thoracic Spine",
+  "purpose_zh": "篩檢頁：辨認偽裝成胸椎或中上背痛的真性內臟痛 (true visceral pain) 與內臟轉移痛 (visceral referred pain)，並提供各器官系統的問診項目。",
+  "structure_zh": "與胸椎共用節段神經支配的內臟（心血管、呼吸與消化器官）；轉移痛落在相同節段支配、神經分布較密的體壁結構。",
+  "procedure_zh": "不是測試。真性內臟痛定位不清、多在身體中線（胸骨下端或上腹），因為內臟感覺神經分布稀疏、在中樞神經系統內廣泛發散；它可轉移到相同節段支配的體壁結構，因而偽裝成肌肉骨骼疼痛。各系統問診項目——心血管：心臟問題、胸痛或胸悶、心悸、抽菸史、高血壓、呼吸急促（含夜間）、四肢水腫、心血管疾病家族史、膽固醇過高。呼吸：抽菸史、呼吸急促、喘鳴、久咳、痰量與顏色、氣喘／肺氣腫／肺炎／結核病史。消化：吞嚥困難、噁心／火燒心、嘔吐、特定食物不耐、便祕、腹瀉、糞便顏色改變、直腸出血、黃疸、肝膽病史（大腸、乙狀結腸與食道不轉移到胸椎）。運動系統：多關節隱匿發作的症狀要想到發炎性疾病（如類風濕性關節炎、全身性紅斑狼瘡）。建議先問一般性問題，陽性再追問細項，並向病人說明為何要問。",
+  "positive_zh": "符合以下型態時要懷疑嚴重病理：症狀不隨姿勢或動作改變、休息時也在，尤其是痛醒；疼痛瀰漫、鈍、模糊，可能節律性增強再消退，或是中空臟器痙攣造成的絞痛；症狀與進食、腸道或膀胱充盈、排尿或排便相關；隱匿發作、沒有外傷；發燒、寒顫、噁心、不明原因體重減輕、倦怠、嘔吐、排便習慣改變、直腸或陰道出血超過 1–2 週；年齡、性別、職業、族裔帶來的特定疾病風險。沒有單一問題能下結論，目的是找出型態並轉介，不是替器官下診斷。",
+  "notes_zh": "⚠ 「哪些器官會把痛轉移到胸椎」的清單在原頁是圖片、不在文字層。⚠ 原頁寫沿尺側放射、模仿 C8 神經根病變或尺神經卡壓的症狀可能是「pancast tumor」，應為 Pancoast 腫瘤。⚠ 原頁引用 Sikandar (2012) 的句子寫成「體壁痛可與內臟痛區分，因為它常伴隨明顯的自主神經現象」，但該文獻裡伴隨自主神經現象（蒼白、大量出汗、噁心、腸胃不適、體溫／血壓／心率改變）與強烈情緒反應的是內臟痛。參考文獻印了兩次。姊妹頁：頸椎轉移痛 (Referred Pain Cervical Spine)、腰椎轉移痛 (Referred Pain Lumbar Spine)。",
+  "tags": ["內臟轉移痛 visceral referred pain", "紅旗 red flags", "篩檢 screening"]
+ },
+ {
+  "slug": "thoracic-spine-mobility",
+  "title_zh": "胸椎活動度運動 Thoracic Spine Mobility",
+  "purpose_zh": "治療頁：五個胸椎活動度 (thoracic mobility) 運動，針對久坐造成的活動度下降、駝背 (kyphosis) 增加、頭部前傾姿勢與過頭活動受限。",
+  "structure_zh": "胸椎與胸椎後凸；頸胸交界；肩關節過頭活動度。",
+  "procedure_zh": "祈禱式伸展 (preacher position)，可加一根棍子；在滾筒上向後彎（可加或不加重量）；靠牆旋轉；手肘撐地旋轉；側躺旋轉。選配：針對頸胸交界 (CTO) 的風車式 (windmill)。",
+  "positive_zh": "不適用（運動頁）。",
+  "notes_zh": "原頁的背景：每天坐超過 7 小時且每週活動少於 150 分鐘的人胸椎活動度較低（Heneghan 等人 2018）；駝背增加與頭部前傾姿勢正相關，但姿勢與頸痛、失能並非一致相關（Joshi 等人 2019）；挺直姿勢可改善憂鬱症狀者的情緒與疲勞（Wilkes 等人 2017）；駝背增加會限制過頭活動度（Barrett 等人 2016）。要改變姿勢也必須強化胸椎，搭配「胸椎肌力訓練」頁。參考文獻列了 Cho 等人 2017 的隨機試驗，但內文沒有討論。",
+  "tags": ["胸椎活動度 thoracic mobility", "運動治療 exercise", "駝背 kyphosis"]
+ },
+ {
+  "slug": "thoracic-spine-strengthening",
+  "title_zh": "胸椎肌力訓練 Thoracic Spine Strengthening",
+  "purpose_zh": "治療頁：五個強化胸椎伸肌與肩胛肌群的運動，是活動度頁的配套，兩者一起才可能改變姿勢。",
+  "structure_zh": "胸椎伸肌；肩胛骨後縮與上旋肌群；負重下的過頭姿勢。",
+  "procedure_zh": "壺鈴 (kettlebell) 過頭深蹲；前蹲與過頭深蹲；靠牆或地板的天使式 (wall/floor angels)；Y 字上舉（在球上或站姿）；俯臥持棍上舉。",
+  "positive_zh": "不適用（運動頁）。",
+  "notes_zh": "背景段落與「胸椎活動度運動」頁完全相同（Heneghan 2018、Joshi 2019、Wilkes 2017、Barrett 2016）。⚠ 原頁導入句寫「我們最喜歡的 5 個胸椎『活動度』運動」，但清單是肌力訓練，該句是從活動度頁複製來的。搭配「胸椎活動度運動」頁。",
+  "tags": ["胸椎肌力 thoracic strengthening", "運動治療 exercise", "姿勢 posture"]
+ }
+]

@@ -10,7 +10,9 @@ BASE = pathlib.Path(__file__).parent
 ROOT = BASE.parent
 
 REGIONS = [  # learning order on the page
+    {"id": "basics", "zh": "基礎評估", "en": "Basic Assessment"},   # scales, gait/posture, anatomy, general knowledge
     {"id": "cervical", "zh": "頸椎", "en": "Cervical spine"},
+    {"id": "thoracic", "zh": "胸椎", "en": "Thoracic spine"},
     {"id": "headache", "zh": "頭痛", "en": "Headache"},
     {"id": "dizziness", "zh": "眩暈", "en": "Dizziness & Vertigo"},
     {"id": "shoulder", "zh": "肩部", "en": "Shoulder"},
@@ -28,13 +30,14 @@ THEMES = [
     {"id": "basics", "zh": "基礎評估與活動度", "en": "Basics & Range of Motion",
      "cats": ["*.assess", "lumbar.screen", "lumbar.rom", "lumbar.neuro", "ankle.stress",
               "screen.cspine", "screen.spine", "screen.upper", "screen.lower", "screen.ankle", "screen.general", "wrist.vasc",
-              "cervical.screen", "cervical.neuro"]},
+              "cervical.screen", "cervical.neuro", "thoracic.rib", "thoracic.screen",
+              "basics.scales", "basics.gaitpost", "basics.anatomy", "basics.other"]},
     {"id": "structure", "zh": "結構特殊測試（韌帶／肌腱／盂唇／關節）", "en": "Structural Special Tests",
      "cats": ["*.saps", "*.rc", "shoulder.instab", "*.labrum", "*.biceps", "*.ac", "*.fai", "*.glute", "*.posthip",
               "*.effusion", "*.acl", "*.rotatory", "*.pcl", "*.plc", "*.collateral", "*.meniscus", "*.pf", "*.tendon",
               "elbow.lateral", "elbow.medial", "elbow.plri",
               "ankle.sprain", "ankle.syndesmosis", "ankle.achilles", "ankle.plantar",
-              "wrist.tfcc", "wrist.instab", "wrist.cmc", "wrist.dq", "cervical.instab"]},
+              "wrist.tfcc", "wrist.instab", "wrist.cmc", "wrist.dq", "cervical.instab", "hip.groin"]},
     {"id": "motor", "zh": "肌力、肌肉長度與動作控制", "en": "Strength, Muscle Length & Motor Control",
      "cats": ["*.scap", "*.length", "lumbar.instab", "cervical.motor"]},
     {"id": "neuro", "zh": "神經、神經動力學與卡壓", "en": "Nerve, Neurodynamics & Entrapment",
@@ -42,7 +45,7 @@ THEMES = [
     {"id": "sij", "zh": "薦髂關節與骨盆", "en": "Sacroiliac Joint & Pelvis", "cats": ["*.sij"]},
     {"id": "rtp", "zh": "功能與回場測試", "en": "Functional & Return-to-Play Testing", "cats": ["*.rtp"]},
     {"id": "treat", "zh": "治療決策與運動治療", "en": "Treatment Decisions & Exercise",
-     "cats": ["*.ex", "lumbar.tx"]},
+     "cats": ["*.ex", "lumbar.tx", "ankle.achrehab"]},
     {"id": "headvest", "zh": "頭痛、眩暈與前庭", "en": "Headache, Dizziness & Vestibular",
      "cats": ["headache.primary", "headache.secondary", "headache.cgh",
               "dizziness.bppvdx", "dizziness.bppvtx", "dizziness.vestib", "dizziness.cgd", "dizziness.sensorimotor"]},
@@ -115,7 +118,7 @@ def main():
         cats, t = load_region(r)
         regions.append(r | {"cats": cats, "n": len(t)})
         tests.extend(t)
-    # a slug may legitimately appear in two regions (myotomes-lower-limb: knee + lumbar; 5 fracture/UMN pages: knee/lumbar + screen); keys stay unique per region
+    # a slug may legitimately appear in two regions (myotomes-lower-limb: knee + lumbar; 5 fracture/UMN pages: knee/lumbar + screen; ULTT1: wrist + cervical; 5 TOS pages: thoracic + shoulder); keys stay unique per region
     keys = [f"{t['region']}/{t['slug']}" for t in tests]
     assert len(keys) == len(set(keys)), "duplicate region/slug"
     themes = []

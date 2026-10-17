@@ -1,0 +1,22 @@
+[
+ {
+  "slug": "resisted-cross-body-sit-up-test",
+  "title_zh": "阻力交叉仰臥起坐測試 Resisted Cross-Body Sit-Up Test",
+  "purpose_zh": "核心肌損傷 (core muscle injury, CMI；又稱運動員恥骨痛 athletic pubalgia、俗稱運動疝氣 sports hernia) 的誘發測試，屬於 Doha 共識運動員鼠蹊痛四類中的恥骨相關鼠蹊痛。",
+  "structure_zh": "腹直肌 (rectus abdominis) 與內收長肌 (adductor longus) 在恥骨的附著處；腹壁薄弱或撕裂但沒有真正的疝氣。",
+  "procedure_zh": "病人仰臥。檢查者站在患側，把患側腿擺成 4 字形 (figure-four)，一手放在病人對側肩膀、另一手放在患側膝上。請病人把對側肩膀朝患側膝靠近（交叉仰臥起坐），檢查者給予阻力。",
+  "positive_zh": "出現恥骨或鼠蹊疼痛。",
+  "notes_zh": "Kurowicki 等人 (2020) 診斷性世代研究：敏感度 100%、特異度只有 3%，偽陽性多，來源評為中等價值，建議與其他測試組成叢集，並搭配一致的病史與陽性的診斷性超音波。鑑別診斷：股髖夾擠症候群、腰椎或薦髂關節轉移痛。配套測試：直腿仰臥起坐測試、外轉 Stinchfield 測試。",
+  "tags": ["鼠蹊痛 groin pain", "核心肌損傷 core muscle injury", "運動疝氣 sports hernia"]
+ },
+ {
+  "slug": "straight-leg-sit-up-test",
+  "title_zh": "直腿仰臥起坐測試 Straight Leg Sit-Up Test",
+  "purpose_zh": "核心肌損傷（運動員恥骨痛、運動疝氣）或腹股溝疝氣的誘發測試，屬於 Doha 共識的恥骨相關鼠蹊痛。",
+  "structure_zh": "腹直肌與內收長肌在恥骨的附著處；腹壁。",
+  "procedure_zh": "病人仰臥。請病人同時把伸直的雙腿與肩膀抬離床面 20–25 公分（8–10 吋）。",
+  "positive_zh": "出現恥骨或鼠蹊疼痛。",
+  "notes_zh": "Kurowicki 等人 (2020)：敏感度 74%、特異度 20%，似然比不佳（由敏感度／特異度推算），來源評單獨使用的價值為弱，建議與其他測試組成叢集並搭配病史與診斷性超音波。鑑別診斷：股髖夾擠症候群、腰椎或薦髂關節轉移痛。配套測試：阻力交叉仰臥起坐測試、外轉 Stinchfield 測試。",
+  "tags": ["鼠蹊痛 groin pain", "核心肌損傷 core muscle injury", "腹股溝疝氣 inguinal hernia"]
+ }
+]

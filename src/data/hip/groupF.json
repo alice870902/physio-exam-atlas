@@ -1,0 +1,28 @@
+[
+ {
+  "slug": "resisted-cross-body-sit-up-test", "id": 12871, "title": "Resisted Cross-Body Sit-Up Test",
+  "link": "https://www.physiotutors.com/wiki/resisted-cross-body-sit-up-test/",
+  "youtube_ids": ["EsWua17C094"],
+  "purpose": "Provocation test for core muscle injury (CMI, athletic pubalgia, 'sports hernia'), the pubic-related entity of the Doha agreement on groin pain in athletes.",
+  "structure": "Rectus abdominis and adductor longus insertions on the pubis; abdominal wall weakening without a true hernia.",
+  "procedure": "Patient supine. The examiner stands on the affected side and places the affected leg in a figure-four position, then puts one hand on the patient's contralateral shoulder and the other on the affected-side knee. The patient brings the contralateral shoulder toward the affected-side knee (cross-body sit-up) against the examiner's resistance.",
+  "positive": "Pubic or groin pain.",
+  "accuracy": {"sensitivity": "100%", "specificity": "3%", "lr_plus": "1.0 (derived)", "lr_minus": "0 (derived)",
+   "source": "Kurowicki et al. 2020, Am J Sports Med (diagnostic cohort, 3 tests for CMI)"},
+  "notes": "Very low specificity, so the source rates it as moderate value with many false positives and recommends using it in a cluster, together with a consistent history and positive diagnostic ultrasound. Differential: femoroacetabular impingement, lumbar or SIJ referred pain. Companion tests: straight leg sit-up test, external rotation Stinchfield test.",
+  "status": "ok"
+ },
+ {
+  "slug": "straight-leg-sit-up-test", "id": 12868, "title": "Straight Leg Sit-Up Test",
+  "link": "https://www.physiotutors.com/wiki/straight-leg-sit-up-test/",
+  "youtube_ids": ["XhABZpeQ04s"],
+  "purpose": "Provocation test for core muscle injury (athletic pubalgia, 'sports hernia') or inguinal hernia within the pubic-related groin pain entity of the Doha agreement.",
+  "structure": "Rectus abdominis and adductor longus insertions on the pubis; abdominal wall.",
+  "procedure": "Patient supine. The patient lifts both extended legs and the shoulders 20-25 cm (8-10 inches) off the table at the same time.",
+  "positive": "Pubic or groin pain.",
+  "accuracy": {"sensitivity": "74%", "specificity": "20%", "lr_plus": "0.9 (derived)", "lr_minus": "1.3 (derived)",
+   "source": "Kurowicki et al. 2020, Am J Sports Med (diagnostic cohort, 3 tests for CMI)"},
+  "notes": "Poor likelihood ratios: the source rates the stand-alone value as weak and advises a cluster with history and diagnostic ultrasound. Differential: femoroacetabular impingement, lumbar or SIJ referred pain. Companion tests: resisted cross-body sit-up test, external rotation Stinchfield test.",
+  "status": "ok"
+ }
+]

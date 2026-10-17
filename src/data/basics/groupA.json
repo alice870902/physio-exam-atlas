@@ -1,0 +1,86 @@
+[
+ {
+  "slug": "beighton-score", "id": 10046, "title": "Beighton Score",
+  "link": "https://www.physiotutors.com/wiki/beighton-score/",
+  "youtube_ids": [],
+  "purpose": "Scoring system for generalized joint hypermobility (laxity); the wiki page carries only the title.",
+  "structure": "Generalized joint laxity (page title only).",
+  "procedure": "Not described: the source page has no body text and no video, only the header 'Beighton Score | Generalized Joint Hypermobility (Laxity) Assessment'.",
+  "positive": "Not described on the source page.",
+  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "none on the page"},
+  "notes": "⚠ The wiki page is empty apart from its title: no procedure, no scoring, no video. ⚠ Its two references (Bower 2019 'Medical Statistics from Scratch'; Akobeng 2016 on type I/II errors) are statistics texts unrelated to the Beighton score. Kept in the atlas so the gap is visible; the scoring itself has to come from another source.",
+  "status": "ok"
+ },
+ {
+  "slug": "mrc-scale", "id": 8824, "title": "MRC Scale",
+  "link": "https://www.physiotutors.com/wiki/mrc-scale/",
+  "youtube_ids": ["LjlqP1uMUo0"],
+  "purpose": "Medical Research Council (MRC) scale for grading muscle strength from 0 to 5, demonstrated on knee extension (quadriceps).",
+  "structure": "Any muscle or muscle group; the example is the quadriceps.",
+  "procedure": "Grade 0: no visible or palpable contraction when the patient tries to contract (quadriceps: push the back of the knee into the bench). Grade 1: a flicker or trace of contraction without limb movement. Grade 2: full range of motion only with gravity eliminated (side-lying, examiner supports the leg, from full flexion into extension; no movement at all = grade 1). Grade 3: full range of motion against gravity without examiner resistance. Grade 4: full range against moderate resistance. Grade 5: full range against full resistance; compare both sides to separate 4 from 5.",
+  "positive": "n/a (grading scale): report the grade 0-5 per muscle.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (grading scale; no references listed)"},
+  "notes": "Grade 2 vs 1 needs a gravity-eliminated position, so the patient must be repositioned. The page lists no references.",
+  "status": "ok"
+ },
+ {
+  "slug": "trunk-control-test", "id": 12906, "title": "Trunk Control Test",
+  "link": "https://www.physiotutors.com/wiki/trunk-control-test/",
+  "youtube_ids": [],
+  "purpose": "Trunk Control Test (TCT): bedside score of trunk movement after a neurological disorder such as stroke; associated with the prognosis for walking.",
+  "structure": "Trunk motor control after stroke.",
+  "procedure": "Performed on a bed, four tasks: rolling to the weak side, rolling to the strong side, sitting balance on the edge of the bed with the feet off the ground for at least 30 seconds, and sitting up from lying. Each task scores 0 (unable without assistance), 12 (able with the help of aids) or 25 (able). Total = sum of the four tasks, 0 to 100 (higher = better).",
+  "positive": "n/a (score 0-100).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (Collin & Wade 1990 pilot reliability study)"},
+  "notes": "The page contains a plain YouTube link (youtu.be/KsfnHkm99eY) rather than an embedded video, so no video is counted here. Source: Collin & Wade 1990, J Neurol Neurosurg Psychiatry.",
+  "status": "ok"
+ },
+ {
+  "slug": "gait-cycle-gait-analysis", "id": 8537, "title": "Gait Cycle & Gait Analysis",
+  "link": "https://www.physiotutors.com/wiki/gait-cycle-gait-analysis/",
+  "youtube_ids": ["1u6d1CX7o9c"],
+  "purpose": "Explains the phases of the gait cycle and shows an observational gait analysis using the Nijmegen Orthopaedic Gait Analysis Form.",
+  "structure": "Whole lower limb, pelvis and trunk during walking.",
+  "procedure": "Definitions: a step runs from initial contact of one foot to initial contact of the other; a stride from initial contact to the next initial contact of the same foot (two steps). Stance phase 60%: loading response (heel strike to contralateral toe-off, first 10%), mid-stance (to heel-off, 30%), terminal stance (to contralateral initial contact, 50%), pre-swing (60%). Swing phase 40%: initial swing (toe-off until the feet are adjacent, 73%), mid-swing (until the tibia is vertical, 87%), terminal swing (to heel strike). Analysis: view from front, back and side, video it for slow motion, patient walks at normal pace (the demo walks 3 km/h), compare left and right.",
+  "positive": "Checklist items: shortened stance phase (the most obvious deviation, e.g. limping); trunk anterior or posterior to the hips or laterally flexed; reduced arm swing; excessive posterior pelvic rotation; reduced hip extension; reduced knee extension and absent knee flexion; reduced ankle plantarflexion; internal or external rotation of the leg.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (Brunnekreef et al. 2005: reliability of videotaped observational gait analysis)"},
+  "notes": "Teaching page rather than a test; the percentages are the standard gait-cycle landmarks. Landmarks for pelvic items may need to be exposed.",
+  "status": "ok"
+ },
+ {
+  "slug": "observation-posture-analysis", "id": 8835, "title": "Observation & Posture Analysis",
+  "link": "https://www.physiotutors.com/wiki/observation-posture-analysis/",
+  "youtube_ids": ["Zp5iC3Ioq7U"],
+  "purpose": "Observation as the first step of the physical examination: standing posture checked in the frontal plane, sagittal plane and from behind.",
+  "structure": "Whole body landmarks: head, clavicles, iliac crests, ASIS/PSIS, patellae, malleoli, spine curves, scapulae.",
+  "procedure": "Patient undressed to shorts, shoes off, standing upright looking ahead with relaxed shoulders. Front: line from nose tip through chin to the manubrium; head rotation or tilt; shoulder level and clavicle angles; nipple height (disregard in women); iliac crests and ASIS; space between trunk and arms; fingertip level for arm length; patellar apex level and varus/valgus; medial malleoli. Side: Appleton's lateral plumb line from the earlobe through the humeral head; forward or backward head; pro- or retracted shoulders; lordosis and kyphosis; ASIS-PSIS angle (normally about 15°); knee hyperextension. Back: head rotation/tilt; lateral shifts of the spine (scoliosis); acromia, scapular spines and inferior angles; distance of the medial scapular borders from the spine; iliac crests, PSIS and gluteal folds; knee varus/valgus; medial malleoli and the number of toes visible beside the Achilles tendon as a sign of leg rotation.",
+  "positive": "n/a: asymmetry or deviation is recorded and then linked to the complaint; not everything abnormal is pathological.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (Magee, Orthopedic Physical Assessment 2014)"},
+  "notes": "The page points to a separate video on the correlation between posture and pain and warns that observed abnormality is not automatically pathological.",
+  "status": "ok"
+ },
+ {
+  "slug": "anatomy-planes-axes", "id": 8727, "title": "Anatomy Planes & Axes",
+  "link": "https://www.physiotutors.com/wiki/anatomy-planes-axes/",
+  "youtube_ids": ["yq8cE-EDtuE"],
+  "purpose": "Explains the anatomical planes and axes used to describe osteokinematic joint movement, with the shoulder, hip and knee as examples.",
+  "structure": "Sagittal, frontal and transverse (horizontal) planes; transverse (frontal), sagittal and longitudinal axes; degrees of freedom of a joint.",
+  "procedure": "Anatomical position is the start of every description. Sagittal plane (left/right halves): movement around the transverse axis = flexion/extension (shoulder: also anteversion/retroversion). Frontal plane (front/back halves): movement around the sagittal axis = abduction/adduction. Transverse plane (upper/lower halves): movement around the longitudinal axis = external (lateral) and internal (medial) rotation. Observe a movement perpendicular to its plane, in line with its axis. Shoulder and hip are ball-and-socket joints with 3 degrees of freedom; the knee is a hinge joint with 1 degree of freedom (flexion/extension in the sagittal plane; its small rotation and ab/adduction are neglected).",
+  "positive": "n/a (explanation page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (no references listed)"},
+  "notes": "Memory aid from the page: the sagittal axis as Sagittarius shooting an arrow through your heart (front to back).",
+  "status": "ok"
+ },
+ {
+  "slug": "muscle-cramps-explained", "id": 8748, "title": "Muscle Cramps Explained",
+  "link": "https://www.physiotutors.com/wiki/muscle-cramps-explained/",
+  "youtube_ids": ["ayql0E0-L3E"],
+  "purpose": "Explanation page: mechanism of exercise-associated muscle cramps (EAMC), risk factors, and treatment and prevention options.",
+  "structure": "Alpha motor neuron reflex control: muscle spindle excitation versus Golgi tendon organ (GTO) inhibition in fatigued muscle.",
+  "procedure": "Not a test. Marathon data: cramping was 6.1% of medical encounters, 1.2 cases per 1,000 participants. The dehydration/electrolyte theory (sweat-induced loss of interstitial volume plus sodium, calcium, magnesium, chloride, potassium deficits deforming nerve endings) lacks cause-effect evidence and cannot explain why cramps occur only in working muscles and stop with stretching. Schwellnus 2009: altered neuromuscular control after fatigue, with increased spindle excitation and reduced GTO inhibition; contraction in a shortened position depresses GTO signalling. Risk factors: individual cramp threshold frequency, previous cramps (strongest), family history and a collagen gene, male sex (more fast-twitch fibres), higher exercise intensity and duration (Schwabe et al.), history of tendon or ligament injury (Shang et al.).",
+  "positive": "n/a. Treatment: stretching is the most effective acute treatment (raises GTO tension and reflex inhibition). Salt tablets and magnesium lack evidence; quinine reduces nocturnal/idiopathic cramps but is no longer allowed in the United States (platelet drop). Promising but unproven (Nelson 2016): re-education of agonists such as gluteus maximus for cramp-prone hamstrings, kinesio tape and compression garments, massage, hyperventilation, pickle juice about 1 ml/kg.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (explanation page)"},
+  "notes": "⚠ The text cites 'Wagnet et al. 2010' (reference list: Wagner et al. 2010) and 'Shang et al.' and 'Marban et al. 2011', which are not in the reference list (a bare redalyc.org PDF link is listed instead). Not a physical test; filed under basics as general knowledge.",
+  "status": "ok"
+ }
+]

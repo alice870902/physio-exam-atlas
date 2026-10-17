@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "upper-limb-nerve-sliders-tensioners", "id": 9151, "title": "Upper Limb Nerve Sliders & Tensioners",
+  "link": "https://www.physiotutors.com/wiki/upper-limb-nerve-sliders-tensioners/",
+  "youtube_ids": ["Fv_EJV8q2E0"],
+  "purpose": "Treatment: neural mobilisation (sliders and tensioners) for the median, ulnar and radial nerves, demonstrated with a Theratube model of the nerve course (idea credited to David Butler).",
+  "structure": "Median, ulnar and radial nerves from the cervical spine to the fingers; the ULTT positions used as treatment positions.",
+  "procedure": "Median nerve: tube from the neck to the middle finger, ULTT1 position; tensioner = contralateral neck lateral flexion with elbow and wrist extension; slider = flex the wrist while moving the neck away, then reverse to slide the nerve distally. Ulnar nerve: tube around the little finger, fixed behind the medial epicondyle; tensioner = hand toward the ear in pronation with the wrist extended and the head moved away; slider = reduce elbow flexion or wrist extension while moving the head toward the hand, then reverse. Radial nerve: tube around the upper arm to the index finger; tensioner = shoulder and forearm in internal rotation and pronation with wrist flexion; slider = extend the wrist to slide proximally and flex it again while the head moves to the opposite side. Dose: gentle stretch or mild symptoms in rhythm with each oscillation.",
+  "positive": "n/a (treatment page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (treatment page)"},
+  "notes": "Evidence quoted: systematic reviews by Ellis & Hing 2008 and McKeon & Yancosek 2008 show a positive trend for carpal tunnel syndrome and benefits in low back pain, cervicobrachial neurogenic pain and lateral epicondylalgia, but trial quality was low. Patients with nerve sensitisation from inflammation without detectable nerve damage are the group most likely to respond. Treatment companion of the four ULTT pages (filed here under cervical radicular syndrome; the reference list is printed twice on the page).",
+  "status": "ok"
+ },
+ {
+  "slug": "tight-upper-traps", "id": 8685, "title": "Tight Upper Traps",
+  "link": "https://www.physiotutors.com/wiki/tight-upper-traps/",
+  "youtube_ids": ["4D6_sK6hxLQ"],
+  "purpose": "Treatment: why 'tight' upper trapezius should be strengthened rather than stretched or released, and which shrug variations load it best.",
+  "structure": "Upper trapezius (with middle/lower trapezius, serratus anterior and levator scapulae as co-workers or competitors).",
+  "procedure": "Overhead shrug (Castelein et al. 2016, reduces levator scapulae activity): face a wall about a forearm's length away, place the arm overhead against the wall and shrug; progress to free weights overhead in the air with elbows as straight as possible and without deltoid or triceps compensation. Upward-rotation shrug at 30° shoulder abduction (Pizzari et al. 2014, higher upper/middle/lower trapezius and serratus activity): classic shrug between two cable pulleys, or 'monkey shrugs' holding dumbbells at hip height with flexed elbows and shrugging without changing the elbow angle. Compound options: lateral raises with a band or dumbbells (Andersen et al. 2008 high upper trapezius activation); abduction activates all four rotator cuff muscles similarly (Wattanaprakornkul et al. 2011).",
+  "positive": "n/a (treatment page).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (treatment page)"},
+  "notes": "Argument of the page: high upper trapezius EMG activity reflects weakness, fatigue and pain (often compensating for a weak rotator cuff), not a muscle that needs stretching; greater EMG does not imply greater motor unit recruitment (Vigotsky et al.); high-intensity strength training improved function of chronically painful upper trapezius (Andersen et al. 2014). Plain shrugs are not optimal because the fibre angle at 0° abduction is poor and the levator scapulae is highly active. ⚠ The text cites Vigotsky 'in the year 2015' while the reference is dated 2017; 'Wattanprakornul 2011' in the text is Wattanaprakornkul in the reference list.",
+  "status": "ok"
+ }
+]

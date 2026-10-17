@@ -1,0 +1,10 @@
+[
+  {"id": "rib", "zh": "肋骨與第一肋：關節鬆動度評估", "en": "Ribs & First Rib: Joint Play Assessment",
+   "slugs": ["rib-joint-play", "first-rib-assessment", "cervical-rotation-lateral-flexion-test"]},
+  {"id": "tos", "zh": "胸廓出口症候群（TOS）：分類、神經型與誘發測試", "en": "Thoracic Outlet Syndrome: Classification, nTOS & Provocation Tests",
+   "slugs": ["thoracic-outlet-syndrome-explained", "neurological-thoracic-outlet-syndrome", "morley-test", "wrights-test", "roos-test"]},
+  {"id": "screen", "zh": "轉移痛與胸椎篩檢", "en": "Referred Pain & Thoracic Screening",
+   "slugs": ["referred-pain-thoracic-spine"]},
+  {"id": "ex", "zh": "治療與運動：胸椎活動度與肌力", "en": "Treatment & Exercise: Thoracic Mobility & Strengthening",
+   "slugs": ["thoracic-spine-mobility", "thoracic-spine-strengthening"]}
+]
