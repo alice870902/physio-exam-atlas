@@ -1,0 +1,75 @@
+[
+ {
+  "slug": "harvard-step-test", "id": 13330, "title": "Harvard Step Test",
+  "link": "https://www.physiotutors.com/wiki/harvard-step-test/",
+  "youtube_ids": ["UoDUoW_YKm4"],
+  "purpose": "Submaximal fitness test: estimates maximal aerobic capacity (VO2max) from the heart-rate response to stepping; the step alternative when no bicycle ergometer is available.",
+  "structure": "Cardiorespiratory fitness (VO2max in litres per minute); submaximal heart rate.",
+  "procedure": "Equipment: body-weight scale, a 30 cm step for women and a 40 cm step for men, metronome, stopwatch, heart-rate monitor. 1. Record body weight and resting heart rate. 2. Metronome at 45 beats per minute: step up on one count, down on the next. 3. Start the stopwatch and step for 6 minutes, recording heart rate every minute. 4. Short cool-down. Outcome: average the heart rate of minutes 5 and 6, connect that value with body weight by a straight line on the nomogram and read the predicted VO2max on the middle scale; if the patient is younger than 17 or older than 35, multiply by the age correction factor; compare with the sex-specific standard values.",
+  "positive": "n/a: VO2max estimate compared with the age- and sex-specific norm tables on the page.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (fitness test; Siconolfi et al. 1985: step tests give about 10% higher VO2max than bike ergometry, 12% higher than directly measured VO2max in their study)"},
+  "notes": "⚠ Step 3 of the page says 'a box of a height of 40cm for females and 30cm for females', contradicting the equipment list (30 cm women, 40 cm men). ⚠ The nomogram, the age-correction factors and the norm tables are images and not in the page text. Reliability references listed: Burnstein et al. 2011, Meyers 1969. Companion: Astrand bike test.",
+  "status": "ok"
+ },
+ {
+  "slug": "astrand-bike-test", "id": 13226, "title": "Astrand Bike Test",
+  "link": "https://www.physiotutors.com/wiki/astrand-bike-test/",
+  "youtube_ids": ["6KOoejoYP8A"],
+  "purpose": "Submaximal bicycle ergometer test (Astrand and Rhyming) that estimates VO2max of healthy individuals from the steady-state heart rate at a known workload.",
+  "structure": "Cardiorespiratory fitness (VO2max in litres per minute); heart rate versus work rate in watts.",
+  "procedure": "Equipment: scale, bicycle ergometer, heart-rate monitor, score sheet, stopwatch. Record weight and resting heart rate (ideally measured on waking) and calculate the target heart rate with the Karvonen formula. Start at 100 W for women and 150 W for men, record heart rate every minute; adjust the wattage in small steps during the first 2 minutes only until the heart rate is steady near the target (the demo raised 150 to 160 W for a target of 135 bpm). Motivate the patient through the full 6 minutes, then 1 minute cool-down at low wattage. Average the heart rate of minutes 5 and 6 (demo: 135 and 125 gives 130). On the nomogram mark the average heart rate on the left (sex-specific scale) and the work rate on the right, join them and read VO2max on the middle scale (demo: about 4.4 L/min). Younger than 17 or older than 35: multiply by the age correction factor.",
+  "positive": "n/a: VO2max estimate compared with the age- and sex-specific norm table on the page.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (fitness test; Astrand 1953 nomogram, Astrand 1960 norms, Smeets & van Soest 2009 modified test in musculoskeletal pain)"},
+  "notes": "Confounders named by the page: room temperature, noise, emotional state and sleep before testing all change heart rate. ⚠ The age-correction factors and the norm tables are images and not in the page text. Companion: Harvard step test (step alternative), Karvonen formula (target heart rate).",
+  "status": "ok"
+ },
+ {
+  "slug": "timed-up-and-go-test", "id": 9706, "title": "Timed Up and Go Test",
+  "link": "https://www.physiotutors.com/wiki/timed-up-and-go-test/",
+  "youtube_ids": ["grrYoBucNPE"],
+  "purpose": "Timed Up and Go (TUG): quick, low-equipment fall-risk screen for older adults.",
+  "structure": "Functional mobility: sit-to-stand, 3 m walk, turn, return and sit.",
+  "procedure": "Measure and tape a 3 m distance with a start and a turning mark. The patient sits on a chair next to the start line with any walking aid at hand. Instruction: on the start signal, stand up, walk at a comfortable and safe pace to the 3 m mark, cross the line, turn around, walk back and sit down; have the patient repeat the instruction. One practice round, then one timed round: start the stopwatch at the start signal and stop when the patient is seated again.",
+  "positive": "The page gives no time cut-off; it reports the test as 87% sensitive and 87% specific for identifying community-dwelling older adults at risk of falls (Shumway-Cook et al. 2000).",
+  "accuracy": {"sensitivity": "87%", "specificity": "87%", "lr_plus": "not reported", "lr_minus": "not reported",
+   "source": "Shumway-Cook, Brauer & Woollacott 2000, Physical Therapy (small-scale study, community-dwelling older adults)"},
+  "notes": "⚠ The page states sensitivity and specificity without the cut-off time used in the reference (Shumway-Cook 2000 used 13.5 s; not on the page, so not entered as a positive criterion). Companion: Falls Efficacy Scale (FES-I) for fear of falling.",
+  "status": "ok"
+ },
+ {
+  "slug": "falls-efficacy-scale", "id": 11485, "title": "Falls Efficacy Scale",
+  "link": "https://www.physiotutors.com/wiki/falls-efficacy-scale/",
+  "youtube_ids": ["Ix9N0cDlZS0"],
+  "purpose": "Scale: Falls Efficacy Scale-International (FES-I), a questionnaire on fear of falling in older adults developed by the Prevention of Falls Network Europe (ProFaNE); predictive validity for future falls in frail older people (Delbaere et al. 2010).",
+  "structure": "Fear of falling during 16 activities of daily living (e.g. getting dressed, walking up a slope).",
+  "procedure": "The patient rates each of the 16 items on a 4-point Likert scale from 1 (not at all worried) to 4 (very worried). Sum the item scores (16-64). A condensed 7-item short FES-I exists for quicker use; at the time of the video it had not yet been validated internationally. Both versions are available in multiple languages.",
+  "positive": "Total score above 23 on the 16-item FES-I indicates high fear of falling and may predict future falls; above 10 on the 7-item short version.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (questionnaire; Dewan & MacDermid 2014 appraisal; Delbaere et al. 2010 cited in text but not listed)"},
+  "notes": "⚠ The page's header subtitle reads 'Timed Up and Go Test (TUG) | Fall Risk Assessment | Geriatric Population' (copied from the TUG page). The introductory paragraph is printed twice. Delbaere 2010 is cited in the text but absent from the reference list. Companion: Timed Up and Go test.",
+  "status": "ok"
+ },
+ {
+  "slug": "karvonen-formula", "id": 9699, "title": "Karvonen Formula",
+  "link": "https://www.physiotutors.com/wiki/karvonen-formula/",
+  "youtube_ids": ["UzRZDDMoD_M"],
+  "purpose": "Formula: Karvonen heart-rate reserve method for calculating the target (training) heart rate at a chosen exercise intensity.",
+  "structure": "Maximal heart rate, resting heart rate and heart-rate reserve.",
+  "procedure": "1. Maximal heart rate (HRmax) = 220 minus age in years, unless measured in a maximal test. 2. Resting heart rate (HRrest), ideally on waking, or after lying 30 minutes with relaxed breathing without moving or talking. 3. Choose the intensity for the training goal. 4. HRtarget = HRrest + intensity x (HRmax - HRrest). The CDC defines 50-70% of maximal heart rate as moderate and above 70% as vigorous intensity.",
+  "positive": "n/a (formula). The page's intensity-zone overview is a table; its footnote stresses that a 'fat-burning' zone does not burn more fat overall, because total calories burned rise with intensity.",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (formula; Karvonen & Vuorimaa 1988)"},
+  "notes": "⚠ The intensity-zone overview table is an image and not in the page text. Used to set the target heart rate for the Astrand bike test; for strength-training intensity the page points to the Holten diagram.",
+  "status": "ok"
+ },
+ {
+  "slug": "holten-diagram", "id": 11998, "title": "Holten Diagram",
+  "link": "https://www.physiotutors.com/wiki/holten-diagram/",
+  "youtube_ids": ["pGkY6NVR27E"],
+  "purpose": "Chart: Holten diagram for estimating the one-repetition maximum (1RM) from a submaximal set, because a true 1RM test can be dangerous and is rarely done in practice.",
+  "structure": "Strength-training load prescription (1RM as the maximal weight that can be moved once in a given exercise).",
+  "procedure": "The patient performs the exercise with a moderate weight for as many repetitions as possible. Read the percentage of 1RM that corresponds to that repetition count on the Holten diagram, then 1RM = lifted weight x (100% / that percentage). Example on the page: 80 kg bench press for 10 repetitions is about 80% of 1RM, so 1RM = 80 x (100/80) = 80 x 1.25 = 100 kg.",
+  "positive": "n/a (calculation).",
+  "accuracy": {"sensitivity": "n/a", "specificity": "n/a", "lr_plus": "n/a", "lr_minus": "n/a", "source": "n/a (chart; the only listed reference is Karvonen & Vuorimaa 1988, which concerns heart rate, not the Holten diagram)"},
+  "notes": "⚠ The Holten diagram itself (repetitions to %1RM) is an image and not in the page text. ⚠ The page writes the factor as '1,25' (comma decimal) and has typos ('lift 100kg ones', 'repitition'). ⚠ The reference list cites only Karvonen & Vuorimaa 1988, unrelated to the Holten diagram. Companion: Karvonen formula for aerobic intensity.",
+  "status": "ok"
+ }
+]

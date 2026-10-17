@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "harvard-step-test",
+  "title_zh": "哈佛登階測試 Harvard Step Test",
+  "purpose_zh": "次大強度體能測驗：由登階時的心跳反應估算最大攝氧量 (VO2max)；沒有腳踏車測功儀時可用來取代 Astrand 腳踏車測試。",
+  "structure_zh": "心肺適能（VO2max，公升／分鐘）；次大強度心跳率。",
+  "procedure_zh": "器材：體重計、女性 30 公分／男性 40 公分高的階梯、節拍器、碼表、心率監測器。1. 記錄體重與安靜心跳。2. 節拍器設 45 拍／分，一拍上、一拍下。3. 按下碼表，登階 6 分鐘，每分鐘記錄心跳。4. 短暫緩和。結果：取第 5、6 分鐘心跳的平均，在諾模圖 (nomogram) 上把這個值與體重用直線連起來，從中間刻度讀出預估 VO2max；17 歲以下或 35 歲以上要乘上年齡校正係數；再與分性別的標準值比較。",
+  "positive_zh": "不適用：把 VO2max 估計值與原頁依年齡、性別分的常模表比較。",
+  "notes_zh": "⚠ 原頁步驟 3 寫「女性用 40 公分、女性用 30 公分」，與器材清單（女 30、男 40）矛盾。⚠ 諾模圖、年齡校正係數與常模表都是圖片、不在文字層。Siconolfi 等人 (1985)：登階測試的 VO2max 約比腳踏車測功儀高 10%，該研究中比直接測得的 VO2max 高 12%。信度文獻：Burnstein 等人 2011、Meyers 1969。配套：Astrand 腳踏車測試。",
+  "tags": ["最大攝氧量 VO2max", "體能測驗 fitness test", "次大強度 submaximal"]
+ },
+ {
+  "slug": "astrand-bike-test",
+  "title_zh": "Astrand 腳踏車測試 Astrand Bike Test",
+  "purpose_zh": "Astrand 與 Rhyming 設計的次大強度腳踏車測功儀測試，由固定功率下的穩定心跳估算健康人的 VO2max。",
+  "structure_zh": "心肺適能（VO2max，公升／分鐘）；心跳率對功率（瓦特）的關係。",
+  "procedure_zh": "器材：體重計、腳踏車測功儀、心率監測器、記錄表、碼表。記錄體重與安靜心跳（最好是早上醒來時量的），並用 Karvonen 公式算出目標心跳。女性從 100 瓦、男性從 150 瓦開始踩，每分鐘記錄心跳；只在前 2 分鐘內小幅調整瓦數，讓心跳穩定在目標心跳附近（示範從 150 調到 160 瓦，目標心跳 135）。鼓勵病人完成整整 6 分鐘，之後低瓦數緩和 1 分鐘。取第 5、6 分鐘心跳的平均（示範 135 與 125，平均 130）。在諾模圖左側（分性別刻度）標平均心跳、右側標功率，連成直線，從中間刻度讀出 VO2max（示範約 4.4 公升／分）。17 歲以下或 35 歲以上要乘上年齡校正係數。",
+  "positive_zh": "不適用：把 VO2max 估計值與原頁依年齡、性別分的常模表比較。",
+  "notes_zh": "原頁提醒的干擾因子：室溫、噪音、情緒狀態、測試前的睡眠都會影響心跳。⚠ 年齡校正係數與常模表是圖片、不在文字層。配套：哈佛登階測試（登階版）、Karvonen 公式（目標心跳）。參考文獻：Astrand 1953 諾模圖、Astrand 1960 常模、Smeets 與 van Soest 2009 用於肌肉骨骼疼痛病人的修改版。",
+  "tags": ["最大攝氧量 VO2max", "腳踏車測功儀 ergometer", "次大強度 submaximal"]
+ },
+ {
+  "slug": "timed-up-and-go-test",
+  "title_zh": "計時起走測試 Timed Up and Go Test",
+  "purpose_zh": "計時起走測試 (Timed Up and Go, TUG)：幾乎不需器材、快速的老年人跌倒風險篩檢。",
+  "structure_zh": "功能性移動能力：坐到站、走 3 公尺、轉身、走回、坐下。",
+  "procedure_zh": "量出 3 公尺並用膠帶標出起點與折返點。病人坐在起點旁的椅子上，慣用的助行器放在手邊。指令：「聽到開始後，請從椅子站起來，用舒適且安全的速度走到 3 公尺外的標記，越過線、轉身、走回椅子坐下。可以請你複述一次嗎？」確認病人理解。先練習一次，再正式計時一次：給開始訊號時按碼表，病人重新坐下時停表。",
+  "positive_zh": "原頁沒有給秒數切點；只寫在 Shumway-Cook 等人 (2000) 的小型研究中，對辨認社區老年人的跌倒風險敏感度與特異度都是 87%。",
+  "notes_zh": "⚠ 原頁只給敏感度／特異度，沒寫該研究用的切點（Shumway-Cook 2000 用 13.5 秒；原頁沒有，所以未填進陽性判讀）。配套：跌倒效能量表 (FES-I) 評估害怕跌倒。",
+  "tags": ["跌倒風險 fall risk", "老年 geriatric", "功能測驗 functional test"]
+ },
+ {
+  "slug": "falls-efficacy-scale",
+  "title_zh": "跌倒效能量表 Falls Efficacy Scale",
+  "purpose_zh": "量表：國際版跌倒效能量表 (Falls Efficacy Scale-International, FES-I)，由歐洲跌倒預防網絡 (ProFaNE) 發展，評估老年人害怕跌倒的程度；對體弱老人未來跌倒有預測效度（Delbaere 等人 2010）。",
+  "structure_zh": "16 項日常活動（如穿衣、走上坡）中害怕跌倒的程度。",
+  "procedure_zh": "病人就 16 個項目各以 4 點 Likert 量尺評分，1＝完全不擔心、4＝非常擔心，總分為各項相加（16–64）。另有精簡的 7 題短版，錄影當時尚未完成國際驗證。兩版都有多國語言版本可下載。",
+  "positive_zh": "16 題版總分大於 23 表示高度害怕跌倒，可能預測未來跌倒；7 題短版切點為大於 10。",
+  "notes_zh": "⚠ 原頁頁首副標寫成「Timed Up and Go Test (TUG) | Fall Risk Assessment | Geriatric Population」（從 TUG 頁複製）。導言段落印了兩次。內文引用的 Delbaere 2010 不在參考文獻清單（只列 Dewan 與 MacDermid 2014）。配套：計時起走測試。",
+  "tags": ["跌倒風險 fall risk", "害怕跌倒 fear of falling", "量表 scale"]
+ },
+ {
+  "slug": "karvonen-formula",
+  "title_zh": "Karvonen 公式 Karvonen Formula",
+  "purpose_zh": "公式：Karvonen 心跳儲備法 (heart rate reserve)，依選定的運動強度算出目標（訓練）心跳。",
+  "structure_zh": "最大心跳、安靜心跳與心跳儲備。",
+  "procedure_zh": "1. 最大心跳 (HRmax)＝220 減年齡，除非有最大強度測試的實測值。2. 安靜心跳 (HRrest)：最好在早上醒來時量，或平躺 30 分鐘、放鬆呼吸、不動不說話後量。3. 依訓練目標選定強度。4. 目標心跳 HRtarget＝HRrest ＋ 強度 ×（HRmax − HRrest）。美國疾病管制中心 (CDC) 定義最大心跳的 50–70% 為中等強度、70% 以上為高強度。",
+  "positive_zh": "不適用（公式）。原頁的強度區間總覽是一張表；註腳強調「燃脂區」不代表整體燃燒更多脂肪，因為總消耗熱量才是關鍵，且隨強度上升。",
+  "notes_zh": "⚠ 強度區間總覽表是圖片、不在文字層。用來設定 Astrand 腳踏車測試的目標心跳；肌力訓練的強度請見 Holten 圖。參考文獻：Karvonen 與 Vuorimaa 1988。",
+  "tags": ["目標心跳 target heart rate", "運動處方 exercise prescription", "公式 formula"]
+ },
+ {
+  "slug": "holten-diagram",
+  "title_zh": "Holten 圖 Holten Diagram",
+  "purpose_zh": "圖表：用 Holten 圖從次大強度的一組動作估算單次最大反覆重量 (one-repetition maximum, 1RM)，因為真正的 1RM 測試有危險、臨床很少做。",
+  "structure_zh": "肌力訓練的負荷處方（1RM＝某個動作只能舉起一次的最大重量）。",
+  "procedure_zh": "病人用中等重量做該動作到力竭、數出最多反覆次數。在 Holten 圖上查出該次數對應的 1RM 百分比，再以 1RM＝舉起重量 ×（100% ÷ 該百分比）計算。原頁範例：臥推 80 公斤做 10 下約為 1RM 的 80%，所以 1RM＝80 ×（100 ÷ 80）＝80 × 1.25＝100 公斤。",
+  "positive_zh": "不適用（計算工具）。",
+  "notes_zh": "⚠ Holten 圖本身（反覆次數對 1RM 百分比）是圖片、不在文字層。⚠ 原頁把係數寫成「1,25」（逗號小數），並有「lift 100kg ones」「repitition」等錯字。⚠ 參考文獻只列 Karvonen 與 Vuorimaa 1988，與 Holten 圖無關。配套：Karvonen 公式（有氧強度）。",
+  "tags": ["1RM", "肌力訓練 strength training", "運動處方 exercise prescription"]
+ }
+]

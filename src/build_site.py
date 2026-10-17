@@ -31,7 +31,7 @@ THEMES = [
      "cats": ["*.assess", "lumbar.screen", "lumbar.rom", "lumbar.neuro", "ankle.stress",
               "screen.cspine", "screen.spine", "screen.upper", "screen.lower", "screen.ankle", "screen.general", "wrist.vasc",
               "cervical.screen", "cervical.neuro", "thoracic.rib", "thoracic.screen",
-              "basics.scales", "basics.gaitpost", "basics.anatomy", "basics.other"]},
+              "basics.scales", "basics.gaitpost", "basics.functional", "basics.anatomy", "basics.other"]},
     {"id": "structure", "zh": "結構特殊測試（韌帶／肌腱／盂唇／關節）", "en": "Structural Special Tests",
      "cats": ["*.saps", "*.rc", "shoulder.instab", "*.labrum", "*.biceps", "*.ac", "*.fai", "*.glute", "*.posthip",
               "*.effusion", "*.acl", "*.rotatory", "*.pcl", "*.plc", "*.collateral", "*.meniscus", "*.pf", "*.tendon",

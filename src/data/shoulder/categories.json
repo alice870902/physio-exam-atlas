@@ -135,8 +135,7 @@
    "serratus-anterior-strength-test",
    "trapezius-strength-test",
    "rhomboid-strength-test",
-   "latissimus-dorsi-strength-test",
-   "pectoralis-major-length-test"
+   "latissimus-dorsi-strength-test"
   ]
  },
  {
@@ -158,9 +157,10 @@
  },
  {
   "id": "length",
-  "zh": "肌肉長度測試",
-  "en": "Muscle Length Tests",
+  "zh": "肌肉長度與柔軟度",
+  "en": "Muscle Length & Flexibility",
   "slugs": [
+   "pectoralis-major-length-test",
    "pectoralis-minor-length-test",
    "biceps-brachii-length-test",
    "triceps-brachii-length-test"
