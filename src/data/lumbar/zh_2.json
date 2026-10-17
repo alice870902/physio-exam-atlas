@@ -1,0 +1,182 @@
+[
+ {
+  "slug": "lumbar-spinal-stenosis-cluster",
+  "title_zh": "腰椎狹窄組合測試（Cook） Lumbar Spinal Stenosis Cluster",
+  "purpose_zh": "Cook 的臨床預測規則：五項病史與觀察項目，預測伴神經性跛行 (neurogenic claudication) 的腰椎狹窄 (lumbar spinal stenosis)。",
+  "structure_zh": "因退化性變化（骨贅、黃韌帶 (ligamentum flavum) 增厚、脊椎關節病變、椎間盤突出）而變窄的椎管／椎間孔，卡住脊髓或神經根。",
+  "procedure_zh": "五項：雙側神經性症狀（兩腿疼痛、感覺異常、無力等）；腿痛大於背痛；走路或站立時痛（椎管與椎間孔在此姿勢變窄）；坐下緩解；年齡 > 48 歲（典型 > 60 歲）。",
+  "positive_zh": "0 項陽性有助排除（敏感度 96%、LR− 0.19）；4 項以上陽性有助確認（特異度 98%、LR+ 4.6）。",
+  "notes_zh": "Cook 等人（內文寫 2010，文獻 2011）。原頁認為此規則的實務價值中等。其他腰椎狹窄測試：modified Romberg 徵象、兩階段跑步機測試、Kemp's 測試。",
+  "tags": ["腰椎狹窄 spinal stenosis", "神經性跛行 neurogenic claudication", "cluster"]
+ },
+ {
+  "slug": "kemps-test",
+  "title_zh": "Kemp's 測試（伸直象限測試） Kemp's Test",
+  "purpose_zh": "以伸直重現椎間孔狹窄，誘發腰椎狹窄造成的神經性跛行，也對小面關節 (facet joint) 施加最大應力（又稱 quadrant test、extension quadrant）。",
+  "structure_zh": "腰椎椎間孔與小面關節。神經性跛行：背、臀、大腿痛，肌力與感覺減退，腿部沉重無力，站立與行走等伸直姿勢誘發。",
+  "procedure_zh": "病人站立。檢查者扶住肩膀協助脊椎最大伸直，再請病人向疼痛側旋轉並側彎。",
+  "positive_zh": "重現病人的症狀：若症狀符合神經性跛行，腰椎狹窄可能性高；若以疼痛為主，可能是小面關節退化性病變。",
+  "notes_zh": "Lyle 等人 (2005)：敏感度 70%，特異度未報告。其他腰椎狹窄測試：Cook 的臨床預測規則、modified Romberg 徵象、兩階段跑步機測試。",
+  "tags": ["腰椎狹窄 spinal stenosis", "小面關節 facet joint", "伸直誘發 extension"]
+ },
+ {
+  "slug": "modified-romberg-sign",
+  "title_zh": "改良 Romberg 徵象 Modified Romberg Sign",
+  "purpose_zh": "閉眼站立 10 秒的平衡測試，用來協助確認腰椎狹窄。",
+  "structure_zh": "受狹窄影響的本體感覺／感覺路徑；原始 Romberg 測試用來區分感覺性與小腦性共濟失調 (ataxia)。",
+  "procedure_zh": "病人雙腳併攏、閉眼站立 10 秒。",
+  "positive_zh": "需要代償動作才能讓雙腳留在原地。（原始 Romberg：閉眼後穩定度明顯下降＝感覺功能障礙；有共濟失調但 Romberg 陰性指向小腦疾病。）",
+  "notes_zh": "Katz 等人 (1995) 的數據經 Cook 等人系統性回顧（內文寫 2019、文獻 2020）引用：敏感度 40%、特異度 91%，確認用中等、不適合排除。De Schepper 等人 (2013) 曾結論診斷應以病史為主、理學檢查無用；Cook 等人後來發現幾項理學檢查可用於確認。神經性跛行與活動有關，功能性測試合理。其他：Cook 的 CPR、兩階段跑步機、Kemp's。",
+  "tags": ["腰椎狹窄 spinal stenosis", "平衡 balance", "確認用 rule-in"]
+ },
+ {
+  "slug": "two-stage-treadmill-test",
+  "title_zh": "兩階段跑步機測試 Two-Stage Treadmill Test",
+  "purpose_zh": "比較平地與上坡跑步機行走的耐受時間與症狀出現，協助確認腰椎狹窄（Fritz 等人 1997）。",
+  "structure_zh": "椎管橫斷面積：上坡時腰椎前凸減少、椎管變大。",
+  "procedure_zh": "平地跑步機走 10 分鐘；休息 10 分鐘；15° 上坡走 10 分鐘。",
+  "positive_zh": "平地行走症狀較早出現、平地行走後恢復時間較長，或上坡的總行走時間較長。",
+  "notes_zh": "Fritz 等人 (1997) 的數據經 Cook 等人系統性回顧（內文寫 2019、文獻 2020）引用：敏感度 50%、特異度 92.3%，確認用佳、不適合排除；但該研究以影像為參考標準，而狹窄其實是臨床診斷。De Schepper 2013 與 Cook 的背景見 modified Romberg 一筆。其他：Cook 的 CPR、modified Romberg、Kemp's。",
+  "tags": ["腰椎狹窄 spinal stenosis", "功能性測試 functional", "確認用 rule-in"]
+ },
+ {
+  "slug": "prone-instability-test",
+  "title_zh": "俯臥不穩定測試 Prone Instability Test",
+  "purpose_zh": "評估放射學腰椎不穩定 (radiographic lumbar instability)（慢性下背痛的可能原因之一），以及病人能否主動穩定脊椎（與穩定運動是否適合有關）。",
+  "structure_zh": "在後前向 (posterior-anterior, PA) 壓力下的腰椎節段，比較有無伸肌主動穩定。",
+  "procedure_zh": "第一部分：病人俯臥、雙腿垂出床尾、腳踩地；對各腰椎節段施加 PA 壓力誘發疼痛。第二部分：若有痛，請病人把腳抬離地面，再施加 PA 壓力。",
+  "positive_zh": "第一部分誘發的疼痛在第二部分減輕（病人能主動穩定脊椎），也表示適合穩定運動計畫。",
+  "notes_zh": "施測者間 kappa 0.46（弱）至 0.87（強）（Hicks 2003、Schneider 2008、Rabin 2013）；診斷放射學不穩定的敏感度與特異度皆弱（Fritz 等人 2005、Ferrari 等人 2015 回顧），原頁認為是差的診斷測試，但它是 Hicks 穩定 CPR 的一項。⚠ 本頁與被動腰椎伸直測試頁面嵌入同一支影片。相關：被動腰椎伸直、棘突間隙變化、low midline sill 徵象。",
+  "tags": ["腰椎不穩定 lumbar instability", "穩定運動 stabilization", "Hicks CPR"]
+ },
+ {
+  "slug": "passive-lumbar-extension-test",
+  "title_zh": "被動腰椎伸直測試 Passive Lumbar Extension Test",
+  "purpose_zh": "提示腰椎不穩定的理學檢查 (PLET)。",
+  "structure_zh": "被動伸直／牽引下的腰椎。",
+  "procedure_zh": "病人俯臥。雙腿被動抬離床面約 30 公分並輕輕拉動。",
+  "positive_zh": "嚴重下背痛、下背沉重感，或下背「快要脫開」的感覺。",
+  "notes_zh": "Kasai 等人 (2006)：敏感度 84.2%、特異度 90.4%；Ferrari 等人 (2014) 較不理想：敏感度 43%、特異度 86%；Rabin 等人 (2013) 施測者間 kappa 0.76。原頁認為中等有用；不穩定最好的診斷依據是主客觀發現的組合。⚠ 與俯臥不穩定測試頁面嵌入同一支影片。相關：俯臥不穩定、棘突間隙變化、low midline sill 徵象。",
+  "tags": ["腰椎不穩定 lumbar instability", "中等價值 moderate"]
+ },
+ {
+  "slug": "low-midline-sill-sign",
+  "title_zh": "中線低階徵象 Low Midline Sill Sign",
+  "purpose_zh": "腰椎滑脫 (spondylolisthesis) 與放射學不穩定的視診／觸診徵象（又稱滑脫觸診 slipping palpation、step-off 徵象）。",
+  "structure_zh": "棘突；上位棘突相對下位棘突向前位移，形成像大寫 L 的階梯 (sill)。",
+  "procedure_zh": "病人站立、背部裸露。觀察中線是否有階梯，再以拇指沿棘突往下滑。",
+  "positive_zh": "摸到上位棘突位移到下位棘突前方，通常有壓痛。",
+  "notes_zh": "Petersen 等人 (2017) 回顧（滑脫觸診）：敏感度範圍 60–88%、特異度 87–100%；信賴區間有時很寬、肥胖等現實因素會干擾，但至少中等有用（原始描述 Ahn & Jhun 2015）。⚠ API 中本頁頁首區塊標題寫成「Interspinous Gap Change」（複製錯誤）。相關：俯臥不穩定、被動腰椎伸直、棘突間隙變化。",
+  "tags": ["腰椎滑脫 spondylolisthesis", "觸診 palpation", "腰椎不穩定 lumbar instability"]
+ },
+ {
+  "slug": "interspinous-gap-change",
+  "title_zh": "棘突間隙變化 Interspinous Gap Change",
+  "purpose_zh": "在屈伸動作中觸診棘突間隙，評估腰椎滑脫與放射學不穩定。",
+  "structure_zh": "屈曲與伸直時的棘突間隙與棘突排列。",
+  "procedure_zh": "病人站在離床約一腿長處、雙腳與肩同寬，雙手扶床緣前彎。由上而下視診與觸診，找出看起來彎折或間隙較寬的節段；兩拇指各放在相鄰棘突上，請病人把骨盆推向床面做伸直，同時觸診。",
+  "positive_zh": "棘突間隙相較其他節段突然變窄，或上位棘突相對下位棘突向前或向後移位；寬間隙處通常有壓痛。",
+  "notes_zh": "Ahn & Jhun (2015)（以屈伸 X 光為對照，切點矢狀旋轉 10°／位移 4 公釐）：敏感度 82%、特異度 61%。腰椎不穩定沒有公認定義，且這是第一篇研究，臨床價值至多中等。相關：俯臥不穩定、被動腰椎伸直、low midline sill 徵象。",
+  "tags": ["腰椎滑脫 spondylolisthesis", "觸診 palpation", "單一研究 single study"]
+ },
+ {
+  "slug": "lumbar-motor-control-impairment",
+  "title_zh": "腰椎動作控制障礙徵象與症狀 Lumbar Motor Control Impairment",
+  "purpose_zh": "臨床腰椎不穩定／動作控制障礙 (motor control impairment, MCI) 的專家共識徵象與症狀（Cook 等人 2006 Delphi 研究）；因為沒有公認定義、黃金標準與經驗證的測試。",
+  "structure_zh": "中性區 (neutral zone) 擴大的腰椎節段（Panjabi 概念）；局部穩定肌。",
+  "procedure_zh": "主觀前五項：膝軟般的「背要垮掉」感；常自行扳背；頻繁發作；扭轉或彎腰時痛性卡住或鎖住的病史；轉換姿勢（如坐到站）時痛。客觀前五項：腰骨盆控制差，動作中出現節段性折點 (hinging/pivoting)、本體感覺差；協調或神經肌肉控制差，出現顫抖；不穩定節段局部肌肉的肌力與耐力下降；異常動作，包括主動活動中側移 (lateral shift) 改變；維持姿勢時痛。",
+  "positive_zh": "符合多項者，理論上較可能從穩定運動計畫獲益。",
+  "notes_zh": "避免反安慰劑 (nocebo)：不要告訴病人他的背「不穩定」，改說是在評估運動計畫是否適合。相關：Luomajoki 動作控制測試組、局部穩定肌評估，以及放射學不穩定的各測試。原頁無診斷準確度數值。",
+  "tags": ["動作控制 motor control", "臨床不穩定 clinical instability", "Delphi 共識"]
+ },
+ {
+  "slug": "motor-control-dysfunction-screening",
+  "title_zh": "動作控制障礙測試組（Luomajoki） Motor Control Dysfunction Screening",
+  "purpose_zh": "Luomajoki 等人 (2007) 的六項測試組，評估非特異性、機械性下背痛的動作控制障礙。",
+  "structure_zh": "腰骨盆動作控制。原頁背景：只有 10% 的下背痛是特異性的；90% 非特異性中約三分之一是非機械性（中樞／心理社會因素），70% 是機械性、與動作或姿勢相關。",
+  "procedure_zh": "1) 侍者鞠躬 (waiter's bow)：脊椎中立下做髖鉸鏈前彎。2) 骨盆後傾（腰椎屈曲）。3) 單腳站：雙腳距離為大轉子間距的三分之一，單腳站立，量側移量（正常 8 公分，兩側差 > 2 公分為異常）。4) 坐姿伸膝：矯正腰椎前凸後伸膝，腰不可屈曲。5) 四足跪姿前後搖擺：骨盆前移不可伸腰、後移時背保持中立。6) 俯臥屈膝：腳跟碰臀部、背不可動。指令標準化；不懂時再解釋並示範一次。",
+  "positive_zh": "無法正確完成測試（喪失對腰椎動作的有意識控制），如原頁的正確／錯誤圖示。",
+  "notes_zh": "Luomajoki 等人 (2007)：施測者內／間 kappa > 0.6，新手與資深評分者沒有差異，下背痛病人與健康人有明顯差異。正確／錯誤示範圖不在 API 文字中。另引 O'Sullivan 2000。相關：MCI 徵象與症狀、局部穩定肌評估。",
+  "tags": ["動作控制 motor control", "非特異性下背痛 NSLBP", "測試組 test battery"]
+ },
+ {
+  "slug": "lumbar-local-stabilizers-assessment",
+  "title_zh": "腰椎局部穩定肌評估（壓力生物回饋） Lumbar Local Stabilizers Assessment",
+  "purpose_zh": "以腹部內收手法 (abdominal draw-in maneuver, ADIM) 與壓力生物回饋儀 (pressure biofeedback unit) 評估並再訓練腰椎局部穩定肌（腹橫肌 transversus abdominis、多裂肌 multifidi）的徵召。",
+  "structure_zh": "腹橫肌與多裂肌。",
+  "procedure_zh": "第一步，四足跪姿：脊椎中立，深吐氣時完全放鬆腹部，再把肚臍拉向脊椎，閉氣維持最多 10 秒；10 次 × 10 秒，進階到 3 組 × 90 秒。第二步，俯臥：壓力袋置於腹部下、充氣至 70 mmHg；呼吸一次後閉氣做 ADIM，目標壓力下降 2–4 mmHg，10 × 10 秒；注意腹斜肌代償（壓力下降過多）。第三步，仰臥：壓力袋置於 L3 下、充氣至 40 mmHg；做 ADIM 時壓力應以 2–4 mmHg 逐步上升，同時能平靜呼吸，維持 15 秒兩次。",
+  "positive_zh": "達到上述壓力變化目標且無代償。",
+  "notes_zh": "Physiotutors 的批判性評讀：壓力生物回饋的量測與超音波量到的腹橫肌活動不相關，不是偵測腹橫肌功能障礙的有效工具；Grooms 等人 (2013) 的概似比接近 1，檢後機率不變。相關：MCI 徵象與症狀、Luomajoki 測試組。",
+  "tags": ["腹橫肌 transversus abdominis", "壓力生物回饋 pressure biofeedback", "效度不佳 poor validity"]
+ },
+ {
+  "slug": "cluster-of-van-der-wurff",
+  "title_zh": "van der Wurff 組合測試 Cluster of van der Wurff",
+  "purpose_zh": "五項薦髂關節 (sacroiliac joint, SIJ) 疼痛誘發測試的組合，判斷疼痛是否來自 SIJ。",
+  "structure_zh": "薦髂關節；疼痛必須出現在同側 L5 以下的臀部區域。",
+  "procedure_zh": "每項維持約 5 秒：牽張測試（仰臥，雙手交叉壓兩側 ASIS 往背外側，逐漸加到 25–30 公斤）；壓迫測試（患側在上側臥，髖屈 45°、膝屈 90°，雙手疊放在髂嵴前緣往下壓，25–30 公斤）；大腿推擠（仰臥，髖屈 90° 略內收，沿股骨長軸施力，25–30 公斤）；Gaenslen（仰臥於床緣，對側髖固定在最大屈曲與略外展，患側腿放下到伸直並施加約 15 公斤壓力，只做患側）；Patrick's／FABER（固定對側 ASIS，患側膝下放，加壓 15 公斤）。",
+  "positive_zh": "5 項中 3 項以上陽性。每一項只有在誘發出熟悉的疼痛、且疼痛位於同側 L5 以下臀部時才算陽性。",
+  "notes_zh": "van der Wurff 等人 (2006)：3 項以上陽性的敏感度 85%、特異度 79%。各單項測試（牽張、壓迫、大腿推擠、Gaenslen、Patrick's）與 Laslett 組合都在髖部模組。",
+  "tags": ["薦髂關節 SIJ", "cluster", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "active-straight-leg-raise-test",
+  "title_zh": "主動直膝抬腿測試 Active Straight Leg Raise Test",
+  "purpose_zh": "測試骨盆帶疼痛 (pelvic girdle pain)（產後後骨盆痛）病人把負荷從下肢傳到軀幹的能力。",
+  "structure_zh": "腰骨盆負荷傳遞／薦髂關節的力量閉鎖 (force closure)。",
+  "procedure_zh": "病人仰臥，雙腿伸直、放鬆呈外轉、雙腳距 20 公分；依序把每條腿膝伸直抬離床面 5 公分。若疼痛或困難，改以雙手壓迫兩側 ASIS 或綁薦髂帶 (sacroiliac belt) 重做。每側 0–5 分（0 無困難、5 無法抬起）；總分 0 為陰性、1–10 為陽性。",
+  "positive_zh": "抬腿困難／疼痛在骨盆加壓後消失（力量閉鎖不足）。力量閉鎖過度者通常陰性，加壓反而可能誘發（O'Sullivan 等人 2007）。",
+  "notes_zh": "Mens 等人 (2001)（健康人 vs 產後後骨盆痛）：敏感度 87%、特異度 94%，一週再測信度 0.87，原頁給高臨床價值。分數與骨盆關節活動度相關（Mens 1999），也與 Quebec 下背痛失能量表強烈相關、可作為嚴重度量表（Mens 2002）。Mens & Pool-Goudzwaard (2017)：長期妊娠相關骨盆帶疼痛病人在 ASLR 時腹橫肌過度活化，因此沒有理由開立加強腹橫肌收縮的運動。⚠ API 中本頁頁首區塊標題寫成「Yeoman Test | Sacroiliitis Examination」（複製錯誤）。",
+  "tags": ["骨盆帶疼痛 pelvic girdle pain", "力量閉鎖 force closure", "高臨床價值 high value"]
+ },
+ {
+  "slug": "standing-bent-over-test",
+  "title_zh": "站姿前彎測試（Vorlauf） Standing Bent Over Test",
+  "purpose_zh": "薦髂關節「功能障礙」（低動度）的觸診測試，又稱 Vorlauf 測試或站姿屈曲測試。",
+  "structure_zh": "前彎時 PSIS 相對薦骨的移動；正常約在屈曲 60° 開始反點頭 (counternutation)。",
+  "procedure_zh": "病人站立，觸診兩側 PSIS，請病人前彎，判斷兩側 PSIS 的移動是否對稱。",
+  "positive_zh": "一側 PSIS 較早、較多地往頭側移動＝低動度側（低動度時薦髂之間點頭較少，髂骨連同 PSIS 必須提早移動）。",
+  "notes_zh": "Levangie (1999)：敏感度 17%、特異度 79%；Riddle 等人 (2002) 施測者間 kappa 0.32，價值弱。Physiotutors 建議放棄 SIJ 功能障礙測試，只做 Laslett 組合等疼痛誘發測試（在髖部模組）。⚠ 本頁嵌入的影片與髖部模組的 Gillet 測試頁相同。相關：Shimpi 俯臥 SIJ 測試、Gillet、SIJ 點頭／反點頭。",
+  "tags": ["薦髂關節 SIJ", "功能障礙測試 dysfunction", "信度低 low reliability"]
+ },
+ {
+  "slug": "shimpi-prone-si-joint-test",
+  "title_zh": "Shimpi 俯臥薦髂關節測試 Shimpi Prone SI Joint Test",
+  "purpose_zh": "Shimpi 等人 (2018) 提出的新 SIJ 功能障礙測試。",
+  "structure_zh": "薦髂關節／俯臥髖伸直時 ASIS 的移動。",
+  "procedure_zh": "病人俯臥。檢查者在患側站或坐，手掌放在病人 ASIS 下方；請病人把髖伸直約 15°，讓伸直的腿稍微離開床面。",
+  "positive_zh": "ASIS 離開檢查者手掌並重現熟悉的 SIJ 疼痛。陰性：ASIS 壓進手掌且無疼痛。",
+  "notes_zh": "Shimpi 等人 (2018)：敏感度 82%、特異度 77%；樣本僅 45 人、第一篇研究、未使用透視導引 SIJ 阻斷作為參考標準，臨床價值弱。原頁重申 SIJ 功能障礙測試不可靠、大概應該放棄。相關：站姿前彎、Gillet、SIJ 點頭／反點頭（髖部模組）。",
+  "tags": ["薦髂關節 SIJ", "功能障礙測試 dysfunction", "單一研究 single study"]
+ },
+ {
+  "slug": "lumbar-stabilization-cpr",
+  "title_zh": "腰椎穩定運動臨床預測規則（Hicks） Lumbar Stabilization CPR",
+  "purpose_zh": "Hicks 等人 (2005) 的臨床預測規則 (clinical prediction rule, CPR)，找出可能從穩定運動計畫獲益的下背痛病人。",
+  "structure_zh": "異質性慢性下背痛的次分組；研究中的運動計畫針對腹橫肌、多裂肌、腰方肌與腹斜肌。",
+  "procedure_zh": "成功規則，4 項中 3 項以上：年齡 < 40 歲；直膝抬腿 > 90°；腰椎主動活動中有異常動作；俯臥不穩定測試陽性。失敗規則，4 項中 2 項以上：恐懼逃避信念問卷活動分量表 (FABQ-A) ≤ 8；無異常動作；俯臥不穩定測試陰性；腰椎彈性測試 (spring test) 無低動度。",
+  "positive_zh": "成功規則 ≥ 3/4：穩定運動成功的勝算 × 4.0。失敗規則 ≥ 2/4：成功勝算 × 0.18。",
+  "notes_zh": "原頁指出較不恐懼活動的病人（FABQ-A ≤ 8）用穩定運動的成功機會反而較差。數值是治療成功的概似比，不是診斷準確度。配套：Flynn 徒手整復 CPR。",
+  "tags": ["臨床預測規則 CPR", "穩定運動 stabilization", "次分組 subgrouping"]
+ },
+ {
+  "slug": "lumbar-manipulation-cpr",
+  "title_zh": "腰椎徒手整復臨床預測規則（Flynn） Lumbar Manipulation CPR",
+  "purpose_zh": "Flynn 等人 (2002) 的臨床預測規則（Childs 等人 2004 驗證），找出可能因腰椎徒手整復 (manipulation) 而改善的下背痛病人。",
+  "structure_zh": "下背痛的次分組；髖與脊椎的關係（髖內轉活動度）。",
+  "procedure_zh": "五項：膝以下無症狀；症狀 < 16 天；FABQ 工作分量表 (FABQ-W) < 19；腰椎低動度；至少一側髖內轉 > 35°。",
+  "positive_zh": "≥ 3/5：成功可能性 × 2.61；≥ 4/5：× 24.38；5 項全有：原頁描述為「無限大」。≤ 2 項：考慮其他做法，例如穩定運動。",
+  "notes_zh": "原頁的理由：膝以下症狀多為神經根症候群，整復證據不一且 Flynn 研究已排除；亞急性／慢性常有心理社會因素；髖內轉少的病人屬髖-脊椎兩難 (hip-spine dilemma)，應先鬆動髖。Childs 等人 (2004)：此次分組中整復加運動優於單獨運動。數值是治療成功的概似比，不是診斷準確度。配套：Hicks 穩定運動 CPR。",
+  "tags": ["臨床預測規則 CPR", "徒手整復 manipulation", "次分組 subgrouping"]
+ },
+ {
+  "slug": "direction-specific-exercises",
+  "title_zh": "方向特異性運動 Direction-specific Exercises",
+  "purpose_zh": "運用方向偏好 (directional preference) 與中央化 (centralization)（McKenzie「derangement」分類的概念），為急性下背痛（有或無神經根病變）選擇能改變症狀的反覆動作。",
+  "structure_zh": "腰椎；方向偏好＝往某一方向（屈曲、伸直或側彎）反覆動作可逐步消除症狀或增加活動度；中央化＝反覆動作使脊椎痛與轉移痛由遠端往近端消退。",
+  "procedure_zh": "找出偏好的方向，讓病人朝該方向反覆動作；影片示範 Physiotutors 實務上常用的幾個例子（原頁明言並非嚴格的 McKenzie 應用）。",
+  "positive_zh": "不適用（治療頁面）。",
+  "notes_zh": "May & Aina (2012) 系統性回顧：70% 的病人有方向偏好；44% 出現中央化（急性下背痛 74%，持續性或 65 歲以上 42%），中央化在 8 篇納入研究中有 7 篇是治療效果修飾因子。另引 Laslett (2009) 的急性腰椎側移徒手矯正。原頁第二個 YouTube 連結（Jarod Hall）是參考資料而非嵌入，因此只列一支影片。",
+  "tags": ["方向偏好 directional preference", "中央化 centralization", "McKenzie"]
+ }
+]

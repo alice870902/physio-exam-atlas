@@ -1,0 +1,94 @@
+[
+ {
+  "id": "screen",
+  "zh": "總覽、轉移痛與紅旗篩檢",
+  "en": "Overview, Referred Pain & Red Flags",
+  "slugs": [
+   "lumbar-referred-pain",
+   "referred-pain-explained",
+   "closed-fist-percussion-test",
+   "supine-sign",
+   "babinski-sign"
+  ]
+ },
+ {
+  "id": "rom",
+  "zh": "活動度與快速篩檢",
+  "en": "Mobility & Quick Screening",
+  "slugs": [
+   "schober-test",
+   "modified-modified-schober-test",
+   "menell-test"
+  ]
+ },
+ {
+  "id": "neuro",
+  "zh": "下肢神經學檢查",
+  "en": "Lower Limb Neurological Examination",
+  "slugs": [
+   "dermatomes-lower-limb",
+   "myotomes-lower-limb",
+   "lower-limb-reflex-testing"
+  ]
+ },
+ {
+  "id": "radic",
+  "zh": "神經根症候群與神經動力學",
+  "en": "Radicular Syndrome & Neurodynamics",
+  "slugs": [
+   "straight-leg-raise-test",
+   "crossed-straight-leg-raise-test",
+   "bowstring-test",
+   "slump-test",
+   "prone-knee-bending-test",
+   "slr-sizer",
+   "slump-test-sizer"
+  ]
+ },
+ {
+  "id": "stenosis",
+  "zh": "腰椎狹窄",
+  "en": "Lumbar Spinal Stenosis",
+  "slugs": [
+   "lumbar-spinal-stenosis-cluster",
+   "kemps-test",
+   "modified-romberg-sign",
+   "two-stage-treadmill-test"
+  ]
+ },
+ {
+  "id": "instab",
+  "zh": "腰椎不穩定與動作控制",
+  "en": "Lumbar Instability & Motor Control",
+  "slugs": [
+   "prone-instability-test",
+   "passive-lumbar-extension-test",
+   "low-midline-sill-sign",
+   "interspinous-gap-change",
+   "lumbar-motor-control-impairment",
+   "motor-control-dysfunction-screening",
+   "lumbar-local-stabilizers-assessment"
+  ]
+ },
+ {
+  "id": "sij",
+  "zh": "薦髂關節補充（髖部未收錄）",
+  "en": "Sacroiliac Joint Supplement",
+  "slugs": [
+   "cluster-of-van-der-wurff",
+   "active-straight-leg-raise-test",
+   "standing-bent-over-test",
+   "shimpi-prone-si-joint-test"
+  ]
+ },
+ {
+  "id": "tx",
+  "zh": "治療決策與運動治療",
+  "en": "Treatment Decision Rules & Exercise",
+  "slugs": [
+   "lumbar-stabilization-cpr",
+   "lumbar-manipulation-cpr",
+   "direction-specific-exercises"
+  ]
+ }
+]

@@ -12,7 +12,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 | shoulder | **live** (74 videos, 10 categories) | `shoulder/index.html` |
 | hip | **live** (42 videos, 7 categories) | `hip/index.html`; source quirks (Pace page duplicates FAIR procedure, compression/sacral-thrust share one YouTube ID) are flagged in `groupC/D.json` notes |
 | knee | **live** (61 videos, 12 categories) | `knee/index.html`; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
-| lumbar | planned | placeholder card on home page |
+| lumbar | **live** (36 videos, 8 categories) | `lumbar/index.html`; 24 'Lumbar Spine Assessment' pages + referred pain, fracture red flags, Babinski, 4 SIJ pages not in hip, CPRs, direction-specific exercises; `myotomes-lower-limb` is deliberately in both knee and lumbar; SIJ provocation tests stay in hip |
 
 ## Repo layout
 
@@ -91,9 +91,16 @@ workers (≈25 slugs each); each worker writes its own groupX.json / zh_N.json.
 
 ## Suggested next steps
 
-1. Lumbar, same pipeline. (Hip and knee done 2026-10-17. Slug discovery tip: fetch all wiki
-   entries with `?per_page=20&page=N&_fields=id,slug,title,link,acf` and group by the
-   `page-header-detail-page` section's `subheading`, e.g. "Lumbar Spine Assessment" (24 pages)
-   plus "Spine Assessment"/"Screening"/"Neurological Screening" candidates.)
+All four regions (shoulder, hip, knee, lumbar) are live as of 2026-10-17. Slug discovery tip
+for any new region: fetch all wiki entries with `?per_page=20&page=N&_fields=id,slug,title,link,acf`
+and group by the `page-header-detail-page` section's `subheading`. Only count `[embed]`
+shortcodes (and `youtube.com/embed/` iframes) as videos; plain YouTube links in the text are
+related-video or reference links.
+
+1. Possible new regions from the same wiki: Ankle & Foot (31 pages), Elbow (28), Wrist & Hand (27),
+   Cervical spine (17), Thoracic spine (13), Dizziness/vestibular (14), fracture-screening rules.
+   Six 'Hip Assessment' pages were never added to hip: puranen-orava-test, sign-of-the-buttock,
+   bent-knee-stretch-test, modified-bent-knee-stretch-test, heel-contralateral-knee-maneuver,
+   ischiofemoral-impingement-test.
 2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
    page; timestamped segments within a video (needs transcripts); an "all regions" search.

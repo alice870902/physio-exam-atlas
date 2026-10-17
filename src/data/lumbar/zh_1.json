@@ -1,0 +1,182 @@
+[
+ {
+  "slug": "lumbar-referred-pain",
+  "title_zh": "腰椎內臟轉移痛篩檢 Lumbar Referred Pain",
+  "purpose_zh": "在下背痛病人中篩檢真正的內臟痛 (visceral pain) 與內臟轉移痛 (visceral referred pain)，以排除嚴重病變或轉介；90% 的下背痛是非特異性的，但內臟來源常被忽略。",
+  "structure_zh": "與腰椎共享節段神經支配的器官：泌尿生殖道；部分消化道（多數消化器官轉移到胸椎）；腹主動脈瘤 (abdominal aortic aneurysm, AAA)（心血管系統通常轉移到胸椎）。內臟痛因感覺神經分布稀疏與中樞訊號分散而瀰漫、位於中線、難以定位，常伴自主神經徵象（蒼白、大量出汗、噁心、腸胃不適、體溫／血壓／心跳變化）與強烈情緒反應（Sikandar 等人 2012）。",
+  "procedure_zh": "以病史篩檢。泌尿生殖道：排尿疼痛或困難、血尿、失禁、頻尿、尿流變弱、陽痿、最後一次月經、陰道分泌物、停經後出血、泌尿道感染史、經痛、性交疼痛、性病史。消化道：吞嚥困難、噁心／胃灼熱／嘔吐、特定食物不耐、便秘、腹瀉、糞便顏色改變、直腸出血。AAA 早期警訊：平躺時腹部搏動感、中腹／左側腰／下背鈍痛。運動系統：多關節隱匿性疼痛、腫脹或活動受限（發炎性疾病）。先問一般性問題再深入，並向病人說明為何要問。",
+  "positive_zh": "看的是型態而非單一答案：症狀與姿勢、動作無關、休息時也在、尤其夜間痛醒；瀰漫、鈍、絞痛樣、會漸強再消退；與進食、腸或膀胱脹滿、排尿或排便有關；無外傷的隱匿起病；發燒、畏寒、噁心、不明原因體重減輕、倦怠、嘔吐、排便習慣改變或直腸／陰道出血超過 1–2 週；年齡、性別、職業、族群與個人／家族病史的風險。",
+  "notes_zh": "目標不是診斷器官病變（那是醫師的工作），而是把內臟篩檢納入例行流程以便轉介。原頁的器官一覽圖不在 API 文字中。配套頁面：胸椎與頸椎轉移痛（參考 Sikandar & Dickenson 2012、Boissonnault & Bass 1990）。",
+  "tags": ["紅旗 red flags", "內臟轉移痛 visceral referred pain", "病史篩檢 screening"]
+ },
+ {
+  "slug": "referred-pain-explained",
+  "title_zh": "體感與內臟轉移痛原理 Somatic and Visceral Referred Pain Explained",
+  "purpose_zh": "說明體感 (somatic) 與內臟 (visceral) 轉移痛的神經生理，以及它與局部痛、神經病變痛 (neuropathic pain) 和神經根痛 (radicular pain) 的差別。",
+  "structure_zh": "匯聚投射理論 (convergence-projection theory)：神經支配稀疏的深層／軸向／近端組織（韌帶、關節囊、肌腱、筋膜、肌肉，例如下背或髖）與支配密集的遠端組織匯聚到同一個背角二級神經元，體感覺皮質 (somatosensory cortex) 因而把疼痛誤投射到遠端。體感例子：右側 L5/S1 小面關節 (facet joint) 的痛感覺在右臀與大腿後側。內臟：器官的傷害性訊號投射到同節段的體壁結構，常伴自主神經現象。",
+  "procedure_zh": "不適用（觀念頁）。線索：局部痛在痛處加壓會更痛；轉移痛在痛處加壓不會更痛，但在敏感化的來源加壓會同時增加局部與轉移區的痛。轉移痛落在同一骨節 (sclerotome)（圖譜並不一致），一律由近端轉向遠端，性質為深層酸痛或向外擴張的壓迫感，很少超過膝或肘（與神經根痛不同）。",
+  "positive_zh": "不適用（觀念頁）。",
+  "notes_zh": "深層酸痛來自無髓鞘第 IV 型／C 纖維（次級痛覺過敏 secondary hyperalgesia）；尖銳、定位清楚的痛來自有髓鞘第 III 型／A-delta 纖維（初級痛覺過敏）。轉移型態只能推估節段位置，不能指出解剖來源。原頁的器官轉移圖不在 API 文字中，文字殘留製作筆記（「Display overview from different studies if possible」）（參考 Bogduk 2009、Vernon 2012）。",
+  "tags": ["轉移痛 referred pain", "疼痛神經生理 pain neurophysiology", "觀念 concept"]
+ },
+ {
+  "slug": "closed-fist-percussion-test",
+  "title_zh": "握拳叩擊測試 Closed Fist Percussion Test",
+  "purpose_zh": "突發背痛病人的紅旗篩檢：偵測有症狀的脊椎（骨質疏鬆性）壓迫性骨折 (compression fracture)。",
+  "structure_zh": "椎體；骨質疏鬆性壓迫性骨折是脊椎最常見的紅旗（65 歲以上女性盛行率 25%、80 歲以上 40%）。",
+  "procedure_zh": "病人站在鏡子前以便觀察反應，檢查者站在病人後方，一手放在脊椎上，另一手握拳沿脊椎叩擊。",
+  "positive_zh": "尖銳、突發的疼痛。",
+  "notes_zh": "Langdon 等人 (2010)：敏感度 87.5%、特異度 90%。配套測試：仰臥徵象 (supine sign)。原頁也列出其他部位的骨折篩檢：Caradeniz 腕部規則、肘伸直測試、髕骨-恥骨叩擊、fulcrum 測試、渥太華膝／踝規則。",
+  "tags": ["紅旗 red flags", "壓迫性骨折 compression fracture", "骨折篩檢 fracture screening"]
+ },
+ {
+  "slug": "supine-sign",
+  "title_zh": "仰臥徵象 Supine Sign",
+  "purpose_zh": "有症狀脊椎壓迫性骨折的紅旗篩檢。",
+  "structure_zh": "椎體，多在胸椎；仰臥會增加該處的壓迫。",
+  "procedure_zh": "請病人只用一個枕頭仰臥在檢查床上。",
+  "positive_zh": "因劇痛無法仰臥。病史中常會聽到病人只能坐在椅子上睡。",
+  "notes_zh": "Langdon 等人 (2010)：敏感度 81%、特異度 93%。配套測試：握拳叩擊測試。",
+  "tags": ["紅旗 red flags", "壓迫性骨折 compression fracture", "骨折篩檢 fracture screening"]
+ },
+ {
+  "slug": "babinski-sign",
+  "title_zh": "Babinski 徵象 Babinski Sign",
+  "purpose_zh": "篩檢上運動神經元 (upper motor neuron, UMN)／錐體徑 (pyramidal tract) 病變。",
+  "structure_zh": "錐體系統（皮質脊髓徑 corticospinal tract）。",
+  "procedure_zh": "以尖物從腳跟沿足底外側緣向前劃到大腳趾。",
+  "positive_zh": "大腳趾伸直、其他腳趾扇形外展（扇形徵象 fan sign，signe de l'éventail）；嚴重時伴髖膝屈曲。正常反應為腳趾屈曲／抓握。陽性表示錐體系統的結構性損傷，或癲癇、中毒造成的暫時性干擾。",
+  "notes_zh": "Jaramillo 等人 (2014)：敏感度 51%、特異度 99%。原頁列的其他 UMN 篩檢：Hoffmann 徵象、Lhermitte 徵象、inverted supinator 徵象（頸椎）。⚠ 原頁把 signe de l'éventail 寫成「signe de Levante」，且第一筆參考文獻錯亂（Jaramillo 與一篇無關的 BPPV 指引黏在一起）。",
+  "tags": ["上運動神經元 UMN", "神經學篩檢 neurological screening", "紅旗 red flags"]
+ },
+ {
+  "slug": "schober-test",
+  "title_zh": "Schober 測試 Schober Test",
+  "purpose_zh": "量化腰椎屈曲；改良版納入僵直性脊椎炎 (ankylosing spondylitis) 用的 BASMI 指數。",
+  "structure_zh": "腰椎；以 S2 為基準做皮膚標記。",
+  "procedure_zh": "病人赤腳站直、雙腳距 30 公分。在 S2 棘突下方 5 公分與上方 10 公分各做一記號（相距 15 公分）。病人膝伸直盡量前彎，再量一次，差值即為屈曲量。改良版 Schober 以髂嵴 (iliac crest) 高度為基準；改良改良版以髂後上棘 (PSIS) 為基準。",
+  "positive_zh": "非陽性／陰性型檢查：距離的增加量即腰椎屈曲量。",
+  "notes_zh": "Castro 等人的系統性回顧（內文寫 2015、文獻 2016）報告建構效度可接受。⚠ 本頁說改良版用髂嵴，而改良改良版 Schober 頁面卻說「原始 Schober」用髂嵴，兩頁說法不一致。",
+  "tags": ["腰椎屈曲 lumbar flexion", "活動度 ROM", "BASMI"]
+ },
+ {
+  "slug": "modified-modified-schober-test",
+  "title_zh": "改良改良版 Schober 測試 Modified-modified Schober Test",
+  "purpose_zh": "在診間不靠影像量化腰椎屈曲活動度（BASMI、僵直性脊椎炎情境）。",
+  "structure_zh": "腰椎；以兩側 PSIS 連線為基準做皮膚標記。",
+  "procedure_zh": "病人站直。找到兩側髂後上棘 (PSIS) 並畫一條水平線，在其上方 15 公分處再標一點。病人膝伸直盡量前彎，再量兩點距離。",
+  "positive_zh": "非陽性／陰性型檢查：距離的增加量即屈曲量。",
+  "notes_zh": "Rezvani 等人 (2012)：施測者內信度 r 0.97（極佳），但與放射學量測的相關只有中等（r 0.67），原頁給中等臨床價值。基準點的說法與 Schober 頁面不一致，見該筆說明。",
+  "tags": ["腰椎屈曲 lumbar flexion", "活動度 ROM", "BASMI"]
+ },
+ {
+  "slug": "menell-test",
+  "title_zh": "Menell 三階段測試 Menell Test",
+  "purpose_zh": "快速判斷疼痛來自髖關節、薦髂關節 (sacroiliac joint, SIJ) 還是腰椎的三階段測試。",
+  "structure_zh": "髖關節（內轉加伸直為緊縮位 closed-packed position）、薦髂關節、腰椎。",
+  "procedure_zh": "病人俯臥。第一階段（髖）：在坐骨粗隆 (ischial tuberosity) 往腹尾側固定骨盆，從內側握住同側腿使其內轉並把髖伸直。第二階段（SIJ）：在薦骨 S2 樞軸點下方往腹尾側固定薦骨，再把腿伸直。第三階段（腰椎）：以捏握固定 T12 往腹尾側，再伸腿，等於對整個腰椎做被動伸直加旋轉。",
+  "positive_zh": "該階段重現病人熟悉的疼痛。",
+  "notes_zh": "原頁建議各區域再用更特異的測試追查：Laslett 組合、van der Wurff 組合（SIJ）、FADDIR 測試（髖）。原頁未列參考文獻。",
+  "tags": ["快速篩檢 quick screening", "髖／SIJ／腰椎鑑別 differential"]
+ },
+ {
+  "slug": "dermatomes-lower-limb",
+  "title_zh": "下肢皮節測試 Dermatomes Lower Limb",
+  "purpose_zh": "懷疑腰椎神經根病變 (radiculopathy) 時的感覺（皮節 dermatome）測試，協助定位病變椎間盤節段。",
+  "structure_zh": "腰薦皮節；神經根受壓最常見於 L4/L5 與 L5/S1，L3/L4 少得多，再往上罕見。",
+  "procedure_zh": "病人仰臥、下肢裸露。用刷子（例如反射槌握柄內的）刷過兩側的各皮節區域，詢問兩側是否有差異。",
+  "positive_zh": "某一皮節的感覺與對側不同。",
+  "notes_zh": "Al Nezari 等人 (2013) 系統性回顧與統合分析（14 篇、腰椎椎間盤突出）：感覺測試敏感度 32–40%、特異度 59–72%，合併後敏感度 35%、特異度 64%；所有神經學檢查項目的合併 LR+ 僅 1.02–1.26，臨床價值弱，但仍是理學檢查中最好的工具（原頁拼成「Al Nazari」）。配套：下肢肌節（膝部模組亦有）與反射。",
+  "tags": ["神經根病變 radiculopathy", "皮節 dermatome", "神經學檢查 neurological"]
+ },
+ {
+  "slug": "myotomes-lower-limb",
+  "title_zh": "下肢肌節測試 Myotomes Lower Limb",
+  "purpose_zh": "懷疑腰椎神經根病變 (radiculopathy) 時的肌節 (myotome) 肌力測試，協助定位病變椎間盤節段。",
+  "structure_zh": "腰薦神經根：L2 髖屈曲、L3 髖伸直（原頁如此列）、L4 脛前肌 (tibialis anterior)／踝背屈、L5 伸拇長肌 (extensor hallucis longus)／大腳趾伸直、S1 小腿肌（反覆提踵）、S2 膝屈曲（神經根病變罕見）。",
+  "procedure_zh": "病人仰臥，逐一測試各肌節，並與健側比較。",
+  "positive_zh": "某一肌節的肌力相較對側減弱 (paresis)。",
+  "notes_zh": "同一頁也收錄在膝部模組。Al Nezari 等人 (2013)：肌節無力敏感度 22–40%、特異度 62–79%，合併後敏感度 31%、特異度 76%；合併 LR+ 1.02–1.26，臨床價值弱，但仍是理學檢查中最好的工具。⚠ 原頁把 L3 列為髖伸直，未加說明。配套：下肢皮節與反射。",
+  "tags": ["神經根病變 radiculopathy", "肌節 myotome", "神經學檢查 neurological"]
+ },
+ {
+  "slug": "lower-limb-reflex-testing",
+  "title_zh": "下肢反射測試 Lower Limb Reflex Testing",
+  "purpose_zh": "懷疑腰椎神經根病變時的深肌腱反射 (deep tendon reflex) 測試，協助定位病變椎間盤節段。",
+  "structure_zh": "髕腱反射 (patellar tendon reflex) 對應 L3–L4，阿基里斯腱反射 (Achilles tendon reflex) 對應 L5–S1。",
+  "procedure_zh": "引出髕腱與阿基里斯腱反射並比較兩側（細節見影片）。",
+  "positive_zh": "深肌腱反射相較對側減弱或消失。",
+  "notes_zh": "Al Nezari 等人 (2013)：反射測試敏感度 25–29%、特異度 75–78%；合併 LR+ 1.02–1.26，臨床價值弱，但仍是理學檢查中最好的工具。配套：下肢皮節與肌節。",
+  "tags": ["神經根病變 radiculopathy", "反射 reflex", "神經學檢查 neurological"]
+ },
+ {
+  "slug": "straight-leg-raise-test",
+  "title_zh": "直膝抬腿測試 Straight Leg Raise Test",
+  "purpose_zh": "拉緊坐骨神經 (sciatic nerve) 以重現腰椎神經根痛，主要針對腰椎椎間盤突出 (lumbar disc herniation)。",
+  "structure_zh": "坐骨神經與腰薦神經根（硬膜 dura）。文獻對陽性判準不一致（比較兩側髖屈曲角度 vs 重現熟悉的腿痛），且沒有公認的正常角度；Physiotutors 主張以重現熟悉的腿痛為準。",
+  "procedure_zh": "病人仰臥。站在患側，握住腿確保膝完全伸直，緩慢抬腿做髖屈曲並觀察病人反應。可逐步加敏感化動作：在不適點加踝背屈，或請病人屈頸。",
+  "positive_zh": "重現病人熟悉的、往腿部竄的疼痛。",
+  "notes_zh": "van der Windt 等人 (2010) Cochrane 回顧與 Scaia 等人 (2012) 系統性回顧（以手術所見為對照）：敏感度整體高於特異度，陰性概似比 (LR−) 最低到 0.27；幾乎所有原始研究都有偏差，且多數未確認「重現的痛」是否為病人當前症狀。結論：對確認椎間盤突出造成的神經根痛沒有診斷價值，但排除時至少有中等臨床價值。相關：交叉直膝抬腿（較特異）、俯臥屈膝（L2–L4）、弓弦測試、slump 測試。",
+  "tags": ["神經根症候群 radicular syndrome", "坐骨神經 sciatic nerve", "排除用 rule-out"]
+ },
+ {
+  "slug": "crossed-straight-leg-raise-test",
+  "title_zh": "交叉直膝抬腿測試 Crossed Straight Leg Raise Test",
+  "purpose_zh": "抬起健側腿以確認椎間盤突出造成的腰薦神經根症候群。",
+  "structure_zh": "硬膜與 L4–S2 神經根被向尾側拉動，間接壓迫患側，尤其是大型腋側 (axillary) 突出。",
+  "procedure_zh": "病人仰臥。將健側腿膝伸直、髖屈曲至約 60–70°。",
+  "positive_zh": "伸直的患側腿沿神經分布出現竄痛。",
+  "notes_zh": "van der Windt 等人 (2010) Cochrane 回顧：合併敏感度 28%、特異度 90%，LR+ 2.8，適合用來確認。與敏感而不特異、適合排除的 SLR 互補。相關：俯臥屈膝（L4 以上）、弓弦測試、slump 測試。原頁提到的示意圖不在 API 文字中。",
+  "tags": ["神經根症候群 radicular syndrome", "確認用 rule-in", "椎間盤突出 disc herniation"]
+ },
+ {
+  "slug": "bowstring-test",
+  "title_zh": "弓弦測試 Bowstring Test",
+  "purpose_zh": "評估疑似腰椎椎間盤突出，確認坐骨神經受到張力或壓迫（又稱 cram test、脛後神經徵象）。",
+  "structure_zh": "膕窩 (popliteal fossa) 內的坐骨／脛神經。",
+  "procedure_zh": "病人仰臥。先做直膝抬腿直到出現症狀，維持該位置並把膝稍微屈曲約 20° 讓症狀減輕，然後按壓膕窩。",
+  "positive_zh": "按壓膕窩重現症狀或造成不適。",
+  "notes_zh": "Supik & Broom (1994)（原頁拼成 Supic）：50 名皆已確診椎間盤突出的病人中 69% 陽性，只能算出敏感度 69%、無法算特異度，臨床價值未知。相關：交叉直膝抬腿、俯臥屈膝、直膝抬腿、slump 測試。",
+  "tags": ["神經根症候群 radicular syndrome", "坐骨神經 sciatic nerve", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "slump-test",
+  "title_zh": "Slump 測試 Slump Test",
+  "purpose_zh": "對硬膜施加最大應力的高誘發性神經動力學 (neurodynamic) 測試，用於有症狀的腰椎神經根受壓；不同的加載順序可協助區分突出、硬膜外沾黏、神經根受壓與間歇性神經性跛行。",
+  "structure_zh": "硬膜與腰薦神經根（軀幹、頸、膝、踝各成分合併拉緊）。",
+  "procedure_zh": "病人坐在床的長邊、髖中立。雙手背在身後，軀幹駝背進入腰椎與胸椎屈曲、頭保持直立；檢查者在肩上加壓並請病人下巴收向胸口；維持三重屈曲，伸直患側膝（Physiotutors 主張由檢查者被動伸膝，與影片不同，因為病人可能自行迴避誘發姿勢）；再加被動踝背屈。任一階段症狀加重就停止。",
+  "positive_zh": "重現熟悉的神經學症狀。腿後肌緊繃伴膝伸直受限、或 T8/T9 處的緊繃屬非病理性，不算陽性。",
+  "notes_zh": "van der Windt 等人 (2010) Cochrane 回顧：敏感度範圍 44–87%、特異度範圍 23–63%。疑似嚴重脫出 (prolapse)／擠出 (extrusion) 時不建議做：腰椎屈曲會增加椎間盤負荷，且 SLR 或站姿前彎通常就足以誘發。即使陽性仍要做皮節、肌節與反射檢查。另見 Sizer 的 slump 加載版本。",
+  "tags": ["神經動力學 neurodynamics", "硬膜 dura", "神經根症候群 radicular syndrome"]
+ },
+ {
+  "slug": "prone-knee-bending-test",
+  "title_zh": "俯臥屈膝測試（反向 Lasègue） Prone Knee Bending Test",
+  "purpose_zh": "拉緊股神經 (femoral nerve) 以偵測 L2–L4 的腰椎椎間盤突出合併神經根受壓。",
+  "structure_zh": "股神經與 L2–L4 神經根。90% 的神經根症候群在 L4–L5 或 L5–S1，約 5% 在 L3–L4，更高節段更少。",
+  "procedure_zh": "病人俯臥。小心地把患側膝屈曲到最大；若無法超過 90° 或想加強股神經牽張，可加被動髖伸直。部分作者建議維持 45–60 秒，但在活動性神經根受壓中可能過度誘發。",
+  "positive_zh": "膝最大屈曲（加或不加髖伸直；原頁文字寫成「hip flexion」）時出現往腿或大腿前側竄的疼痛。",
+  "notes_zh": "Suri 等人 (2011)：L2–L4 敏感度 50%、特異度 100%；單看 L3 敏感度 70%、特異度 88%，原頁給中等臨床價值、可提高診斷可能性。神經根症候群通常靠病史即可診斷。相關：SLR、交叉 SLR、弓弦、slump。",
+  "tags": ["股神經 femoral nerve", "L2–L4 神經根", "確認用 rule-in"]
+ },
+ {
+  "slug": "slr-sizer",
+  "title_zh": "Sizer 版直膝抬腿鑑別 SLR Sizer",
+  "purpose_zh": "用直膝抬腿的遠端起始與近端起始兩種加載順序（Sizer 等人 2002），區分原發性椎間盤疾患（突出、脫出、擠出直接壓迫神經根）與續發性椎間盤疾患（硬膜外沾黏、神經根壓迫症候群 NRCS、間歇性神經性跛行 INC）。",
+  "structure_zh": "硬膜、腰薦神經叢與坐骨神經；硬膜套 (dural sleeve) 相對其容器的滑動度。",
+  "procedure_zh": "遠端起始：仰臥；屈髖屈膝讓硬膜鬆弛；踝背屈（遠端預張）；維持背屈下伸膝並屈髖直到出現症狀；病人屈頸（最大張力）；最後放掉背屈。近端起始：仰臥；屈髖屈膝；病人屈頭頸（頭側預張）；檢查者踝背屈、伸膝、屈髖直到出現症狀；最後病人頭頸伸直（硬膜往遠端移動）。",
+  "positive_zh": "原發性椎間盤疾患：不論方向，在硬膜最大張力時誘發最強。續發性疾患：誘發有方向性，遠端起始時最強，加上屈頸後減輕，放掉背屈後消失；近端起始時只有在最後頭頸伸直、釋放近端預張時才痛。",
+  "notes_zh": "機轉例子：被退化性椎間盤膨出與肥厚黃韌帶 (ligamentum flavum) 夾住的發炎神經根，被往遠端拉過狹窄通道時更痛。相關：Sizer 版 slump、SLR、交叉 SLR、俯臥屈膝。原頁無診斷準確度數值。",
+  "tags": ["神經動力學 neurodynamics", "鑑別診斷 differential", "Sizer"]
+ },
+ {
+  "slug": "slump-test-sizer",
+  "title_zh": "Sizer 版 Slump 鑑別 Slump Test Sizer",
+  "purpose_zh": "用 slump 測試的遠端起始與近端起始兩種加載順序（Sizer 等人 2002），區分原發性椎間盤疾患、硬膜套沾黏，以及神經根受壓／間歇性神經性跛行。",
+  "structure_zh": "硬膜與腰薦神經根；椎間孔 (intervertebral foramen) 大小隨屈伸改變。",
+  "procedure_zh": "起始姿勢：脊椎直立、膝屈 90°、腿垂出床緣。遠端起始：先被動踝背屈（遠端預張），再被動伸膝並用檢查者的膝固定，接著病人收下巴、屈頸、軀幹駝背（最大張力），最後放掉背屈。近端起始：先完全屈頸並駝背（頭側預張），再踝背屈與伸膝，最後在維持駝背下讓頭頸伸直。",
+  "positive_zh": "原發性椎間盤疾患：張力愈大愈痛、與方向無關（遠端起始：背屈加伸膝中等痛、加收下巴屈頸最痛、頸伸直減輕；近端起始：屈曲時輕微痛、加背屈伸膝最痛、頸伸直減輕）。硬膜套沾黏：硬膜往遠端移動時痛（遠端起始中等痛、加屈頸減輕、放掉背屈不痛；近端起始全程不痛，直到頭頸伸直才痛）。神經根受壓／神經性跛行：slump 全程不痛，因為腰椎屈曲會擴大椎間孔。",
+  "notes_zh": "注意事項同 slump 測試：疑似嚴重脫出／擠出時避免。相關：slump、SLR、交叉 SLR、俯臥屈膝。原頁無診斷準確度數值。",
+  "tags": ["神經動力學 neurodynamics", "鑑別診斷 differential", "Sizer"]
+ }
+]
