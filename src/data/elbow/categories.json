@@ -1,0 +1,72 @@
+[
+ {
+  "id": "assess",
+  "zh": "整體評估與關節活動",
+  "en": "Elbow Assessment & Joint Play",
+  "slugs": [
+   "joint-play-elbow"
+  ]
+ },
+ {
+  "id": "lateral",
+  "zh": "外上髁疼痛（網球肘）與頑固型鑑別",
+  "en": "Lateral Epicondylalgia (Tennis Elbow)",
+  "slugs": [
+   "cozens-test",
+   "mills-test",
+   "maudsleys-test",
+   "polks-test",
+   "pepper-test",
+   "salt-test"
+  ]
+ },
+ {
+  "id": "medial",
+  "zh": "內上髁疼痛（高爾夫球肘）與內側副韌帶",
+  "en": "Medial Epicondylalgia & Medial Collateral Ligament",
+  "slugs": [
+   "medial-epicondylitis-test",
+   "elbow-valgus-instability-stress-test",
+   "moving-valgus-stress-test",
+   "modified-milking-test"
+  ]
+ },
+ {
+  "id": "plri",
+  "zh": "外側副韌帶與後外側旋轉不穩定 (PLRI)",
+  "en": "Lateral Collateral Ligament & Posterolateral Rotatory Instability",
+  "slugs": [
+   "varus-instability-test-elbow",
+   "posterolateral-rotatory-drawer-test",
+   "elbow-pivot-shift-test",
+   "tabletop-relocation-test",
+   "stand-up-test",
+   "prone-push-up-test"
+  ]
+ },
+ {
+  "id": "cubital",
+  "zh": "尺神經卡壓／肘隧道症候群",
+  "en": "Ulnar Nerve & Cubital Tunnel Syndrome",
+  "slugs": [
+   "tinel-sign-elbow",
+   "elbow-flexion-test",
+   "pressure-provocation-test",
+   "scratch-collapse-test",
+   "shoulder-internal-rotation-test"
+  ]
+ },
+ {
+  "id": "biceps",
+  "zh": "肱二頭肌肌腱斷裂（遠端為主）",
+  "en": "Biceps Tendon Rupture",
+  "slugs": [
+   "hook-test",
+   "biceps-squeeze-test",
+   "biceps-crease-interval",
+   "tilt-sign",
+   "supination-pronation-test",
+   "ludingtons-test"
+  ]
+ }
+]

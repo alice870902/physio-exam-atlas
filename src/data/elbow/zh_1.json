@@ -1,0 +1,394 @@
+[
+ {
+  "slug": "joint-play-elbow",
+  "title_zh": "肘關節關節鬆動度檢查 Joint Play Elbow",
+  "purpose_zh": "肘部三個關節的基本關節鬆動度 (joint play，附屬動作) 檢查，屬於基礎評估而非診斷性測試。",
+  "structure_zh": "肱尺關節 (humeroulnar joint)、肱橈關節 (humeroradial joint) 與近端橈尺關節 (proximal radioulnar joint)。",
+  "procedure_zh": "共五個手法：(1) 病人站姿，手肘伸直、前臂旋後 (supination)，固定肱骨，由前臂施加內翻 (varus／內收) 力；(2) 同姿勢改施加外翻 (valgus／外展) 力；(3) 病人仰臥，肱尺關節置於最大鬆弛位 (maximally loose-packed position, MLPP)，即屈曲 70°、旋後 10°，固定肱骨、以拇指觸摸外側關節線，另一手握住尺骨向背側與遠端牽拉（鷹嘴突 olecranon 分離）；(4) 肱橈關節置於其鬆弛位（完全伸直、旋後 5°），固定肱骨、以食指觸摸關節線，握住腕部近端的橈骨向遠端牽引；(5) 病人坐姿、手臂放在治療床上，固定肱骨，在前臂伸肌群下方找到橈骨頭 (radial head)，分別做後前向 (PA，往病人胸口方向) 與前後向 (AP，往遠端略偏尾側) 滑動。",
+  "positive_zh": "沒有陽性／陰性判準：與對側比較關節鬆動的量、品質與末端感 (end-feel)。",
+  "notes_zh": "基礎評估頁，不是診斷性測試，無準確度資料、頁面亦未列參考文獻。⚠ 來源頁前兩點的標題都寫成「橈側／尺側偏移」或「尺側偏移」，但內容分別描述施加內翻力與外翻力，標題疑為複製錯誤。頁面的 MLPP 指最大鬆弛位 (maximally loose-packed position)。",
+  "tags": [
+   "關節鬆動度 joint play",
+   "基礎評估 basic assessment",
+   "肱橈關節 humeroradial"
+  ]
+ },
+ {
+  "slug": "cozens-test",
+  "title_zh": "Cozen 測試 Cozen's Test",
+  "purpose_zh": "以阻力腕伸直誘發外上髁疼痛 (lateral epicondylalgia，網球肘 tennis elbow) 的激發測試。",
+  "structure_zh": "橈側伸腕短肌 (extensor carpi radialis brevis, ECRB) 於外上髁 (lateral epicondyle) 的起點；總伸肌腱 (common extensor tendon)。",
+  "procedure_zh": "病人坐姿，手肘伸直、前臂旋前 (pronation)、手腕略為橈側偏移。檢查者觸摸外上髁的 ECRB 附著處，請病人握拳並對抗檢查者的阻力做腕伸直。",
+  "positive_zh": "重現病人熟悉的外上髁突發疼痛。",
+  "notes_zh": "來源指出外上髁疼痛的診斷準確度研究至今仍缺乏，因此臨床價值評為存疑 (questionable)。臨床上常與 Mill 測試 (Mill's test)、Maudsley 測試 (Maudsley's test) 一起做。來源建議以「epicondylalgia（上髁疼痛）」取代「epicondylitis（上髁炎）」，因為發炎在肌腱疼痛中的角色仍有爭議。",
+  "tags": [
+   "網球肘 tennis elbow",
+   "外上髁疼痛 lateral epicondylalgia",
+   "ECRB"
+  ]
+ },
+ {
+  "slug": "mills-test",
+  "title_zh": "Mill 測試 Mill's Test",
+  "purpose_zh": "以被動牽張誘發外上髁疼痛 (lateral epicondylalgia，網球肘) 的激發測試。",
+  "structure_zh": "橈側伸腕短肌 (ECRB) 與總伸肌群於外上髁 (lateral epicondyle) 的起點。",
+  "procedure_zh": "病人站姿或坐姿，手肘屈曲。檢查者一手穩定前臂並以拇指觸摸外上髁，接著被動地將前臂旋前 (pronation)、手腕屈曲，再把手肘完全伸直，藉此拉緊 ECRB。",
+  "positive_zh": "重現病人熟悉的外上髁突發疼痛。",
+  "notes_zh": "來源指出外上髁疼痛的診斷準確度研究仍缺乏，臨床價值評為存疑。同一手法也用於治療（Mill 手法 Mill's manipulation）。外側肘痛的鑑別診斷包括橈神經卡壓 (radial nerve entrapment)。",
+  "tags": [
+   "網球肘 tennis elbow",
+   "外上髁疼痛 lateral epicondylalgia",
+   "牽張 stretch"
+  ]
+ },
+ {
+  "slug": "maudsleys-test",
+  "title_zh": "Maudsley 測試 Maudsley's Test",
+  "purpose_zh": "以阻力中指伸直誘發外上髁疼痛 (lateral epicondylalgia，網球肘) 的測試。",
+  "structure_zh": "同樣起自外上髁 (lateral epicondyle) 的伸指肌 (extensor digitorum)，以及 ECRB。",
+  "procedure_zh": "病人取舒適姿勢，前臂旋前 (pronation)。檢查者穩定肱骨並觸摸外上髁，然後在近端指間關節 (PIP joint) 遠端對抗病人第三指（中指）的伸直。",
+  "positive_zh": "外上髁突發疼痛。",
+  "notes_zh": "設計上是負荷伸指肌 (extensor digitorum) 而非 ECRB。來源頁未提供準確度資料。常與 Cozen 測試 (Cozen's test)、Mill 測試 (Mill's test) 搭配。",
+  "tags": [
+   "網球肘 tennis elbow",
+   "伸指肌 extensor digitorum",
+   "外上髁疼痛 lateral epicondylalgia"
+  ]
+ },
+ {
+  "slug": "polks-test",
+  "title_zh": "Polk 測試 Polk's Test",
+  "purpose_zh": "功能性提物測試，第一階段篩檢外上髁疼痛 (lateral epicondylalgia)，第二階段篩檢內上髁疼痛 (medial epicondylalgia，高爾夫球肘 golfer's elbow)。",
+  "structure_zh": "第一階段：起自外上髁的腕伸肌與旋後肌群（ECRB、橈側伸腕長肌 ECRL、肱橈肌 brachioradialis、旋後肌 supinator）。第二階段：起自內上髁 (medial epicondyle) 的腕屈肌與旋前肌群（橈側屈腕肌 FCR、尺側屈腕肌 FCU、屈指淺肌 FDS、掌長肌 palmaris longus、旋前圓肌 pronator teres、旋前方肌 pronator quadratus）。",
+  "procedure_zh": "病人坐姿。第一階段：手肘屈曲、前臂旋前（掌心向下），提起約 2.5 公斤的物品（原始描述是一本厚書）。第二階段：同樣提起該物品，但前臂改為旋後（掌心向上）。",
+  "positive_zh": "第一階段出現外上髁疼痛＝外上髁疼痛陽性；第二階段出現內上髁疼痛＝內上髁疼痛陽性。另一側病灶的病人在對應階段應能無痛提起。",
+  "notes_zh": "尚無研究評估此測試，來源評為臨床價值存疑。外上髁疼痛的發生率至少是內上髁的三倍。本站把它放在外上髁類，但第二階段涵蓋內側；機制是握物時腕屈肌與伸肌同時受張力，提起動作加重主要受累肌群在敏感化附著點的機械應力。",
+  "tags": [
+   "網球肘 tennis elbow",
+   "高爾夫球肘 golfer's elbow",
+   "功能性測試 functional test"
+  ]
+ },
+ {
+  "slug": "pepper-test",
+  "title_zh": "PEPPER 測試 PEPPER Test",
+  "purpose_zh": "針對頑固型外上髁疼痛 (recalcitrant lateral epicondylalgia) 的病人，篩檢肘關節鬆弛 (laxity) 與關節內病灶 (intra-articular findings)。",
+  "structure_zh": "肱橈關節 (radiocapitellar joint) 後側關節線；關節內病灶（如後外側皺襞 plica）與輕微韌帶鬆弛，被認為可能是外上髁疼痛的促成因素，黃金標準為肘關節鏡 (arthroscopy)。",
+  "procedure_zh": "檢查者托住病人手臂，手肘呈屈曲位，觸摸肱橈關節後側。維持關節線上的壓力，同時被動地把手肘伸直。",
+  "positive_zh": "伸直過程中出現疼痛。",
+  "notes_zh": "臨床效用未知（僅一篇初步研究）。來源頁只給陽性預測值 (PPV)：鬆弛 66.67%、關節內病灶 100%；陰性預測值 (NPV)：鬆弛 57.14%、關節內病灶 28.57%。這些數字來自高盛行率的骨科族群，在第一線門診會顯得較差。配套測試：SALT 測試 (SALT test)。⚠ 來源頁標題把 intra-articular 拼成 intra-articlar；頁面只報預測值，沒有敏感度／特異度。",
+  "tags": [
+   "頑固型網球肘 recalcitrant tennis elbow",
+   "關節鬆弛 laxity",
+   "關節內病灶 intra-articular"
+  ]
+ },
+ {
+  "slug": "salt-test",
+  "title_zh": "SALT 測試 SALT Test",
+  "purpose_zh": "針對頑固型外上髁疼痛 (recalcitrant lateral epicondylalgia) 的病人，篩檢肘關節鬆弛 (laxity) 與關節內病灶 (intra-articular findings)。",
+  "structure_zh": "橈骨頭 (radial head) 前外側／肱橈關節 (radiocapitellar joint)；關節內病灶與輕微韌帶鬆弛。",
+  "procedure_zh": "檢查者托住病人手臂，手肘呈屈曲位，觸摸橈骨頭前外側。拇指貼著橈骨頭滑過，同時被動地將前臂旋後 (supination)，過程中把肌肉推開、保持與橈骨頭的緊密接觸。",
+  "positive_zh": "手法過程中出現疼痛（來源頁文字未明確寫出判準，依 PEPPER 頁與影片推斷為疼痛誘發）。",
+  "notes_zh": "臨床效用未知（僅一篇初步研究）。來源頁只給陽性預測值 (PPV)：鬆弛 50%、關節內病灶 87.5%；陰性預測值 (NPV) 兩者皆 50%。數字來自高盛行率的骨科族群。配套測試：PEPPER 測試 (PEPPER test)。⚠ 來源頁完全沒有寫出 SALT 測試的陽性判準，此處是推斷；標題同樣拼錯 intra-articular。",
+  "tags": [
+   "頑固型網球肘 recalcitrant tennis elbow",
+   "關節鬆弛 laxity",
+   "關節內病灶 intra-articular"
+  ]
+ },
+ {
+  "slug": "medial-epicondylitis-test",
+  "title_zh": "內上髁炎測試 Medial Epicondylitis Test",
+  "purpose_zh": "以被動牽張誘發內上髁疼痛 (medial epicondylalgia，高爾夫球肘 golfer's elbow) 的激發測試。",
+  "structure_zh": "內上髁 (medial epicondyle) 的屈肌－旋前肌總起點 (common flexor-pronator origin)。",
+  "procedure_zh": "病人站姿。檢查者固定肱骨並同時觸摸內上髁，然後被動地將前臂旋後 (supination)、手腕伸直，再把手肘完全伸直。",
+  "positive_zh": "內上髁突發疼痛。",
+  "notes_zh": "是 Mill 測試 (Mill's test) 的內側對應版本。來源偏好用「epicondylalgia（上髁疼痛）」而非「epicondylitis（上髁炎）」，因為發炎的角色仍有爭議。無準確度資料，頁面未列參考文獻。",
+  "tags": [
+   "高爾夫球肘 golfer's elbow",
+   "內上髁疼痛 medial epicondylalgia",
+   "牽張 stretch"
+  ]
+ },
+ {
+  "slug": "elbow-valgus-instability-stress-test",
+  "title_zh": "肘外翻不穩定應力測試 Elbow Valgus Instability Stress Test",
+  "purpose_zh": "評估肘內側副韌帶 (medial collateral ligament, MCL；又稱尺側副韌帶 ulnar collateral ligament, UCL) 的完整性。",
+  "structure_zh": "肘內側（尺側）副韌帶。",
+  "procedure_zh": "病人站姿。檢查者將病人肩關節外轉，從外側固定上臂並觸摸內側副韌帶，另一手從內側握住手腕，手肘屈曲 20–30°，然後施加外展／外翻 (valgus) 力。",
+  "positive_zh": "與對側相比鬆弛度增加，及／或重現疼痛。",
+  "notes_zh": "以疼痛為判準時敏感度 65%、特異度 50%；以鬆弛為判準時敏感度 19%、特異度 100%（O'Driscoll 2005）。因此用來確認 MCL 損傷有中等價值，但不能用來排除。配套測試：移動外翻應力測試 (moving valgus stress test)、改良擠奶測試 (modified milking test)。",
+  "tags": [
+   "內側副韌帶 MCL/UCL",
+   "外翻 valgus",
+   "確認用 rule-in"
+  ]
+ },
+ {
+  "slug": "moving-valgus-stress-test",
+  "title_zh": "移動外翻應力測試 Moving Valgus Stress Test",
+  "purpose_zh": "動態測試，用於懷疑肘內側副韌帶 (MCL／UCL) 部分或完全撕裂，常見於過頭運動員 (overhead athletes)。",
+  "structure_zh": "肘內側（尺側）副韌帶。",
+  "procedure_zh": "病人站姿或端坐。肩外展 90°、手肘最大屈曲。檢查者對手肘施加外翻 (valgus) 扭力，並把肩關節帶到最大外轉；維持外翻扭力的同時，快速把手肘伸直到約 30°。",
+  "positive_zh": "兩項同時成立：(a) 重現病人已知的內側肘部突發疼痛；(b) 疼痛在屈曲 120° 到 70° 的弧度內最明顯（稱為剪力角 shear angle）。從伸直往屈曲反向做時，同一弧度也會出現較輕的症狀。",
+  "notes_zh": "O'Driscoll 等人 (2005) 以 21 位疑似 MCL 損傷病人對照關節鏡：敏感度 100%、特異度 75%。受傷時的「啪」聲 (pop) 與內側肘痛是 MCL 損傷的線索。配套測試：外翻應力測試 (valgus stress test)、改良擠奶測試 (modified milking test)。",
+  "tags": [
+   "內側副韌帶 MCL/UCL",
+   "過頭運動員 overhead athlete",
+   "動態測試 dynamic"
+  ]
+ },
+ {
+  "slug": "modified-milking-test",
+  "title_zh": "改良擠奶測試 Modified Milking Test",
+  "purpose_zh": "以外翻力誘發受傷的肘內側副韌帶 (MCL／UCL) 的激發測試，主要用於過頭運動員。",
+  "structure_zh": "肘內側（尺側）副韌帶。",
+  "procedure_zh": "病人坐姿，肩關節內收、最大外轉，手肘屈曲約 70°（屍體研究顯示為外翻鬆弛度最大的位置），以另一手支撐。檢查者以拇指觸摸內側關節線，將前臂完全旋後 (supination)，再拉病人的拇指對手肘施加外翻 (valgus) 力。",
+  "positive_zh": "出現恐懼感 (apprehension)、不穩定感，或內側關節線疼痛。",
+  "notes_zh": "來源頁無診斷準確度資料（引用 Hariri & Safran 2010 的敘述性回顧）。配套測試：移動外翻應力測試 (moving valgus stress test)、外翻應力測試 (valgus stress test)。",
+  "tags": [
+   "內側副韌帶 MCL/UCL",
+   "外翻 valgus",
+   "過頭運動員 overhead athlete"
+  ]
+ },
+ {
+  "slug": "varus-instability-test-elbow",
+  "title_zh": "肘內翻不穩定應力測試 Elbow Varus Instability Stress Test",
+  "purpose_zh": "評估肘外側副韌帶 (lateral collateral ligament, LCL；橈側副韌帶 radial collateral ligament) 的完整性。",
+  "structure_zh": "肘外側副韌帶複合體 (lateral collateral ligament complex)。",
+  "procedure_zh": "病人站姿。檢查者一手固定肱骨並將其置於外轉位，觸摸橈側副韌帶，手肘屈曲約 20–30°，然後施加內收／內翻 (varus) 力。",
+  "positive_zh": "正常應摸到緊繃的韌帶；若鬆弛度增加、活動度改變、疼痛或末端感 (end-feel) 變軟，表示韌帶損傷。",
+  "notes_zh": "來源指出沒有任何文獻提供此測試的信度與準確度。⚠ 來源頁唯一列出的參考文獻是 2017 年良性陣發性姿勢性眩暈 (BPPV) 的臨床指引 (Bhattacharyya 2017)，與肘部無關。⚠ 頁末說「評估內側副韌帶請看內翻不穩定應力測試」，內側應是外翻 (valgus) 應力測試。外側不穩定的其他測試見後外側旋轉不穩定 (PLRI) 各項。",
+  "tags": [
+   "外側副韌帶 LCL",
+   "內翻 varus",
+   "來源有誤 source issue"
+  ]
+ },
+ {
+  "slug": "posterolateral-rotatory-drawer-test",
+  "title_zh": "後外側旋轉抽屜測試 Posterolateral Rotatory Drawer Test",
+  "purpose_zh": "檢查肘關節後外側旋轉不穩定 (posterolateral rotatory instability, PLRI)。",
+  "structure_zh": "外側副韌帶複合體（外側尺側副韌帶 lateral ulnar collateral ligament）與後外側關節囊；橈骨頭 (radial head) 相對肱骨小頭 (capitellum) 的半脫位。",
+  "procedure_zh": "病人仰臥、手臂舉過頭，檢查者站在床頭。病人的手與腕夾在檢查者上臂與身體之間，前臂保持中立旋轉。以左肘為例：左手固定肱骨遠端、拇指放在三頭肌腱上；右手握住前臂，食指與中指沿橈骨近端前側、拇指放在尺骨皮下緣。病人必須放鬆（可先做幾個隨機、無痛的小幅動作幫助放鬆），然後以右手指尖對橈骨近端施加後外側旋轉力，另一手固定肱骨。半脫位通常在屈曲 20–40° 最明顯，但要從 0° 到 90° 各角度重複找出最不穩定的位置。若病人能充分放鬆，可加一點外翻力放大半脫位。",
+  "positive_zh": "肉眼可見橈骨頭向後半脫位，橈骨頭與肱骨小頭之間的皮膚出現凹陷 (dimpling)；復位時的「喀」聲 (clunk) 是確認性發現。在屈曲 80–90° 仍陽性，表示後外側關節囊明顯鬆弛，而不只是 LCL。",
+  "notes_zh": "Camp、Smith 與 O'Driscoll (2017) 將其描述為 PLRI 的主要檢查、最可靠且最敏感，但沒有任何信度或準確度研究，來源因此評為存疑。⚠ 本頁嵌入的影片 (uV--DOtjtb4) 與桌面復位測試 (tabletop relocation test) 頁是同一支。PLRI 機轉：跌倒時手撐地，產生軸向負荷、外翻與前臂外旋；第一期傷及 LCL，第二期前後關節囊，第三期 MCL 或屈肌－旋前肌起點。",
+  "tags": [
+   "後外側旋轉不穩定 PLRI",
+   "外側副韌帶 LCL",
+   "橈骨頭半脫位 radial head subluxation"
+  ]
+ },
+ {
+  "slug": "elbow-pivot-shift-test",
+  "title_zh": "肘關節軸移測試 Elbow Pivot Shift Test",
+  "purpose_zh": "用於後外側旋轉不穩定 (PLRI) 的外側軸移測試 (lateral pivot-shift test)；清醒病人做的版本稱為軸移恐懼測試 (lateral pivot-shift apprehension test)。",
+  "structure_zh": "外側副韌帶複合體；橈骨頭向後外側半脫位。",
+  "procedure_zh": "病人仰臥、手臂舉過頭，檢查者站在床頭。從手肘完全伸直開始，轉動病人手腕使前臂輕柔旋後 (supination)。慢慢屈曲手肘的同時逐步加大旋後扭力，並加上外翻扭力與沿前臂的軸向負荷。最大半脫位通常出現在屈曲約 40°，此時減少旋後、只維持外翻扭力；繼續屈曲，關節會復位。做法與膝關節的軸移測試類似。",
+  "positive_zh": "橈骨頭半脫位：肘後外側出現明顯隆起，橈骨頭後方皮膚凹陷（後外側關節囊被拉進關節）；繼續屈曲時出現可見、可觸的復位「喀」聲。復位前務必放鬆旋後扭力以免傷到肘關節。清醒病人通常做不出半脫位，只要出現恐懼感（覺得關節快脫臼）即判陽性。",
+  "notes_zh": "Regan 與 Lapner (2006)：麻醉下的外側軸移測試敏感度 100%，清醒病人的恐懼測試敏感度 37.5%，特異度皆未知，因此臨床價值評為存疑。⚠ 來源頁把清醒版敏感度寫成「37,5%」（逗號小數）。",
+  "tags": [
+   "後外側旋轉不穩定 PLRI",
+   "軸移 pivot shift",
+   "恐懼測試 apprehension"
+  ]
+ },
+ {
+  "slug": "tabletop-relocation-test",
+  "title_zh": "桌面復位測試 Tabletop Relocation Test",
+  "purpose_zh": "病人自行負荷的後外側旋轉不穩定 (PLRI) 測試，加上復位步驟做確認。",
+  "structure_zh": "外側副韌帶複合體；軸向負荷與外翻下的橈骨頭半脫位。",
+  "procedure_zh": "病人站在桌前，雙手放在桌子外側緣，手肘朝外、前臂旋後 (supination)，用患側手臂撐起身體。第二步：檢查者拇指壓住橈骨頭後重複，症狀應緩解。第三步：病人在拇指壓住橈骨頭的情況下屈曲到約 40°（或第一步最有症狀的位置），檢查者再把拇指移開。",
+  "positive_zh": "第一步在手肘屈曲約 40° 時重現症狀或出現恐懼感；拇指壓住橈骨頭時症狀緩解；移開拇指後疼痛或恐懼感再度出現，即確認。",
+  "notes_zh": "Arvind 與 Hargreaves (2006)：敏感度 100%，特異度未知，臨床價值評為存疑。⚠ 本頁嵌入的影片 (uV--DOtjtb4) 與後外側旋轉抽屜測試 (posterolateral rotatory drawer test) 頁是同一支。",
+  "tags": [
+   "後外側旋轉不穩定 PLRI",
+   "復位 relocation",
+   "橈骨頭 radial head"
+  ]
+ },
+ {
+  "slug": "stand-up-test",
+  "title_zh": "站起測試 Stand-Up Test",
+  "purpose_zh": "利用體重做軸向負荷與外翻扭力的後外側旋轉不穩定 (PLRI) 恐懼測試，又稱椅子撐起測試 (chair push-up test)。",
+  "structure_zh": "外側副韌帶複合體；軸向負荷與外翻下的橈骨頭半脫位。",
+  "procedure_zh": "病人坐在有扶手的椅子上，肩外展、雙肘屈曲 90°、前臂旋後 (supination)，然後用手臂把自己從椅子撐起來。",
+  "positive_zh": "出現恐懼感 (apprehension)、不穩定感、外側肘痛，或橈骨頭真的脫位。",
+  "notes_zh": "Regan 與 Lapner (2006)：敏感度 88%，特異度未知，臨床價值評為存疑。PLRI 是最常見的肘不穩定型態。配套測試：軸移測試、後外側旋轉抽屜測試、桌面復位測試、俯臥伏地挺身測試。",
+  "tags": [
+   "後外側旋轉不穩定 PLRI",
+   "恐懼測試 apprehension",
+   "功能性負荷 functional load"
+  ]
+ },
+ {
+  "slug": "prone-push-up-test",
+  "title_zh": "俯臥伏地挺身測試 Prone Push-Up Test",
+  "purpose_zh": "以俯臥伏地挺身做軸向負荷與外翻扭力的後外側旋轉不穩定 (PLRI) 恐懼測試。",
+  "structure_zh": "外側副韌帶複合體；軸向負荷與外翻下的橈骨頭半脫位。",
+  "procedure_zh": "病人俯臥、胸部貼地或治療床，肩外展、雙肘屈曲 90°，受測側前臂旋後 (supination)，然後做一下伏地挺身。",
+  "positive_zh": "出現恐懼感 (apprehension)、不穩定感、外側肘痛，或橈骨頭真的脫位。",
+  "notes_zh": "Regan 與 Lapner (2006)：敏感度 87.5%，特異度未知，臨床價值評為存疑。⚠ 來源頁把敏感度寫成「87,5%」（逗號小數）。",
+  "tags": [
+   "後外側旋轉不穩定 PLRI",
+   "恐懼測試 apprehension",
+   "功能性負荷 functional load"
+  ]
+ },
+ {
+  "slug": "tinel-sign-elbow",
+  "title_zh": "肘部 Tinel 徵象 Tinel Sign Elbow",
+  "purpose_zh": "敲擊誘發尺神經病變 (ulnar neuropathy) ／肘隧道症候群 (cubital tunnel syndrome) 的測試。",
+  "structure_zh": "肘隧道 (cubital tunnel) 近端的尺神經 (ulnar nerve)。",
+  "procedure_zh": "病人坐姿。檢查者托住受測手臂，用反射槌在肘隧道近端的尺神經上輕敲四到六次。",
+  "positive_zh": "沿尺神經分布出現熟悉的症狀（疼痛、麻刺、麻木）。",
+  "notes_zh": "Beekman 等人 (2009) 設計良好的研究：敏感度 62%、特異度 53%；即使與其他激發測試合併也達不到可接受的診斷能力，臨床價值弱。肘隧道症候群是上肢第二常見的卡壓性神經病變，常見於肘部骨折或脫位後、關節炎或重複性勞損。",
+  "tags": [
+   "肘隧道症候群 cubital tunnel syndrome",
+   "尺神經 ulnar nerve",
+   "價值弱 weak"
+  ]
+ },
+ {
+  "slug": "elbow-flexion-test",
+  "title_zh": "肘屈曲測試 Elbow Flexion Test",
+  "purpose_zh": "肘隧道症候群（尺神經在肘部的卡壓）的激發測試。",
+  "structure_zh": "尺神經在尺側屈腕肌 (flexor carpi ulnaris) 兩頭之間的腱膜（構成肘隧道）下方；手肘屈曲時腱膜被拉緊而壓迫神經。",
+  "procedure_zh": "病人站姿或坐姿，雙臂置於解剖位。雙肘最大屈曲、前臂最大旋後 (supination)、手腕伸直，維持此姿勢最長 3 分鐘。",
+  "positive_zh": "3 分鐘內沿尺神經分布重現疼痛、麻刺或麻木。",
+  "notes_zh": "各研究敏感度 36–93%、特異度 40–99%，因為執行方式、維持時間與陽性判準不同而無法合併，且研究品質參差，來源評為至多中等價值。變化型會加上壓迫（屈曲－壓迫測試 flexion-compression test）。其他肘隧道測試：壓迫激發測試 (pressure provocation test)、搔抓塌陷測試 (scratch collapse test)、肩內轉測試 (shoulder internal rotation test)、Tinel 徵象。",
+  "tags": [
+   "肘隧道症候群 cubital tunnel syndrome",
+   "尺神經 ulnar nerve",
+   "維持姿勢 sustained"
+  ]
+ },
+ {
+  "slug": "pressure-provocation-test",
+  "title_zh": "壓迫激發測試 Pressure Provocation Test",
+  "purpose_zh": "以持續壓迫尺神經誘發肘隧道症候群症狀的測試。",
+  "structure_zh": "肘隧道 (cubital tunnel) 近端的尺神經。",
+  "procedure_zh": "病人坐姿，手肘屈曲 20°、前臂旋後 (supination)。檢查者將食指與中指放在肘隧道近端的尺神經上，持續施壓 60 秒。對側重複。",
+  "positive_zh": "重現症狀，通常是尺神經分布的麻木或感覺異常 (paresthesia)。",
+  "notes_zh": "Novak 等人 (1994)：維持 30 秒時敏感度 55%、特異度 98%，維持 60 秒時敏感度升至 89%。數字看來有助於納入與排除，但 Novak 是唯一的準確度研究，來源評為中等價值。典型症狀：小指與無名指尺側麻木，夜間與手肘屈曲時加重。",
+  "tags": [
+   "肘隧道症候群 cubital tunnel syndrome",
+   "尺神經 ulnar nerve",
+   "壓迫 compression"
+  ]
+ },
+ {
+  "slug": "scratch-collapse-test",
+  "title_zh": "搔抓塌陷測試 Scratch Collapse Test",
+  "purpose_zh": "藉由搔抓神經上方皮膚後肩外轉力量短暫消失，來評估尺神經在肘部的卡壓。",
+  "structure_zh": "肘部的尺神經；作者推測機制是皮膚靜止期 (cutaneous silent period)：慢性受壓神經上方皮膚受到有害刺激時，會短暫抑制肩關節的持續外轉。",
+  "procedure_zh": "病人站姿或坐姿，雙臂在身側、雙肘屈曲 90°、雙手向前伸。檢查者在前臂遠端施加內轉力，病人雙側對抗（只需抵消檢查者的力，不要用盡全力）。接著檢查者用指尖在肘部尺神經上搔抓或輕刷，立刻重複第一步的雙側阻力外轉。",
+  "positive_zh": "患側的外轉力量短暫消失（塌陷）。",
+  "notes_zh": "Cheng 等人 (2008)：敏感度 69%、特異度 99%，但該研究偏差風險高且未經其他研究驗證，來源評為至多中等價值。同一測試也用於腕隧道症候群 (carpal tunnel syndrome)。",
+  "tags": [
+   "肘隧道症候群 cubital tunnel syndrome",
+   "尺神經 ulnar nerve",
+   "皮膚靜止期 cutaneous silent period"
+  ]
+ },
+ {
+  "slug": "shoulder-internal-rotation-test",
+  "title_zh": "肩內轉測試 Shoulder Internal Rotation Test",
+  "purpose_zh": "肘隧道症候群 (cubital tunnel syndrome) 的替代測試，取代肘屈曲測試 (elbow flexion test)。",
+  "structure_zh": "肘隧道 (cubital tunnel) 處的尺神經 (ulnar nerve)，卡壓性神經病變。",
+  "procedure_zh": "病人坐姿或站姿。肩外展 90°、完全內轉並屈曲約 10°，手肘屈曲 90°，手腕中立、手指伸直，維持 10 秒。",
+  "positive_zh": "10 秒內重現或加重病人的症狀，或尺神經分布出現不適。",
+  "notes_zh": "Ochi 等人 (2011) 以 25 個病例得到敏感度 80%、特異度 100%，但研究也納入無症狀者，且尚未被其他研究驗證，來源評為中等價值。名稱雖是「肩」，站方把這頁歸在肘部評估（肘隧道症候群）。其他肘隧道測試：Tinel 徵象、搔抓塌陷測試、肘屈曲測試、壓迫激發測試。",
+  "tags": [
+   "肘隧道症候群 cubital tunnel syndrome",
+   "尺神經 ulnar nerve",
+   "替代測試 alternative"
+  ]
+ },
+ {
+  "slug": "hook-test",
+  "title_zh": "勾指測試 Hook Test",
+  "purpose_zh": "以手指勾住肌腱來偵測遠端肱二頭肌肌腱 (distal biceps tendon) 完全撕脫。",
+  "structure_zh": "肘前窩 (antecubital fossa) 的遠端肱二頭肌肌腱（止於橈骨粗隆 radial tuberosity）。",
+  "procedure_zh": "病人站姿或坐姿，主動屈肘 90° 並把前臂完全旋後 (supination)。以左肘為例，檢查者用右手食指從肘前窩外側伸入，試著勾在肱二頭肌肌腱下方。正常肌腱可讓手指伸入約 1 公分（甚至到遠端指間關節），並能用力把肌腱往前拉。",
+  "positive_zh": "食指無法勾到肌腱下方＝撕脫。若肌腱完整但往前拉時疼痛，可能是部分撕裂或腱鞘損傷。",
+  "notes_zh": "O'Driscoll 等人 (2007) 敏感度與特異度皆 100%；Devereaux 等人 (2013) 特異度同樣 100%、敏感度 81%。兩項研究各 45 人、樣本小，但參考標準與設計健全，來源評為高臨床價值。配套測試：肱二頭肌擠壓測試、肱二頭肌皺褶間距、傾斜徵象、旋後旋前測試、Ludington 測試。",
+  "tags": [
+   "遠端肱二頭肌 distal biceps",
+   "肌腱斷裂 rupture",
+   "價值高 high value"
+  ]
+ },
+ {
+  "slug": "biceps-squeeze-test",
+  "title_zh": "肱二頭肌擠壓測試 Biceps Squeeze Test",
+  "purpose_zh": "藉由觀察擠壓肌腹是否仍能引發前臂旋後 (supination)，檢查遠端肱二頭肌肌腱斷裂 (distal biceps tendon rupture)。",
+  "structure_zh": "遠端肱二頭肌肌腱 (distal biceps tendon)，斷裂 (rupture)",
+  "procedure_zh": "病人坐姿，前臂置於大腿上，手肘屈曲約 60-80 度，前臂略為旋前 (pronation) 以拉緊肌腱。檢查者握住肱二頭肌 (biceps) 的肌腹與遠端肌腱交界處 (myotendinous junction)，用力擠壓。",
+  "positive_zh": "擠壓時觀察不到前臂旋後 (supination)。",
+  "notes_zh": "相當於阿基里斯腱 (Achilles tendon) 的 Thompson 測試 (Thompson test)；原始研究方法學有限制（特異度無法計算），故臨床價值評為弱。本頁同時收錄於肩部「肱二頭肌長頭肌腱」類；站方把它歸在肘部評估。",
+  "tags": [
+   "遠端肱二頭肌 distal biceps",
+   "肌腱斷裂 rupture",
+   "價值弱 weak"
+  ]
+ },
+ {
+  "slug": "biceps-crease-interval",
+  "title_zh": "肱二頭肌皺褶間距 Biceps Crease Interval",
+  "purpose_zh": "測量遠端肱二頭肌 (distal biceps) 的回縮程度，以辨識需要及早轉介手術的完全斷裂 (complete rupture)。",
+  "structure_zh": "遠端肱二頭肌肌腱 (distal biceps tendon)，完全斷裂合併肌肉回縮 (complete rupture with muscle retraction)",
+  "procedure_zh": "先標記肘前窩屈曲皺褶 (antecubital flexion crease)；接著在手肘伸直、前臂旋後 (supination) 下，沿長軸撫觸遠端肱二頭肌，找出肌肉急轉向肘窩的「肱二頭肌尖 (biceps cusp)」並標記。測量兩個標記間的距離（精確至 0.1 公分），並於對側手臂重複。",
+  "positive_zh": "間距大於 6 公分，或患側／健側比值大於 1.2。",
+  "notes_zh": "單獨使用價值弱 (敏感度 88%、特異度 50%，ICC 0.79)；應搭配 Hook 測試 (Hook test) 或 Ludington 測試 (Ludington's test)。本頁同時收錄於肩部「肱二頭肌長頭肌腱」類；站方把它歸在肘部評估。",
+  "tags": [
+   "遠端肱二頭肌 distal biceps",
+   "肌腱斷裂 rupture",
+   "測量 measurement"
+  ]
+ },
+ {
+  "slug": "tilt-sign",
+  "title_zh": "傾斜徵象 Tilt Sign",
+  "purpose_zh": "以觸診偵測遠端肱二頭肌肌腱部分撕裂 (partial tear) 的徵象。",
+  "structure_zh": "遠端肱二頭肌肌腱在橈骨粗隆 (radial tuberosity) 的止點。",
+  "procedure_zh": "病人站姿或坐姿，手肘屈曲 90°。交替旋後與旋前找到橈骨頭 (radial head)，然後把前臂完全旋前 (pronation)——這會讓橈骨轉動、使橈骨粗隆正好落在觸診手指下方——再往遠端移約 2.5 公分（1 吋）到橈骨粗隆處觸診。",
+  "positive_zh": "橈骨粗隆觸壓疼痛（部分撕裂通常伴隨發炎而誘發疼痛）。",
+  "notes_zh": "Shim 與 Strauch 以病例報告對照 MRI，特異度 100%，但屬新測試、未做診斷準確度研究，臨床價值仍存疑。⚠ 來源頁內文寫 Shim et al. (2017)，參考文獻列的是 2018 年。",
+  "tags": [
+   "遠端肱二頭肌 distal biceps",
+   "部分撕裂 partial tear",
+   "觸診 palpation"
+  ]
+ },
+ {
+  "slug": "supination-pronation-test",
+  "title_zh": "旋後旋前測試 Supination Pronation Test",
+  "purpose_zh": "以觀察肌腹移動來判斷遠端肱二頭肌肌腱完全斷裂的測試，避免在急性期使用激發性手法。",
+  "structure_zh": "遠端肱二頭肌肌腱；前臂旋轉時肱二頭肌肌腹的位移。",
+  "procedure_zh": "病人雙臂外展 90°（做不到可放在治療床上），手肘屈曲約 70°，交替做前臂旋前與旋後。檢查者觀察肱二頭肌輪廓：正常在旋後時往近端移、旋前時往遠端移；與對側比較，輪廓不清時可觸摸肌腹感受移動。",
+  "positive_zh": "旋前－旋後時肱二頭肌沒有位移。",
+  "notes_zh": "Metzman 與 Tivener (2015) 以 5 位經 MRI 與手術確認的病人提出，但未做診斷準確度研究，臨床價值存疑。提出的理由是勾指測試與擠壓測試具激發性，急性期可能不適合。",
+  "tags": [
+   "遠端肱二頭肌 distal biceps",
+   "肌腱斷裂 rupture",
+   "非激發性 non-provocative"
+  ]
+ },
+ {
+  "slug": "ludingtons-test",
+  "title_zh": "Ludington 測試 Ludington's Test",
+  "purpose_zh": "評估近端肱二頭肌長頭肌腱 (proximal long head of biceps tendon) 斷裂。",
+  "structure_zh": "肱二頭肌長頭近端肌腱（肩部）；典型變形為大力水手徵象 (Popeye sign)。",
+  "procedure_zh": "病人坐姿或站姿，雙手放在頭上、手指交扣以支撐手臂重量，讓肱二頭肌盡量放鬆。檢查者將兩指放在雙側長頭肌腱上，請病人同時收縮與放鬆雙側肱二頭肌。",
+  "positive_zh": "患側摸不到收縮（與健側相比）。",
+  "notes_zh": "Ludington (1923) 以單一病例提出，從未做過診斷準確度評估，臨床價值存疑。⚠ 這是近端（肩部）的測試，但站方把這頁歸在肘部評估，並與遠端肱二頭肌測試並列。近端長頭斷裂比遠端斷裂更常見。",
+  "tags": [
+   "近端肱二頭肌長頭 proximal LHB",
+   "肌腱斷裂 rupture",
+   "大力水手徵象 Popeye sign"
+  ]
+ }
+]

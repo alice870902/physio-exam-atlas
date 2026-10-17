@@ -1,0 +1,618 @@
+[
+ {
+  "slug": "joint-play-elbow",
+  "id": 9592,
+  "title": "Joint Play Elbow",
+  "link": "https://www.physiotutors.com/wiki/joint-play-elbow/",
+  "youtube_ids": [
+   "GxyxvcIEE-E"
+  ],
+  "purpose": "Basic joint-play (accessory movement) examination of the three elbow joints.",
+  "structure": "Humeroulnar, humeroradial and proximal radioulnar joints.",
+  "procedure": "Five manoeuvres: (1) with the patient standing, elbow extended and supinated, fixate the humerus and apply a varus (adduction) force through the forearm; (2) same position, apply a valgus (abduction) force; (3) patient supine, humeroulnar joint in its maximally loose-packed position (70 degrees flexion, 10 degrees supination), fixate the humerus, palpate the lateral joint line and pull the ulna dorsally and distally (olecranon distraction); (4) humeroradial joint in its loose-packed position (full extension, 5 degrees supination), fixate the humerus, grasp the radius proximal to the wrist and apply distal traction; (5) patient sitting with the arm on the table, fixate the humerus, find the radial head under the forearm extensors and glide it posterior-anterior (toward the patient's chest) and anterior-posterior (distal and slightly caudal).",
+  "positive": "Not a pass/fail test: compare quantity, quality and end-feel of joint play with the other side.",
+  "accuracy": {
+   "sensitivity": "n/a",
+   "specificity": "n/a",
+   "lr_plus": "n/a",
+   "lr_minus": "n/a",
+   "source": "n/a (no accuracy data; page lists no references)"
+  },
+  "notes": "Basic assessment page, not a diagnostic test. ⚠ The page's first two bullet points are both headed 'radial and ulnar deviation' / 'ulnar deviation' while describing a varus and then a valgus force; the headings appear to be a copy error. 'MLPP' on the page = maximally loose-packed position.",
+  "status": "ok"
+ },
+ {
+  "slug": "cozens-test",
+  "id": 8614,
+  "title": "Cozen’s Test",
+  "link": "https://www.physiotutors.com/wiki/cozens-test/",
+  "youtube_ids": [
+   "vPCkCcvD7P8"
+  ],
+  "purpose": "Provocation test for lateral epicondylalgia (tennis elbow) by resisted wrist extension.",
+  "structure": "Extensor carpi radialis brevis (ECRB) origin at the lateral epicondyle; common extensor tendon.",
+  "procedure": "Patient sits with the elbow extended, forearm pronated and wrist in slight radial deviation. The examiner palpates the ECRB insertion at the lateral epicondyle. The patient makes a fist and extends the wrist against the examiner's resistance.",
+  "positive": "Reproduction of the patient's familiar sudden lateral elbow pain.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "none cited (page states accuracy studies are lacking)"
+  },
+  "notes": "Clinical value rated questionable by the source because no diagnostic accuracy studies exist. Often combined with Mill's and Maudsley's tests.",
+  "status": "ok"
+ },
+ {
+  "slug": "mills-test",
+  "id": 8592,
+  "title": "Mill’s Test",
+  "link": "https://www.physiotutors.com/wiki/mills-test/",
+  "youtube_ids": [
+   "r_HB-wUXcAQ"
+  ],
+  "purpose": "Passive stretch provocation test for lateral epicondylalgia (tennis elbow).",
+  "structure": "Extensor carpi radialis brevis (ECRB) and common extensor origin at the lateral epicondyle.",
+  "procedure": "Patient stands or sits with the elbow flexed. The examiner stabilises the forearm with one hand and palpates the lateral epicondyle with the thumb, then passively pronates the forearm, flexes the wrist and extends the elbow maximally.",
+  "positive": "Reproduction of the patient's familiar sudden lateral elbow pain.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "none cited (page states accuracy studies are lacking)"
+  },
+  "notes": "Clinical value rated questionable by the source. The same manoeuvre is also used as a treatment (Mill's manipulation). Differential diagnosis of lateral elbow pain includes radial nerve entrapment.",
+  "status": "ok"
+ },
+ {
+  "slug": "maudsleys-test",
+  "id": 9443,
+  "title": "Maudsley’s Test",
+  "link": "https://www.physiotutors.com/wiki/maudsleys-test/",
+  "youtube_ids": [
+   "BaxgmHT_2eQ"
+  ],
+  "purpose": "Resisted middle-finger extension test for lateral epicondylalgia (tennis elbow).",
+  "structure": "Extensor digitorum (and ECRB) originating at the lateral epicondyle.",
+  "procedure": "Patient in a comfortable position with the forearm pronated. The examiner stabilises the humerus and palpates the lateral epicondyle, then resists extension of the third finger distal to the proximal interphalangeal joint.",
+  "positive": "Sudden pain at the lateral epicondyle.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "none cited"
+  },
+  "notes": "Designed to load extensor digitorum rather than ECRB. No accuracy data on the page.",
+  "status": "ok"
+ },
+ {
+  "slug": "polks-test",
+  "id": 12590,
+  "title": "Polks Test",
+  "link": "https://www.physiotutors.com/wiki/polks-test/",
+  "youtube_ids": [
+   "NhfeOJfVvyc"
+  ],
+  "purpose": "Functional lifting test that screens for lateral (phase I) and medial (phase II) epicondylalgia.",
+  "structure": "Phase I: wrist extensors/supinators (ECRB, ECRL, brachioradialis, supinator) at the lateral epicondyle. Phase II: wrist flexors/pronators (FCR, FCU, FDS, palmaris longus, pronator teres/quadratus) at the medial epicondyle.",
+  "procedure": "Patient sits. Phase I: lift an object of about 2.5 kg (originally a heavy book) with the elbow flexed and the forearm pronated (palm down). Phase II: lift the same object with the elbow flexed and the forearm supinated (palm up).",
+  "positive": "Phase I: pain at the lateral epicondyle indicates lateral epicondylalgia. Phase II: pain at the medial epicondyle indicates medial epicondylalgia. Each group is expected to lift without pain in the other phase.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Polkinghorn 2002 (description only; no accuracy study)"
+  },
+  "notes": "Clinical value rated questionable (never evaluated). Lateral epicondylalgia is at least three times more common than medial. Listed here under lateral epicondylalgia; phase II covers the medial side.",
+  "status": "ok"
+ },
+ {
+  "slug": "pepper-test",
+  "id": 13327,
+  "title": "PEPPER Test",
+  "link": "https://www.physiotutors.com/wiki/pepper-test/",
+  "youtube_ids": [
+   "mRFMd7_ZrdY"
+  ],
+  "purpose": "Screens for elbow laxity and intra-articular findings in patients with recalcitrant lateral epicondylalgia.",
+  "structure": "Posterior radiocapitellar joint line (posterolateral plica / intra-articular pathology; minor ligamentous laxity).",
+  "procedure": "The examiner supports the patient's arm with the elbow flexed and palpates the posterior aspect of the radiocapitellar joint. While keeping pressure on the joint line, the examiner passively extends the elbow.",
+  "positive": "Pain during elbow extension.",
+  "accuracy": {
+   "sensitivity": "not reported (page gives PPV 66.67% for laxity, 100% for intra-articular findings)",
+   "specificity": "not reported (page gives NPV 57.14% for laxity, 28.57% for intra-articular findings)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Arrigoni et al. 2017 (Musculoskelet Surg), orthopaedic setting, reference standard arthroscopy"
+  },
+  "notes": "Clinical utility unknown (single preliminary study). Values come from a high-prevalence surgical population and will look worse in first-line care. Companion test: SALT. ⚠ Page heading misspells 'intra-articular' as 'intra-articlar'; the page reports predictive values only, not Sn/Sp.",
+  "status": "ok"
+ },
+ {
+  "slug": "salt-test",
+  "id": 13294,
+  "title": "SALT Test",
+  "link": "https://www.physiotutors.com/wiki/salt-test/",
+  "youtube_ids": [
+   "dmo0BEIaP0w"
+  ],
+  "purpose": "Screens for elbow laxity and intra-articular findings in patients with recalcitrant lateral epicondylalgia.",
+  "structure": "Anterolateral radial head / radiocapitellar joint (intra-articular pathology; minor ligamentous laxity).",
+  "procedure": "The examiner supports the patient's arm with the elbow flexed and palpates the anterolateral aspect of the radial head. The thumb is slid over the radial head while the forearm is passively supinated, pushing the muscles away while keeping close contact with the radial head.",
+  "positive": "Pain during the manoeuvre (page does not state the criterion explicitly; the video shows pain provocation).",
+  "accuracy": {
+   "sensitivity": "not reported (page gives PPV 50% for laxity, 87.5% for intra-articular findings)",
+   "specificity": "not reported (page gives NPV 50% for both)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Arrigoni et al. 2017 (Musculoskelet Surg), orthopaedic setting, reference standard arthroscopy"
+  },
+  "notes": "Clinical utility unknown (single preliminary study). Companion test: PEPPER. ⚠ The page text never states what counts as a positive SALT test; the positive criterion here is inferred from the PEPPER page and the video. Heading misspells 'intra-articular'.",
+  "status": "ok"
+ },
+ {
+  "slug": "medial-epicondylitis-test",
+  "id": 8715,
+  "title": "Medial Epicondylitis Test",
+  "link": "https://www.physiotutors.com/wiki/medial-epicondylitis-test/",
+  "youtube_ids": [
+   "u5H9iG8QhYA"
+  ],
+  "purpose": "Passive stretch provocation test for medial epicondylalgia (golfer's elbow).",
+  "structure": "Common flexor-pronator origin at the medial epicondyle.",
+  "procedure": "Patient stands. The examiner fixates the humerus while palpating the medial epicondyle, then passively supinates the forearm, extends the wrist and fully extends the elbow.",
+  "positive": "Sudden pain at the medial epicondyle.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "none cited (page lists no references)"
+  },
+  "notes": "Medial counterpart of Mill's test. The source prefers the term 'epicondylalgia' over 'epicondylitis' because the role of inflammation is debated. No accuracy data.",
+  "status": "ok"
+ },
+ {
+  "slug": "elbow-valgus-instability-stress-test",
+  "id": 8909,
+  "title": "Elbow Valgus Instability Stress Test",
+  "link": "https://www.physiotutors.com/wiki/elbow-valgus-instability-stress-test/",
+  "youtube_ids": [
+   "3xF9_5fbJ8A"
+  ],
+  "purpose": "Assesses the integrity of the medial (ulnar) collateral ligament of the elbow.",
+  "structure": "Medial collateral ligament (MCL / UCL) of the elbow.",
+  "procedure": "Patient stands. The examiner externally rotates the shoulder and fixates the upper arm from the outside while palpating the medial collateral ligament, grasps the wrist from the inside, flexes the elbow to 20-30 degrees and applies an abduction (valgus) force.",
+  "positive": "Increased laxity compared with the other side and/or reproduction of pain.",
+  "accuracy": {
+   "sensitivity": "65% (pain as criterion); 19% (laxity as criterion)",
+   "specificity": "50% (pain as criterion); 100% (laxity as criterion)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "O'Driscoll et al. 2005 (Am J Sports Med)"
+  },
+  "notes": "Moderately useful to confirm but not to exclude MCL injury. Companion tests: moving valgus stress test, modified milking test.",
+  "status": "ok"
+ },
+ {
+  "slug": "moving-valgus-stress-test",
+  "id": 11742,
+  "title": "Moving Valgus Stress Test",
+  "link": "https://www.physiotutors.com/wiki/moving-valgus-stress-test/",
+  "youtube_ids": [
+   "JIU_kv5VoQk"
+  ],
+  "purpose": "Dynamic test for partial or complete tears of the medial collateral ligament of the elbow, typically in overhead athletes.",
+  "structure": "Medial collateral ligament (MCL / UCL) of the elbow.",
+  "procedure": "Patient stands or sits upright. The shoulder is abducted to 90 degrees and the elbow maximally flexed. The examiner applies a valgus torque to the elbow while bringing the shoulder into maximal external rotation, then, keeping the valgus torque, quickly extends the elbow to about 30 degrees.",
+  "positive": "Both criteria: (a) the patient's known sudden medial elbow pain is reproduced and (b) the pain is maximal in the arc between 120 and 70 degrees of flexion (the 'shear angle'). The same arc is felt to a lesser extent when moving from extension to flexion.",
+  "accuracy": {
+   "sensitivity": "100%",
+   "specificity": "75%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "O'Driscoll et al. 2005 (Am J Sports Med), 21 patients, reference standard arthroscopy"
+  },
+  "notes": "Indicators of MCL injury: a 'pop' at injury and medial elbow pain. Companion tests: valgus stress test, modified milking test.",
+  "status": "ok"
+ },
+ {
+  "slug": "modified-milking-test",
+  "id": 11739,
+  "title": "Modified Milking Test",
+  "link": "https://www.physiotutors.com/wiki/modified-milking-test/",
+  "youtube_ids": [
+   "SwigwaZxBXE"
+  ],
+  "purpose": "Valgus provocation test for medial (ulnar) collateral ligament sprain, mainly in overhead athletes.",
+  "structure": "Medial collateral ligament (MCL / UCL) of the elbow.",
+  "procedure": "Patient sits with the shoulder in adduction and maximal external rotation and the elbow flexed about 70 degrees (the position of greatest valgus laxity in a cadaver study), supporting the arm with the other hand. The examiner palpates the medial joint line with the thumb, fully supinates the forearm and pulls on the patient's thumb to exert a valgus force.",
+  "positive": "Apprehension, a sense of instability or medial joint-line pain.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Hariri & Safran 2010 (Clin Sports Med) narrative review; no accuracy data"
+  },
+  "notes": "No diagnostic accuracy data on the page. Companion tests: moving valgus stress test, valgus stress test.",
+  "status": "ok"
+ },
+ {
+  "slug": "varus-instability-test-elbow",
+  "id": 9305,
+  "title": "Varus Instability Test Elbow",
+  "link": "https://www.physiotutors.com/wiki/varus-instability-test-elbow/",
+  "youtube_ids": [
+   "5zl8GsG3hR4"
+  ],
+  "purpose": "Assesses the integrity of the lateral (radial) collateral ligament of the elbow.",
+  "structure": "Lateral collateral ligament complex (radial collateral ligament) of the elbow.",
+  "procedure": "Patient stands. The examiner fixates the humerus with one hand and places it in external rotation, palpates the radial collateral ligament, flexes the elbow to about 20-30 degrees and applies an adduction (varus) force.",
+  "positive": "Increased laxity, a change in range of motion, pain or a soft end-feel compared with a normally tense ligament.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "none (page states no reliability or accuracy literature is available)"
+  },
+  "notes": "⚠ The only reference listed on the page is a BPPV clinical practice guideline (Bhattacharyya 2017), unrelated to the elbow. ⚠ The closing sentence says to see the 'Varus Instability Stress Test' for the medial collateral ligament; the medial test is the valgus stress test. Companion tests for lateral-side instability: PLRI tests.",
+  "status": "ok"
+ },
+ {
+  "slug": "posterolateral-rotatory-drawer-test",
+  "id": 12539,
+  "title": "Posterolateral Rotatory Drawer Test",
+  "link": "https://www.physiotutors.com/wiki/posterolateral-rotatory-drawer-test/",
+  "youtube_ids": [
+   "uV--DOtjtb4"
+  ],
+  "purpose": "Examination for posterolateral rotatory instability (PLRI) of the elbow.",
+  "structure": "Lateral collateral ligament complex (lateral ulnar collateral ligament) and posterolateral capsule; radial head subluxation relative to the capitellum.",
+  "procedure": "Patient supine with the arm overhead, examiner at the head of the table. The patient's hand and wrist are fixed between the examiner's upper arm and body with the forearm in neutral rotation. For a left elbow: the left hand fixates the distal humerus with the thumb over the triceps tendon; the right hand grasps the forearm with index and middle fingers along the anterior proximal radius and the thumb on the subcutaneous ulnar border. With the patient relaxed (random pain-free movements first help), a posterolateral rotatory force is applied to the proximal radius while the humerus is held still. Subluxation is usually maximal at 20-40 degrees of flexion; repeat through 0-90 degrees. A slight valgus force can amplify the subluxation.",
+  "positive": "Visible posterior subluxation of the radial head with dimpling of the skin between radial head and capitellum; a clunk on reduction is confirmatory. A positive test at 80-90 degrees of flexion indicates marked laxity of the posterolateral capsule, not just the LCL.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Camp, Smith & O'Driscoll 2017 (Arthrosc Tech) technique description; no accuracy study"
+  },
+  "notes": "Described by Camp et al. as the primary and most sensitive examination for PLRI, but no reliability or accuracy studies exist, so the source rates it questionable. ⚠ The embedded video (uV--DOtjtb4) is the same video as the tabletop relocation test page. PLRI mechanism: fall on the outstretched arm with axial load, valgus and external rotation; stage 1 LCL, stage 2 anterior/posterior capsule, stage 3 MCL / flexor-pronator origin.",
+  "status": "ok"
+ },
+ {
+  "slug": "elbow-pivot-shift-test",
+  "id": 12535,
+  "title": "Elbow Pivot Shift Test",
+  "link": "https://www.physiotutors.com/wiki/elbow-pivot-shift-test/",
+  "youtube_ids": [
+   "nBYWkxNu0Dw"
+  ],
+  "purpose": "Lateral pivot-shift test for posterolateral rotatory instability (PLRI) of the elbow; the awake variant is the pivot-shift apprehension test.",
+  "structure": "Lateral collateral ligament complex; posterolateral subluxation of the radial head.",
+  "procedure": "Patient supine with the arm overhead, examiner at the head of the table. Start in full extension and gently supinate the forearm via the wrist. While slowly flexing the elbow, progressively increase the supination torque and add a valgus torque and an axial load along the forearm. Maximum subluxation usually occurs around 40 degrees of flexion, at which point supination is reduced and only valgus is maintained; further flexion reduces the joint.",
+  "positive": "Subluxation of the radial head seen as a prominent posterolateral bump with skin dimpling behind the radial head, followed by a visible and palpable clunk on reduction with further flexion. In an awake patient the test is rated positive on apprehension (feeling the joint is about to dislocate) without actual subluxation.",
+  "accuracy": {
+   "sensitivity": "100% (lateral pivot shift under anaesthesia); 37.5% (apprehension variant, awake)",
+   "specificity": "not reported (unknown)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Regan & Lapner 2006 (J Shoulder Elbow Surg); Camp et al. 2017"
+  },
+  "notes": "Clinical value rated questionable (specificity unknown). The full pivot shift is usually only possible under anaesthesia. ⚠ Page writes the awake sensitivity as '37,5%' (comma decimal).",
+  "status": "ok"
+ },
+ {
+  "slug": "tabletop-relocation-test",
+  "id": 12546,
+  "title": "Tabletop Relocation Test",
+  "link": "https://www.physiotutors.com/wiki/tabletop-relocation-test/",
+  "youtube_ids": [
+   "uV--DOtjtb4"
+  ],
+  "purpose": "Patient-performed loading test for posterolateral rotatory instability (PLRI) of the elbow, with a relocation step to confirm.",
+  "structure": "Lateral collateral ligament complex; radial head subluxation under axial load and valgus.",
+  "procedure": "Patient stands in front of a table with the hands over its lateral edge, elbows pointing laterally and forearms supinated, then presses up with the symptomatic arm. Step 2: repeat with the examiner's thumb on the radial head, which should relieve symptoms. Step 3: the patient flexes to about 40 degrees (the most symptomatic position) with the thumb on the radial head, then the examiner removes the thumb.",
+  "positive": "Reproduction of symptoms or apprehension at about 40 degrees of elbow flexion in step 1, relief with the thumb on the radial head, and return of pain or apprehension when the thumb is removed.",
+  "accuracy": {
+   "sensitivity": "100%",
+   "specificity": "not reported (unknown)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Arvind & Hargreaves 2006 (J Shoulder Elbow Surg)"
+  },
+  "notes": "Clinical value rated questionable (specificity unknown). ⚠ Shares its embedded video (uV--DOtjtb4) with the posterolateral rotatory drawer test page.",
+  "status": "ok"
+ },
+ {
+  "slug": "stand-up-test",
+  "id": 12555,
+  "title": "Stand-Up Test",
+  "link": "https://www.physiotutors.com/wiki/stand-up-test/",
+  "youtube_ids": [
+   "81yiXiPwhNs"
+  ],
+  "purpose": "Apprehension test for posterolateral rotatory instability (PLRI) using body weight (also called the chair push-up test).",
+  "structure": "Lateral collateral ligament complex; radial head subluxation under axial load and valgus torque.",
+  "procedure": "Patient sits in a chair with armrests, shoulders abducted, both elbows flexed to 90 degrees and forearms supinated, then pushes up from the chair with the arms.",
+  "positive": "Apprehension, a sense of instability, lateral elbow pain, or actual dislocation of the radial head.",
+  "accuracy": {
+   "sensitivity": "88%",
+   "specificity": "not reported (unknown)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Regan & Lapner 2006 (J Shoulder Elbow Surg)"
+  },
+  "notes": "Clinical value rated questionable (specificity unknown). Companion tests: pivot shift, posterolateral rotatory drawer, tabletop relocation, prone push-up.",
+  "status": "ok"
+ },
+ {
+  "slug": "prone-push-up-test",
+  "id": 12551,
+  "title": "Prone Push-Up Test",
+  "link": "https://www.physiotutors.com/wiki/prone-push-up-test/",
+  "youtube_ids": [
+   "gqCcdxWNVcw"
+  ],
+  "purpose": "Apprehension test for posterolateral rotatory instability (PLRI) using a push-up from prone.",
+  "structure": "Lateral collateral ligament complex; radial head subluxation under axial load and valgus torque.",
+  "procedure": "Patient lies prone with the chest on the floor or bench, shoulders abducted, elbows flexed to 90 degrees and the forearm of the tested side supinated, then performs a push-up.",
+  "positive": "Apprehension, a sense of instability, lateral elbow pain, or actual dislocation of the radial head.",
+  "accuracy": {
+   "sensitivity": "87.5%",
+   "specificity": "not reported (unknown)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Regan & Lapner 2006 (J Shoulder Elbow Surg)"
+  },
+  "notes": "Clinical value rated questionable (specificity unknown). ⚠ Page writes the sensitivity as '87,5%' (comma decimal).",
+  "status": "ok"
+ },
+ {
+  "slug": "tinel-sign-elbow",
+  "id": 12610,
+  "title": "Tinel Sign Elbow",
+  "link": "https://www.physiotutors.com/wiki/tinel-sign-elbow/",
+  "youtube_ids": [
+   "ASRatLbu8i0"
+  ],
+  "purpose": "Percussion test for ulnar neuropathy at the elbow (cubital tunnel syndrome).",
+  "structure": "Ulnar nerve just proximal to the cubital tunnel.",
+  "procedure": "Patient sits. The examiner supports the arm and taps lightly with a reflex hammer on the ulnar nerve just proximal to the cubital tunnel four to six times.",
+  "positive": "Familiar symptoms along the ulnar nerve (pain, tingling, numbness).",
+  "accuracy": {
+   "sensitivity": "62%",
+   "specificity": "53%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Beekman et al. 2009 (J Neurol Neurosurg Psychiatry)"
+  },
+  "notes": "Weak clinical value; even combined with other provocative tests it did not reach acceptable diagnostic ability in Beekman's study. Cubital tunnel syndrome is the second most common upper-limb entrapment neuropathy.",
+  "status": "ok"
+ },
+ {
+  "slug": "elbow-flexion-test",
+  "id": 12619,
+  "title": "Elbow Flexion Test",
+  "link": "https://www.physiotutors.com/wiki/elbow-flexion-test/",
+  "youtube_ids": [
+   "brN-VLUETVU"
+  ],
+  "purpose": "Provocation test for cubital tunnel syndrome (ulnar nerve entrapment at the elbow).",
+  "structure": "Ulnar nerve under the aponeurosis of the two heads of flexor carpi ulnaris (cubital tunnel), drawn taut in elbow flexion.",
+  "procedure": "Patient stands or sits with the arms in the anatomical position. Both elbows are maximally flexed, the forearms maximally supinated and the wrists extended; the position is held for up to 3 minutes.",
+  "positive": "Reproduction of pain, tingling or numbness in the ulnar nerve distribution during the 3 minutes.",
+  "accuracy": {
+   "sensitivity": "36-93% (range across studies)",
+   "specificity": "40-99% (range across studies)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Buehler & Thayer 1988; Rosati 1998; Novak 1994; Beekman 2009; Ochi 2011; Cheng 2008 (no pooling possible)"
+  },
+  "notes": "At best moderate clinical value: executions, hold times and cut-offs differ between studies and study quality varies. Variants add compression (flexion-compression test). Alternatives: pressure provocation, scratch collapse, shoulder internal rotation test, Tinel.",
+  "status": "ok"
+ },
+ {
+  "slug": "pressure-provocation-test",
+  "id": 12622,
+  "title": "Pressure Provocation Test",
+  "link": "https://www.physiotutors.com/wiki/pressure-provocation-test/",
+  "youtube_ids": [
+   "zIiszS8jsnc"
+  ],
+  "purpose": "Provocation test for cubital tunnel syndrome by sustained pressure on the ulnar nerve.",
+  "structure": "Ulnar nerve immediately proximal to the cubital tunnel.",
+  "procedure": "Patient sits with the elbow flexed to 20 degrees and the forearm supinated. The examiner places the index and middle fingers on the ulnar nerve immediately proximal to the cubital tunnel and applies pressure for 60 seconds. Repeat on the other side.",
+  "positive": "Reproduction of symptoms, usually numbness or paraesthesia in the ulnar nerve distribution.",
+  "accuracy": {
+   "sensitivity": "55% (30 s hold); 89% (60 s hold)",
+   "specificity": "98%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Novak et al. 1994 (J Hand Surg); Dy & Mackinnon 2016 (review)"
+  },
+  "notes": "Moderate clinical value: promising numbers but Novak 1994 is the only accuracy study. Typical symptoms: numbness of the small finger and ulnar half of the ring finger, worse at night and with elbow flexion.",
+  "status": "ok"
+ },
+ {
+  "slug": "scratch-collapse-test",
+  "id": 12615,
+  "title": "Scratch Collapse Test",
+  "link": "https://www.physiotutors.com/wiki/scratch-collapse-test/",
+  "youtube_ids": [
+   "9oxXcL7nmK4"
+  ],
+  "purpose": "Provocation test for ulnar nerve entrapment at the elbow based on a brief loss of shoulder external rotation force after scratching the skin over the nerve.",
+  "structure": "Ulnar nerve at the elbow; proposed mechanism is the cutaneous silent period briefly inhibiting tonic shoulder external rotation.",
+  "procedure": "Patient stands or sits with the arms at the side, elbows flexed to 90 degrees and hands outstretched. The examiner applies an internal rotation force at the distal forearms and the patient resists bilaterally, matching (not exceeding) the examiner's force. The examiner then scratches or swipes the fingertips over the ulnar nerve at the elbow and immediately repeats the resisted bilateral external rotation.",
+  "positive": "A brief loss (collapse) of the patient's external rotation force on the affected side.",
+  "accuracy": {
+   "sensitivity": "69%",
+   "specificity": "99%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Cheng et al. 2008 (J Hand Surg)"
+  },
+  "notes": "At best moderate clinical value: single study with high risk of bias and no further validation. The same test is also used for carpal tunnel syndrome.",
+  "status": "ok"
+ },
+ {
+  "slug": "shoulder-internal-rotation-test",
+  "id": 12628,
+  "title": "Shoulder Internal Rotation Test",
+  "link": "https://www.physiotutors.com/wiki/shoulder-internal-rotation-test/",
+  "youtube_ids": [
+   "QC5QYwouE7Q"
+  ],
+  "purpose": "Alternative to the elbow flexion test for diagnosing cubital tunnel syndrome.",
+  "structure": "Ulnar nerve at the cubital tunnel (entrapment neuropathy).",
+  "procedure": "Patient sits or stands. The shoulder is placed in 90 degrees abduction, full internal rotation and about 10 degrees flexion, with the elbow flexed to 90 degrees, wrist neutral and fingers extended. The position is held for 10 seconds.",
+  "positive": "Reproduction or aggravation of the patient's symptoms or discomfort in the ulnar nerve distribution within 10 seconds.",
+  "accuracy": {
+   "sensitivity": "80%",
+   "specificity": "100%",
+   "lr_plus": "not reported (undefined at 100% specificity)",
+   "lr_minus": "not reported (approx. 0.2 derived)",
+   "source": "Ochi et al. 2011 (J Hand Surg), 25 cases"
+  },
+  "notes": "Moderate clinical value; single small study that also tested asymptomatic individuals, not yet validated elsewhere. Despite its name, the site files this page under Elbow Assessment (cubital tunnel syndrome).",
+  "status": "ok"
+ },
+ {
+  "slug": "hook-test",
+  "id": 8845,
+  "title": "Hook Test",
+  "link": "https://www.physiotutors.com/wiki/hook-test/",
+  "youtube_ids": [
+   "YsqdHsuLgC4"
+  ],
+  "purpose": "Detects complete distal biceps tendon avulsion by hooking a finger under the tendon.",
+  "structure": "Distal biceps tendon at the antecubital fossa (insertion on the radial tuberosity).",
+  "procedure": "Patient stands or sits and actively flexes the elbow to 90 degrees with the forearm fully supinated. For a left elbow the examiner uses the right index finger, coming in from the lateral side of the antecubital fossa, to hook under the biceps tendon. Normally the finger goes about 1 cm (up to the distal interphalangeal joint) beneath the tendon and the tendon can be pulled forward vigorously.",
+  "positive": "Unable to hook the finger under the tendon (avulsion). Pain on pulling an intact tendon forward may suggest a partial tear or tendon-sheath injury.",
+  "accuracy": {
+   "sensitivity": "100% (O'Driscoll 2007); 81% (Devereaux 2013)",
+   "specificity": "100% (both studies)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "O'Driscoll, Goncalves & Dietz 2007 (Am J Sports Med); Devereaux & ElMaraghy 2013 (Am J Sports Med); 45 patients each"
+  },
+  "notes": "High clinical value in the source's opinion (sound reference standard despite small samples). Companion tests: biceps squeeze, biceps crease interval, tilt sign, supination-pronation, Ludington's.",
+  "status": "ok"
+ },
+ {
+  "slug": "biceps-squeeze-test",
+  "id": 11556,
+  "title": "Biceps Squeeze Test",
+  "link": "https://www.physiotutors.com/wiki/biceps-squeeze-test/",
+  "youtube_ids": [
+   "EGKj3rB2Jn8"
+  ],
+  "purpose": "Checks for a distal biceps tendon rupture by observing whether squeezing the muscle still produces supination.",
+  "structure": "Distal biceps tendon (rupture)",
+  "procedure": "Patient sits with the forearm resting on the thigh, elbow flexed about 60-80 degrees and forearm slightly pronated to tension the tendon. The examiner grasps the biceps at the muscle belly and distal myotendinous junction and squeezes firmly.",
+  "positive": "No forearm supination is seen on squeezing.",
+  "accuracy": {
+   "sensitivity": "96%",
+   "specificity": "not determinable (too few negatives in study)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Ruland & Bowen 2005 (CORR)"
+  },
+  "notes": "Analogue of the Thompson test for the Achilles; source study has methodological limits, so clinical value is rated weak. Also listed under the shoulder module (long head of biceps group); the site files the page under Elbow Assessment.",
+  "status": "ok"
+ },
+ {
+  "slug": "biceps-crease-interval",
+  "id": 11559,
+  "title": "Biceps Crease Interval",
+  "link": "https://www.physiotutors.com/wiki/biceps-crease-interval/",
+  "youtube_ids": [
+   "i30_n5oZEOA"
+  ],
+  "purpose": "Measures retraction of the distal biceps to identify complete ruptures that need prompt surgical referral.",
+  "structure": "Distal biceps tendon (complete rupture with muscle retraction)",
+  "procedure": "Mark the antecubital flexion crease, then with the elbow extended and forearm supinated stroke the distal biceps along its long axis to find the biceps cusp (where the muscle turns sharply toward the fossa) and mark it. Measure the distance between the two marks to 0.1 cm and repeat on the other arm.",
+  "positive": "Interval greater than 6 cm, or an affected/unaffected ratio above 1.2.",
+  "accuracy": {
+   "sensitivity": "88%",
+   "specificity": "50%",
+   "lr_plus": "not reported (~1.8 derived)",
+   "lr_minus": "not reported (~0.24 derived)",
+   "source": "ElMaraghy et al. 2008; updated values Devereaux & ElMaraghy 2013; ICC 0.79"
+  },
+  "notes": "Weak as a stand-alone test; pair with the Hook test or Ludington's test. Also listed under the shoulder module; the site files the page under Elbow Assessment.",
+  "status": "ok"
+ },
+ {
+  "slug": "tilt-sign",
+  "id": 11553,
+  "title": "Tilt Sign",
+  "link": "https://www.physiotutors.com/wiki/tilt-sign/",
+  "youtube_ids": [
+   "kEEMNLLN7QI"
+  ],
+  "purpose": "Palpation sign for partial tears of the distal biceps tendon.",
+  "structure": "Distal biceps tendon insertion at the radial tuberosity.",
+  "procedure": "Patient stands or sits with the elbow flexed to 90 degrees. Locate the radial head by alternating supination and pronation, then fully pronate the forearm (this rotates the radial tuberosity under the palpating finger) and move about 2.5 cm distally to the radial tuberosity. Palpate the tuberosity.",
+  "positive": "Tenderness on palpation over the radial tuberosity.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "100% (case reports vs MRI)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Shim & Strauch 2018 (Clin Anat), case reports"
+  },
+  "notes": "Novel test without diagnostic accuracy studies; clinical value questionable. ⚠ The page text cites 'Shim et al. (2017)' while the reference list gives 2018.",
+  "status": "ok"
+ },
+ {
+  "slug": "supination-pronation-test",
+  "id": 11562,
+  "title": "Supination Pronation Test",
+  "link": "https://www.physiotutors.com/wiki/supination-pronation-test/",
+  "youtube_ids": [
+   "npC5PGq3n08"
+  ],
+  "purpose": "Observation test for complete distal biceps tendon rupture that avoids provocative manoeuvres in the acute setting.",
+  "structure": "Distal biceps tendon; migration of the biceps muscle belly during forearm rotation.",
+  "procedure": "Patient abducts the arms to 90 degrees (or rests them on the bench if not possible) and flexes the elbows to about 70 degrees, then alternately pronates and supinates the forearms. The examiner watches the biceps contour, which normally moves proximally in supination and distally in pronation; compare with the other side and palpate the belly if the contour is hard to see.",
+  "positive": "Absent migration of the biceps during pronation-supination.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Metzman & Tivener 2015 (Am J Orthop), 5 patients confirmed by MRI and surgery; no accuracy study"
+  },
+  "notes": "Clinical value questionable (no accuracy study). Proposed as a non-provocative alternative to the hook and squeeze tests in acute injuries.",
+  "status": "ok"
+ },
+ {
+  "slug": "ludingtons-test",
+  "id": 11565,
+  "title": "Ludington’s Test",
+  "link": "https://www.physiotutors.com/wiki/ludingtons-test/",
+  "youtube_ids": [
+   "4NMeI7dMjt4"
+  ],
+  "purpose": "Assesses rupture of the proximal long head of the biceps tendon.",
+  "structure": "Proximal long head of biceps tendon (shoulder); Popeye sign is the classic deformity.",
+  "procedure": "Patient sits or stands, places both hands on the head with the fingers interlocked so the arms are supported and the biceps relaxed. The examiner places two fingers over each long biceps tendon and asks the patient to contract and relax both biceps simultaneously.",
+  "positive": "Contraction not felt on the affected side compared with the other arm.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Ludington 1923 (Ann Surg) case description; Gupta 2013 (Popeye sign image); no accuracy study"
+  },
+  "notes": "Never evaluated for diagnostic accuracy; clinical value questionable. ⚠ Although it is a proximal (shoulder) test, the site files the page under Elbow Assessment and lists it with the distal biceps tests. Proximal long-head ruptures are more common than distal ruptures.",
+  "status": "ok"
+ }
+]

@@ -220,26 +220,6 @@
     "status": "ok"
   },
   {
-    "slug": "shoulder-internal-rotation-test",
-    "id": 12628,
-    "title": "Shoulder Internal Rotation Test | Cubital Tunnel Syndrome",
-    "link": "https://www.physiotutors.com/wiki/shoulder-internal-rotation-test/",
-    "youtube_ids": ["QC5QYwouE7Q"],
-    "purpose": "Alternative to the elbow flexion test for diagnosing cubital tunnel syndrome.",
-    "structure": "Ulnar nerve at the cubital tunnel (entrapment neuropathy).",
-    "procedure": "Patient sits or stands. The shoulder is placed in 90 degrees abduction, full internal rotation and about 10 degrees flexion, with the elbow flexed to 90 degrees, wrist neutral and fingers extended. The position is held for 10 seconds.",
-    "positive": "Reproduction or aggravation of the patient's symptoms or discomfort in the ulnar nerve distribution within 10 seconds.",
-    "accuracy": {
-      "sensitivity": "80%",
-      "specificity": "100%",
-      "lr_plus": "not reported (undefined at 100% specificity)",
-      "lr_minus": "not reported (approx. 0.2 derived)",
-      "source": "Ochi et al. 2011 (J Hand Surg), 25 cases"
-    },
-    "notes": "Moderate clinical value; single small study, not yet validated elsewhere.",
-    "status": "ok"
-  },
-  {
     "slug": "subacromial-pain-syndrome-cluster",
     "id": 10680,
     "title": "Subacromial Pain Syndrome Cluster",

@@ -10,6 +10,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 | Region | State | Notes |
 |---|---|---|
 | shoulder | **live** (92 videos, 10 categories) | redirect page; all 81 'Shoulder Assessment' wiki pages are in (18 backfilled 2026-10-17 as groupE/zh_4) |
+| elbow | **live** (28 videos, 6 categories) | redirect page; all 28 'Elbow Assessment' wiki pages are in (added 2026-10-17 as groupA/zh_1). `biceps-squeeze-test` and `biceps-crease-interval` are deliberately in both shoulder (biceps) and elbow (biceps); `shoulder-internal-rotation-test` (cubital tunnel) lives in elbow only. Source quirks (PL rotatory drawer and tabletop relocation share a YouTube ID; varus test cites a BPPV guideline; PEPPER/SALT report PPV/NPV only; Ludington is a proximal test filed under elbow) are flagged in record notes |
 | hip | **live** (61 videos, 8 categories) | redirect page; all 43 'Hip Assessment' wiki pages are in (19 backfilled 2026-10-17 as groupE/zh_4); source quirks (Pace page duplicates FAIR procedure, resisted-external-derotation page duplicates Puranen-Orava, compression/sacral-thrust and Kendall/Phelps share YouTube IDs) are flagged in record notes |
 | knee | **live** (61 videos, 12 categories) | redirect page; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
 | lumbar | **live** (36 videos, 8 categories) | redirect page; 24 'Lumbar Spine Assessment' pages + referred pain, fracture red flags, Babinski, 4 SIJ pages not in hip, CPRs, direction-specific exercises; `myotomes-lower-limb` is deliberately in both knee and lumbar; SIJ provocation tests stay in hip |
@@ -20,7 +21,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 index.html                 built single-page site — DO NOT edit by hand, rebuild from src/
 <region>/index.html        built redirect stubs → ../#region-<id> (or ../#test-<slug> if a hash is present)
 src/site_template.html     single-page template; build replaces __DATA__, __N_TESTS__, __N_REGIONS__, __N_TOPICS__, __N_ACC__
-src/build_site.py          python3 src/build_site.py   (no args) → writes index.html + 4 redirect pages
+src/build_site.py          python3 src/build_site.py   (no args) → writes index.html + 5 redirect pages
 src/data/<region>/
   categories.json          [{id, zh, en, slugs:[...]}]  ← defines order & grouping
   group*.json              English source records fetched from physiotutors (any number of files)
@@ -31,7 +32,8 @@ src/data/<region>/
 
 Rebuild everything: `python3 src/build_site.py` (prints stats; fails loudly if a slug is missing
 from zh/group or a category has no theme). Adding a region = add its data folder, append it to
-`REGIONS` and map its category ids in `THEMES` inside build_site.py, rebuild, commit, push.
+`REGIONS` and map its category ids in `THEMES` inside build_site.py, update the hard-coded region
+lists in site_template.html (hero lead, chapter cards, 02 intro, 目錄 drawer), rebuild, commit, push.
 The old per-region `build.py` / `template.html` were removed in the 2026-10-17 redesign.
 
 ## Data pipeline (what was done for shoulder; repeat per region)
@@ -90,20 +92,20 @@ Google Fonts Noto Serif TC + Noto Sans TC; no framework; one self-contained HTML
 
 - Videos are only embedded, never downloaded; keep the copyright footer line.
 - The build asserts every placeholder (`__DATA__`, `__N_*__`) exists in site_template.html.
-- Region names: zh/en pairs used so far — 肩部 Shoulder, 髖部 Hip, 膝部 Knee, 腰椎 Lumbar spine.
+- Region names: zh/en pairs used so far — 肩部 Shoulder, 肘部 Elbow, 髖部 Hip, 膝部 Knee, 腰椎 Lumbar spine.
 - Counts on the page are all computed by build_site.py; nothing is hand-written.
 - Commit messages: short imperative English summary; the owner writes in Traditional Chinese
   in conversation.
 
 ## Suggested next steps
 
-All four regions (shoulder, hip, knee, lumbar) are live as of 2026-10-17. Slug discovery tip
+All five regions (shoulder, elbow, hip, knee, lumbar) are live as of 2026-10-17. Slug discovery tip
 for any new region: fetch all wiki entries with `?per_page=20&page=N&_fields=id,slug,title,link,acf`
 and group by the `page-header-detail-page` section's `subheading`. Only count `[embed]`
 shortcodes (and `youtube.com/embed/` iframes) as videos; plain YouTube links in the text are
 related-video or reference links.
 
-1. Possible new regions from the same wiki: Ankle & Foot (31 pages), Elbow (28), Wrist & Hand (27),
+1. Possible new regions from the same wiki: Ankle & Foot (31 pages), Wrist & Hand (27),
    Cervical spine (17), Thoracic spine (13), Dizziness/vestibular (14), fracture-screening rules.
 2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
    page; timestamped segments within a video (needs transcripts — deferred 2026-10-17).
