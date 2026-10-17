@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "trendelenburg-sign",
+  "title_zh": "Trendelenburg 徵象 Trendelenburg Sign",
+  "purpose_zh": "偵測站立腳的髖外展肌（臀中肌 gluteus medius、臀小肌 gluteus minimus）無力，髖退化性關節炎 (osteoarthritis, OA) 常見；也被評估過作為髖 OA 的診斷測試。",
+  "structure_zh": "站立腳的臀中肌與臀小肌；骨盆／髂嵴 (iliac crest) 高度。",
+  "procedure_zh": "病人站立（可扶牆保持平衡），把一側髖屈曲到 90°。檢查者比較兩側髂嵴高度：正常時抬腿側的髂嵴應高於站立側。",
+  "positive_zh": "抬腿側髂嵴掉到比站立側低，或病人以軀幹向站立腳側傾斜來代償，表示站立腳外展肌無力。部分作者以站立腳的股骨角 (femoral angle) ≤ 83° 並維持 30 秒作為陽性定義。",
+  "notes_zh": "Youdas 等人 (2010) 用於診斷髖 OA：敏感度 55%、特異度 70%，作者結論是不適合用來辨識早期髖 OA。原頁列的其他髖 OA 檢查：Patrick's / FABER 測試、Sutlive 組合 (Cluster of Sutlive)、髖 OA 徵象與症狀。",
+  "tags": ["臀中肌 gluteus medius", "外展肌無力 abductor weakness", "退化性關節炎 OA"]
+ },
+ {
+  "slug": "single-leg-stance-test",
+  "title_zh": "單腳站立測試（臀肌肌腱病變） Single Leg Stance Test",
+  "purpose_zh": "診斷臀肌肌腱病變 (gluteal tendinopathy)，屬於現今統稱大轉子疼痛症候群 (greater trochanteric pain syndrome, GTPS) 的一部分，是外側髖痛的鑑別診斷之一。",
+  "structure_zh": "臀中肌／臀小肌在大轉子 (greater trochanter) 的肌腱。",
+  "procedure_zh": "病人站在牆邊，患側腿離牆較遠，健側手以一根手指在肩高處扶牆平衡。病人屈膝 90° 抬起健側腳，健側髖維持中立，姿勢維持最多 30 秒。",
+  "positive_zh": "30 秒內重現病人大轉子區域的外側髖痛，數字疼痛量表 (NPRS) 至少 2/10。",
+  "notes_zh": "Grimaldi 等人（內文寫 2016，參考文獻為 2017，BJSM）以 MRI 為對照：敏感度 38%、特異度 100%，是該研究中最特異的測試；Lequesne 等人 (2008) 在有症狀與無症狀者中得到敏感度 100%、特異度 97.3%。Grimaldi 的情境（只有有症狀病人）較貼近臨床：陽性幾乎可確立臀肌肌腱病變，陰性無法排除，原頁因此給「納入」(rule-in) 的強臨床價值。其他 GTPS 檢查：阻力外側去旋轉測試 (resisted external derotation test)、大轉子觸診、FADER / FADER-R、ADD / ADD-R（改良 Ober's）。",
+  "tags": ["臀肌肌腱病變 gluteal tendinopathy", "大轉子疼痛症候群 GTPS", "確認用 rule-in"]
+ },
+ {
+  "slug": "piriformis-test",
+  "title_zh": "梨狀肌測試 Piriformis Test",
+  "purpose_zh": "評估梨狀肌 (piriformis) 緊繃或梨狀肌症候群 (piriformis syndrome)，後者現在稱為深臀症候群 (deep gluteal syndrome, DGS)。",
+  "structure_zh": "梨狀肌與臀下間隙 (subgluteal space) 內的坐骨神經 (sciatic nerve)；約 15% 的人坐骨神經穿過梨狀肌而非從其下方通過。DGS 定義為坐骨神經在臀下間隙受到非椎間盤源性 (non-discogenic) 卡壓所致的臀部疼痛；可能的卡壓結構除梨狀肌外，還有含血管的纖維帶、臀肌、腿後肌群、孖肌-閉孔內肌複合體 (gemelli-obturator internus complex)、血管異常與占位性病灶。",
+  "procedure_zh": "病人側臥於床緣。將上方腿帶到髖屈 60°、膝屈曲，下方腿完全伸直。一手固定骨盆，另一手在膝蓋處向下施壓。",
+  "positive_zh": "臀部疼痛，或沿腿後側放射的疼痛。",
+  "notes_zh": "原頁描述的 DGS 典型症狀：類坐骨神經痛、多為單側的髖／臀痛與大轉子後方壓痛，髖屈曲下旋轉加上伸膝時加劇；無法久坐超過 20–30 分鐘、跛行、患肢感覺異常或喪失、夜間痛白天改善。原頁未列診斷準確度與參考文獻。其他 DGS 檢查：腳跟對側膝 (HCLK) 手法、Pace 手法、Freiberg 徵象、FAIR 測試、Beatty 手法、坐姿梨狀肌伸展測試、主動梨狀肌測試。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "坐骨神經 sciatic nerve"]
+ },
+ {
+  "slug": "active-piriformis-test",
+  "title_zh": "主動梨狀肌測試 Active Piriformis Test",
+  "purpose_zh": "診斷臀部區域的坐骨神經 (sciatic nerve) 卡壓，即深臀症候群 (deep gluteal syndrome, DGS)。",
+  "structure_zh": "梨狀肌（起自 S2–S4、止於大轉子）與臀下間隙內的坐骨神經。",
+  "procedure_zh": "先排除更常見的腰椎與薦髂關節 (SIJ) 病變。病人側臥、健側在下，患側屈膝並把腳放在床上。檢查者觸診梨狀肌，另一手在屈曲的膝蓋給阻力，請病人把腳跟往床面踩，做出主動髖外展加外轉。",
+  "positive_zh": "重現病人熟悉的臀部疼痛及／或向下肢後側放射的感覺異常 (paraesthesia)。",
+  "notes_zh": "Martin 等人（內文寫 2013，參考文獻為 2014，KSSTA）以內視鏡確認的坐骨神經卡壓為對照：敏感度 78%、特異度 80%；目前唯一的研究，原頁給中等臨床價值，可用於納入與排除。其他 DGS 檢查：Freiberg 徵象、FAIR 測試、坐姿梨狀肌伸展測試、HCLK 手法、梨狀肌測試、Beatty 手法、Pace 手法。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "坐骨神經卡壓 entrapment"]
+ },
+ {
+  "slug": "seated-piriformis-stretch-test",
+  "title_zh": "坐姿梨狀肌伸展測試 Seated Piriformis Stretch Test",
+  "purpose_zh": "藉由拉長髖深層旋轉肌並對坐骨神經 (sciatic nerve) 施加硬膜張力，診斷臀部區域的坐骨神經卡壓（深臀症候群 deep gluteal syndrome）。",
+  "structure_zh": "髖深層外轉肌（梨狀肌 piriformis）與坐骨切跡 (sciatic notch) 處的坐骨神經。",
+  "procedure_zh": "先排除更常見的腰椎與薦髂關節 (SIJ) 病變。病人坐在床緣，髖屈約 90°、膝伸直。檢查者一邊觸診坐骨切跡，一邊將下肢內收並內轉。",
+  "positive_zh": "重現病人熟悉的臀部疼痛及／或向下肢後側放射的感覺異常 (paraesthesia)。",
+  "notes_zh": "Martin 等人（內文寫 2013，參考文獻為 2014，KSSTA）以內視鏡確認的卡壓為對照：敏感度 52%、特異度 90%；目前唯一的研究，原頁給中等臨床價值，適合用來確認 (rule-in)。其他 DGS 檢查：HCLK 手法、Pace 手法、Freiberg 徵象、FAIR 測試、梨狀肌測試、Beatty 手法、主動梨狀肌測試。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "確認用 rule-in"]
+ },
+ {
+  "slug": "fair-test",
+  "title_zh": "FAIR 測試 FAIR Test",
+  "purpose_zh": "以屈曲-內收-內轉 (Flexion-Adduction-Internal Rotation) 誘發梨狀肌 (piriformis) 對坐骨神經 (sciatic nerve) 的壓迫，用於疑似深臀症候群 (deep gluteal syndrome)。",
+  "structure_zh": "梨狀肌與臀下間隙內的坐骨神經。",
+  "procedure_zh": "先排除更常見的腰椎與薦髂關節 (SIJ) 病變。病人側臥、健側在下，上方髖屈曲 90°、最大內收、上方膝屈曲 90°。保持兩側髖臼垂直，檢查者對小腿施加向上、向外的壓力，同時被動將髖內轉到 45° 或病人能忍受的角度。",
+  "positive_zh": "坐骨神經與梨狀肌交會處疼痛。",
+  "notes_zh": "Fishman 等人 (2002) 以 H 反射 (Hoffmann reflex) 延遲超過正常 3 個標準差為對照：敏感度 88%、特異度 83%。但 H 反射敏感而不特異、並非準確的黃金標準，且沒有其他研究，原頁因此給「存疑」的臨床價值。其他 DGS 檢查：Freiberg 徵象、Pace 手法、坐姿梨狀肌伸展測試、HCLK 手法、梨狀肌測試、Beatty 手法、主動梨狀肌測試。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "H 反射 H-reflex"]
+ },
+ {
+  "slug": "freiberg-sign",
+  "title_zh": "Freiberg 徵象 Freiberg Sign",
+  "purpose_zh": "藉由伸展受刺激的梨狀肌 (piriformis) 誘發坐骨神經 (sciatic nerve) 壓迫，用於疑似深臀症候群 (deep gluteal syndrome)。",
+  "structure_zh": "梨狀肌與坐骨神經。",
+  "procedure_zh": "先排除更常見的腰椎與薦髂關節 (SIJ) 病變。病人仰臥，檢查者用力將患側伸直的大腿內轉。",
+  "positive_zh": "重現病人熟悉的臀部疼痛及／或向下肢後側放射的感覺異常 (paraesthesia)。",
+  "notes_zh": "原頁明言尚無任何診斷研究評估 Freiberg 手法，臨床價值存疑（參考 Freiberg 1937、Kirschner 2009）。其他 DGS 檢查：HCLK 手法、Pace 手法、坐姿梨狀肌伸展測試、FAIR 測試、梨狀肌測試、Beatty 手法、主動梨狀肌測試。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "pace-maneuver",
+  "title_zh": "Pace 手法 Pace Maneuver",
+  "purpose_zh": "深臀症候群 (deep gluteal syndrome)／梨狀肌症候群 (piriformis syndrome) 的誘發測試。",
+  "structure_zh": "梨狀肌 (piriformis) 與坐骨神經 (sciatic nerve)。",
+  "procedure_zh": "⚠ 來源問題：原頁的操作段落與 FAIR 測試頁面一字不差（「如 Fishman 研究所示」：健側在下側臥、上方髖屈 90° 並最大內收、膝屈 90°、對小腿施加向上向外壓力並內轉到 45°），看起來是 physiotutors.com 的複製貼上錯誤；Pace & Nagle (1976) 原始手法在原頁文字中並未描述。實際操作請以影片為準。",
+  "positive_zh": "依原頁文字：坐骨神經與梨狀肌交會處疼痛（與 FAIR 頁面相同措辭）。",
+  "notes_zh": "原頁明言尚無診斷研究，臨床價值存疑（參考 Pace & Nagle 1976、Kirschner 2009）。施測前先排除腰椎與薦髂關節病變。其他 DGS 檢查：Freiberg 徵象、FAIR 測試、坐姿梨狀肌伸展測試、HCLK 手法、梨狀肌測試、Beatty 手法、主動梨狀肌測試。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "來源有誤 source issue"]
+ },
+ {
+  "slug": "beatty-maneuver",
+  "title_zh": "Beatty 手法 Beatty Maneuver",
+  "purpose_zh": "梨狀肌症候群 (piriformis syndrome)／深臀症候群 (deep gluteal syndrome) 的簡易誘發手法。",
+  "structure_zh": "梨狀肌 (piriformis) 與坐骨神經 (sciatic nerve)。",
+  "procedure_zh": "先排除更常見的腰椎與薦髂關節 (SIJ) 病變。病人側臥、健側在下，髖膝屈曲，接著請病人主動外展上方大腿使其離開床面。",
+  "positive_zh": "患側（上方）出現深部臀痛。若出現的是背痛，原頁描述見於腰椎椎間盤疾病 (lumbar disc disease) 的病人。",
+  "notes_zh": "原頁明言尚無診斷研究，臨床價值存疑（參考 Beatty 1994、Kirschner 2009）。其他 DGS 檢查：HCLK 手法、Pace 手法、Freiberg 徵象、FAIR 測試、梨狀肌測試、坐姿梨狀肌伸展測試、主動梨狀肌測試。",
+  "tags": ["梨狀肌 piriformis", "深臀症候群 DGS", "效度未知 unvalidated"]
+ }
+]

@@ -10,7 +10,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 | Region | State | Notes |
 |---|---|---|
 | shoulder | **live** (74 videos, 10 categories) | `shoulder/index.html` |
-| hip | data gathering started, interrupted | `src/data/hip/categories.json` (42 slugs, 7 categories) and `src/data/hip/slugs.json` (44 candidate slugs) exist; no `group*.json` / `zh_*.json` yet |
+| hip | **live** (42 videos, 7 categories) | `hip/index.html`; source quirks (Pace page duplicates FAIR procedure, compression/sacral-thrust share one YouTube ID) are flagged in `groupC/D.json` notes |
 | knee, lumbar | planned | placeholder cards on home page |
 
 ## Repo layout
@@ -90,10 +90,8 @@ workers (≈25 slugs each); each worker writes its own groupX.json / zh_N.json.
 
 ## Suggested next steps
 
-1. Finish hip: fetch the 42 slugs in `src/data/hip/categories.json` → group*.json,
-   translate → zh_*.json, build `hip/index.html`, update home card, push.
-   (The 2 extra slugs in slugs.json — `best-hamstring-exercises`,
-   `nordic-hamstring-curl-variations` — were left out as more knee/hamstring than hip; add if wanted.)
-2. Knee, then lumbar, same pipeline.
-3. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
+1. Knee, then lumbar, same pipeline. (Hip done 2026-10-17; the 2 extra slugs in
+   `src/data/hip/slugs.json` — `best-hamstring-exercises`, `nordic-hamstring-curl-variations` —
+   were left out as more knee/hamstring than hip; consider them for knee.)
+2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
    page; timestamped segments within a video (needs transcripts); an "all regions" search.

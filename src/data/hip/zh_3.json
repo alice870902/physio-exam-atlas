@@ -1,0 +1,152 @@
+[
+ {
+  "slug": "cluster-of-laslett",
+  "title_zh": "Laslett 組合測試 Cluster of Laslett",
+  "purpose_zh": "用一組測試與演算法 (algorithm) 判定薦髂關節 (sacroiliac joint, SIJ) 是否為下背／臀部疼痛的來源。",
+  "structure_zh": "薦髂關節（疼痛誘發，而非活動度）。",
+  "procedure_zh": "四項誘發測試，每項施加 3–6 次逐漸加壓的推力 (thrust)：(1) 牽張測試 (distraction)：仰臥，雙手放兩側髂前上棘 (ASIS)，往背外側中等速度推；(2) 大腿推擠測試 (thigh thrust)：仰臥，患側髖屈 90°，一手墊在薦骨下，沿股骨縱向施壓，速度較快；(3) 壓迫測試 (compression)：健側在下側臥，髖屈 45°、膝屈 90°，雙手在髂骨前緣垂直下壓，中等速度；(4) 薦骨推擠測試 (sacral thrust)：俯臥，掌根放 S2，垂直下壓，速度較快。演算法：前兩項都陽性即可停止；否則加做壓迫測試，再加做薦骨推擠測試。原始版本有 6 項，Laslett 因另外兩項沒有額外診斷價值而減為 4 項。",
+  "positive_zh": "4 項中有 2 項以上重現病人熟悉的疼痛 → SIJ 很可能是疼痛來源；少於 2 項陽性 → SIJ 疼痛不太可能或可排除。",
+  "notes_zh": "Laslett 等人 (2005)：2 項以上陽性的敏感度 88%、特異度 78%。若病人的症狀在 McKenzie 反覆動作測試中不會中央化 (centralize)，特異度會更高。推力是疼痛誘發而非徒手治療的扳動，先輕後重，有時一次施壓就夠。⚠ 來源問題：原頁寫 Gaenslen 測試「對準確度幾乎沒有貢獻」卻「被納入建議演算法」，而 Gaenslen 頁面寫 Laslett 把它從組合中移除，所以「被納入」極可能是「未被納入」的筆誤。另一常用組合：van der Wurff 組合 (Cluster of van der Wurff)。",
+  "tags": ["薦髂關節 SIJ", "cluster", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "thigh-thrust-test",
+  "title_zh": "大腿推擠測試 Thigh Thrust Test",
+  "purpose_zh": "薦髂關節 (sacroiliac joint, SIJ) 的疼痛誘發測試；屬於 Laslett 組合與 van der Wurff 組合的一部分。",
+  "structure_zh": "薦髂關節（後向剪力）。",
+  "procedure_zh": "病人仰臥，檢查者站健側。將患側髖屈曲 90°，一手墊在薦骨 (sacrum) 下，沿股骨縱向施壓在 SIJ 產生剪力；施加 3–6 次速度較快、逐漸加壓的推力。",
+  "positive_zh": "重現病人熟悉的疼痛。",
+  "notes_zh": "Laslett 等人 (2005)：敏感度 88%、特異度 69%，原頁給中等臨床價值，建議在 cluster 中使用。⚠ 原頁內文把這組數字寫成「sacroiliac compression test」，應為複製貼上的筆誤（數字與 Laslett 2005 的大腿推擠測試一致）。",
+  "tags": ["薦髂關節 SIJ", "Laslett 組合", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "distraction-test",
+  "title_zh": "薦髂關節牽張測試 Distraction Test",
+  "purpose_zh": "薦髂關節 (sacroiliac joint, SIJ) 的疼痛誘發測試；屬於 Laslett 組合與 van der Wurff 組合的一部分。",
+  "structure_zh": "薦髂關節（前側韌帶被牽張、後側被壓迫）。",
+  "procedure_zh": "病人仰臥、雙腿伸直，檢查者站患側。雙手放在兩側髂前上棘 (ASIS)，往背外側 (dorsolateral) 方向施加 3–6 次中等速度、逐漸加壓的推力。",
+  "positive_zh": "重現病人熟悉的疼痛。",
+  "notes_zh": "Laslett 等人 (2005)：敏感度 60%、特異度 81%，原頁給中等臨床價值，建議在 cluster 中使用。⚠ 原頁內文同樣把數字寫成「sacroiliac compression test」，應為複製貼上的筆誤（數字與 Laslett 2005 的牽張測試一致）。",
+  "tags": ["薦髂關節 SIJ", "Laslett 組合", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "sacroiliac-compression-test",
+  "title_zh": "薦髂關節壓迫測試 Sacroiliac Compression Test",
+  "purpose_zh": "薦髂關節 (sacroiliac joint, SIJ) 的疼痛誘發測試；屬於 Laslett 組合與 van der Wurff 組合的一部分。",
+  "structure_zh": "薦髂關節（經髂骨施加壓迫）。",
+  "procedure_zh": "病人健側在下側臥，髖屈 45°、膝屈 90°。檢查者站在病人身後，雙手放在髂骨 (ilium) 前緣，垂直施加 3–6 次中等速度、逐漸加壓的推力。",
+  "positive_zh": "重現病人熟悉的疼痛。",
+  "notes_zh": "Laslett 等人 (2005)：敏感度 69%、特異度 69%，原頁給弱臨床價值，建議在 cluster 中使用。⚠ 來源問題：API 回傳的影片 ID 與薦骨推擠測試頁面相同（7rxOWC9qoOA），請確認實際播放的是哪支影片。",
+  "tags": ["薦髂關節 SIJ", "Laslett 組合", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "sacral-thrust-test",
+  "title_zh": "薦骨推擠測試 Sacral Thrust Test",
+  "purpose_zh": "薦髂關節 (sacroiliac joint, SIJ) 的疼痛誘發測試；屬於 Laslett 組合與 van der Wurff 組合的一部分。",
+  "structure_zh": "薦髂關節（薦骨相對髂骨的前向剪力）。",
+  "procedure_zh": "病人俯臥，檢查者站患側床邊。掌根放在 S2 棘突、手指朝頭側，垂直向下施加 3–6 次高速度、逐漸加壓的推力。",
+  "positive_zh": "重現病人熟悉的疼痛。",
+  "notes_zh": "Laslett 等人 (2005)：敏感度 63%、特異度 75%，原頁給弱臨床價值，建議在 cluster 中使用。影片 ID 與薦髂關節壓迫測試頁面相同（見該筆說明）。",
+  "tags": ["薦髂關節 SIJ", "Laslett 組合", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "gaenslens-test",
+  "title_zh": "Gaenslen's 測試 Gaenslen's Test",
+  "purpose_zh": "薦髂關節 (sacroiliac joint, SIJ) 的疼痛誘發測試。",
+  "structure_zh": "薦髂關節（扭轉：一側髖完全屈曲、另一側伸直）。",
+  "procedure_zh": "以右側 SIJ 為例：病人仰臥靠近床緣，左腿垂出床外，右側髖膝屈曲抱向胸口。檢查者對屈曲的膝蓋朝胸口施加穩定壓力，同時對垂下的膝蓋朝地面施加反向壓力。兩側都要做。",
+  "positive_zh": "誘發病人熟悉的症狀。",
+  "notes_zh": "Laslett 等人 (2005)：測右側 SIJ 時敏感度 53%、特異度 71%；測左側時敏感度 50%、特異度 77%。準確度低，臨床價值弱，Laslett 甚至把它從 SIJ 疼痛誘發組合中移除。",
+  "tags": ["薦髂關節 SIJ", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "yeoman-test",
+  "title_zh": "Yeoman 測試 Yeoman Test",
+  "purpose_zh": "針對薦髂關節發炎，即薦髂關節炎 (sacroiliitis) 所提出的誘發測試。",
+  "structure_zh": "薦髂關節 (sacroiliac joint, SIJ)。薦髂關節炎可為脊椎關節病變 (spondyloarthropathies) 的表現之一，例如僵直性脊椎炎 (ankylosing spondylitis)、乾癬性關節炎 (psoriatic arthritis)、發炎性腸道疾病／克隆氏症相關關節炎。",
+  "procedure_zh": "病人俯臥靠近床緣。將膝屈曲約 90°，一手握住股骨遠端，另一手壓在同側髂後上棘 (posterior superior iliac spine, PSIS) 固定骨盆，再被動把髖伸直。",
+  "positive_zh": "重現病人的 SIJ 或臀部疼痛。",
+  "notes_zh": "薦髂關節炎的診斷依賴病史、實驗室檢查與後續 MRI；理學檢查描述不足且未經驗證，臨床價值存疑（參考 Walsh 1998）。",
+  "tags": ["薦髂關節炎 sacroiliitis", "脊椎關節病變 spondyloarthropathy", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "gillet-test",
+  "title_zh": "Gillet 測試（行軍測試） Gillet Test",
+  "purpose_zh": "偵測薦髂關節「功能障礙」(SIJ dysfunction)，即被認為「卡住」不動的薦髂關節；又稱行軍測試 (Marching Test) 或薦骨固定測試 (Sacral Fixation Test)。",
+  "structure_zh": "髂後上棘 (PSIS) 與 S2 之間的薦髂關節 (sacroiliac joint, SIJ) 動作。",
+  "procedure_zh": "檢查者站在站立病人的後方，觸診兩側 PSIS（與 S2 棘突同高）。測右側 SIJ 時，右手放右側 PSIS、左手放 S2，請病人右髖屈曲到 90°。",
+  "positive_zh": "正常 SIJ 的 PSIS 會下降到 S2 以下；「卡住」或低動度 (hypomobile) 的 SIJ 則 PSIS 不下降或只動一點點。",
+  "notes_zh": "Dreyfuss 等人 (1996)：信度 kappa 0.22（低），敏感度 43%、特異度 68%，臨床價值存疑。Physiotutors 建議放棄 SIJ 功能障礙測試，只做 Laslett 組合等疼痛誘發測試。相關檢查：站立前彎測試 (standing bent-over / Vorlauf test)、Shimpi 俯臥 SIJ 測試、SIJ 點頭／反點頭 (nutation / counternutation)。",
+  "tags": ["薦髂關節 SIJ", "功能障礙測試 dysfunction", "信度低 low reliability"]
+ },
+ {
+  "slug": "sacroiliac-joint-play",
+  "title_zh": "薦髂關節關節鬆動度評估 Sacroiliac Joint Play",
+  "purpose_zh": "以徒手方式評估薦髂關節 (sacroiliac joint, SIJ) 的關節鬆動度 (joint play)，用於疑似 SIJ 低動度 (hypomobility)。",
+  "structure_zh": "薦髂關節；原頁把薦骨分成 4 個象限（S2 以上為 1、2，以下為 3、4）方便描述手位。",
+  "procedure_zh": "病人俯臥。以右側 SIJ 為例：右手小魚際 (hypothenar) 放在薦骨第 2、4 象限，另一手握住髂骨 (ilium)。把髂骨往上、往內拉，評估關節鬆動度，避免讓髂骨後旋 (posterior rotation)。",
+  "positive_zh": "非二元判讀：與對側比較關節鬆動度與末端感覺 (end-feel)。",
+  "notes_zh": "原頁未給準確度數值（信度參考 Robinson 等人 2007）。Physiotutors 建議因信度低而放棄 SIJ 功能障礙測試，專注於 Laslett 組合等疼痛誘發測試。",
+  "tags": ["薦髂關節 SIJ", "關節鬆動度 joint play", "信度低 low reliability"]
+ },
+ {
+  "slug": "sacroiliac-joint-nutation",
+  "title_zh": "薦髂關節點頭評估 Sacroiliac Joint Nutation",
+  "purpose_zh": "以徒手技術評估薦骨點頭 (nutation)，取得關節鬆動度、SIJ 的少量動作與疼痛誘發的資訊。",
+  "structure_zh": "薦髂關節 (sacroiliac joint, SIJ)；薦骨分成 4 個象限（S2 以上為 1、2，以下為 3、4）。",
+  "procedure_zh": "病人俯臥，在受測側的髂前上棘 (ASIS) 下墊一個枕墊。檢查者站健側，用與受測側同側的手放在薦骨上（右側 SIJ：右手放第 2 象限；左側：左手放第 1 象限），另一手疊在上方，往頭側腹側 (cranioventral) 方向施力，評估末端感覺或關節鬆動度。",
+  "positive_zh": "非二元判讀：與對側比較末端感覺、關節鬆動度與疼痛。",
+  "notes_zh": "原頁未給準確度數值（信度參考 Robinson 等人 2007）。Physiotutors 建議因信度低而放棄 SIJ 功能障礙測試，專注於 Laslett 組合等疼痛誘發測試。",
+  "tags": ["薦髂關節 SIJ", "點頭 nutation", "信度低 low reliability"]
+ },
+ {
+  "slug": "sacroiliac-joint-counternutation",
+  "title_zh": "薦髂關節反點頭評估 Sacroiliac Joint Counternutation",
+  "purpose_zh": "以徒手技術評估薦骨反點頭 (counternutation)，與對側比較末端感覺、關節鬆動度或疼痛誘發。",
+  "structure_zh": "薦髂關節 (sacroiliac joint, SIJ)；薦骨分成 4 個象限（S2 以上為 1、2，以下為 3、4）。",
+  "procedure_zh": "病人俯臥。檢查者站健側，用與受測側同側的手放在髂嵴 (iliac spine) 上（右側 SIJ：右手），另一手放在薦骨 S2 以下。雙手朝相反方向施壓：髂骨側的手往頭側腹側（並向外），薦骨側的手往腹側尾側 (ventrocaudal)。評估末端感覺或關節鬆動度。",
+  "positive_zh": "非二元判讀：與對側比較末端感覺、關節鬆動度與疼痛。",
+  "notes_zh": "SIJ 幾乎沒有動作，單獨評估其動作很困難、信度低；Physiotutors 建議專注於 Laslett 組合等疼痛誘發測試（信度參考 Robinson 等人 2007）。",
+  "tags": ["薦髂關節 SIJ", "反點頭 counternutation", "信度低 low reliability"]
+ },
+ {
+  "slug": "top-5-gluteus-maximus-exercises",
+  "title_zh": "臀大肌五大運動 Top 5 Gluteus Maximus Exercises",
+  "purpose_zh": "依肌電圖 (EMG) 活化程度（Reiman 等人 2012 的回顧）選擇臀大肌 (gluteus maximus) 的強化運動。",
+  "structure_zh": "臀大肌：強力的髖伸肌與外轉肌，是身體從髖屈約 45–60° 向上向前加速時最重要的肌肉，也在向對側的蹬地轉向 (plant and cut) 中扮演要角。髖功能障礙與下背及多種下肢病變有關；外轉無力與髕股疼痛症候群 (patellofemoral pain syndrome) 有強烈關聯。",
+  "procedure_zh": "活化度最高的五項，由低到高：1) 後退式登階 (retro step-up)、2) 靠牆深蹲 (wall squat)、3) 單腳深蹲 (single-leg squat)、4) 單腳硬舉 (single-leg deadlift)、5) 登階 (step-up)；另加 Physiotutors 的個人最愛：負重臀推 (weighted hip thrust)。",
+  "positive_zh": "不適用（運動頁面）。",
+  "notes_zh": "EMG 活化只是選擇運動的因素之一；還要考量病人的功能需求、關節角度、開放鏈與閉鎖鏈、協調需求、感覺動作回饋、刺激性 (irritability) 與病人的技巧。",
+  "tags": ["臀大肌 gluteus maximus", "運動治療 exercise", "肌電圖 EMG"]
+ },
+ {
+  "slug": "top-5-glutes-medius-exercises",
+  "title_zh": "臀中肌五大運動 Top 5 Gluteus Medius Exercises",
+  "purpose_zh": "依肌電圖 (EMG) 活化程度（Reiman 等人 2012 的回顧）選擇臀中肌 (gluteus medius) 的強化運動。",
+  "structure_zh": "臀中肌：負重活動中股骨與骨盆的重要穩定肌，步態站立期 (stance phase) 活化最高；前、中、後纖維占髖外展肌總橫斷面積的 60%。髖外展與外轉無力與髕股疼痛症候群 (patellofemoral pain syndrome) 有關，因為可能造成膝外翻、髖內收與髖內轉，增加膝關節壓力。",
+  "procedure_zh": "活化度最高的五項，由低到高：1) 側臥髖外展（加或不加彈力帶）、2) 骨盆下沉 (pelvic drop)、3) 單腳硬舉 (single-leg deadlift)、4) 單腳深蹲 (single-leg squat)、5) 側橋／側棒式 (side bridge / side plank)。",
+  "positive_zh": "不適用（運動頁面）。",
+  "notes_zh": "與臀大肌五大運動為配套頁面。",
+  "tags": ["臀中肌 gluteus medius", "運動治療 exercise", "肌電圖 EMG"]
+ },
+ {
+  "slug": "copenhagen-adduction-exercise",
+  "title_zh": "哥本哈根內收運動 Copenhagen Adduction Exercise",
+  "purpose_zh": "髖內收肌 (hip adductors) 的離心 (eccentric) 強化運動，用於內收肌傷害的預防與復健；內收肌傷害是足球最常見的傷害之一，內收肌力低者受傷風險較高，受傷多發生在肌肉邊收縮邊被拉長的離心動作中。",
+  "structure_zh": "雙腿的髖內收肌（以上方腿為主要訓練側），承受離心負荷。",
+  "procedure_zh": "側臥，以下方前臂撐地，另一手沿身體放。同伴把上方腿抬到約其髖部的高度，一手托踝、一手托膝上方。用 3 秒的向心 (concentric) 內收把身體抬起，同時下方腿也內收，直到身體成一直線、雙腳相碰；再以 3 秒離心內收放下，身體下降到一半、下方腳剛好碰地但不借力。全程軀幹不可側彎。建議從每側 2 組 × 6 下、每週 2–3 次開始，逐週增加到 3 組 × 15 下。沒有同伴可用史密斯機 (Smith machine) 加軟墊；進階可用 TRX 懸吊或加負重。",
+  "positive_zh": "不適用（運動頁面）。",
+  "notes_zh": "Ishøi 等人 (2016) 在年輕次菁英足球員的 8 週隨機對照試驗：離心內收肌力增加 35.7%、離心髖外展肌力增加 20.3%。Harøy 等人建議把此運動加入 FIFA 11+ 預防計畫，因為現行計畫對鼠蹊問題著墨不足。",
+  "tags": ["內收肌群 adductors", "離心訓練 eccentric", "鼠蹊痛預防 groin injury prevention"]
+ },
+ {
+  "slug": "sacroiliac-joint-pain-exercises",
+  "title_zh": "薦髂關節疼痛運動 Sacroiliac Joint Pain Exercises",
+  "purpose_zh": "針對疼痛（敏感化）的薦髂關節 (sacroiliac joint, SIJ)，以訓練提供力量閉鎖 (force closure) 的肌群來降低傷害感受 (nociception)。",
+  "structure_zh": "SIJ 疼痛定義為髂後上棘 (PSIS) 2 公分內的疼痛，常轉移到臀部的 Fortin 區。穩定來自形態閉鎖 (form closure)：關節面的構造、有稜紋的關節面與緻密韌帶；以及力量閉鎖：股直肌 (rectus femoris)、臀肌、腿後肌群 (hamstrings)、髂腰肌 (iliopsoas)，闊背肌 (latissimus dorsi) 與豎脊肌 (erector spinae) 也經胸腰筋膜 (thoracolumbar fascia) 施力於 SIJ。",
+  "procedure_zh": "範例運動：蚌殼式側棒式（進階：四足跪姿）、消防栓式 (fire hydrant)、髂腰肌行軍 (iliopsoas march)、側棒式（進階：直腿、再進階：上方腿外展）、單腳硬舉、腹部棒式、橋式（進階：抬腿橋式）、腹部捲曲、背伸展、超人式、滑輪下拉 (lat pulldown)。依病人描述的誘發情境（例如從椅子站起、走路）判斷該朝伸直或屈曲方向負荷。",
+  "positive_zh": "不適用（運動頁面）。",
+  "notes_zh": "成因：薦髂關節炎 (sacroiliitis)、Bechterew 氏病（僵直性脊椎炎）、直接外傷（踩空）、懷孕與產後韌帶鬆弛。Kibsgård 等人 (2014) 顯示即使用精密的實驗室量測也無法定義 SIJ 的過動／低動，SIJ 動作太小、無法靠觸診或特殊測試評估，且這些測試信度差；但我們可以測傷害感受（疼痛誘發）。另參考 Vleeming & Schuenke 2019。",
+  "tags": ["薦髂關節 SIJ", "力量閉鎖 force closure", "運動治療 exercise"]
+ }
+]

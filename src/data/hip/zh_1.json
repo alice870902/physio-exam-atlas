@@ -1,0 +1,182 @@
+[
+ {
+  "slug": "hip-active-range-of-motion",
+  "title_zh": "髖關節主動活動度 Hip Active Range of Motion",
+  "purpose_zh": "評估病人靠自身肌力能移動髖關節 (hip joint) 的範圍，藉此找出症狀（疼痛的位置、性質、強度）、觀察關節活動是否順暢，並注意來自腰椎 (lumbar spine) 或骨盆 (pelvis) 的代償動作 (compensatory movements)。",
+  "structure_zh": "髖關節的骨運動學 (osteokinematic) 動作：屈曲、伸直、外展、內收、內轉、外轉。原頁列出的參考值：屈曲 110–120°、伸直 10–15°、內收 30°、外展 30–50°、內轉 30–40°、外轉 40–60°。",
+  "procedure_zh": "這是不碰觸病人的評估 (hands-off)，先做健側，並事先告知可能誘發症狀；同一姿勢下盡量做完所有動作再換姿勢。仰臥：屈曲＝膝蓋盡量靠近胸口；內收＝檢查者抬起一腿，病人把另一腿從下方交叉過去；外展＝腿盡量向外離開床面；內外轉＝髖屈曲約 90°，腳跟向外為內轉、腳跟向內為外轉。伸直＝病人把腿抬離床面。",
+  "positive_zh": "非陽性／陰性型檢查：記錄疼痛（位置、性質、強度）、與參考值相比的活動範圍，以及代償動作。",
+  "notes_zh": "與被動活動度 (passive range of motion, PROM) 頁面互為配套。原頁未列參考文獻。",
+  "tags": ["活動度 ROM", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "hip-passive-range-of-motion",
+  "title_zh": "髖關節被動活動度 Hip Passive Range of Motion",
+  "purpose_zh": "以被動方式評估髖關節的骨運動學動作，量測角度；若活動受限，再評估末端感覺 (end-feel)。",
+  "structure_zh": "髖關節；檢查時以髂前上棘 (anterior superior iliac spine, ASIS) 監測或在坐骨粗隆 (ischial tuberosity) 固定骨盆，以便在骨盆開始移動前察覺真正的末端。",
+  "procedure_zh": "屈曲：仰臥，觸診同側 ASIS，握住股骨遠端屈曲直到骨盆開始移動。伸直：俯臥，以一手小魚際 (hypothenar) 固定坐骨粗隆，另一手將髖伸直。內轉／外轉：可在仰臥髖屈 90° 下測（前臂托住小腿、手掌罩住膝蓋以避免外翻力矩），或在髖中立位測（仰臥小腿垂出床緣，或俯臥並固定坐骨粗隆）。外展：仰臥，拇指放同側 ASIS，前臂托腿外展。內收：仰臥，非測試腳的腳放在測試腳膝蓋外側，拇指放對側 ASIS 監測骨盆，再內收。",
+  "positive_zh": "非陽性／陰性型檢查：與參考值及對側比較活動範圍，並記錄受限時的末端感覺。",
+  "notes_zh": "信度 (reliability)：依 Charlton 等人 (2015) 與 Prather 等人 (2010)，髖關節 PROM 的施測者內信度 (intra-tester) 為中等至極佳，施測者間信度 (inter-tester) 依動作不同從差到極佳。原頁寫「下表為被動活動度參考值」，但該表是圖片、API 文字中沒有，因此此處未列 PROM 參考值（原頁引用 McKay 2017、Soucie 2011）。",
+  "tags": ["活動度 ROM", "末端感覺 end-feel", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "hip-resisted-isometric-testing",
+  "title_zh": "髖關節等長阻力測試 Hip Resisted Isometric Testing",
+  "purpose_zh": "快速了解髖部肌肉狀態與是否誘發疼痛；肌力可用 MRC 量表 (Medical Research Council scale) 分級，務必兩側都測。",
+  "structure_zh": "髖關節周圍的肌肉肌腱組織 (musculotendinous tissues)；關節置於休息位／中立位，使惰性結構 (inert structures) 的應力最小。原頁提醒：臀大肌 (gluteus maximus) 是唯一同時參與伸直、內收、外轉三個動作的肌肉；股直肌 (rectus femoris) 與腿後肌群 (hamstrings) 為雙關節肌，因此也要測膝屈曲與伸直。",
+  "procedure_zh": "先告知病人「我會給阻力，請不要讓我移動你」，每個阻力至少維持 5 秒，肢體不可移動。屈曲：髖屈約 60°，托住小腿，往伸直方向給阻力。伸直：髖屈約 30°，往屈曲方向給阻力。內收／外展：抬起腿，一手在膝上、一手在膝下，請病人向內夾或向外推。內轉／外轉：髖屈 90°，請病人把腳踝向外（內轉）或向內（外轉）推。膝屈曲：髖屈約 30°，手放在踝關節近端。膝伸直：前臂托在腿下並靠在對側腿上，另一手放踝近端，請病人伸膝。",
+  "positive_zh": "阻力動作中出現疼痛及／或無力，依產生該動作的肌群判讀（例如伸直、內收、外轉三者都痛，指向臀大肌）。",
+  "notes_zh": "與主動活動度 (AROM)、被動活動度 (PROM) 同屬基礎髖關節評估。原頁未列參考文獻。",
+  "tags": ["肌力 strength", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "single-leg-stance-assessment",
+  "title_zh": "單腳站立觀察評估 Single-Leg Stance Assessment",
+  "purpose_zh": "以觀察方式評估單腳站立時的靜態姿勢控制 (static postural control) 與穩定策略；不只用於老年人跌倒風險，因為步態週期約 40% 處於單腳支撐，上下樓梯也依賴它。",
+  "structure_zh": "整個動力鏈：足踝穩定度、膝關節排列（髕骨是否對齊足背、膝內塌、脛骨扭轉 (tibial torsion)）、臀大肌 (gluteus maximus)、臀中肌 (gluteus medius)、對側腰方肌 (quadratus lumborum)、胸廓與呼吸（核心）、頭與眼睛的位置。",
+  "procedure_zh": "從病人脫鞋襪、從坐姿站起就開始觀察，站立時注意體重分布。請病人眼睛直視前方、雙手放身側，單腳站立，不指定哪一腳、也不指定抬多高。觀察呼吸與胸廓、腳趾抓地或變白、足部在內翻／外翻間尋找穩定、Trendelenburg 徵象、膝內塌、眼睛移動。最後閉眼重做一次。",
+  "positive_zh": "屬觀察所見而非二元結果：原頁以閉眼維持良好姿勢 20 秒、睜眼 40 秒為可接受範圍。Trendelenburg 徵象提示站立腳臀中肌無力或對側腰方肌抑制；腳趾抓地／足部尋找穩定提示足部不穩或臀大肌抑制；膝外翻／脛骨扭轉可能提示臀大肌無力。",
+  "notes_zh": "本頁有兩支影片。唯一參考來源是 Dynamic Chiropractic 網路文章；其中的判讀（例如頸部外傷後常見的眼肌促進 (eye muscle facilitation)）是原頁的臨床推理，並非引用研究。",
+  "tags": ["姿勢控制 postural control", "觀察 observation", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "hip-osteoarthritis-diagnosis",
+  "title_zh": "髖關節退化性關節炎臨床診斷 Hip Osteoarthritis Diagnosis",
+  "purpose_zh": "以 Altman 等人 (1991) 的美國風濕病學會 (American College of Rheumatology, ACR) 臨床分類準則診斷髖關節退化性關節炎 (osteoarthritis, OA)，不依賴影像。",
+  "structure_zh": "髖關節。過去診斷多依 Kellgren-Lawrence 放射學分級，但影像與疼痛、功能受限的相關性不如想像中強；中樞敏感化 (central sensitization) 與心理社會因素 (psychosocial factors) 可能左右誰會痛。",
+  "procedure_zh": "髖部疼痛，加上以下任一組：(a) 髖內轉活動度 < 15° 且髖屈曲 ≤ 115°；或 (b) 髖內轉 ≥ 15°、內轉時疼痛、晨僵 (morning stiffness) < 60 分鐘、年齡 > 50 歲。",
+  "positive_zh": "符合上述準則。晨僵 < 60 分鐘有助於與類風濕性關節炎 (rheumatoid arthritis) 區分（後者通常更久）；盛行率隨年齡上升，高峰約 78–79 歲。",
+  "notes_zh": "Kim 等人 (2015) 在兩個大型世代中發現，影像上有髖 OA 的髖關節只有 20% 經常疼痛，支持以負荷管理、肌力訓練、活動度運動與衛教為治療方向。原頁列出的相關檢查：Patrick's / FABER 測試、Trendelenburg 徵象、Sutlive 組合 (Cluster of Sutlive)。",
+  "tags": ["退化性關節炎 OA", "ACR 準則 criteria", "診斷 diagnosis"]
+ },
+ {
+  "slug": "groin-pain-classification",
+  "title_zh": "運動員鼠蹊痛分類（杜哈共識） Groin Pain Classification",
+  "purpose_zh": "依杜哈共識 (Doha agreement, Weir 等人 2015) 將運動員的鼠蹊痛 (groin pain) 分為定義明確的臨床實體、髖關節相關鼠蹊痛，以及其他原因。",
+  "structure_zh": "內收肌群 (adductors)、髂腰肌 (iliopsoas)、腹股溝管 (inguinal canal)、恥骨聯合 (pubic symphysis) 與鄰近骨頭、髖關節。原頁流行病學：男子俱樂部足球中鼠蹊傷害占所有傷害 4–19%，女子 2–14%。",
+  "procedure_zh": "病史：患部疼痛且運動時加劇。接著對該肌群做觸診、阻力測試與伸展。內收肌相關：阻力內收時內收肌疼痛加上內收肌壓痛。髂腰肌相關：阻力髖屈與髖屈肌伸展時疼痛（髂腰肌本身幾乎無法觸診）。腹股溝相關：腹股溝管區域疼痛與壓痛、無可觸及的疝氣，腹肌阻力測試或 Valsalva／咳嗽／打噴嚏時加劇。恥骨相關：恥骨聯合及緊鄰骨頭的局部壓痛。髖關節相關：病史或理學檢查有疑慮時一律考慮髖關節（股髖夾擠 (femoroacetabular impingement, FAI)、盂唇撕裂 (labral tear)）。其他：骨科、神經、風濕、泌尿、腸胃、皮膚、腫瘤、外科原因。",
+  "positive_zh": "歸入某一實體的前提是阻力測試的疼痛要出現在該結構本身（例如阻力內收時痛在腹股溝區，不算內收肌相關）。",
+  "notes_zh": "原頁引用 Hölmich 2004 的信度研究但未給數值。哥本哈根內收運動 (Copenhagen adduction exercise) 被列為內收肌相關鼠蹊痛的有效預防工具。原頁提到的「其他原因一覽表」不在 API 文字中。",
+  "tags": ["鼠蹊痛 groin pain", "杜哈共識 Doha agreement", "分類 classification"]
+ },
+ {
+  "slug": "faddir-test",
+  "title_zh": "FADDIR 測試 FADDIR Test",
+  "purpose_zh": "股髖夾擠症候群 (femoroacetabular impingement, FAI) 與髖臼盂唇 (acetabular labrum) 撕裂的篩檢測試。",
+  "structure_zh": "髖關節：凸輪型 (CAM) 形態為股骨頸的骨性突起，鉗夾型 (pincer) 形態為髖臼後傾 (retroversion) 或盂唇過度突出，最常見的是兩者合併；髖臼盂唇。",
+  "procedure_zh": "病人仰臥。檢查者將髖屈曲至 90°、內收，再加上內轉（Flexion-ADDuction-Internal Rotation）。",
+  "positive_zh": "重現病人熟悉的髖部／鼠蹊疼痛。",
+  "notes_zh": "Reiman 等人 (2015) 系統性回顧的合併敏感度 99%、特異度 5%，因此只適合用來排除 (exclusion screening)，陽性無法診斷 FAI；納入研究品質中等。FAI 形態常是無症狀的發現，即使在運動員也是，但與退化性關節炎 (osteoarthritis) 風險上升有關。原頁列的相關檢查：Thomas 測試、前／後盂唇撕裂測試、McCarthy 測試、足部前進角步行測試 (foot progression angle walking test)。",
+  "tags": ["股髖夾擠 FAI", "盂唇 labrum", "排除用 rule-out"]
+ },
+ {
+  "slug": "patricks-test",
+  "title_zh": "Patrick's 測試（FABER／四字測試） Patrick's Test",
+  "purpose_zh": "評估髖關節水平內收 (horizontal adduction) 方向的活動受限（髖退化性關節炎常見），也可作為髖關節或薦髂關節 (sacroiliac joint, SIJ) 的疼痛誘發測試。",
+  "structure_zh": "髖關節（屈曲-外展-外轉 Flexion-ABduction-External Rotation 位置）與薦髂關節；SIJ 疼痛通常出現在 Fortin 區／SIJ 後關節線，髖關節疼痛則在鼠蹊。",
+  "procedure_zh": "病人仰臥，檢查者站患側。病人屈曲同側膝蓋，把腳跟內側靠在對側膝上。檢查者固定對側髂前上棘 (ASIS)，病人盡量把同側膝蓋往床面放下，腳底保持貼在對側膝上。最後檢查者在同側膝施加 15 公斤的加壓 (overpressure) 持續 5 秒。",
+  "positive_zh": "重現病人熟悉的疼痛（SIJ：Fortin 區／後關節線；髖：鼠蹊）。",
+  "notes_zh": "信度：Ross 等人 (2003) 施測者內 ICC 0.93（良好）；Sutlive 等人 (2008) 作為髖關節誘發測試的施測者間 kappa 僅 0.47，原頁因此認為作為誘發測試臨床價值弱。SIJ 診斷：Schneider 等人 (2020) 敏感度 50%、特異度 56%，臨床價值同樣弱。另為 Sutlive 組合 (Cluster of Sutlive) 的一部分；Ely's 測試頁面把它列為內收長肌 (adductor longus) 長度測試。",
+  "tags": ["退化性關節炎 OA", "薦髂關節 SIJ", "FABER"]
+ },
+ {
+  "slug": "external-rotation-stinchfield-test",
+  "title_zh": "外轉 Stinchfield 測試 External Rotation Stinchfield Test",
+  "purpose_zh": "評估核心肌群損傷 (core muscle injury, CMI)，即運動性恥骨痛 (athletic pubalgia)、俗稱「運動疝氣」(sports hernia)，在杜哈分類中屬恥骨相關鼠蹊痛。",
+  "structure_zh": "腹壁弱化或撕裂但無真正疝氣，合併內收長肌 (adductor longus) 與腹直肌 (rectus abdominis) 在恥骨附著處的損傷。",
+  "procedure_zh": "病人仰臥，患側腿完全伸直並置於外轉位。病人對抗檢查者的阻力把腿抬離床面。",
+  "positive_zh": "恥骨或鼠蹊疼痛。",
+  "notes_zh": "Kurowicki 等人 (2020) 的診斷世代研究中（三項建議測試之一），單獨使用敏感度 15%、特異度 60%，概似比 (likelihood ratio) 差，臨床價值弱，應與直腿仰臥起坐測試 (straight leg sit-up test)、阻力交叉仰臥起坐測試 (resisted cross-body sit-up test) 組成 cluster，並結合病史與診斷性超音波。須與 FAI、腰椎轉移痛、SIJ 疼痛鑑別。",
+  "tags": ["核心肌群損傷 core muscle injury", "鼠蹊痛 groin pain", "cluster"]
+ },
+ {
+  "slug": "anterior-labral-tear-test",
+  "title_zh": "前盂唇撕裂測試 Anterior Labral Tear Test",
+  "purpose_zh": "評估髖關節前上夾擠 (anterior superior impingement)、前盂唇 (anterior labrum) 撕裂與髂腰肌肌腱炎 (iliopsoas tendonitis)。",
+  "structure_zh": "髖臼前上盂唇；髂腰肌肌腱。",
+  "procedure_zh": "將病人的髖帶到屈曲、外轉、外展，再緩慢移向內轉、內收、伸直。",
+  "positive_zh": "重現病人的症狀（伴或不伴彈響 click），或出現疼痛。",
+  "notes_zh": "原頁明言沒有任何診斷研究評估過本測試的信度或效度，臨床價值未知。原頁未列參考文獻。",
+  "tags": ["盂唇 labrum", "股髖夾擠 FAI", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "posterior-labral-tear-test",
+  "title_zh": "後盂唇撕裂測試 Posterior Labral Tear Test",
+  "purpose_zh": "評估髖關節後下夾擠 (posteroinferior impingement)、後盂唇 (posterior labrum) 撕裂與前側髖不穩定 (anterior hip instability)。",
+  "structure_zh": "髖臼後盂唇；前關節囊（不穩定）。",
+  "procedure_zh": "病人仰臥、脊椎中立。檢查者將髖帶到最大屈曲、內收、內轉，再緩慢移向外展、外轉、伸直。",
+  "positive_zh": "重現病人熟悉的鼠蹊疼痛（伴或不伴彈響 click）。",
+  "notes_zh": "原頁明言沒有任何診斷研究評估過本測試的信度或效度，臨床價值未知。原頁未列參考文獻。",
+  "tags": ["盂唇 labrum", "髖不穩定 instability", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "hip-prone-instability-test",
+  "title_zh": "髖關節俯臥不穩定測試 Hip Prone Instability Test",
+  "purpose_zh": "評估髖關節微不穩定 (hip microinstability)，這是年輕病人中相對新的臨床實體。",
+  "structure_zh": "髖關節穩定結構：髖臼、盂唇 (labrum)、圓韌帶 (ligamentum teres)、關節囊韌帶複合體 (capsuloligamentous complex) 與周圍肌肉。推測機轉為在上述結構有解剖異常的情況下反覆承受軸向及／或旋轉負荷；創傷性與非創傷性起病皆有描述。",
+  "procedure_zh": "病人俯臥，檢查者站健側。將患側膝屈曲 90° 當作槓桿，另一手放在大轉子 (greater trochanter) 後側；在把腿外轉的同時，對大轉子施加向下（向前）的力。",
+  "positive_zh": "重現前側髖部疼痛。",
+  "notes_zh": "Hoppe 等人 (2017)：敏感度 33.9%、特異度 97.9%；這是第一篇效度研究且有若干限制，原頁給中等臨床價值，建議等待進一步驗證前審慎使用。應合併病史與 Beighton 評分 (Beighton score) 評估關節過動。相關檢查：AB-HEER 測試、HEER 測試、足部前進角步行 (foot progression walking angle)。",
+  "tags": ["微不穩定 microinstability", "Beighton 評分", "確認用 rule-in"]
+ },
+ {
+  "slug": "thomas-test",
+  "title_zh": "Thomas 測試 Thomas Test",
+  "purpose_zh": "髂腰肌 (iliopsoas) 縮短的肌肉長度測試；文獻中也用於測試股髖夾擠症候群 (femoroacetabular impingement, FAI)。",
+  "structure_zh": "髂腰肌（髖屈肌）；若出現 J 字徵象 (J-sign) 則牽涉髂脛束 (iliotibial tract)。",
+  "procedure_zh": "病人仰臥。病人把非測試側的腿抱向胸口，直到腰椎前凸變平，測試側的腿則維持伸直放在床上。",
+  "positive_zh": "伸直的腿抬離床面，且病人感到鼠蹊部被拉緊。若伸直腿出現內收（J 字徵象），可能表示髂脛束縮短。",
+  "notes_zh": "McCarthy 等人 (1995) 對各種髖關節病變（如 FAI）得到陽性概似比 (LR+) 11.1、陰性概似比 (LR−) 0.12；但無症狀的 FAI 很常見，所以此測試只算中等有用。此外髂腰肌縮短無論用目視或量角器都無法可靠偵測（信度參考 Peeler & Anderson 2007）。原頁列的其他長度測試：Ober's、Ely's、Kendall、90-90 直膝抬腿、Backsaver 坐姿體前彎、三腳架徵象、Phelps。",
+  "tags": ["髂腰肌 iliopsoas", "肌肉長度 muscle length", "股髖夾擠 FAI"]
+ },
+ {
+  "slug": "obers-test",
+  "title_zh": "Ober's 測試 Ober's Test",
+  "purpose_zh": "評估闊筋膜張肌 (tensor fasciae latae) 與髂脛束 (iliotibial band, ITB) 的緊繃。",
+  "structure_zh": "闊筋膜張肌與髂脛束；但依 Willett 等人 (2016) 的解剖研究，測試結果其實受臀中肌 (gluteus medius)、臀小肌 (gluteus minimus) 與髖關節囊影響。",
+  "procedure_zh": "病人側臥，下方腿的髖與膝屈曲以求穩定。檢查者一手固定骨盆，另一手被動外展上方腿並帶到些微伸直，再慢慢把腿往床面放下。文獻原始描述是膝屈 90°，Physiotutors 偏好上方腿完全伸直以增加髂脛束的張力。",
+  "positive_zh": "上方腿停在空中、無法落到床面。",
+  "notes_zh": "Willett 等人 (2016) 反駁「ITB 在兩種版本的 Ober 測試中限制髖內收」的假說，質疑它作為 ITB 緊繃測試的效度，並強調臀中肌、臀小肌與髖關節囊的影響，判讀時要小心。原頁未列診斷準確度數值。",
+  "tags": ["髂脛束 ITB", "闊筋膜張肌 TFL", "肌肉長度 muscle length"]
+ },
+ {
+  "slug": "elys-test",
+  "title_zh": "Ely's 測試 Ely's Test",
+  "purpose_zh": "評估股直肌 (rectus femoris) 柔軟度或攣縮 (contracture) 的肌肉長度測試。",
+  "structure_zh": "股直肌：起自髂前下棘 (anterior inferior iliac spine, AIIS)、止於脛骨粗隆，跨越髖與膝兩個關節。",
+  "procedure_zh": "病人俯臥。檢查者被動將病人的膝蓋屈曲到最大。",
+  "positive_zh": "膝蓋屈到底時病人自發性地髖屈曲（臀部抬起）以代償縮短的股直肌，或測試中出現疼痛。",
+  "notes_zh": "信度（Peeler & Anderson 2008）：以陽性／陰性計分時施測者內 kappa 0.52、施測者間 kappa 0.46（中等）；改用量角器時施測者內 ICC 0.69、施測者間 ICC 0.66，略好。原頁列的其他長度測試：Thomas（髂腰肌）、Kendall（股直肌）、90-90 直膝抬腿（腿後肌群）、Phelps（股薄肌）、Ober's（闊筋膜張肌／髂脛束）、梨狀肌測試、Patrick's（內收長肌）。",
+  "tags": ["股直肌 rectus femoris", "肌肉長度 muscle length", "信度 reliability"]
+ },
+ {
+  "slug": "90-90-straight-leg-raise-test",
+  "title_zh": "90-90 直膝抬腿測試 90-90 Straight Leg Raise Test",
+  "purpose_zh": "評估腿後肌群 (hamstrings) 長度與是否有腿後肌攣縮；又稱主動伸膝測試 (Active Knee Extension Test, AKET)。",
+  "structure_zh": "腿後肌群。",
+  "procedure_zh": "病人仰臥，髖與膝各屈曲 90°、腰椎維持中立，雙手抱住大腿後側穩定姿勢。接著病人主動伸直測試側的膝蓋，過程中腰椎保持中立。",
+  "positive_zh": "原頁未明寫陽性判準；結果為膝伸直不足的角度（距完全伸直幾度），並與對側比較。",
+  "notes_zh": "Neto 等人 (2015)：施測者內 ICC 0.91（極佳），最小可偵測差異 (smallest detectable difference) 7–8°。原頁列的其他腿後肌長度測試：Backsaver 坐姿體前彎、三腳架徵象 (tripod sign)。",
+  "tags": ["腿後肌群 hamstrings", "肌肉長度 muscle length", "AKET"]
+ },
+ {
+  "slug": "tripod-sign",
+  "title_zh": "三腳架徵象 Tripod Sign",
+  "purpose_zh": "快速評估腿後肌群 (hamstrings) 長度。",
+  "structure_zh": "腿後肌群；須與神經根 (nerve root) 問題鑑別。",
+  "procedure_zh": "病人坐在床緣，膝屈 90°。檢查者被動伸直一側膝蓋，放回後換另一側，兩側比較。",
+  "positive_zh": "膝完全伸直時病人必須身體後仰以減輕腿後肌張力。若病人抱怨的是整條腿往下竄的電擊樣痛而非腿後肌緊繃，應考慮神經根問題，而非本測試陽性。",
+  "notes_zh": "參考來源為 Magee (2014) 教科書，無診斷準確度數值。原頁列的其他長度測試：Ober's（闊筋膜張肌）、Ely's（股直肌）、Phelps（股薄肌）、90-90 直膝抬腿、Kendall、Backsaver 坐姿體前彎、Thomas。",
+  "tags": ["腿後肌群 hamstrings", "肌肉長度 muscle length", "神經根鑑別 nerve root"]
+ },
+ {
+  "slug": "phelps-test",
+  "title_zh": "Phelps 測試 Phelps Test",
+  "purpose_zh": "評估股薄肌 (gracilis) 長度，可提示股薄肌攣縮或縮短。",
+  "structure_zh": "股薄肌：內收肌群中唯一的雙關節肌（跨越髖與膝），本測試即利用這個特性。",
+  "procedure_zh": "病人俯臥、雙膝伸直。檢查者被動把雙腿外展到最大，接著請病人屈膝 90°，再嘗試進一步被動外展。",
+  "positive_zh": "屈膝 90° 後外展角度增加：屈膝讓股薄肌鬆弛，若它是限制因子，外展就會變多。",
+  "notes_zh": "參考來源為 Magee (2014) 教科書，無診斷準確度數值。原頁列的其他長度測試：Ober's、Ely's、Kendall、90-90 直膝抬腿、Backsaver 坐姿體前彎、三腳架徵象、Thomas。",
+  "tags": ["股薄肌 gracilis", "內收肌群 adductors", "肌肉長度 muscle length"]
+ }
+]
