@@ -1,7 +1,7 @@
 # Physio Exam Atlas — project guide for Claude Code
 
-Static site that turns Physiotutors' physical-examination videos into a course-style
-study page per body region, with Traditional Chinese (台灣用語) notes and English
+Static site that turns Physiotutors' physical-examination videos into one course-style
+single-page library (all regions, chapters 00–05, sidebar filters, accuracy table), with Traditional Chinese (台灣用語) notes and English
 medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-atlas/
 (GitHub Pages, branch `main`, root). Owner: Wulin, rehabilitation medicine R1.
 
@@ -9,18 +9,18 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 
 | Region | State | Notes |
 |---|---|---|
-| shoulder | **live** (92 videos, 10 categories) | `shoulder/index.html`; all 81 'Shoulder Assessment' wiki pages are in (18 backfilled 2026-10-17 as groupE/zh_4) |
-| hip | **live** (61 videos, 8 categories) | `hip/index.html`; all 43 'Hip Assessment' wiki pages are in (19 backfilled 2026-10-17 as groupE/zh_4); source quirks (Pace page duplicates FAIR procedure, resisted-external-derotation page duplicates Puranen-Orava, compression/sacral-thrust and Kendall/Phelps share YouTube IDs) are flagged in record notes |
-| knee | **live** (61 videos, 12 categories) | `knee/index.html`; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
-| lumbar | **live** (36 videos, 8 categories) | `lumbar/index.html`; 24 'Lumbar Spine Assessment' pages + referred pain, fracture red flags, Babinski, 4 SIJ pages not in hip, CPRs, direction-specific exercises; `myotomes-lower-limb` is deliberately in both knee and lumbar; SIJ provocation tests stay in hip |
+| shoulder | **live** (92 videos, 10 categories) | redirect page; all 81 'Shoulder Assessment' wiki pages are in (18 backfilled 2026-10-17 as groupE/zh_4) |
+| hip | **live** (61 videos, 8 categories) | redirect page; all 43 'Hip Assessment' wiki pages are in (19 backfilled 2026-10-17 as groupE/zh_4); source quirks (Pace page duplicates FAIR procedure, resisted-external-derotation page duplicates Puranen-Orava, compression/sacral-thrust and Kendall/Phelps share YouTube IDs) are flagged in record notes |
+| knee | **live** (61 videos, 12 categories) | redirect page; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
+| lumbar | **live** (36 videos, 8 categories) | redirect page; 24 'Lumbar Spine Assessment' pages + referred pain, fracture red flags, Babinski, 4 SIJ pages not in hip, CPRs, direction-specific exercises; `myotomes-lower-limb` is deliberately in both knee and lumbar; SIJ provocation tests stay in hip |
 
 ## Repo layout
 
 ```
-index.html                 home page (region cards; hand-written)
-shoulder/index.html        built output — DO NOT edit by hand, rebuild from src/
-src/template.html          single-page app template; __DATA__ is replaced with JSON
-src/build.py               python3 src/build.py <region> <中文名> <English name> <out.html>
+index.html                 built single-page site — DO NOT edit by hand, rebuild from src/
+<region>/index.html        built redirect stubs → ../#region-<id> (or ../#test-<slug> if a hash is present)
+src/site_template.html     single-page template; build replaces __DATA__, __N_TESTS__, __N_REGIONS__, __N_TOPICS__, __N_ACC__
+src/build_site.py          python3 src/build_site.py   (no args) → writes index.html + 4 redirect pages
 src/data/<region>/
   categories.json          [{id, zh, en, slugs:[...]}]  ← defines order & grouping
   group*.json              English source records fetched from physiotutors (any number of files)
@@ -29,9 +29,10 @@ src/data/<region>/
 .nojekyll                  keep; GitHub Pages must not run Jekyll
 ```
 
-Rebuild shoulder: `python3 src/build.py shoulder 肩部 Shoulder shoulder/index.html`
-Build hip once data exists: `python3 src/build.py hip 髖部 Hip hip/index.html`
-Then add/replace the region card in `index.html` (remove its 規劃中 placeholder) and commit.
+Rebuild everything: `python3 src/build_site.py` (prints stats; fails loudly if a slug is missing
+from zh/group or a category has no theme). Adding a region = add its data folder, append it to
+`REGIONS` and map its category ids in `THEMES` inside build_site.py, rebuild, commit, push.
+The old per-region `build.py` / `template.html` were removed in the 2026-10-17 redesign.
 
 ## Data pipeline (what was done for shoulder; repeat per region)
 
@@ -53,7 +54,7 @@ Then add/replace the region card in `index.html` (remove its 規劃中 placehold
 4. **Translate.** Produce `zh_*.json` records:
    `{slug,title_zh,purpose_zh,structure_zh,procedure_zh,positive_zh,notes_zh,tags}`
    Rules the owner asked for:
-   - `title_zh` = `中文名稱 + 空格 + 英文原名` (e.g. `空罐測試 Empty Can Test`). build.py
+   - `title_zh` = `中文名稱 + 空格 + 英文原名` (e.g. `空罐測試 Empty Can Test`). build_site.py
      splits on the trailing Latin run to get `name_zh` and `title_en`, so the English part
      must come last and contain only `[A-Za-z0-9 '’()|/-]`.
    - Every medical term bilingual on first mention: 棘上肌 (supraspinatus), 盂唇 (labrum),
@@ -67,25 +68,30 @@ Then add/replace the region card in `index.html` (remove its 規劃中 placehold
 Shoulder was done with ~4 parallel fetch workers (≈20 slugs each) and 3 translate
 workers (≈25 slugs each); each worker writes its own groupX.json / zh_N.json.
 
-## Page behaviour (template.html)
+## Page behaviour (site_template.html)
 
-- Left index: category (`<details>`) → test; search box filters on zh/en title, structure,
-  tags, purpose. Prev/next buttons; URL hash = slug; mobile drawer via ☰.
-- Right: YouTube `youtube-nocookie.com/embed/<id>` iframe (multiple IDs → 影片 1/2 pills),
-  bilingual heading, tags, 已看完 checkbox, then six sections: 目的 / 檢查結構 / 操作步驟 /
-  陽性判讀 / 診斷準確度 (Sn, Sp, LR±, source — rows hidden when "not reported") / 臨床重點,
-  plus a link back to the physiotutors.com page.
-- Progress stored in `localStorage` key `physio-atlas-done-<region>` (per browser).
-- Light/dark via `prefers-color-scheme`; Google Fonts Noto Sans TC + Fraunces + IBM Plex Mono.
-- No build step beyond build.py; no framework; one self-contained HTML per region.
+Layout mirrors a course-library site: sticky header (chapter links, Aa font-size 100/120/135%
+stored in localStorage `pa-font`), hero with region buttons + a sample card (`SAMPLE_SLUG`),
+stats row, chapter cards, 使用須知, then chapters:
+- 01 依主題: 7 cross-region themes (`THEMES` in build_site.py) → list → detail.
+- 02 依部位: regions → categories → list → detail. Hash routing: `#region-<id>`,
+  `#test-<slug>` or `#test-<region>/<slug>` (slug alone picks the first region that has it).
+- 03 全部影片庫: full-text search (zh/en titles, purpose, structure, notes, tags) + region/theme selects.
+- 04 診斷準確度總表: sortable table (numeric sort on first number in the Sn/Sp/LR string,
+  "not reported" always last), region filter, "只看有數字的", search; names link to `#test-…`.
+- 05 專業來源; floating 目錄 drawer (Esc closes).
+Detail = chips, 中文名 / English name, 原始來源 link, YouTube `youtube-nocookie.com/embed/<id>`
+iframes (lazy), four 逐段筆記 cards (目的與檢測結構 / 操作步驟 / 陽性判讀 / 診斷準確度) + 臨床重點與備註;
+sentences containing ⚠ render as orange warning boxes; 中文/EN toggle swaps the body text.
+No progress tracking (owner decided 2026-10-17). Light/dark via `prefers-color-scheme`;
+Google Fonts Noto Serif TC + Noto Sans TC; no framework; one self-contained HTML.
 
 ## Conventions and gotchas
 
 - Videos are only embedded, never downloaded; keep the copyright footer line.
-- The build replaces three literal strings in the template (title, `<h1>`, localStorage key)
-  — keep those exact strings in template.html if you edit it.
+- The build asserts every placeholder (`__DATA__`, `__N_*__`) exists in site_template.html.
 - Region names: zh/en pairs used so far — 肩部 Shoulder, 髖部 Hip, 膝部 Knee, 腰椎 Lumbar spine.
-- Home-page card count line is hand-written (`92 支影片 · 10 個主題`); update when rebuilding.
+- Counts on the page are all computed by build_site.py; nothing is hand-written.
 - Commit messages: short imperative English summary; the owner writes in Traditional Chinese
   in conversation.
 
@@ -100,4 +106,4 @@ related-video or reference links.
 1. Possible new regions from the same wiki: Ankle & Foot (31 pages), Elbow (28), Wrist & Hand (27),
    Cervical spine (17), Thoracic spine (13), Dizziness/vestibular (14), fracture-screening rules.
 2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
-   page; timestamped segments within a video (needs transcripts); an "all regions" search.
+   page; timestamped segments within a video (needs transcripts — deferred 2026-10-17).

@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Physio Exam Atlas 理學檢查影片庫</title>
+<meta name="description" content="__N_TESTS__ 支 Physiotutors 理學檢查影片，依肩、髖、膝、腰椎與 __N_TOPICS__ 個主題排列；每支影片附繁中逐段筆記與診斷準確度。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#faf8f2; --cream:#f0ecdf; --white:#fffef9;
+  --ink:#153238; --ink-deep:#0c2429; --muted:#647477; --line:#cfd8d3;
+  --teal:#0e5f61; --teal-bright:#4db9ad; --teal-soft:#d9ece7;
+  --orange:#d85f35; --orange-soft:#f5e2d8;
+  --shadow:0 24px 70px #0f30351f;
+  --serif:"Noto Serif TC","Songti TC",PMingLiU,Georgia,serif;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --hdr:68px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1f22; --cream:#152a2e; --white:#1a3034;
+    --ink:#e6eeeb; --ink-deep:#07171a; --muted:#9bb0ad; --line:#2d4448;
+    --teal:#4db9ad; --teal-bright:#7fd9cf; --teal-soft:#1d3d3f;
+    --orange:#f08a63; --orange-soft:#3d2419;
+    --shadow:0 24px 70px #00000066;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+[id]{scroll-margin-top:calc(var(--hdr) + 12px)}
+html{font-size:16px;scroll-behavior:smooth}
+html[data-font="120"]{font-size:19.2px}
+html[data-font="135"]{font-size:21.6px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--teal)}
+h1,h2,h3,h4{font-family:var(--serif);line-height:1.25;margin:0;font-weight:700}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+.sr{position:absolute;left:-9999px}
+
+/* ---------- header ---------- */
+.site{position:sticky;top:0;z-index:40;height:var(--hdr);background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.site .wrap{height:100%;display:flex;align-items:center;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);white-space:nowrap}
+.brand .mark{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;font-family:var(--serif);font-size:15px;font-weight:700}
+.brand b{display:block;font-size:12px;letter-spacing:.14em;font-weight:700;line-height:1.1}
+.brand small{display:block;font-size:12px;color:var(--muted);line-height:1.2}
+.site nav{display:flex;gap:4px;margin-left:8px;overflow-x:auto;scrollbar-width:none}
+.site nav a{font-size:14px;text-decoration:none;color:var(--ink);padding:6px 10px;border-radius:8px;white-space:nowrap}
+.site nav a:hover{background:var(--cream)}
+.site .tools{margin-left:auto;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.fontbtn{display:flex;align-items:center;gap:6px;background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px}
+.fontbtn b{font-family:var(--serif)}
+.level{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted)}
+@media (max-width:860px){.site nav{display:none}.brand small{display:none}.level{display:none}}
+
+/* ---------- hero ---------- */
+.hero{padding:clamp(40px,7vw,88px) 0 40px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,5vw,64px);align-items:start}
+.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--orange);font-weight:700;margin-bottom:18px}
+.hero h1{font-size:clamp(34px,5.2vw,64px);letter-spacing:.01em}
+.hero .lead{font-size:1.05rem;max-width:36em;margin:22px 0 26px}
+.hero .lead b{font-weight:700}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;text-decoration:none;border-radius:999px;padding:11px 20px;font-size:15px;font-weight:500;border:1.5px solid var(--ink);color:var(--ink);background:transparent;line-height:1.3}
+.btn.primary{background:var(--ink-deep);color:var(--white);border-color:var(--ink-deep)}
+.btn:hover{background:var(--cream)}
+.btn.primary:hover{background:var(--teal)}
+.panel{background:var(--ink-deep);color:#e9efec;border-radius:22px;padding:clamp(20px,3vw,32px);box-shadow:var(--shadow)}
+.panel .tag{font-size:12px;letter-spacing:.12em;color:#9fc3bd;margin-bottom:10px}
+.panel h2{color:#fff;font-size:1.35rem;margin-bottom:8px}
+.panel p{font-size:14px;color:#b9cdc8;margin:0 0 16px}
+.regions{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:22px}
+.regions a{display:block;text-decoration:none;color:#fff;background:#163b40;border:1px solid #2b5a60;border-radius:12px;padding:12px 14px;line-height:1.3}
+.regions a b{display:block;font-family:var(--serif);font-size:1.05rem}
+.regions a small{font-size:12px;color:#9fc3bd}
+.regions a:hover{background:var(--teal)}
+.sample{border:1.5px solid var(--orange);border-radius:14px;padding:14px 16px;background:#102e33}
+.sample .tag{color:#f0a88c}
+.sample h3{color:#fff;font-size:1.1rem;margin-bottom:6px}
+.sample p{font-size:13.5px;margin-bottom:10px}
+.sample .nums{display:flex;gap:16px;font-size:13px;color:#9fc3bd}
+.sample .nums b{display:block;color:#fff;font-size:1.3rem;font-family:var(--serif)}
+.sample a{color:#f0a88c;font-size:13px}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+
+/* ---------- stats + chapter cards ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 36px}
+.stats div{background:var(--cream);border-radius:14px;padding:18px 20px}
+.stats b{display:block;font-family:var(--serif);font-size:2rem;line-height:1.1}
+.stats span{font-size:13.5px;color:var(--muted)}
+@media (max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}}
+.chapters{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:28px}
+.chapters a{text-decoration:none;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:16px;padding:18px 18px 20px;line-height:1.45}
+.chapters a i{font-style:normal;font-size:12px;color:var(--orange);font-weight:700;letter-spacing:.1em}
+.chapters a b{display:block;font-family:var(--serif);font-size:1.05rem;margin:6px 0 6px}
+.chapters a span{font-size:13px;color:var(--muted)}
+.chapters a:hover{border-color:var(--teal);box-shadow:0 10px 30px #0f30351a}
+@media (max-width:1000px){.chapters{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.chapters{grid-template-columns:1fr}}
+.notice{background:var(--cream);border-radius:18px;padding:22px clamp(18px,3vw,32px);font-size:14.5px;margin-bottom:24px}
+.notice h3{font-size:1.05rem;margin-bottom:8px}
+.notice p{margin:0}
+
+/* ---------- chapter sections ---------- */
+.chapter{padding:clamp(40px,6vw,72px) 0 24px;border-top:1px solid var(--line)}
+.chapter .head{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:end;margin-bottom:28px}
+.chapter .num{font-size:12px;letter-spacing:.16em;color:var(--orange);font-weight:700;margin-bottom:10px}
+.chapter h2{font-size:clamp(26px,3.4vw,40px)}
+.chapter .head p{margin:0;color:var(--muted);font-size:15px}
+@media (max-width:800px){.chapter .head{grid-template-columns:1fr}}
+.board{background:var(--cream);border-radius:22px;padding:clamp(14px,2vw,22px)}
+.board .bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:4px 6px 14px;border-bottom:1px solid var(--line);margin-bottom:14px}
+.board .bar h3{font-size:1.15rem}
+.board .bar small{color:var(--muted);font-size:13px}
+.split{display:grid;grid-template-columns:260px 1fr;gap:16px;align-items:start}
+@media (max-width:860px){.split{grid-template-columns:minmax(0,1fr)}}
+.split>*{min-width:0;max-width:100%}
+.side{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:12px;position:sticky;top:calc(var(--hdr) + 12px)}
+.side h4{font-size:13px;color:var(--muted);font-weight:500;font-family:var(--sans);padding:6px 10px 8px}
+.side .list{display:flex;flex-direction:column;gap:2px}
+.side button{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;text-align:left;background:transparent;border:0;border-radius:10px;padding:9px 10px;font-size:14.5px;line-height:1.35}
+.side button small{color:var(--muted);font-size:12px;white-space:nowrap}
+.side button:hover{background:var(--cream)}
+.side button[aria-pressed="true"]{background:var(--teal-soft);color:var(--teal);font-weight:700}
+.side .sub{margin:2px 0 6px 10px;border-left:2px solid var(--line);padding-left:6px;display:none}
+.side .sub button{font-size:13.5px;padding:6px 8px}
+.side details[open] .sub{display:flex;flex-direction:column}
+.side details summary{list-style:none}
+.side details summary::-webkit-details-marker{display:none}
+@media (max-width:860px){
+  .side{position:static}
+  .side .list{flex-direction:row;overflow-x:auto;gap:6px;padding-bottom:4px;scrollbar-width:thin}
+  .side button{white-space:nowrap;width:auto;background:var(--cream)}
+}
+.main{min-width:0}
+.rows{background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:hidden;max-height:420px;overflow-y:auto}
+.rows button{display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;width:100%;text-align:left;background:transparent;border:0;border-bottom:1px solid var(--line);padding:11px 14px;font-size:14.5px;line-height:1.35}
+.rows button:last-child{border-bottom:0}
+.rows button:hover{background:var(--cream)}
+.rows button[aria-current="true"]{background:var(--teal-soft)}
+.rows .i{font-family:var(--serif);color:var(--muted);font-size:13px}
+.rows .t b{font-weight:700}
+.rows .t small{display:block;color:var(--muted);font-size:12.5px}
+.rows .m{font-size:12px;color:var(--muted);white-space:nowrap;text-align:right}
+.rows .m i{font-style:normal;display:inline-block;border-radius:999px;padding:1px 8px;background:var(--teal-soft);color:var(--teal);font-weight:700}
+.rows .m i.no{background:var(--cream);color:var(--muted);font-weight:400}
+.rows .empty{padding:28px;text-align:center;color:var(--muted);font-size:14px}
+
+/* ---------- detail ---------- */
+.detail{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:clamp(16px,2.6vw,30px);margin-top:16px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip{font-size:12px;border-radius:999px;padding:3px 10px;background:var(--teal-soft);color:var(--teal);font-weight:500}
+.chip.r{background:var(--ink-deep);color:#fff}
+.chip.g{background:var(--cream);color:var(--ink)}
+.detail h3{font-size:clamp(22px,2.6vw,32px);margin-bottom:4px}
+.detail .en{font-size:1rem;color:var(--muted);font-family:var(--serif);margin-bottom:10px}
+.detail .srcline{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:center;margin-bottom:18px;font-size:13.5px}
+.detail .srcline a{font-weight:500}
+.langbtn{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:4px 12px;font-size:12.5px}
+.langbtn[aria-pressed="true"]{background:var(--ink-deep);color:#fff;border-color:var(--ink-deep)}
+.videos{display:grid;gap:12px;margin-bottom:22px}
+.video{position:relative;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:760px){.seg{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.card.wide{grid-column:1/-1}
+.card h4{font-size:12.5px;color:var(--teal);font-family:var(--sans);font-weight:700;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.card h4 i{font-style:normal;color:var(--muted);font-weight:400;font-size:11.5px}
+.card p{margin:0 0 8px;font-size:14.5px}
+.card p:last-child{margin-bottom:0}
+.card ol{margin:0;padding-left:1.3em;font-size:14.5px}
+.card ol li{margin-bottom:4px}
+.card .lbl{font-size:12px;color:var(--muted);display:block;margin-bottom:2px}
+.acc{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:10px}
+.acc div{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:10px 10px 8px;text-align:center}
+.acc div b{display:block;font-family:var(--serif);font-size:1.45rem;line-height:1.1}
+.acc div b.na{color:var(--muted);font-size:.95rem;font-family:var(--sans);padding:6px 0}
+.acc div span{font-size:11.5px;color:var(--muted)}
+.card .source{font-size:13px;color:var(--muted)}
+.warn{background:var(--orange-soft);border-left:3px solid var(--orange);border-radius:8px;padding:8px 12px;margin:6px 0;font-size:14px}
+.detail .empty{color:var(--muted);text-align:center;padding:40px 0}
+
+/* ---------- library filters ---------- */
+.filters{display:grid;grid-template-columns:1fr 180px 220px;gap:10px;margin-bottom:14px}
+@media (max-width:760px){.filters{grid-template-columns:1fr}}
+.filters input,.filters select{width:100%;font:inherit;font-size:14.5px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--white);color:var(--ink)}
+.count{font-size:13px;color:var(--muted);margin:0 6px 10px}
+
+/* ---------- accuracy table ---------- */
+.tablewrap{background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:auto;max-height:70vh}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:900px}
+thead th{position:sticky;top:0;background:var(--cream);text-align:left;padding:10px 12px;font-weight:700;border-bottom:1px solid var(--line);cursor:pointer;user-select:none;white-space:nowrap;z-index:1}
+thead th[aria-sort="ascending"]::after{content:" ↑"}
+thead th[aria-sort="descending"]::after{content:" ↓"}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:hover{background:var(--cream)}
+td.n{font-family:var(--serif);font-size:15px}
+td.n.na{color:var(--muted);font-family:var(--sans);font-size:12.5px}
+td.name a{text-decoration:none;font-weight:700;color:var(--ink)}
+td.name a:hover{color:var(--teal)}
+td.name small{display:block;color:var(--muted);font-size:12px}
+td.src{color:var(--muted);font-size:12.5px;max-width:320px}
+td.th{white-space:nowrap}
+td.n{white-space:normal;min-width:110px;max-width:260px}
+
+/* ---------- sources ---------- */
+.srcgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:860px){.srcgrid{grid-template-columns:1fr}}
+.srcgrid div{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:18px 20px;font-size:14.5px}
+.srcgrid h3{font-size:1.05rem;margin-bottom:8px}
+.srcgrid ul{margin:0;padding-left:1.2em}
+.srcgrid li{margin-bottom:4px}
+footer{padding:32px 0 48px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:40px}
+
+/* ---------- toc drawer ---------- */
+.tocbtn{position:fixed;right:0;top:45%;z-index:45;writing-mode:vertical-rl;background:var(--ink-deep);color:#fff;border:0;border-radius:10px 0 0 10px;padding:14px 8px;font-size:13px;letter-spacing:.2em}
+.toc{position:fixed;inset:0 0 0 auto;width:min(360px,90vw);background:var(--white);z-index:60;box-shadow:var(--shadow);transform:translateX(100%);transition:transform .25s;padding:22px;overflow:auto}
+.toc.open{transform:none}
+.toc .x{position:absolute;right:14px;top:12px;border:0;background:transparent;font-size:22px}
+.toc h3{font-size:1.1rem;margin-bottom:14px}
+.toc a{display:block;text-decoration:none;color:var(--ink);padding:10px 12px;border-radius:10px;line-height:1.35}
+.toc a:hover{background:var(--cream)}
+.toc a i{font-style:normal;font-size:11.5px;color:var(--orange);font-weight:700;letter-spacing:.12em;margin-right:8px}
+.toc a small{display:block;color:var(--muted);font-size:12.5px}
+.toc .quick{display:flex;flex-wrap:wrap;gap:6px;padding:4px 12px 12px}
+.toc .quick a{display:inline-block;background:var(--cream);padding:5px 10px;font-size:13px;border-radius:999px}
+.scrim{position:fixed;inset:0;background:#0c242966;z-index:55;display:none}
+.scrim.open{display:block}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+:focus-visible{outline:2px solid var(--teal-bright);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="mark">PA</span><span><b>PHYSIO EXAM ATLAS</b><small>理學檢查影片庫</small></span></a>
+    <nav aria-label="章節">
+      <a href="#themes">依主題</a><a href="#roadmap">依部位</a><a href="#library">影片庫</a><a href="#accuracy">準確度總表</a><a href="#sources">來源</a>
+    </nav>
+    <div class="tools">
+      <button class="fontbtn" id="fontbtn" title="切換字級">Aa <b id="fontlbl">字級 100%</b></button>
+      <span class="level">住院醫師</span>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">PHYSIOTUTORS × 理學檢查 × 診斷準確度</div>
+      <h1>看得見操作，<br>也看得懂數字。</h1>
+      <p class="lead"><b>__N_TESTS__ 支 Physiotutors 理學檢查影片</b>，依肩、髖、膝、腰椎四個部位與 __N_TOPICS__ 個主題排列。每支影片都有目的、操作步驟、陽性判讀與診斷準確度的繁中逐段筆記，醫學名詞保留英文，原始來源一鍵回查。</p>
+      <div class="cta">
+        <a class="btn primary" href="#themes">從依主題開始 ↓</a>
+        <a class="btn" href="#roadmap">依部位查找</a>
+        <a class="btn" href="#accuracy">看準確度總表</a>
+      </div>
+    </div>
+    <aside class="panel">
+      <div class="tag">從部位進入</div>
+      <h2>四個部位，__N_TOPICS__ 個主題分層查找</h2>
+      <p>點部位會跳到「依部位」並直接選到該區；再點主題，就能比較同一部位的不同測試。</p>
+      <div class="regions" id="heroRegions"></div>
+      <div class="sample" id="sample"></div>
+    </aside>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="stats">
+    <div><b>__N_TESTS__</b><span>理學檢查影片</span></div>
+    <div><b>__N_REGIONS__</b><span>部位</span></div>
+    <div><b>__N_TOPICS__</b><span>主題</span></div>
+    <div><b>__N_ACC__</b><span>支附敏感度／特異度數字</span></div>
+  </div>
+  <div class="chapters">
+    <a href="#themes"><i>01</i><b>依主題學習</b><span>基礎評估、結構特殊測試、神經動力學等七個主題，跨部位比較</span></a>
+    <a href="#roadmap"><i>02</i><b>依部位查找</b><span>肩、髖、膝、腰椎各自的主題與測試，一次看完該區</span></a>
+    <a href="#library"><i>03</i><b>全部影片庫</b><span>__N_TESTS__ 支影片可按部位、主題與筆記全文搜尋</span></a>
+    <a href="#accuracy"><i>04</i><b>診斷準確度總表</b><span>敏感度、特異度、概似比與出處一張表，可排序可篩選</span></a>
+    <a href="#sources"><i>05</i><b>專業來源</b><span>Physiotutors、原始論文與常用理學檢查教科書</span></a>
+  </div>
+  <div class="notice">
+    <h3>使用須知｜適用住院醫師與臨床人員</h3>
+    <p>內容整理自 Physiotutors wiki 的公開頁面，影片以 YouTube 嵌入播放、不另存檔。中文筆記由 AI 翻譯並保留英文醫學名詞；凡標 ⚠ 的句子代表原頁有疑點（數字張冠李戴、操作段落抄錯、引用年份不一致等），本站只標註、不擅改。敏感度與特異度一律回查出處欄的原始論文再引用；同一測試在不同研究的數字可能差很多，筆記列的是 Physiotutors 選用的那一組。</p>
+  </div>
+</div>
+
+<section class="chapter" id="themes">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="num">01 / 依主題</div><h2>先選能力主題，再跨部位比較同一類測試</h2></div>
+      <p>基礎評估、結構特殊測試、肌力與動作控制、神經動力學、薦髂關節、功能回場、治療決策七個主題，共用同一份筆記。</p>
+    </div>
+    <div class="board">
+      <div class="bar"><h3>依主題選擇測試</h3><small id="themeCount"></small></div>
+      <div class="split">
+        <div class="side"><h4>課程主題</h4><div class="list" id="themeList"></div></div>
+        <div class="main"><div class="rows" id="themeRows"></div><div class="detail" id="themeDetail"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter" id="roadmap">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="num">02 / 依部位</div><h2>同一部位，依主題分層看完每一支測試</h2></div>
+      <p>肩、髖、膝、腰椎；每區下面展開該區的主題，列表顯示支數與有無診斷準確度數字。</p>
+    </div>
+    <div class="board">
+      <div class="bar"><h3>依部位選擇測試</h3><small id="regionCount"></small></div>
+      <div class="split">
+        <div class="side"><h4>部位與主題</h4><div class="list" id="regionList"></div></div>
+        <div class="main"><div class="rows" id="regionRows"></div><div class="detail" id="regionDetail"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter" id="library">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="num">03 / 全部影片庫</div><h2>所有測試，用筆記全文搜尋</h2></div>
+      <p>比對中英名稱、目的、檢測結構、備註與標籤；可再依部位與主題縮小範圍。</p>
+    </div>
+    <div class="board">
+      <div class="filters">
+        <input id="q" type="search" placeholder="搜尋測試名、結構、關鍵字（中英皆可）" aria-label="搜尋">
+        <select id="qRegion" aria-label="部位"><option value="">全部部位</option></select>
+        <select id="qTheme" aria-label="主題"><option value="">全部主題</option></select>
+      </div>
+      <div class="count" id="libCount"></div>
+      <div class="rows" id="libRows" style="max-height:520px"></div>
+      <div class="detail" id="libDetail"></div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter" id="accuracy">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="num">04 / 診斷準確度總表</div><h2>敏感度、特異度、概似比，一張表查完</h2></div>
+      <p>點欄位標題排序，未報告的排最後；點測試名跳到該測試的筆記。數字請以出處欄的原始論文為準。</p>
+    </div>
+    <div class="board">
+      <div class="filters">
+        <input id="aq" type="search" placeholder="搜尋測試名或出處" aria-label="搜尋總表">
+        <select id="aRegion" aria-label="部位"><option value="">全部部位</option></select>
+        <select id="aAcc" aria-label="有無數字"><option value="">全部</option><option value="1">只看有數字的</option></select>
+      </div>
+      <div class="count" id="accCount"></div>
+      <div class="tablewrap">
+        <table id="accTable">
+          <thead><tr>
+            <th data-k="name">測試</th><th data-k="region">部位</th><th data-k="theme">主題</th>
+            <th data-k="sensitivity">敏感度</th><th data-k="specificity">特異度</th><th data-k="lr_plus">LR+</th><th data-k="lr_minus">LR−</th><th data-k="source">出處</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter" id="sources">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="num">05 / 專業來源</div><h2>回查原始資料</h2></div>
+      <p>本站只是索引與筆記；數字與操作細節以下列來源為準。</p>
+    </div>
+    <div class="srcgrid">
+      <div><h3>影片與原頁</h3><ul>
+        <li><a href="https://www.physiotutors.com/wiki/" target="_blank" rel="noopener">Physiotutors wiki</a>：每支測試的原始頁面，筆記的「原始來源」連結都指回這裡</li>
+        <li><a href="https://www.youtube.com/@Physiotutors" target="_blank" rel="noopener">Physiotutors YouTube 頻道</a>：影片來源，本站以嵌入方式播放</li>
+        <li><a href="https://github.com/alice870902/physio-exam-atlas" target="_blank" rel="noopener">本站 GitHub repo</a>：資料檔與建站腳本</li>
+      </ul></div>
+      <div><h3>診斷準確度的原始論文</h3><ul>
+        <li>每支測試的「出處」欄列出 Physiotutors 引用的研究（作者與年份）</li>
+        <li>統合分析與單一研究的數字差異大，引用前請回查原文的研究族群與參考標準</li>
+      </ul></div>
+      <div><h3>常用理學檢查教科書</h3><ul>
+        <li>Cook &amp; Hegedus《Orthopedic Physical Examination Tests: An Evidence-Based Approach》</li>
+        <li>Magee《Orthopedic Physical Assessment》</li>
+        <li>Cleland, Koppenhaver &amp; Su《Netter's Orthopaedic Clinical Examination》</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">影片與原始內容版權屬 Physiotutors；本站僅作個人學習索引。中文筆記為 AI 翻譯，請以原頁與原始論文為準。</div></footer>
+
+<button class="tocbtn" id="tocbtn" aria-controls="toc" aria-expanded="false">目錄 章節</button>
+<div class="scrim" id="scrim"></div>
+<aside class="toc" id="toc" aria-label="章節導覽">
+  <button class="x" id="tocx" aria-label="關閉">×</button>
+  <h3>章節導覽</h3>
+  <a href="#top"><i>00</i>回到頁首<small>定位與使用須知</small></a>
+  <a href="#themes"><i>01</i>依主題<small>七個跨部位主題</small></a>
+  <a href="#roadmap"><i>02</i>依部位<small>肩、髖、膝、腰椎</small></a>
+  <div class="quick" id="tocRegions"></div>
+  <a href="#library"><i>03</i>全部影片庫<small>__N_TESTS__ 支影片全文搜尋</small></a>
+  <a href="#accuracy"><i>04</i>診斷準確度總表<small>可排序、可篩選</small></a>
+  <a href="#sources"><i>05</i>專業來源<small>wiki、論文與教科書</small></a>
+</aside>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const T = D.tests, R = D.regions, TH = D.themes;
+const regionById = Object.fromEntries(R.map(r => [r.id, r]));
+const themeById = Object.fromEntries(TH.map(t => [t.id, t]));
+const catName = (t) => regionById[t.region].cats.find(c => c.id === t.cat);
+const key = (t) => t.region + '/' + t.slug;
+const byKey = Object.fromEntries(T.map(t => [key(t), t]));
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $ = id => document.getElementById(id);
+let lang = 'zh';
+
+/* ---------- font size ---------- */
+const FONTS = ['100','120','135'];
+function setFont(v){ document.documentElement.dataset.font = v; $('fontlbl').textContent = '字級 ' + v + '%'; try{localStorage.setItem('pa-font', v)}catch(e){} }
+let f0 = '100'; try{ f0 = localStorage.getItem('pa-font') || '100' }catch(e){}
+setFont(FONTS.includes(f0) ? f0 : '100');
+$('fontbtn').addEventListener('click', () => setFont(FONTS[(FONTS.indexOf(document.documentElement.dataset.font) + 1) % FONTS.length]));
+
+/* ---------- toc drawer ---------- */
+function toc(open){ $('toc').classList.toggle('open', open); $('scrim').classList.toggle('open', open); $('tocbtn').setAttribute('aria-expanded', open); }
+$('tocbtn').addEventListener('click', () => toc(true));
+$('tocx').addEventListener('click', () => toc(false));
+$('scrim').addEventListener('click', () => toc(false));
+$('toc').addEventListener('click', e => { if (e.target.closest('a')) toc(false); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') toc(false); });
+
+/* ---------- hero ---------- */
+$('heroRegions').innerHTML = R.map(r => `<a href="#region-${r.id}"><b>${esc(r.zh)}</b><small>${esc(r.en)} · ${r.n} 支 · ${r.cats.length} 個主題</small></a>`).join('');
+$('tocRegions').innerHTML = R.map(r => `<a href="#region-${r.id}">${esc(r.zh)}</a>`).join('');
+{
+  const s = byKey[D.sample];
+  $('sample').innerHTML = `<div class="tag">快速試看 · ${esc(regionById[s.region].zh)}</div><h3>${esc(s.name_zh)}</h3><p>${esc(s.zh.purpose)}</p>
+  <div class="nums"><div><b>${esc(s.acc.sensitivity)}</b>敏感度</div><div><b>${esc(s.acc.specificity)}</b>特異度</div></div>
+  <p style="margin:10px 0 0"><a href="#test-${s.region}/${s.slug}">看逐段筆記與影片 →</a></p>`;
+}
+
+/* ---------- detail ---------- */
+function steps(txt){
+  const parts = String(txt || '').split(/\n+|(?<=[;；])\s*/).map(s => s.trim()).filter(Boolean);
+  if (parts.length < 2) return `<p>${esc(txt)}</p>`;
+  return `<ol>${parts.map(p => `<li>${esc(p)}</li>`).join('')}</ol>`;
+}
+function notes(txt){
+  const sents = String(txt || '').split(/(?<=[。！？!?])\s*/).filter(Boolean);
+  const out = []; let buf = [];
+  for (const s of sents){
+    if (/⚠/.test(s)) { if (buf.length) { out.push(`<p>${esc(buf.join(''))}</p>`); buf = []; } out.push(`<div class="warn">${esc(s)}</div>`); }
+    else buf.push(s);
+  }
+  if (buf.length) out.push(`<p>${esc(buf.join(''))}</p>`);
+  return out.join('') || '<p class="source">無備註</p>';
+}
+function num(v){ return v && !/^\s*not reported/i.test(v) ? `<b>${esc(v)}</b>` : `<b class="na">未報告</b>`; }
+function renderDetail(el, t){
+  if (!t) { el.innerHTML = '<div class="empty">從上方列表選一支測試</div>'; return; }
+  const c = catName(t), th = themeById[t.theme], r = regionById[t.region];
+  const B = lang === 'en' ? t.en : t.zh;
+  const L = lang === 'en' ? {p:'Purpose & structure', s:'Procedure', pos:'Positive finding', a:'Diagnostic accuracy', n:'Clinical notes'} : {p:'目的與檢測結構', s:'操作步驟', pos:'陽性判讀', a:'診斷準確度', n:'臨床重點與備註'};
+  el.innerHTML = `
+  <div class="chips"><span class="chip r">${esc(r.zh)} ${esc(r.en)}</span><span class="chip">${esc(c.zh)}</span><span class="chip g">${esc(th.zh)}</span>${(t.tags||[]).map(x => `<span class="chip g">${esc(x)}</span>`).join('')}</div>
+  <h3>${esc(t.name_zh)}</h3>
+  <div class="en">${esc(t.title_en)}</div>
+  <div class="srcline"><a href="${esc(t.link)}" target="_blank" rel="noopener">原始來源 Physiotutors wiki ↗</a>
+    <span><button class="langbtn" data-lang="zh" aria-pressed="${lang==='zh'}">中文</button> <button class="langbtn" data-lang="en" aria-pressed="${lang==='en'}">EN</button></span></div>
+  <div class="videos">${t.youtube_ids.map(id => `<div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/${esc(id)}?rel=0&modestbranding=1" title="${esc(t.title_en)}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`).join('') || '<p class="source">原頁沒有嵌入影片</p>'}</div>
+  <div class="seg">
+    <div class="card"><h4>${L.p}</h4><p>${esc(B.purpose)}</p>${B.structure ? `<p><span class="lbl">${lang==='en'?'Structure':'檢測結構'}</span>${esc(B.structure)}</p>` : ''}</div>
+    <div class="card"><h4>${L.s}</h4>${steps(B.procedure)}</div>
+    <div class="card"><h4>${L.pos}</h4><p>${esc(B.positive)}</p></div>
+    <div class="card"><h4>${L.a}</h4>
+      <div class="acc"><div>${num(t.acc.sensitivity)}<span>敏感度 Sn</span></div><div>${num(t.acc.specificity)}<span>特異度 Sp</span></div><div>${num(t.acc.lr_plus)}<span>LR+</span></div><div>${num(t.acc.lr_minus)}<span>LR−</span></div></div>
+      <div class="source">出處：${esc(t.acc.source || '未報告')}</div></div>
+    <div class="card wide"><h4>${L.n}</h4>${notes(B.notes)}</div>
+  </div>`;
+  el.querySelectorAll('.langbtn').forEach(b => b.addEventListener('click', () => { lang = b.dataset.lang; renderDetail(el, t); }));
+}
+
+/* ---------- generic list panel ---------- */
+function rowHTML(t, i){
+  const c = catName(t), r = regionById[t.region];
+  return `<button data-k="${esc(key(t))}"><span class="i">${String(i+1).padStart(2,'0')}</span>
+    <span class="t"><b>${esc(t.name_zh)}</b><small>${esc(r.zh)} · ${esc(c.zh)} · ${esc(t.title_en)}</small></span>
+    <span class="m">${t.has_acc ? `<i>Sn ${esc(t.acc.sensitivity)}</i>` : '<i class="no">無數字</i>'}</span></button>`;
+}
+function makePanel(rowsEl, detailEl){
+  const P = { items: [], current: null };
+  P.show = (t, scroll) => {
+    P.current = t ? key(t) : null;
+    rowsEl.querySelectorAll('button').forEach(b => b.setAttribute('aria-current', b.dataset.k === P.current));
+    renderDetail(detailEl, t);
+    if (scroll && t) detailEl.scrollIntoView({ block: 'start' });
+  };
+  P.set = (items, pick) => {
+    P.items = items;
+    rowsEl.innerHTML = items.length ? items.map(rowHTML).join('') : '<div class="empty">沒有符合的測試</div>';
+    P.show(pick === undefined ? items[0] : pick, false);
+  };
+  rowsEl.addEventListener('click', e => { const b = e.target.closest('button'); if (b) P.show(byKey[b.dataset.k], true); });
+  return P;
+}
+
+/* ---------- 01 themes ---------- */
+const themeP = makePanel($('themeRows'), $('themeDetail'));
+let curTheme = TH[0].id;
+$('themeList').innerHTML = TH.map(t => `<button data-id="${t.id}"><span>${esc(t.zh)}</span><small>${t.n} 支</small></button>`).join('');
+function selectTheme(id, pick){
+  curTheme = id;
+  $('themeList').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.id === id));
+  const items = T.filter(t => t.theme === id);
+  $('themeCount').textContent = `${themeById[id].zh} · ${items.length} 支影片`;
+  themeP.set(items, pick);
+}
+$('themeList').addEventListener('click', e => { const b = e.target.closest('button'); if (b) selectTheme(b.dataset.id); });
+selectTheme(curTheme);
+
+/* ---------- 02 regions ---------- */
+const regionP = makePanel($('regionRows'), $('regionDetail'));
+let curRegion = R[0].id, curCat = '';
+$('regionList').innerHTML = R.map(r => `<details data-r="${r.id}"><summary><button data-r="${r.id}"><span>${esc(r.zh)} ${esc(r.en)}</span><small>${r.n} 支</small></button></summary>
+  <div class="sub"><button data-r="${r.id}" data-c=""><span>全部主題</span><small>${r.n}</small></button>${r.cats.map(c => `<button data-r="${r.id}" data-c="${c.id}"><span>${esc(c.zh)}</span><small>${c.n}</small></button>`).join('')}</div></details>`).join('');
+function selectRegion(rid, cid, pick){
+  curRegion = rid; curCat = cid || '';
+  $('regionList').querySelectorAll('details').forEach(d => d.open = d.dataset.r === rid);
+  $('regionList').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.r === rid && (b.dataset.c ?? '') === curCat));
+  const items = T.filter(t => t.region === rid && (!curCat || t.cat === curCat));
+  const r = regionById[rid], c = curCat ? r.cats.find(x => x.id === curCat) : null;
+  $('regionCount').textContent = `${r.zh}${c ? ' · ' + c.zh : ''} · ${items.length} 支影片`;
+  regionP.set(items, pick);
+}
+$('regionList').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; e.preventDefault(); selectRegion(b.dataset.r, b.dataset.c || ''); });
+selectRegion(curRegion, '');
+
+/* ---------- 03 library ---------- */
+const libP = makePanel($('libRows'), $('libDetail'));
+$('qRegion').innerHTML += R.map(r => `<option value="${r.id}">${esc(r.zh)}</option>`).join('');
+$('qTheme').innerHTML += TH.map(t => `<option value="${t.id}">${esc(t.zh)}</option>`).join('');
+const hay = Object.fromEntries(T.map(t => [key(t), [t.title_zh, t.title_src, t.zh.purpose, t.zh.structure, t.zh.notes, (t.tags||[]).join(' '), t.en.purpose, t.en.structure].join(' ').toLowerCase()]));
+function runLib(){
+  const q = $('q').value.trim().toLowerCase(), r = $('qRegion').value, th = $('qTheme').value;
+  const items = T.filter(t => (!r || t.region === r) && (!th || t.theme === th) && (!q || hay[key(t)].includes(q)));
+  $('libCount').textContent = `顯示 ${items.length} / ${T.length} 支影片`;
+  libP.set(items, null);
+}
+['q','qRegion','qTheme'].forEach(id => $(id).addEventListener('input', runLib));
+runLib();
+
+/* ---------- 04 accuracy table ---------- */
+$('aRegion').innerHTML += R.map(r => `<option value="${r.id}">${esc(r.zh)}</option>`).join('');
+let sortK = 'name', sortDir = 1;
+function cmp(a, b){
+  if (['sensitivity','specificity','lr_plus','lr_minus'].includes(sortK)) {
+    const x = a.num[sortK], y = b.num[sortK];
+    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;   // "not reported" always last
+    return (x - y) * sortDir;
+  }
+  const v = t => sortK === 'name' ? t.name_zh : sortK === 'region' ? regionById[t.region].zh : sortK === 'theme' ? themeById[t.theme].zh : (t.acc.source || '');
+  return v(a).localeCompare(v(b), 'zh-Hant') * sortDir;
+}
+function cell(t, k){ const v = t.acc[k]; return t.num[k] == null ? `<td class="n na">${esc(v || '未報告')}</td>` : `<td class="n">${esc(v)}</td>`; }
+function runAcc(){
+  const q = $('aq').value.trim().toLowerCase(), r = $('aRegion').value, only = $('aAcc').value === '1';
+  const items = T.filter(t => (!r || t.region === r) && (!only || t.has_acc) && (!q || (t.title_zh + ' ' + t.title_src + ' ' + (t.acc.source||'')).toLowerCase().includes(q))).sort(cmp);
+  $('accCount').textContent = `${items.length} / ${T.length} 列`;
+  $('accTable').querySelector('tbody').innerHTML = items.map(t => `<tr>
+    <td class="name"><a href="#test-${t.region}/${t.slug}">${esc(t.name_zh)}</a><small>${esc(t.title_en)}</small></td>
+    <td class="th">${esc(regionById[t.region].zh)}</td><td class="th">${esc(themeById[t.theme].zh.split('（')[0])}</td>
+    ${cell(t,'sensitivity')}${cell(t,'specificity')}${cell(t,'lr_plus')}${cell(t,'lr_minus')}
+    <td class="src">${esc(t.acc.source || '未報告')}</td></tr>`).join('');
+  $('accTable').querySelectorAll('th').forEach(th => th.setAttribute('aria-sort', th.dataset.k === sortK ? (sortDir === 1 ? 'ascending' : 'descending') : 'none'));
+}
+$('accTable').querySelector('thead').addEventListener('click', e => {
+  const th = e.target.closest('th'); if (!th) return;
+  if (sortK === th.dataset.k) sortDir = -sortDir; else { sortK = th.dataset.k; sortDir = ['sensitivity','specificity','lr_plus'].includes(sortK) ? -1 : 1; }
+  runAcc();
+});
+['aq','aRegion','aAcc'].forEach(id => $(id).addEventListener('input', runAcc));
+runAcc();
+
+/* ---------- hash routing ---------- */
+function route(){
+  const h = decodeURIComponent(location.hash.replace(/^#/, ''));
+  let m;
+  if ((m = h.match(/^region-([a-z]+)$/)) && regionById[m[1]]) { selectRegion(m[1], ''); $('roadmap').scrollIntoView(); return; }
+  if ((m = h.match(/^test-(?:([a-z]+)\/)?(.+)$/))) {
+    const t = m[1] ? byKey[m[1] + '/' + m[2]] : T.find(x => x.slug === m[2]);
+    if (t) { selectRegion(t.region, t.cat, t); setTimeout(() => $('regionDetail').scrollIntoView({ block: 'start' }), 0); return; }
+  }
+}
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
