@@ -1,0 +1,202 @@
+[
+ {
+  "slug": "patellofemoral-pain-diagnosis",
+  "title_zh": "髕股疼痛症候群診斷 Patellofemoral Pain Diagnosis",
+  "purpose_zh": "髕股疼痛症候群 (patellofemoral pain syndrome, PFPS) 的診斷總論：跑步、下蹲或上下樓梯時的前膝痛，各年齡層都會發生，高達 60% 的病例可持續多年。",
+  "structure_zh": "髕股關節 (patellofemoral joint)：屈膝負重時的負荷改變；假說包括髕股排列異常／滑車 (trochlea) 形態異常造成髕骨滑動不順，以及股四頭肌與臀肌無力（股骨內轉改變下肢軸線）。",
+  "procedure_zh": "排除性診斷，先排除其他病變。各種診斷組合臨床價值都弱；目前最好的單一發現是「下蹲時前膝痛」。",
+  "positive_zh": "下蹲時前膝痛：有此發現者 80% 會證實為 PFPS。",
+  "notes_zh": "原頁引用 Crossley 等人 (2016) 共識聲明。相關測試：decline step-down 測試、Clarke 徵象、髕股疼痛組合。",
+  "tags": ["PFPS", "排除性診斷 diagnosis of exclusion", "前膝痛 anterior knee pain"]
+ },
+ {
+  "slug": "patellofemoral-pain-cluster",
+  "title_zh": "髕股疼痛組合測試 Patellofemoral Pain Cluster",
+  "purpose_zh": "Cook 等人 (2010) 提出的三組髕股疼痛症候群診斷組合。",
+  "structure_zh": "髕股關節；功能性與情境性發現（肌肉收縮、下蹲、跪姿、髕骨周圍觸診）。",
+  "procedure_zh": "組合 1：肌肉收縮時痛＋下蹲時痛（2/2）。組合 2：肌肉收縮、下蹲、髕骨周圍觸診任兩項疼痛（2/3）。組合 3：肌肉收縮＋下蹲＋跪姿皆痛（3/3）。",
+  "positive_zh": "符合上述組合條件。",
+  "notes_zh": "Cook 等人 (2010)：組合 1 的 LR+ 3.3、LR− 0.73；組合 2 的 LR+ 4、LR− 0.5；組合 3 的 LR+ 3.1、LR− 0.7。數值不高且信賴區間寬，三者皆只有弱臨床價值。本頁有三支影片（每組一支）。相關測試：decline step-down、Clarke 徵象。",
+  "tags": ["PFPS", "cluster", "概似比 likelihood ratio"]
+ },
+ {
+  "slug": "clarkes-sign",
+  "title_zh": "Clarke 徵象（髕骨研磨測試） Clarke's Sign",
+  "purpose_zh": "在股四頭肌收縮時壓迫髕骨，以找出髕骨後軟骨的病理變化。",
+  "structure_zh": "髕股關節／髕骨後軟骨。",
+  "procedure_zh": "病人仰臥、膝伸直。檢查者在患側，以拇指虎口放在髕骨上緣，向下向遠端施壓，同時請病人像要伸膝一樣收縮股四頭肌。",
+  "positive_zh": "髕骨移動時疼痛，或無法完成測試。",
+  "notes_zh": "Cook 等人 (2012) 系統性回顧：各研究 LR+ 0.9–7.4、LR− 0.7–1.1，沒有高品質研究，臨床價值弱（另引 Nijs 等人 2006）。相關測試：髕骨恐懼測試、動態髕骨恐懼測試、decline step-down。",
+  "tags": ["PFPS", "髕骨後軟骨 retropatellar cartilage", "臨床價值弱 weak"]
+ },
+ {
+  "slug": "decline-step-down-test",
+  "title_zh": "下斜板下階測試 Decline Step Down Test",
+  "purpose_zh": "髕股疼痛的表現測試 (performance test)：在下斜板上做下階動作，量測最大無痛膝屈曲角度；下樓梯痛是 PFPS 的標誌症狀。",
+  "structure_zh": "離心股四頭肌負荷下的髕股關節。",
+  "procedure_zh": "⚠ 來源問題：原頁的操作段落是從 Clarke 徵象頁面複製來的（仰臥壓髕骨加股四頭肌收縮），並未描述下斜板下階；實際操作（從下斜板下階、記錄最大無痛屈曲角度）只在影片與 Ophey 等人 2019 中。",
+  "positive_zh": "結果為最大無痛屈曲角度（依原頁對 Ophey 等人 2019 的描述）；原頁的「陽性」句子是從 Clarke 徵象複製的。",
+  "notes_zh": "Ophey 等人 (2019)：施測者內／間信度「完美」，與前膝痛量表 (anterior knee pain scale) 的建構效度中等但顯著，原頁給作為表現／結果測試的中等臨床價值。相關測試：髕骨恐懼測試、動態髕骨恐懼測試、Clarke 徵象。",
+  "tags": ["PFPS", "表現測試 performance test", "來源有誤 source issue"]
+ },
+ {
+  "slug": "patellar-apprehension-test",
+  "title_zh": "髕骨恐懼測試 Patellar Apprehension Test",
+  "purpose_zh": "評估髕骨外側不穩定／髕骨脫位 (patellar dislocation) 病史。",
+  "structure_zh": "髕骨與內側軟組織限制結構；危險因子包括滑車溝角 (sulcus angle) 與深度、遺傳傾向。",
+  "procedure_zh": "病人仰臥，膝屈 30°，股四頭肌放鬆。雙拇指放在髕骨內側，向外側推到最大位移。",
+  "positive_zh": "在最大外側位移時出現恐懼或不適；病人可能抓住檢查者的手，或伸膝把髕骨拉回。",
+  "notes_zh": "Nunes 等人 (2013) 系統性回顧與統合分析（PFPS 的臨床測試）：合併 LR+ 1.3、LR− 1.0，臨床價值弱（另引 Malanga 等人 2003）。替代：動態髕骨恐懼測試。",
+  "tags": ["髕骨不穩定 patellar instability", "脫位 dislocation", "臨床價值弱 weak"]
+ },
+ {
+  "slug": "moving-patellar-apprehension-test",
+  "title_zh": "動態髕骨恐懼測試 Moving Patellar Apprehension Test",
+  "purpose_zh": "Ahmad 等人 (2009) 的動態測試，模擬實際的髕骨脫位／不穩定事件，用於靜態恐懼測試、CT 或 MRI 可能漏掉的病人。",
+  "structure_zh": "屈曲時進入滑車的髕骨；內側髕股韌帶 (medial patellofemoral ligament, MPFL) 與內側軟組織引導髕骨進入滑車；髕骨在約 20° 屈曲時最容易半脫位。",
+  "procedure_zh": "病人仰臥、小腿垂出床緣。第一部分：膝完全伸直時以拇指把髕骨推向外側，維持下屈膝到 90°，觀察病人口頭表達的恐懼或股四頭肌收縮以阻止屈曲／重新定位髕骨，再維持外推回到伸直。第二部分：膝完全伸直時以食指把髕骨盡量推向內側，屈膝到 90°，恐懼與股四頭肌收縮應消失。",
+  "positive_zh": "兩部分都陽性：第一部分外推時恐懼，第二部分內推時恐懼消失。",
+  "notes_zh": "Ahmad 等人 (2009) 診斷世代：敏感度 100%、特異度 88.4%，整體準確度 94.1%；研究排除了症狀性半脫位病人且未被其他研究驗證，原頁給中等臨床價值。概念類似 ACL 的樞軸移位、肩的 release 測試與肘的動態外翻應力測試。替代：髕骨恐懼測試。",
+  "tags": ["髕骨不穩定 patellar instability", "MPFL", "動態測試 dynamic"]
+ },
+ {
+  "slug": "hoffas-test",
+  "title_zh": "Hoffa 測試 Hoffa's Test",
+  "purpose_zh": "偵測髕下脂肪墊 (infrapatellar fat pad, Hoffa's fat pad) 夾擠，一個常被忽略的前膝痛來源。",
+  "structure_zh": "髕下脂肪墊：關節囊內、滑膜外的脂肪組織，從髕骨下極延伸到脛骨近端，血管與神經支配豐富。",
+  "procedure_zh": "病人仰臥，膝屈 30–60°。一手從後方托住脛骨，另一手直接按壓髕骨下極的內側與外側。膝伸直時重複。",
+  "positive_zh": "任一側按壓在伸直位比屈曲位更痛。",
+  "notes_zh": "未經診斷研究評估（Dragoo 等人 2012），臨床價值存疑。須與髕股疼痛區分（見 PFPS 診斷、PFPS 組合、decline step-down、Clarke 徵象）。",
+  "tags": ["髕下脂肪墊 fat pad", "前膝痛 anterior knee pain", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "patellar-tendon-palpation",
+  "title_zh": "髕骨肌腱觸診 Patellar Tendon Palpation",
+  "purpose_zh": "觸診以評估髕骨肌腱病變 (patellar tendinopathy)，常見於排球、籃球、田徑等跳躍運動的前膝痛。",
+  "structure_zh": "髕骨肌腱，特別是髕骨下極的附著處。",
+  "procedure_zh": "病人仰臥。輕柔觸診髕骨肌腱在髕骨下極的附著處，並沿全長由近端到遠端觸診。",
+  "positive_zh": "觸診壓痛。",
+  "notes_zh": "Cook 等人 (2001)（以超音波為對照、年輕籃球員）：敏感度 68%、特異度僅 9%；Maffulli 等人 (2017)：敏感度 98%、特異度 94%，但超音波陽性定義與收案情境不同。數值衝突，作為單一測試的臨床價值仍為中等。相關測試：Royal London Hospital 測試（膝）。",
+  "tags": ["髕骨肌腱病變 patellar tendinopathy", "觸診 palpation", "跳躍膝 jumper's knee"]
+ },
+ {
+  "slug": "royal-london-hospital-test-knee",
+  "title_zh": "Royal London Hospital 測試（膝） Royal London Hospital Test Knee",
+  "purpose_zh": "比較膝伸直與屈曲時肌腱壓痛的變化以診斷髕骨肌腱病變（由阿基里斯腱版本改編）。",
+  "structure_zh": "髕骨肌腱；肌腱受張力時壓痛改變。",
+  "procedure_zh": "病人仰臥。膝伸直時沿肌腱由近端到遠端觸診找出局部壓痛，再把膝屈到 90°（肌腱受張力）觸診同一部位。",
+  "positive_zh": "膝屈曲時疼痛明顯減輕或消失。機轉不明。",
+  "notes_zh": "Maffulli 等人 (2017)（小樣本 30 人）：敏感度 88%、特異度 98%。樣本小、且超音波定義與收案情境與 Cook 等人 (2001) 不同（該研究觸診敏感度 68%、特異度 9%），臨床價值仍為中等。相關測試：髕骨肌腱觸診。",
+  "tags": ["髕骨肌腱病變 patellar tendinopathy", "小樣本 small sample"]
+ },
+ {
+  "slug": "nobles-test",
+  "title_zh": "Noble 壓迫測試 Noble's Test",
+  "purpose_zh": "髂脛束症候群 (iliotibial band syndrome, ITBS，跑者膝 runner's knee) 的誘發測試；ITBS 是跑者、自行車手等耐力運動員常見的過度使用傷害。",
+  "structure_zh": "股骨外上髁 (lateral femoral epicondyle) 處的遠端髂脛束；推測機轉為摩擦、壓迫其下的脂肪墊與結締組織、或滑囊炎。髖外展肌無力是否為主因的證據有限或互相矛盾（van der Worp 等人 2012）。",
+  "procedure_zh": "膝屈 90°，在股骨外上髁或其近端 1–2 公分處施壓，再逐漸伸膝。",
+  "positive_zh": "約屈曲 30° 時外上髁劇痛，性質與跑步時相同（髂脛束在此角度滑過外上髁）。",
+  "notes_zh": "ITBS 靠病史與臨床表現診斷；本測試未經診斷準確度研究（Noble 1979），臨床價值存疑。相關：Renne 測試、ITBS 復健頁面。",
+  "tags": ["髂脛束症候群 ITBS", "跑者膝 runner's knee", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "rennes-test",
+  "title_zh": "Renne 測試 Renne's Test",
+  "purpose_zh": "髂脛束症候群 (ITBS，跑者膝) 的誘發測試。",
+  "structure_zh": "股骨外上髁處的遠端髂脛束（背景同 Noble 測試）。",
+  "procedure_zh": "⚠ 來源問題：原頁的操作段落與 Noble 測試頁一字不差（膝屈 90° 壓外上髁再伸膝）；Renne (1975) 原始的負重描述不在原頁文字中，請以影片為準。",
+  "positive_zh": "依原頁文字：約屈曲 30° 時外上髁劇痛、性質與跑步時相同（與 Noble 頁相同）。",
+  "notes_zh": "未經診斷準確度研究（Renne 1975），臨床價值存疑。相關：Noble 壓迫測試、ITBS 復健頁面。",
+  "tags": ["髂脛束症候群 ITBS", "跑者膝 runner's knee", "來源有誤 source issue"]
+ },
+ {
+  "slug": "hop-test-cluster",
+  "title_zh": "單腳跳測試組合（Gustavsson） Hop Test Cluster",
+  "purpose_zh": "Gustavsson 的三項單腳跳測試組合，比較 ACL 受傷／重建後患側與健側的單腳跳表現（含疲勞下表現），用於復健進度與回場 (return to sport) 決策。",
+  "structure_zh": "ACL 受傷後的下肢爆發力、控制與耐力；以肢體對稱指數 (limb symmetry index, LSI＝患側／健側 × 100) 計分。",
+  "procedure_zh": "1) 垂直跳：反向跳 (countermovement jump)，雙手背在身後，由滯空時間換算高度（接觸墊，或 Haynes 等人 2019 驗證過的 MyJump2 app）。2) 單腳跳遠：單腳起跳同腳落地，雙手背後，落地需穩定且腳不移動；量起跳腳尖到落地腳跟的距離。3) 側向跳：在相距 40 公分的兩條膠帶間左右跳 30 秒，雙手背後，計成功次數；碰到膠帶算失誤，失誤超過 25% 則休息 3 分鐘後再做第二次。",
+  "positive_zh": "LSI > 90% 一般視為正常；一項以上 LSI 異常即歸為異常。",
+  "notes_zh": "Gustavsson 等人 (2006)：各測試再測信度 ICC 0.85–0.97；三項 LSI 皆正常時辨識健康人的準確度 84%，一項以上異常時在重建後 6 與 11 個月歸類病人為異常的準確度 88%，原頁給高臨床價值。LSI 會高估膝功能：ACL 重建運動員相較常模有雙側缺損（Gokeler 等人 2017、Wellsandt 等人 2017），宜用傷前資料或依年齡、性別、運動的常模。也應在疲勞狀態下測：LSI > 90% 的病人在疲勞下只有 32% 仍達 90%（Augustsson 2004；內文寫 2014）。只是回場決策的一環。",
+  "tags": ["回場測試 return to sport", "ACL", "肢體對稱指數 LSI"]
+ },
+ {
+  "slug": "drop-jump-test",
+  "title_zh": "落地跳測試 Drop Jump Test",
+  "purpose_zh": "觀察落地時的動態膝外翻 (dynamic knee valgus)，將落地機制分為非接觸性 ACL 傷害的低風險或高風險（髖部神經肌肉控制不足）。",
+  "structure_zh": "落地與垂直跳時冠狀面的膝排列（髕骨相對第一腳趾）；軀幹與髖的控制。",
+  "procedure_zh": "病人站在 31 公分高的箱子上，落地後立即做最大垂直跳，雙臂維持「停止姿勢」（肩外展 45°、肘屈 90°）以減少擺臂動量。練習 3 次後連續做 9 次，每次間隔 10 秒。以相機錄影並慢動作回放（例如 Hudl app）。",
+  "positive_zh": "高風險落地：髕骨向內移動、落到第一腳趾內側。低風險：髕骨與第一腳趾對齊。",
+  "notes_zh": "Ekegren 等人 (2009) 觀察式風險篩檢：施測者內／間 kappa 0.75–0.85；敏感度 67–87%、特異度 60–72%，被認為不足，篩檢時應加上其他高風險特徵的測試。多少膝外翻會造成傷害尚未知，篩檢效度不明（Krosshaug 等人 2016：在 710 名女性運動員中是差的篩檢測試）。單側膝外翻合併同側軀幹移動可能也是危險因子；單腳落地跳的排列變化比雙腳大，因此單腳跳測試在復健與回場中也有用。原頁把 app 名稱寫成「Huddle」。",
+  "tags": ["動態膝外翻 dynamic knee valgus", "ACL 風險 risk screening", "回場測試 return to sport"]
+ },
+ {
+  "slug": "star-excursion-balance-test",
+  "title_zh": "星狀伸展平衡測試 Star Excursion Balance Test",
+  "purpose_zh": "單腳站立向八個方向伸腳的動態姿勢控制測試 (SEBT)；能區分慢性踝不穩定、髕股疼痛與 ACL 重建者，並協助辨識傷害風險。",
+  "structure_zh": "下肢動態平衡；伸腳距離以腿長標準化。",
+  "procedure_zh": "六條膠帶以 45° 交錯貼成八方向星形。每方向練習 4–6 次後休息 5 分鐘。赤腳單腳站、雙手叉腰，沿每條膠帶盡量伸遠，以伸腳最遠端輕觸、不可轉移重量；檢查者標記最遠點。輕觸變重壓、腳停住、需觸地維持平衡、或站立腳抬起／移動都算無效。每次伸腳後回到中心雙腳站；每腿完成 3 個完整循環。計分：每方向 3 次取平均（16 個值），除以腿長 × 100，比較兩側。",
+  "positive_zh": "不對稱或綜合分數低。原頁例子：籃球員前向伸腳不對稱 > 4 公分預測較高的下肢傷害風險（Plisky 等人 2006）；大學美式足球員綜合分數 < 90% 受傷可能性 3.5 倍（原頁歸於 Pollock 等人 2010，參考文獻列的是 Butler 等人 2013）。",
+  "notes_zh": "Gribble 等人 (2013)：施測者間信度 0.86–0.92，原頁給高臨床價值。不同運動與性別的表現與傷害風險差異很大，切點須謹慎推廣。簡化版：Y 平衡測試。",
+  "tags": ["動態平衡 dynamic balance", "回場測試 return to sport", "傷害風險 injury risk"]
+ },
+ {
+  "slug": "y-balance-test",
+  "title_zh": "Y 平衡測試 Y-Balance Test",
+  "purpose_zh": "星狀伸展平衡測試的簡化版，只測前向、後內側與後外側伸腳，用於找出缺損與不對稱並協助回場決策。",
+  "structure_zh": "下肢動態平衡；伸腳距離以腿長標準化。",
+  "procedure_zh": "三條膠帶貼成 Y 形（前向與兩條後向各夾 135°，兩條後向之間 45°）。每方向練習 4–6 次，正式測 3 次。前向：站立腳腳趾對齊零點；後向：腳跟對齊零點。赤腳、雙手叉腰，沿膠帶盡量伸遠、以腳趾輕觸；每方向右腳站 3 次再左腳站 3 次。重壓、在中點停住、觸地維持平衡或站立腳移動皆無效。計分：每方向 3 次平均（6 個值），除以腿長 × 100。",
+  "positive_zh": "不對稱或綜合分數低。原頁例子：大學美式足球員綜合分數 < 98.6% 受傷風險 3.5 倍（Butler 等人 2013）；籃球員前向伸腳不對稱 > 4 公分預測傷害（Plisky 等人 2006）。因運動與性別差異大，沒有明確的不對稱切點。",
+  "notes_zh": "⚠ 原頁寫「依 Plisky 等人 (2006)，施測者間信度 0.48–0.78，極佳」（參考文獻列的是 Plisky 2009）；0.48–0.78 稱為極佳與一般信度標準不符，此處照原文記錄。相關：SEBT、落地跳、單腳跳組合。",
+  "tags": ["動態平衡 dynamic balance", "回場測試 return to sport", "來源存疑 source issue"]
+ },
+ {
+  "slug": "acl-rehab",
+  "title_zh": "ACL 重建後復健第一期 ACL Rehab Phase 1",
+  "purpose_zh": "ACL 重建後第一期復健：恢復正常關節功能（消腫、達到完全伸直、正常髕股關節活動、選擇性股四頭肌控制、正常步態）。",
+  "structure_zh": "ACL 移植物（骨-髕腱-骨 bone-patellar tendon-bone 或腿後肌腱 hamstring graft）、髕股關節、股四頭肌；ACL 也有神經肌肉功能（約 2.5% 為機械受器 mechanoreceptors，受傷後不會再長）。",
+  "procedure_zh": "活動度：腳跟滑行、膝下墊毛巾做伸膝，必要時徒手鬆動伸直或髕股關節；步態對稱前使用拐杖；固定式腳踏車作為暖身／鬆動。肌力：閉鎖鏈的等長、向心與離心運動可早期進行；前 3–4 週深蹲／腿推最安全的範圍是屈曲 0–60°。開放鏈伸膝 4 週後才可做、範圍 90–45°，每週增加約 10° 伸直（第 5 週 90–35°、第 6 週 90–25°）；髕腱移植 4 週後可加外部阻力，腿後肌腱移植則要 12 週後。直腿抬高與側臥外展不會應力 ACL，第一週即可做。早期開始神經肌肉／平衡訓練。",
+  "positive_zh": "不適用（復健頁面）。",
+  "notes_zh": "參考文獻包括 Escamilla 2012、荷蘭指引（Meuffels 2012）、van Grinsven 2010、van Melick 2016、Risberg 2007、Wright 2008。原頁文字殘留製作筆記（「In een table naast Kirsten」、「show pendulum on the bike」）。",
+  "tags": ["ACL 重建 reconstruction", "復健 rehab", "移植物保護 graft protection"]
+ },
+ {
+  "slug": "itb-syndrome-rehab",
+  "title_zh": "髂脛束症候群復健 ITB Syndrome Rehab",
+  "purpose_zh": "跑者髂脛束症候群 (ITBS) 的五階段復健計畫（依 Tom Goom），建立在 Willy & Meira (2016) 的三個要素：尖峰負荷、能量儲存與釋放、累積負荷。",
+  "structure_zh": "髂脛束 (iliotibial band)，可能是壓迫性傷害；功能類似肌腱、在跑步時儲存與釋放能量（Eng 等人 2015），因此需要剛性（Friede 等人 2020：物理治療改善結果並使 ITB 剛性增加 14%）。伸展與滾筒放鬆無用，可能加重壓迫。",
+  "procedure_zh": "第一期（疼痛主導：下樓梯、快走痛）：停跑尤其是越野／下坡，改為 8–10° 坡度的快速跑步機走路，或低座墊騎車／游泳；低負荷髖外展與伸展肌訓練：蚌殼式、側臥外展、Thomas／ITB 偏移運動 10×10 秒。下樓梯無痛即進入負荷主導期。第二期（重負荷慢速阻力訓練，每週 3 次直到恢復跑步）：側棒式、單腳橋式、消防栓式、分腿蹲（訓練後腿）、彈力帶側弓步；3 組 10–12 下進階到 4 組 6–8 下接近力竭。第三期（增強式訓練，約 1 週）：小幅深蹲跳、後弓步加跳、側向滑冰跳、彈力帶節奏跑；進階：分腿跳、深蹲跳單腳落地、單腳前後跳。第四期：漸進恢復平地跑（couch-to-5K 計畫），坡度從 8–10° 降到 5° 再到平地，鏡像步態再訓練：加寬步寬、加大膝窗 (knee window)、步頻提高 5–10%，提示依個案調整。第五期：逐步加入下坡與越野跑，先分日再合併。",
+  "positive_zh": "不適用（復健頁面）。",
+  "notes_zh": "Willy 等人 (2012)：臀肌強化不會改變跑步力學，鏡像步態再訓練則有效。內容感謝 Rich Willy、Tom Goom 與 Benoy Mathew 提供意見。",
+  "tags": ["髂脛束症候群 ITBS", "跑步復健 running rehab", "漸進負荷 graded loading"]
+ },
+ {
+  "slug": "best-hamstring-exercises",
+  "title_zh": "最佳腿後肌運動 Best Hamstring Exercises",
+  "purpose_zh": "依區域性肌肉使用（Mendez-Villanueva 等人 2016 的 MRI 研究）選擇腿後肌運動，用於復健後期與傷害預防。",
+  "structure_zh": "腿後肌群四條肌腹：半膜肌 (semimembranosus)、半腱肌 (semitendinosus)、股二頭肌 (biceps femoris) 長頭與短頭。",
+  "procedure_zh": "飛輪腿彎舉 (flywheel leg curl) 與程度較低的北歐腿後肌彎舉 (Nordic hamstring curl) 主要訓練股二頭肌短頭（及半腱肌、半膜肌）；髖伸直圓錐滑輪 (hip-extension conic pulley) 選擇性負荷股二頭肌長頭近端；俄式腰帶運動 (Russian belt) 可作為補充。影片示範四個運動。",
+  "positive_zh": "不適用（運動頁面）。",
+  "notes_zh": "剛受傷的腿後肌拉傷原頁建議先用 Askling 方案。另見北歐腿後肌彎舉變化式。",
+  "tags": ["腿後肌群 hamstrings", "運動治療 exercise", "傷害預防 prevention"]
+ },
+ {
+  "slug": "nordic-hamstring-curl-variations",
+  "title_zh": "北歐腿後肌彎舉變化式 Nordic Hamstring Curl Variations",
+  "purpose_zh": "不需同伴的北歐腿後肌彎舉變化式，用於腿後肌拉傷的預防與復健，也可作為循序建立到完整動作的進階。",
+  "structure_zh": "腿後肌群；北歐彎舉主要訓練股二頭肌短頭與半腱肌（Mendez-Villanueva 等人 2016）。",
+  "procedure_zh": "示範的變化式：滑輪下拉機、彈力帶、瑞士球滾出。",
+  "positive_zh": "不適用（運動頁面）。",
+  "notes_zh": "要涵蓋半膜肌與股二頭肌長頭，見最佳腿後肌運動頁面；急性受傷則用 Askling 方案。原頁文字殘留製作筆記（「plaque research」、「show clip」）。",
+  "tags": ["腿後肌群 hamstrings", "北歐彎舉 Nordic curl", "運動治療 exercise"]
+ },
+ {
+  "slug": "askling-protocol",
+  "title_zh": "Askling 方案 Askling Protocol",
+  "purpose_zh": "急性腿後肌拉傷的早期復健方案，強調肌肉拉長時的負荷（Askling 等人 2013 在瑞典菁英足球的隨機對照試驗，優於傳統方案）。",
+  "structure_zh": "腿後肌群：股二頭肌（長頭與短頭）、半腱肌、半膜肌。伸展型傷害（滑鏟、高踢）多傷及半膜肌；衝刺型傷害多傷及股二頭肌長頭。",
+  "procedure_zh": "1) Extender：固定患側大腿、髖屈約 90°，緩慢伸膝到疼痛前；每天兩次、3 組 12 下。2) Diver：站立腳微屈膝、擺動腳屈膝 90°，以髖屈曲向前俯衝並雙臂前伸；先慢後快，隔日一次、3 組 6 下。3) Glider：軀幹直立、一手扶支撐、雙腿略分開，體重放在患側腳跟、膝屈 10–20°，另一腳向後滑到疼痛前停止，回程用雙臂而非患腿；以增加滑行距離與速度進階，每三天一次、3 組 4 下。",
+  "positive_zh": "不適用（復健頁面）。",
+  "notes_zh": "復健後期可進階到涵蓋所有腿後肌肌頭的運動（見最佳腿後肌運動頁面）。",
+  "tags": ["腿後肌拉傷 hamstring strain", "急性期復健 acute rehab", "離心負荷 lengthening"]
+ }
+]

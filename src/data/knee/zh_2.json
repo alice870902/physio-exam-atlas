@@ -1,0 +1,172 @@
+[
+ {
+  "slug": "posterior-drawer-test",
+  "title_zh": "後抽屜測試 Posterior Drawer Test",
+  "purpose_zh": "偵測後十字韌帶 (posterior cruciate ligament, PCL) 撕裂。",
+  "structure_zh": "後十字韌帶；膝屈 90° 時的脛骨後向位移。",
+  "procedure_zh": "病人仰臥，髖屈 45°、膝屈 90°，檢查者可坐在病人前足固定。雙拇指觸診關節線，從前方握住脛骨，以爆發性的動作把脛骨往後推。",
+  "positive_zh": "末端感覺柔軟或糊爛，或後向位移比對側增加。",
+  "notes_zh": "Rubinstein 等人 (1994)：敏感度 89%、特異度 98%，原頁認為確認與排除 PCL 撕裂都很準確。其他 PCL 測試：後沉徵象／Godfrey／step-off、股四頭肌主動測試、反向 Lachman。",
+  "tags": ["後十字韌帶 PCL", "首選測試 most accurate"]
+ },
+ {
+  "slug": "posterior-sag-sign",
+  "title_zh": "後沉徵象（Godfrey 測試） Posterior Sag Sign",
+  "purpose_zh": "觀察脛骨後沉以評估後十字韌帶 (PCL) 完整性；又稱 Godfrey 測試或 step-off 測試。",
+  "structure_zh": "後十字韌帶。PCL 撕裂常被漏診；典型機轉為儀表板外傷 (dashboard injury)、屈膝下跌倒撞擊脛骨前近端、或過度伸直。",
+  "procedure_zh": "病人仰臥，髖屈 45°、膝屈 90°，股四頭肌完全放鬆，從側面觀察膝。進階（Godfrey 徵象）：髖膝各 90°，檢查者托住腳跟，重力使後沉更明顯。",
+  "positive_zh": "正常脛骨應比股骨前凸約 1 公分，此階差 (step-off) 消失，或可見脛骨後沉。",
+  "notes_zh": "Rubinstein 等人 (1994)：敏感度 79%、特異度 100%（唯一評估特異度的研究），確認 PCL 撕裂的臨床價值良好。其他 PCL 測試：後抽屜、股四頭肌主動測試、反向 Lachman。",
+  "tags": ["後十字韌帶 PCL", "確認用 rule-in"]
+ },
+ {
+  "slug": "quadriceps-active-test",
+  "title_zh": "股四頭肌主動測試 Quadriceps Active Test",
+  "purpose_zh": "利用股四頭肌收縮把後沉的脛骨拉回原位，以偵測 PCL 撕裂。",
+  "structure_zh": "後十字韌帶；股四頭肌的力向量只有在膝屈曲超過股四頭肌中性角（約 60–70°）時才含有相對脛骨的前抽屜分量。",
+  "procedure_zh": "病人仰臥，髖屈 45°、膝屈 90°，雙腳平放、旋轉中立。檢查者輕坐在腳上固定，請病人對抗阻力把腳往前滑。可加做第二部分：請病人等長收縮腿後肌以凸顯後沉。",
+  "positive_zh": "原本後沉的脛骨在股四頭肌收縮時向前移動。若沒有後沉卻仍向前移動，可能提示 ACL 撕裂。",
+  "notes_zh": "Rubinstein 等人 (1994)：敏感度 53%、特異度 98%，為該研究中最特異的 PCL 測試；目前只有另一篇研究正式評估過，確認 PCL 撕裂的臨床價值良好。其他 PCL 測試：後抽屜、後沉徵象、反向 Lachman。",
+  "tags": ["後十字韌帶 PCL", "確認用 rule-in"]
+ },
+ {
+  "slug": "reverse-lachman-test",
+  "title_zh": "反向 Lachman 測試 Reverse Lachman Test",
+  "purpose_zh": "急性受傷膝屈曲不適、後抽屜測試難以執行時，在膝屈 30° 評估 PCL 完整性。",
+  "structure_zh": "後十字韌帶（在 90° 時對後向位移的阻抗最大）；若 30° 時位移增加但 90° 時沒有，提示後外側角 (posterolateral corner, PLC) 傷害。",
+  "procedure_zh": "病人仰臥，膝屈 30°（可用檢查者的膝墊在下方穩定）。對側手從外側放在股骨、同側手從內側放在脛骨，兩手靠近關節線以平移而非成角。開始時 PCL 缺損膝的脛骨必須先復位到解剖位置，旋轉中立以免召喚次級穩定結構。對脛骨施加向後的力，感覺末端感覺與位移程度。",
+  "positive_zh": "末端感覺柔軟或消失，且後向位移比對側增加。分級（Lubowitz 等人 2008）：第 1 級 0–5 公釐、脛骨平台仍在股骨髁前方；第 2 級 6–10 公釐、平台與股骨髁齊平；第 3 級 > 10 公釐、平台可移到股骨髁後方。",
+  "notes_zh": "Rubinstein 等人 (1994)：敏感度 63%、特異度 89%（唯一找到的效度研究），確認 PCL 撕裂的臨床價值中等。反向 Lachman 位移增加但後抽屜沒有，可能是後外側角傷害，建議用 dial 測試區分。⚠ API 中本頁的頁首標題寫成「Valgus Stress Test for MCL Injuries」（複製錯誤），內文確為反向 Lachman。",
+  "tags": ["後十字韌帶 PCL", "急性期 acute", "後外側角 PLC"]
+ },
+ {
+  "slug": "dial-test",
+  "title_zh": "撥號測試（Loomer 測試） Dial Test",
+  "purpose_zh": "診斷後外側角 (posterolateral corner, PLC) 傷害並與 PCL 撕裂區分。",
+  "structure_zh": "後外側角：外側副韌帶 (lateral collateral ligament, LCL)、膕肌肌腱 (popliteus tendon) 與膕腓韌帶 (popliteofibular ligament) 是最重要的穩定結構。PLC 傷害多來自膝前內側直接撞擊、過度伸直或非接觸性內翻應力，通常合併 ACL／PCL 撕裂（單獨 PLC 撕裂只占 28%）。",
+  "procedure_zh": "原始版本為俯臥（也可仰臥或坐姿）。雙膝屈 30°，踝最大背屈以限制踝旋轉；雙手托住腳跟、手指與拇指沿距跟輪廓放置，把雙腳跟最大外轉，量測足大腿角 (foot-thigh angle) 並比較兩側。第二部分在膝屈 90° 重複。",
+  "positive_zh": "兩側外轉差異 ≥ 10°。30° 增加但 90° 沒有＝單獨 PLC 傷害（完整的 PCL 會在 90° 限制旋轉）；30° 與 90° 都增加＝PLC 加 PCL 傷害。",
+  "notes_zh": "Krause 等人 (2013) 用手持傾斜儀在健康人：施測者內信度 0.83–0.89、施測者間 0.74–0.83；效度未知，原頁因此不對臨床效用做建議。其他 PLC 測試：反向樞軸移位、蛙腿。",
+  "tags": ["後外側角 PLC", "後十字韌帶 PCL", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "reverse-pivot-shift-test",
+  "title_zh": "反向樞軸移位測試 Reverse Pivot-Shift Test",
+  "purpose_zh": "評估後外側旋轉不穩定 (posterolateral rotatory instability)；目前只在 PCL 撕裂中被評估過。",
+  "structure_zh": "後外側角（LCL、膕肌肌腱、膕腓韌帶）；外側脛骨平台在屈曲時向後半脫位，約 30° 時由髂脛束復位。",
+  "procedure_zh": "病人仰臥，膝屈 90°。同側手使脛骨外轉；對側手放在脛骨近端外側施加外翻，並以前臂或髂嵴經脛骨施加軸向負荷。維持外轉、外翻與軸向負荷下被動伸膝。",
+  "positive_zh": "約屈曲 30° 時脛骨復位、聽到咔噠聲（髂脛束從屈曲向量轉為伸直向量）。清醒病人可能不允許此手法，出現恐懼反應 (apprehension) 也可視為陽性。",
+  "notes_zh": "Rubinstein 等人 (1994) 針對 PCL 撕裂：敏感度 26%、特異度 95%，確認 PCL 撕裂的臨床價值中等、不適合排除。尚無研究評估它偵測後外側角病灶的能力。其他 PLC 測試：dial／Loomer、蛙腿。",
+  "tags": ["後外側角 PLC", "後十字韌帶 PCL", "確認用 rule-in"]
+ },
+ {
+  "slug": "frog-leg-test",
+  "title_zh": "蛙腿測試 Frog Leg Test",
+  "purpose_zh": "Gomes 等人 (2016) 提出，在蛙腿姿勢下比較兩側外側間室在內翻力下的張開程度，評估後外側膝不穩定。",
+  "structure_zh": "外側副韌帶 (LCL)、外側關節線與後外側角。PLC 傷害很少單獨發生，可能發生在 ACL 重建失敗之後。",
+  "procedure_zh": "病人仰臥，雙膝屈 90°、腳底相對（蛙腿姿勢）。雙手小魚際放在兩側脛骨前內側，中指觸診 LCL、關節線與後外側角，同時對雙膝施加內翻力。",
+  "positive_zh": "患側外側張開的觸感明顯大於健側。",
+  "notes_zh": "Gomes 等人 (2016)（與內翻應力測試及 MRI 比較）：敏感度 91.7%、特異度 94.5%，施測者間 kappa 0.86；尚未被其他研究確認，原頁暫給中等臨床價值。Norris & McNicholas (2017) 投書指出此姿勢股骨外轉、脛骨相對內轉，能負荷 LCL 但無法正確應力膕肌／膕腓結構，沒有 LCL 傷害的 PLC 傷害可能被漏掉。其他 PLC 測試：dial、反向樞軸移位。",
+  "tags": ["後外側角 PLC", "外側副韌帶 LCL", "單一研究 single study"]
+ },
+ {
+  "slug": "valgus-stress-test",
+  "title_zh": "外翻應力測試 Valgus Stress Test",
+  "purpose_zh": "評估內側副韌帶 (medial collateral ligament, MCL) 完整性；MCL 傷害是基層醫療最常見的膝傷之一。",
+  "structure_zh": "內側副韌帶與內側關節線。",
+  "procedure_zh": "0°：膝完全伸直，一手固定踝，另一手環住膝、大魚際頂在腓骨頭；把膝往內推、踝往外推以打開內側關節，同時觸診內側關節線的張開與疼痛。30°：同樣做法，膝下墊枕或放在檢查者大腿上。",
+  "positive_zh": "膝屈 30° 時出現疼痛及／或鬆弛（內側張開）。",
+  "notes_zh": "Kastelein 等人 (2008)，30° 外翻應力單獨使用：以疼痛為結果敏感度 78%、特異度 67%；以鬆弛為結果敏感度 91%、特異度 49%。疼痛與鬆弛都沒有時至少可中等程度排除 MCL 病灶，單靠此測試無法有把握地確認（見 MCL 組合）。配套：內翻應力測試（LCL）。",
+  "tags": ["內側副韌帶 MCL", "排除用 rule-out"]
+ },
+ {
+  "slug": "varus-stress-test",
+  "title_zh": "內翻應力測試 Varus Stress Test",
+  "purpose_zh": "評估外側副韌帶 (lateral collateral ligament, LCL) 完整性。",
+  "structure_zh": "外側副韌帶與外側關節線。",
+  "procedure_zh": "病人仰臥，膝屈 30°（最大鬆弛位 maximally loose-packed position），墊枕或置於床緣讓病人放鬆。一手固定股骨，加上些微外轉並被動內收膝關節以應力 LCL。",
+  "positive_zh": "過度的外側張開及／或重現病人的疼痛。",
+  "notes_zh": "Harilainen (1987) 是唯一的評估研究，準確度差：敏感度 25%，未能報告特異度；效度所知甚少。⚠ 原頁標題寫成「Valgus Stress Test for Lateral Collateral Ligament Injuries」，實為內翻應力測試（來源筆誤）。配套：外翻應力測試（MCL）。",
+  "tags": ["外側副韌帶 LCL", "效度不明 poorly validated"]
+ },
+ {
+  "slug": "mcl-cluster",
+  "title_zh": "MCL 組合測試 MCL Cluster",
+  "purpose_zh": "Kastelein 等人 (2008) 的臨床預測模型，結合病史與外翻應力測試，在基層醫療診斷 MCL 病灶。",
+  "structure_zh": "內側副韌帶；以 MRI 確認病灶。",
+  "procedure_zh": "36 個候選變項中留下四項：病史 (1) 外力撞擊腿部的外傷、(2) 旋轉性外傷；理學檢查 (3) 30° 外翻應力測試疼痛、(4) 測試時鬆弛。",
+  "positive_zh": "病史兩項中至少一項，加上 30° 外翻應力疼痛 → MCL 病灶的 LR+ 4.8；若同時有鬆弛 → LR+ 6.4。只有一項病史、理學檢查皆陰性 → 可合理排除 MCL 病灶。",
+  "notes_zh": "可減少不必要的影像轉介。即使懷疑病灶，在沒有膝交鎖 (locking) 或疑似骨折的情況下，臨床指引仍建議保守治療。",
+  "tags": ["內側副韌帶 MCL", "cluster", "臨床預測 prediction rule"]
+ },
+ {
+  "slug": "mcmurray-test",
+  "title_zh": "McMurray 測試 McMurray Test",
+  "purpose_zh": "偵測半月板 (meniscus) 撕裂，主要是後角。",
+  "structure_zh": "內側與外側半月板（後側部分；前半部受到的壓力較小、不易測到）。",
+  "procedure_zh": "病人仰臥，受測膝完全屈曲。脛骨內轉並伸膝，在不同屈曲角度重複數次以涵蓋整個外側半月板後側。測內側半月板時完全屈曲、脛骨外轉再伸膝。",
+  "positive_zh": "膝出現彈響 (clicking)、交鎖 (locking) 或疼痛。",
+  "notes_zh": "Smith 等人 (2015) 統合分析：敏感度 61%、特異度 84%；Blyth 等人 (2015) 顯示肌骨臨床人員以此測試的整體診斷準確度僅 63%。確認半月板撕裂中等有用、排除則弱。其他半月板測試：Apley、Thessaly、關節線壓痛、Ege、鴨步、Finochietto、彈回測試。",
+  "tags": ["半月板 meniscus", "確認用 rule-in"]
+ },
+ {
+  "slug": "thessaly-test",
+  "title_zh": "Thessaly 測試 Thessaly Test",
+  "purpose_zh": "半月板病變的負重誘發測試。",
+  "structure_zh": "負重與旋轉下的內側與外側半月板。",
+  "procedure_zh": "先測健側。病人以患側單腳站立、膝屈 20°，扶著檢查者手臂，身體在脛骨上向左右各旋轉三次。",
+  "positive_zh": "旋轉時關節線疼痛。",
+  "notes_zh": "Karachalios 等人 (2005) 原本描述為最準確的半月板測試，但品質較高的 Goossens 等人 (2015)（以關節鏡為對照）得到敏感度 64%、特異度 53%，並不準確；不過 Apley 與 McMurray 也沒好多少，病史懷疑半月板病變時仍可做，最終可能需要 MRI。其他半月板測試：McMurray、關節線壓痛、Ege、Apley、鴨步、Finochietto。",
+  "tags": ["半月板 meniscus", "負重測試 weight-bearing"]
+ },
+ {
+  "slug": "apleys-test",
+  "title_zh": "Apley 測試 Apley's Test",
+  "purpose_zh": "以牽張與壓迫下的旋轉區分半月板與韌帶病灶。",
+  "structure_zh": "半月板（壓迫）與關節囊韌帶結構（牽張）。",
+  "procedure_zh": "病人俯臥，膝屈 90°，檢查者以自己的腿固定病人大腿。牽張下做脛骨外轉與內轉（看是否旋轉過多或不適），再在壓迫下重複（看旋轉是否減少或不適）。",
+  "positive_zh": "旋轉加牽張比對側更痛或旋轉更多 → 較可能是韌帶病灶；旋轉加壓迫更痛或旋轉減少 → 較可能是半月板損傷。",
+  "notes_zh": "Hegedus 等人 (2007) 統合分析：敏感度 61%、特異度 70%；Blyth 等人 (2015) 整體準確度僅 58%。確認或排除半月板撕裂的能力弱。其他半月板測試：McMurray、Thessaly、關節線壓痛、Ege、鴨步、Finochietto、彈回測試。",
+  "tags": ["半月板 meniscus", "韌帶鑑別 ligament differential"]
+ },
+ {
+  "slug": "eges-test",
+  "title_zh": "Ege 測試（負重 McMurray） Ege's Test",
+  "purpose_zh": "McMurray 測試的負重版本；半月板症狀多在負重活動出現，此測試彌補非負重測試的不足。",
+  "structure_zh": "內側半月板（外轉下蹲）與外側半月板（內轉下蹲）。",
+  "procedure_zh": "病人站立、膝伸直、雙腳距 30–40 公分。內側半月板：雙腿最大外轉下蹲再慢慢站起（下蹲時雙膝分開並外轉）。外側半月板：雙腿最大內轉下蹲再站起，不必蹲到底、可扶物支撐（雙膝靠攏並內轉）。一出現疼痛或彈響就停止。",
+  "positive_zh": "對應關節線處出現疼痛及／或彈響（檢查者有時聽得到），通常約在屈曲 90°；站起時疼痛也算陽性。前側撕裂在較小屈曲角度出現症狀，後角撕裂在較深屈曲出現。",
+  "notes_zh": "Akseki 等人 (2004)（單一但設計良好的研究）：內側半月板敏感度 67%、特異度 81%；外側敏感度 64%、特異度 90%，優於 McMurray 與關節線壓痛，待其他研究確認，原頁給中等臨床價值。急性期不適用（需能無痛負重與下蹲）；退化性關節炎或髕股疾病會降低準確度，ACL 缺損膝與有積液的膝反而更準確。其他半月板測試：McMurray、關節線壓痛、鴨步、Apley、Finochietto、Thessaly。",
+  "tags": ["半月板 meniscus", "負重測試 weight-bearing", "單一研究 single study"]
+ },
+ {
+  "slug": "joint-line-tenderness",
+  "title_zh": "關節線壓痛 Joint Line Tenderness",
+  "purpose_zh": "觸診關節線以偵測半月板撕裂；依 Smith 等人 (2015) 是現有最好的臨床工具。",
+  "structure_zh": "脛股關節線上的內外側半月板。原頁盛行率：瑞士研究有症狀者 57%、無症狀者 36%；美國研究 32% 與 23%；荷蘭每年每千人有 2 人新診斷半月板撕裂。",
+  "procedure_zh": "病人仰臥，膝屈 90°（讓半月板前側較易觸診）。脛骨內轉使股骨髁把內側半月板往前推，沿內側關節線觸診並觀察病人反應；再外轉脛骨觸診外側關節線。",
+  "positive_zh": "重現病人熟悉的疼痛。",
+  "notes_zh": "Smith 等人 (2015) 系統性回顧與統合分析：敏感度 83%、特異度 83%，原頁給中等臨床價值。其他半月板測試：McMurray、Finochietto、Ege、Apley、鴨步、Thessaly。",
+  "tags": ["半月板 meniscus", "觸診 palpation"]
+ },
+ {
+  "slug": "duck-walk-test",
+  "title_zh": "鴨步測試（Childress 測試） Duck Walk Test",
+  "purpose_zh": "Childress (1957) 的蹲走測試，針對容易被漏診的內側半月板後三分之一單獨病變（起病不明確、主訴模糊、很少滑膜反應、從不真正交鎖；病人多從事蹲姿工作）。",
+  "structure_zh": "半月板，原本針對內側半月板後角；驗證研究中對前、後、內、外側撕裂表現相同。",
+  "procedure_zh": "⚠ 來源問題：原頁的操作段落是從關節線壓痛頁面複製過來的（仰臥膝屈 90° 觸診），並未描述鴨步本身；實際的蹲走操作只在影片中。",
+  "positive_zh": "依原頁文字：重現病人熟悉的疼痛（與關節線壓痛頁相同措辭）。",
+  "notes_zh": "van der Post 等人 (2017)：敏感度 71%、特異度 39%，準確度有限、臨床價值偏弱。其他半月板測試：McMurray、關節線壓痛、Ege、Apley、Finochietto、Thessaly。",
+  "tags": ["半月板 meniscus", "負重測試 weight-bearing", "來源有誤 source issue"]
+ },
+ {
+  "slug": "finochietto-test",
+  "title_zh": "Finochietto 測試（跳躍徵象） Finochietto Test",
+  "purpose_zh": "在深屈曲下用力做前抽屜，偵測撕裂的半月板後角位移。",
+  "structure_zh": "半月板後角。半月板撕裂發生率約每十萬人 61 人，約三分之一與運動有關；30 歲以下多為周邊創傷性撕裂，年長者多為複雜／退化型。",
+  "procedure_zh": "膝屈曲至 130–140° 並固定。檢查者如前抽屜測試般把脛骨往前拉，但力道更猛。",
+  "positive_zh": "感覺到「跳躍」(jump)：撕裂的後角移到脛股接觸點前方；幾乎聽不到也看不到，不一定疼痛。ACL／PCL 撕裂造成的鬆弛不算陽性；游離體或先天盤狀半月板 (discoid meniscus) 也可能陽性。",
+  "notes_zh": "尚無任何診斷研究驗證（Shrier 等人 2010），臨床價值未知。Shrier 等人主張半月板撕裂異質性高（前側 vs 後側），不應只看合併的敏感度／特異度，而應依各測試應力半月板不同部位的邏輯選擇測試。其他半月板測試：McMurray、關節線壓痛、Ege、Apley、鴨步、Thessaly。",
+  "tags": ["半月板 meniscus", "後角 posterior horn", "效度未知 unvalidated"]
+ }
+]

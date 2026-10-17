@@ -11,7 +11,8 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 |---|---|---|
 | shoulder | **live** (74 videos, 10 categories) | `shoulder/index.html` |
 | hip | **live** (42 videos, 7 categories) | `hip/index.html`; source quirks (Pace page duplicates FAIR procedure, compression/sacral-thrust share one YouTube ID) are flagged in `groupC/D.json` notes |
-| knee, lumbar | planned | placeholder cards on home page |
+| knee | **live** (61 videos, 12 categories) | `knee/index.html`; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
+| lumbar | planned | placeholder card on home page |
 
 ## Repo layout
 
@@ -90,8 +91,9 @@ workers (≈25 slugs each); each worker writes its own groupX.json / zh_N.json.
 
 ## Suggested next steps
 
-1. Knee, then lumbar, same pipeline. (Hip done 2026-10-17; the 2 extra slugs in
-   `src/data/hip/slugs.json` — `best-hamstring-exercises`, `nordic-hamstring-curl-variations` —
-   were left out as more knee/hamstring than hip; consider them for knee.)
+1. Lumbar, same pipeline. (Hip and knee done 2026-10-17. Slug discovery tip: fetch all wiki
+   entries with `?per_page=20&page=N&_fields=id,slug,title,link,acf` and group by the
+   `page-header-detail-page` section's `subheading`, e.g. "Lumbar Spine Assessment" (24 pages)
+   plus "Spine Assessment"/"Screening"/"Neurological Screening" candidates.)
 2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
    page; timestamped segments within a video (needs transcripts); an "all regions" search.

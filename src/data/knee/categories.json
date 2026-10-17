@@ -1,0 +1,147 @@
+[
+ {
+  "id": "assess",
+  "zh": "整體評估、鑑別與篩檢",
+  "en": "Knee Assessment, Differential & Screening",
+  "slugs": [
+   "knee-active-range-of-motion",
+   "knee-passive-range-of-motion",
+   "knee-resisted-isometric-testing",
+   "myotomes-lower-limb",
+   "knee-pain-differential-diagnosis-itbs-pfps-jumpers-knee",
+   "radiographic-knee-oa",
+   "ottawa-knee-rules",
+   "pittsburgh-decision-rule"
+  ]
+ },
+ {
+  "id": "effusion",
+  "zh": "關節積液與關節內病變",
+  "en": "Effusion & Intra-articular Pathology",
+  "slugs": [
+   "brush-test",
+   "patellar-tap-test",
+   "bounce-home-test"
+  ]
+ },
+ {
+  "id": "acl",
+  "zh": "前十字韌帶",
+  "en": "Anterior Cruciate Ligament (ACL)",
+  "slugs": [
+   "lachman-test",
+   "anterior-drawer-test",
+   "lateral-pivot-shift-test",
+   "lever-sign",
+   "jerk-test-knee",
+   "losee-test",
+   "martens-test",
+   "dejour-test",
+   "jolt-test"
+  ]
+ },
+ {
+  "id": "rotatory",
+  "zh": "前外側／前內側旋轉不穩定",
+  "en": "Anterolateral & Anteromedial Rotatory Instability",
+  "slugs": [
+   "slocum-test",
+   "cross-over-test",
+   "giving-way-test",
+   "lemaire-jolt-test"
+  ]
+ },
+ {
+  "id": "pcl",
+  "zh": "後十字韌帶",
+  "en": "Posterior Cruciate Ligament (PCL)",
+  "slugs": [
+   "posterior-drawer-test",
+   "posterior-sag-sign",
+   "quadriceps-active-test",
+   "reverse-lachman-test"
+  ]
+ },
+ {
+  "id": "plc",
+  "zh": "後外側角",
+  "en": "Posterolateral Corner (PLC)",
+  "slugs": [
+   "dial-test",
+   "reverse-pivot-shift-test",
+   "frog-leg-test"
+  ]
+ },
+ {
+  "id": "collateral",
+  "zh": "側副韌帶",
+  "en": "Collateral Ligaments (MCL / LCL)",
+  "slugs": [
+   "valgus-stress-test",
+   "varus-stress-test",
+   "mcl-cluster"
+  ]
+ },
+ {
+  "id": "meniscus",
+  "zh": "半月板",
+  "en": "Meniscus",
+  "slugs": [
+   "mcmurray-test",
+   "thessaly-test",
+   "apleys-test",
+   "eges-test",
+   "joint-line-tenderness",
+   "duck-walk-test",
+   "finochietto-test"
+  ]
+ },
+ {
+  "id": "pf",
+  "zh": "髕股關節與髕骨不穩定",
+  "en": "Patellofemoral Pain & Patellar Instability",
+  "slugs": [
+   "patellofemoral-pain-diagnosis",
+   "patellofemoral-pain-cluster",
+   "clarkes-sign",
+   "decline-step-down-test",
+   "patellar-apprehension-test",
+   "moving-patellar-apprehension-test",
+   "hoffas-test"
+  ]
+ },
+ {
+  "id": "tendon",
+  "zh": "髕骨肌腱與髂脛束",
+  "en": "Patellar Tendon & Iliotibial Band",
+  "slugs": [
+   "patellar-tendon-palpation",
+   "royal-london-hospital-test-knee",
+   "nobles-test",
+   "rennes-test"
+  ]
+ },
+ {
+  "id": "rtp",
+  "zh": "功能與回場測試",
+  "en": "Functional & Return-to-Play Testing",
+  "slugs": [
+   "hop-test-cluster",
+   "drop-jump-test",
+   "star-excursion-balance-test",
+   "y-balance-test"
+  ]
+ },
+ {
+  "id": "ex",
+  "zh": "運動治療",
+  "en": "Exercise & Rehab",
+  "slugs": [
+   "acl-rehab",
+   "itb-syndrome-rehab",
+   "best-hamstring-exercises",
+   "nordic-hamstring-curl-variations",
+   "askling-protocol"
+  ]
+ }
+]

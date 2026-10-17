@@ -1,0 +1,242 @@
+[
+ {
+  "slug": "knee-active-range-of-motion",
+  "title_zh": "膝關節主動活動度 Knee Active Range of Motion",
+  "purpose_zh": "基礎評估四個主動動作：屈曲、伸直，以及脛骨相對股骨的內轉與外轉，同時觀察髕骨 (patella) 的滑動軌跡 (tracking)。",
+  "structure_zh": "脛股關節 (tibiofemoral joint)；髕骨在股骨滑車 (femoral trochlea) 中的移動：伸直時向上向外、屈曲時向下向內。",
+  "procedure_zh": "屈曲：仰臥，腳跟盡量靠近臀部。伸直：仰臥雙腿伸直，請病人收縮股四頭肌或把膝蓋往床面壓，腳跟應抬離床面。旋轉：坐在床緣、小腿自然下垂，可在踝關節上方觸診以分辨是脛股關節真正的旋轉還是踝關節內翻／外翻；腳尖向外為外轉、向內為內轉。",
+  "positive_zh": "非陽性／陰性型檢查：記錄活動範圍、症狀，以及髕骨是否滑動順暢。",
+  "notes_zh": "與膝關節被動活動度 (PROM) 頁面互為配套。原頁未列參考文獻。",
+  "tags": ["活動度 ROM", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "knee-passive-range-of-motion",
+  "title_zh": "膝關節被動活動度 Knee Passive Range of Motion",
+  "purpose_zh": "以被動方式評估膝關節的骨運動學動作、量測角度、受限時評估末端感覺 (end-feel)，並包含髕骨活動度 (patellar mobility)。",
+  "structure_zh": "脛股關節與髕股關節 (patellofemoral joint)。原頁參考值：屈曲 135°、伸直 15°、內轉 20–30°、外轉 30–40°。",
+  "procedure_zh": "屈曲：仰臥，髖屈 90° 並在股骨遠端固定，另一手握脛骨遠端做最大屈曲，評估末端感覺。伸直：仰臥腿平放，固定股骨遠端，從內側握住脛骨遠端做被動伸直（從內側握可讓終末伸直的鎖扣機制 (screw-home mechanism) 發生）。旋轉：仰臥，髖膝各 90° 並固定，另一手從足底握住腳、把距小腿關節 (talocrural joint) 背屈到底鎖住，以腳當槓桿做內轉與外轉。髕骨：腿完全伸直，雙拇指推向內側、食指推向外側、食指加拇指或豌豆骨 (pisiform) 推向遠端、食指加拇指推向近端。",
+  "positive_zh": "非陽性／陰性型檢查：與參考值及對側比較活動範圍，記錄末端感覺。",
+  "notes_zh": "信度：van Trijffel 等人 (2010) 的系統性回顧指出目視或量角器量膝屈伸的施測者間信度可接受至極佳；Mehta 等人 (2017) 用數位量角器與手機傾斜儀，施測者內／間信度良好至極佳且一致優於類比器材。原頁提到的末端感覺一覽表不在 API 文字中。參考值引自 Soucie 2011、McKay 2017。",
+  "tags": ["活動度 ROM", "末端感覺 end-feel", "髕骨活動度 patellar mobility"]
+ },
+ {
+  "slug": "knee-resisted-isometric-testing",
+  "title_zh": "膝關節等長阻力測試 Knee Resisted Isometric Testing",
+  "purpose_zh": "膝關節複合體的基礎肌力與疼痛誘發測試：膝屈曲、伸直，加上踝背屈與蹠屈。",
+  "structure_zh": "膝屈肌與伸肌；腓腸肌 (gastrocnemius) 從後方跨過膝關節並在蹠屈時作用；踝背屈會帶動脛腓關節 (tibiofibular joint) 並增加其支持韌帶的應力。",
+  "procedure_zh": "屈曲：仰臥，膝屈約 30°，在踝上方給阻力，請病人把腳跟拉向臀部。伸直：腿架在檢查者前臂上，另一手放踝上方，請病人伸膝。背屈：膝屈 90° 固定，在足背往下壓，請病人抵抗。蹠屈：在足底給阻力，請病人抵抗。",
+  "positive_zh": "阻力動作中出現疼痛及／或無力。",
+  "notes_zh": "與主動活動度 (AROM)、被動活動度 (PROM) 同屬基礎膝關節評估。原頁未列參考文獻。",
+  "tags": ["肌力 strength", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "myotomes-lower-limb",
+  "title_zh": "下肢肌節測試 Myotomes Lower Limb",
+  "purpose_zh": "懷疑腰椎神經根病變 (radiculopathy) 時的肌節 (myotome) 肌力測試，協助定位病變椎間盤節段。",
+  "structure_zh": "腰薦神經根：L2 髖屈曲、L3 髖伸直（原頁如此列）、L4 脛前肌 (tibialis anterior)／踝背屈、L5 伸拇長肌 (extensor hallucis longus)／大腳趾伸直、S1 小腿肌（反覆提踵）、S2 膝屈曲（神經根病變罕見）。",
+  "procedure_zh": "病人仰臥，逐一測試各肌節，並與健側比較。",
+  "positive_zh": "某一肌節的肌力相較對側減弱 (paresis)。",
+  "notes_zh": "Al Nezari 等人 (2013) 的系統性回顧與統合分析（14 篇研究、腰椎椎間盤突出）：肌節無力的敏感度 22–40%、特異度 62–79%，合併後敏感度 31%、特異度 76%；所有神經學檢查項目的合併陽性概似比 (LR+) 僅 1.02–1.26，陽性或陰性都不太改變檢後機率，臨床價值弱，但仍是理學檢查中最好的工具。⚠ 原頁把 L3 列為髖伸直，未加說明。配套頁面：上下肢皮節 (dermatome) 與反射測試。",
+  "tags": ["神經根病變 radiculopathy", "肌節 myotome", "神經學檢查 neurological"]
+ },
+ {
+  "slug": "knee-pain-differential-diagnosis-itbs-pfps-jumpers-knee",
+  "title_zh": "非創傷性膝痛鑑別診斷 Atraumatic Knee Pain Differential Diagnosis",
+  "purpose_zh": "鑑別活躍年輕族群三種常見的過度使用型膝痛：髕股疼痛症候群 (patellofemoral pain syndrome, PFPS)、髂脛束症候群 (iliotibial band syndrome, ITBS) 與髕骨肌腱病變 (patellar tendinopathy，跳躍膝 jumper's knee)。",
+  "structure_zh": "髕股關節、股骨外上髁處的髂脛束、髕骨肌腱。年長病人較可能是退化性關節炎 (osteoarthritis) 與退化性半月板病變。",
+  "procedure_zh": "三者都是排除性診斷，先排除韌帶或肌肉傷害；特殊測試表現差。改看臨床表現：疼痛位置（ITBS 為股骨外上髁局部尖銳的外側痛；PFPS 與髕骨肌腱病變為前側、可能瀰漫）、典型年齡（ITBS 與髕骨肌腱病變多在成人；PFPS 青少年也常見，典型病人是青少女跑者）、起病型態（三者皆為訓練量快速增加後的過度使用；ITBS 通常突然發作，PFPS 數週內漸進）。",
+  "positive_zh": "不適用（鑑別診斷總論）。",
+  "notes_zh": "原頁提到的比較表是圖片、不在 API 文字中。原頁未列參考文獻。",
+  "tags": ["鑑別診斷 differential", "PFPS", "ITBS", "跳躍膝 jumper's knee"]
+ },
+ {
+  "slug": "radiographic-knee-oa",
+  "title_zh": "膝關節退化性關節炎臨床診斷 Radiographic Knee OA",
+  "purpose_zh": "以 Altman 等人 (1986) 的臨床分類組合診斷膝關節退化性關節炎 (osteoarthritis, OA)，取代只依賴 Kellgren-Lawrence 放射學分級。",
+  "structure_zh": "膝關節：軟骨下骨 (subchondral bone) 神經支配豐富、骨緣壓痛；骨贅 (osteophytes) 造成骨性腫大；捻髮音 (crepitus)。",
+  "procedure_zh": "膝痛加上六項：年齡 > 50 歲；晨僵 (morning stiffness) < 30 分鐘；活動時有捻髮音（可請病人蹲下，區分像老舊門板聲的骨性捻髮音與常見的滑膜彈響）；骨緣觸診壓痛；骨性腫大；無局部溫度上升。",
+  "positive_zh": "六項中 3 項陽性，或 4 項陽性以提高特異度。",
+  "notes_zh": "Altman 等人 (1986)：3/6 陽性敏感度 95%、特異度 69%；4/6 陽性敏感度 84%、特異度 89%，原頁給排除與確認膝 OA 皆為高臨床價值。影像與疼痛相關性差，Altman 研究中 40% 病人無症狀；中樞敏感化 (central sensitization) 與心理社會因素重要，治療以負荷管理、肌力、活動度與衛教為主。原頁也引用 Kim 等人 2015（髖 OA）。",
+  "tags": ["退化性關節炎 OA", "ACR 準則 criteria", "cluster"]
+ },
+ {
+  "slug": "ottawa-knee-rules",
+  "title_zh": "渥太華膝部規則 Ottawa Knee Rules",
+  "purpose_zh": "判斷急性膝部外傷哪些需要照 X 光的臨床決策規則。",
+  "structure_zh": "膝部：髕骨、腓骨頭、膝屈曲角度、負重能力。",
+  "procedure_zh": "符合任一項即照 X 光：年齡 55 歲以上；髕骨單獨壓痛；腓骨頭壓痛；膝無法屈曲到 90°；受傷當下與急診室都無法連續負重走四步（跛行也算能走）。",
+  "positive_zh": "任一準則成立＝需要影像檢查。",
+  "notes_zh": "各研究敏感度 84.6–100%（Stiell 1995、Yao & Haque 2012、Cheung 2013）。類似規則：Pittsburgh 決策規則，依 Cheung 等人 (2013) 特異度較高。",
+  "tags": ["骨折篩檢 fracture screening", "臨床決策規則 decision rule"]
+ },
+ {
+  "slug": "pittsburgh-decision-rule",
+  "title_zh": "匹茲堡決策規則 Pittsburgh Decision Rule",
+  "purpose_zh": "1994 年提出的臨床決策規則，判斷膝部外傷是否需要 X 光，以減少不必要的攝影。",
+  "structure_zh": "跌倒或鈍挫傷後的膝部。",
+  "procedure_zh": "跌倒或鈍挫傷機轉，合併「無法完全負重走四步」或「年齡小於 12 歲或大於 50 歲」其中之一 → 照 X 光。",
+  "positive_zh": "準則成立＝需要影像檢查。",
+  "notes_zh": "各評估研究敏感度 77–100%、特異度 57–79%；原頁敘述的規則本身敏感度 100%、特異度 79%（Seaberg & Jackson 1994、Cheung 2013）。Cheung 等人 (2013) 中顯著比渥太華膝部規則更特異。原頁的流程圖是圖片、不在 API 文字中。",
+  "tags": ["骨折篩檢 fracture screening", "臨床決策規則 decision rule"]
+ },
+ {
+  "slug": "brush-test",
+  "title_zh": "刷動測試（隆起測試） Brush Test",
+  "purpose_zh": "偵測膝關節的少量積液 (effusion)；又稱 stroke test、bulge test、swipe test。",
+  "structure_zh": "膝關節囊／髕上囊 (suprapatellar pouch)；髕骨內外側溝。",
+  "procedure_zh": "病人仰臥、膝伸直。在膝內側由遠端往近端刷 2–3 次，再用另一手在外側由近端往遠端刷 2–3 次。",
+  "positive_zh": "膝內側偏遠端出現液體波動並隆起。",
+  "notes_zh": "Sturgill 等人 (2009)：施測者間 kappa 0.75（同一等級或相差一級算一致），原頁給中等臨床價值。另一積液測試：髕骨敲擊測試 (patellar tap / ballottement test)。",
+  "tags": ["關節積液 effusion", "信度 reliability"]
+ },
+ {
+  "slug": "patellar-tap-test",
+  "title_zh": "髕骨敲擊測試（浮髕試驗） Patellar Tap Test",
+  "purpose_zh": "偵測膝關節內積液 (intra-articular effusion)，並協助定位病灶；關節外腫脹（如髕前滑囊炎 prepatellar bursitis、髕骨肌腱炎）會呈陰性。",
+  "structure_zh": "膝關節腔、髕上囊、髕骨。",
+  "procedure_zh": "病人仰臥、腿完全伸直。由上往下推到髕上囊並維持壓力，另一手由下往上推至髕骨下緣下方停住；維持壓力下，用一指按壓髕骨，感覺是否浮動。",
+  "positive_zh": "髕骨浮動、敲擊時撞到股骨，表示其下有液體。",
+  "notes_zh": "Kastelein 等人 (2009)（基層醫療的創傷性膝痛病人）：敏感度 83%、特異度 49%，陰性可中等程度排除積液。另一積液測試：刷動測試。",
+  "tags": ["關節積液 effusion", "排除用 rule-out"]
+ },
+ {
+  "slug": "bounce-home-test",
+  "title_zh": "彈回測試 Bounce Home Test",
+  "purpose_zh": "偵測會限制或使終末伸直疼痛的關節內病變，例如半月板 (meniscus) 撕裂或游離體 (loose bodies)。",
+  "structure_zh": "半月板、關節內游離體、限制終末伸直的積液。",
+  "procedure_zh": "病人仰臥。檢查者托住腳跟，從膝完全屈曲開始，讓腿被動落入伸直。",
+  "positive_zh": "正常：膝彈回完全伸直、末端清楚。伸直不完全或末端感覺有橡皮感並伴關節線疼痛，可能為半月板撕裂；末端感覺堅硬提示關節內碎片／游離體。",
+  "notes_zh": "原始描述從未經診斷準確度研究評估（Malanga 等人 2003），臨床價值存疑。其他半月板測試：McMurray、關節線壓痛、鴨步／Childress、Apley、Finochietto／跳躍徵象、Thessaly。",
+  "tags": ["半月板 meniscus", "關節內病變 intra-articular", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "lachman-test",
+  "title_zh": "Lachman 測試 Lachman Test",
+  "purpose_zh": "偵測前十字韌帶 (anterior cruciate ligament, ACL) 撕裂；被統合分析列為效度最高的 ACL 測試（又稱 Ritchie、Trillat 或 Lachman-Trillat 測試）。",
+  "structure_zh": "前十字韌帶；膝屈 30° 時的脛骨前向位移。先排除後十字韌帶 (PCL) 傷害：脛骨後沉 (posterior sag) 會讓前向位移看起來過多而造成偽陽性。",
+  "procedure_zh": "病人仰臥，膝屈 30°。一手固定股骨，將脛骨帶到些微外轉，另一手把脛骨往前拉。",
+  "positive_zh": "末端感覺柔軟或糊爛 (mushy)，或脛骨前向位移比健側多至少 3 公釐。",
+  "notes_zh": "Benjaminse 等人 (2006) 統合分析：敏感度 85%、特異度 94%（另引 van Eck 2013、Huang 2016、Lange 2015）。慢性期的結果比急性期可靠，因為腫脹與肌肉痙攣會影響測試。其他 ACL 測試：前抽屜、Lelli／槓桿徵象、外側樞軸移位。",
+  "tags": ["前十字韌帶 ACL", "首選測試 most valid"]
+ },
+ {
+  "slug": "anterior-drawer-test",
+  "title_zh": "前抽屜測試 Anterior Drawer Test",
+  "purpose_zh": "偵測前十字韌帶 (ACL) 斷裂。",
+  "structure_zh": "前十字韌帶；膝屈 90° 時的脛骨前向位移。先排除 PCL 傷害以避免偽陽性。",
+  "procedure_zh": "髖屈 45°、膝屈 90°，檢查者輕坐在病人腳上固定。雙拇指觸診關節線，以爆發性的動作把脛骨往前拉。",
+  "positive_zh": "脛骨前向位移超過 6 公釐，或末端感覺柔軟糊爛。",
+  "notes_zh": "Benjaminse 等人 (2006) 統合分析：慢性期敏感度 92%、特異度 91%；急性期表現差很多。其他 ACL 測試：Lachman、外側樞軸移位、Lelli／槓桿徵象（另引 van Eck 2013、Huang 2016、Peeler 2010）。",
+  "tags": ["前十字韌帶 ACL", "慢性期 chronic"]
+ },
+ {
+  "slug": "lateral-pivot-shift-test",
+  "title_zh": "外側樞軸移位測試 Lateral Pivot-Shift Test",
+  "purpose_zh": "重現 ACL 缺損膝在步態屈曲 20–40° 時外側脛骨平台的動態前向半脫位，以偵測 ACL 斷裂。",
+  "structure_zh": "前十字韌帶與前外側間室；髂脛束 (iliotibial band) 在屈曲 30–40° 時把半脫位的脛骨復位。",
+  "procedure_zh": "病人仰臥，髖屈曲並外展 30°、些微內轉。握住跟骨使脛骨內轉（部分作者加軸向壓迫），另一手從腓骨後方施加外翻力，使脛骨在伸直位向前半脫位。接著緩慢屈膝。",
+  "positive_zh": "約屈曲 30–40° 時脛骨復位或向後跳動（髂脛束變緊），常有咔噠聲 (clunk)，病人認得這就是「膝蓋跑掉」(giving way) 的感覺。",
+  "notes_zh": "Benjaminse 等人 (2006) 統合分析：敏感度 24%、特異度 98%。急性期的保護性肌肉收縮會造成偽陰性，請病人盡量放鬆並可重複數次。其他 ACL 測試：Lachman、Lelli／槓桿徵象、前抽屜。",
+  "tags": ["前十字韌帶 ACL", "確認用 rule-in", "旋轉不穩定 rotatory instability"]
+ },
+ {
+  "slug": "lever-sign",
+  "title_zh": "槓桿徵象（Lelli 測試） Lever Sign",
+  "purpose_zh": "較新的 ACL 完整性測試，以放在小腿下的拳頭為支點、把腿當槓桿。",
+  "structure_zh": "前十字韌帶；ACL 撕裂時抵銷重力的槓桿作用受損，脛骨平台相對股骨髁向前位移。",
+  "procedure_zh": "病人仰臥、腿完全伸直。一拳放在小腿近端三分之一下方，另一手在股四頭肌遠端三分之一施加中等向下的力。",
+  "positive_zh": "ACL 完整：膝伸直、腳跟抬離床面（陰性）。部分或完全斷裂：腳跟留在床上（陽性）。",
+  "notes_zh": "Lelli 等人 (2016)（400 名急慢性、完全與不完全撕裂病人）報告敏感度與特異度皆 100%，但作者是測試創始人、偏差風險高；Jarbo 等人 (2017) 得到敏感度 63%、特異度 90%（另引 Mulligan 2017、Gürpınar 2019、Massey 2017）。綜合來看，原頁給確認 ACL 撕裂的中等臨床價值。",
+  "tags": ["前十字韌帶 ACL", "確認用 rule-in"]
+ },
+ {
+  "slug": "jerk-test-knee",
+  "title_zh": "膝關節 Jerk 測試 Jerk Test Knee",
+  "purpose_zh": "Hughston 等人 (1976) 提出，測試 ACL 與前外側間室的完整性；相當於動作順序顛倒的樞軸移位測試。",
+  "structure_zh": "前十字韌帶與前外側間室；外側脛骨平台。",
+  "procedure_zh": "病人仰臥，髖屈 45°、膝屈 90°。一手使脛骨內轉，另一手放在脛骨平台近端與腓骨上施加外翻力。緩慢伸膝。",
+  "positive_zh": "通常約屈曲 30° 時出現突然的加速或跳動 (jerk)，即外側脛骨平台向前半脫位；膝完全伸直時脛骨再度復位。",
+  "notes_zh": "未經診斷準確度評估（Hughston 1976、Jensen 1990），臨床價值存疑。其他 ACL 測試：前抽屜、Lachman、外側樞軸移位。",
+  "tags": ["前十字韌帶 ACL", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "losee-test",
+  "title_zh": "Losee 測試 Losee Test",
+  "purpose_zh": "Losee 等人 (1978) 描述的樞軸移位變化型，重現 ACL 缺損膝典型的外側脛骨平台前向半脫位。",
+  "structure_zh": "前十字韌帶；外側脛骨平台；腓骨頭。",
+  "procedure_zh": "病人仰臥，檢查者站受測側（以左膝為例）。左手托住足踝並維持外轉，腿可頂在檢查者腹部，推到膝屈 30° 讓腿後肌放鬆（外轉可讓半脫位在測試開始時復位）。右手放在膝上、拇指勾在腓骨頭後方；把腳向外拉並以右手向內推形成外翻。維持外翻力矩下緩慢伸腿、讓腿進入內轉，同時以右手拇指把腓骨頭往前推。",
+  "positive_zh": "膝出現前向半脫位，病人認得這就是自己的不穩感。",
+  "notes_zh": "未經正式診斷準確度評估（Losee 1978、Anderson 2000），臨床價值存疑。其他 ACL 測試：前抽屜、Lachman、外側樞軸移位。",
+  "tags": ["前十字韌帶 ACL", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "martens-test",
+  "title_zh": "Martens 測試 Martens' Test",
+  "purpose_zh": "Martens 等人 (1981) 描述的脛骨前向半脫位測試，宣稱可避免病人恐懼與肌肉痙攣造成的偽陰性。",
+  "structure_zh": "前十字韌帶；外側脛骨平台。",
+  "procedure_zh": "病人仰臥，小腿夾在檢查者手臂與身體之間，一手放脛骨近端後方、另一手放股骨遠端。第一步做 Lachman 手法：脛骨往前拉、股骨往後推（ACL 缺損膝會出現直向前的半脫位）。第二步以手肘在病人踝部加上外翻力矩，並讓脛骨內轉。",
+  "positive_zh": "脛骨向前半脫位時感覺到或看到程度不一的突然彈跳 (snap)。",
+  "notes_zh": "未經參考標準的正式診斷準確度評估（Martens & Mulier 1981），臨床價值存疑。其他 ACL 測試：前抽屜、Lachman、外側樞軸移位。",
+  "tags": ["前十字韌帶 ACL", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "dejour-test",
+  "title_zh": "Dejour 測試 Dejour Test",
+  "purpose_zh": "結合 Lachman 測試與樞軸移位特徵的 ACL 測試。",
+  "structure_zh": "前十字韌帶；脛骨平台；以樞軸移位的性質推測後內側角 (posteromedial corner, PMC) 是否完整。",
+  "procedure_zh": "病人仰臥，檢查者站受測側，把腿鬆鬆地夾在手臂與腹部之間以容許脛骨旋轉。以前臂對膝施加外翻，另一手把股骨往後推以凸顯脛骨的前抽屜，前抽屜在屈曲 20–30° 時出現；再繼續屈曲。",
+  "positive_zh": "繼續屈曲時出現樞軸移位：脛骨平台的前向半脫位突然復位。Dejour 認為樞軸移位劇烈且疼痛表示 PMC 完整，遲緩的樞軸移位提示 PMC 功能不全。",
+  "notes_zh": "未經診斷準確度評估（Liorzou 2013），臨床價值存疑。其他 ACL 測試：前抽屜、Lachman、外側樞軸移位。",
+  "tags": ["前十字韌帶 ACL", "後內側角 PMC", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "jolt-test",
+  "title_zh": "Jolt 測試（Nakajima N 測試） Jolt Test",
+  "purpose_zh": "類似樞軸移位的測試（Nakajima 的 n-test），重現 ACL 缺損膝的跳動 (jolt)。",
+  "structure_zh": "前十字韌帶；脛骨平台；腓骨頭。",
+  "procedure_zh": "病人仰臥，膝屈 90°（以右膝為例）。右手握住踝外側並使其內轉；左手放膝外側施加外翻力，拇指放在腓骨頭後方。逐漸伸膝。",
+  "positive_zh": "脛骨平台突然向前向內半脫位並有可觸及的跳動，通常在距伸直 40–20° 處；病人可能認得這就是活動時「膝蓋跑掉」的感覺。",
+  "notes_zh": "未經診斷準確度評估，臨床價值存疑（Nakajima：內文寫 1972、參考文獻為 1979）。其他 ACL 測試：前抽屜、Lachman、外側樞軸移位。",
+  "tags": ["前十字韌帶 ACL", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "slocum-test",
+  "title_zh": "Slocum 測試 Slocum Test",
+  "purpose_zh": "Slocum (1976) 提出的側臥版外側樞軸移位測試，用於體重較重的病人，測試 ACL 完整性／前外側旋轉不穩定 (anterolateral rotatory instability)。",
+  "structure_zh": "前十字韌帶；前外側間室；重力使脛骨內轉並向前半脫位。",
+  "procedure_zh": "病人健側在下側臥，下方髖膝微屈求穩，骨盆向後旋約 30°，患側踝放在床上、膝屈 10°。一手在膝上、一手在膝下，施加外翻力並把膝帶入屈曲。",
+  "positive_zh": "約膝屈 40° 時脛骨突然復位。",
+  "notes_zh": "未納入診斷準確度研究（Slocum 等人 1976），臨床價值存疑。其他旋轉不穩定測試：giving way、交叉測試、Lemaire jolt、反向樞軸移位、dial、蛙腿。",
+  "tags": ["前外側旋轉不穩定 ALRI", "前十字韌帶 ACL", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "cross-over-test",
+  "title_zh": "交叉測試 Cross Over Test",
+  "purpose_zh": "Arnold (1979) 提出的負重測試，用於肌肉防衛使樞軸移位或 jerk 測試難以引出的運動員，評估前外側旋轉不穩定。",
+  "structure_zh": "負重與軀幹旋轉下的前十字韌帶／前外側間室。",
+  "procedure_zh": "病人站立，健側腿交叉到患側腿前方，患側腳掌平貼地面。檢查者輕踩患側腳固定，請病人在股四頭肌收縮下盡量旋轉軀幹。",
+  "positive_zh": "重現外側樞軸移位與「膝蓋要跑出去」的症狀。",
+  "notes_zh": "沒有診斷準確度研究納入本測試（Arnold 等人 1979），臨床價值存疑。其他旋轉不穩定測試：Slocum、giving way（Jakob）、Lemaire jolt（前內側）、反向樞軸移位、dial、蛙腿（後外側）。",
+  "tags": ["前外側旋轉不穩定 ALRI", "負重測試 weight-bearing", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "giving-way-test",
+  "title_zh": "Giving Way 測試 Giving Way Test",
+  "purpose_zh": "Jakob 等人 (1981) 提出的站姿測試，重現外側脛骨平台前向半脫位；對肌肉發達或主動防衛的病人可能比非負重測試更容易引出不穩感。",
+  "structure_zh": "負重下的前十字韌帶／前外側間室。",
+  "procedure_zh": "病人站立，健側靠牆或靠床但雙腳平均負重。檢查者雙手放在膝上下，施加外翻力並把膝帶入屈曲。",
+  "positive_zh": "外翻加屈曲引出跳動且膝蓋跑掉 (give way)，病人可能認得這就是自己的不穩感。",
+  "notes_zh": "未與參考測試比較（Jakob 等人 1981），臨床價值存疑。其他旋轉不穩定測試：Slocum、交叉測試、Lemaire jolt、反向樞軸移位、dial、蛙腿。",
+  "tags": ["前外側旋轉不穩定 ALRI", "負重測試 weight-bearing", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "lemaire-jolt-test",
+  "title_zh": "Lemaire Jolt 測試 Lemaire Jolt Test",
+  "purpose_zh": "Lemaire (1967) 描述、在麻醉病人中用來確認 ACL 斷裂的測試；清醒病人無法完全放鬆，較難引出。",
+  "structure_zh": "前十字韌帶；脛骨前內側半脫位；腓骨頭與股二頭肌 (biceps femoris) 肌腱。",
+  "procedure_zh": "病人仰臥，檢查者站受測側。一手握踝使伸直的腿內轉，另一手手背放在腓骨頭與股二頭肌肌腱後方施加向前的力。請病人完全放鬆，反覆輕柔地屈伸膝，觀察脛骨的前內側半脫位。第二步增加屈曲角度。",
+  "positive_zh": "屈曲角度增加時脛骨向後跳動 (jolt)。",
+  "notes_zh": "未經診斷能力評估（Liorzou 2013），臨床價值存疑。原頁標題寫前內側旋轉不穩定，內文則提到清醒病人難以引出前外側旋轉不穩定。其他旋轉不穩定測試：Slocum、giving way、交叉測試、反向樞軸移位、dial、蛙腿。",
+  "tags": ["前內側旋轉不穩定 AMRI", "前十字韌帶 ACL", "效度未知 unvalidated"]
+ }
+]
