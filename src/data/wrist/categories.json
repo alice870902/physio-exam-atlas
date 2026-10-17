@@ -1,0 +1,18 @@
+[
+  {"id": "assess", "zh": "基礎評估與活動度", "en": "Basic Assessment & Range of Motion",
+   "slugs": ["wrist-hand-active-range-of-motion", "wrist-hand-passive-range-of-motion", "wrist-hand-resisted-isometric-testing"]},
+  {"id": "cts", "zh": "腕隧道症候群與正中神經", "en": "Carpal Tunnel Syndrome & Median Nerve",
+   "slugs": ["carpal-tunnel-syndrome-cluster", "flick-sign", "phalens-test", "tinel-sign", "carpal-compression-test", "hand-elevation-test"]},
+  {"id": "tfcc", "zh": "三角纖維軟骨複合體與遠端橈尺關節（尺側腕痛）", "en": "TFCC & Distal Radioulnar Joint (Ulnar-sided Wrist Pain)",
+   "slugs": ["tfcc-compression-test", "fovea-sign", "ulnar-grinding-test", "druj-test"]},
+  {"id": "instab", "zh": "腕骨不穩定（舟月、月三角、中腕）", "en": "Carpal Instability (Scapholunate, Lunotriquetral, Midcarpal)",
+   "slugs": ["watson-test", "lunotriquetral-ballotement-test", "midcarpal-test"]},
+  {"id": "cmc", "zh": "拇指腕掌關節退化性關節炎", "en": "Thumb CMC Osteoarthritis",
+   "slugs": ["grind-test", "pressure-shear-test", "mc-flexion-test", "mc-extension-test", "traction-shift-test", "adduction-test", "extension-stress-test"]},
+  {"id": "dq", "zh": "de Quervain 腱鞘炎", "en": "De Quervain Tenosynovitis",
+   "slugs": ["finkelstein-test", "eichhoffs-test", "what-test"]},
+  {"id": "vasc", "zh": "手部血管評估", "en": "Hand Vascular Assessment",
+   "slugs": ["allen-test", "digital-blood-flow-test"]},
+  {"id": "ultt", "zh": "上肢神經張力測試（ULTT 1–4）", "en": "Upper Limb Tension Tests (ULTT 1-4)",
+   "slugs": ["upper-limb-tension-test-1", "upper-limb-tension-test-2", "upper-limb-tension-test-3", "upper-limb-tension-test-4"]}
+]
