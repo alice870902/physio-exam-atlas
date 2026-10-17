@@ -1,0 +1,146 @@
+[
+ {
+  "id": "assess",
+  "zh": "整體評估與活動度",
+  "en": "Shoulder Assessment & ROM",
+  "slugs": [
+   "shoulder-assessment",
+   "shoulder-active-range-of-motion",
+   "shoulder-passive-range-of-motion",
+   "joint-play-shoulder",
+   "apley-scratch-test",
+   "scapulohumeral-rythm",
+   "shoulder-resisted-isometric-testing",
+   "shoulder-symptom-modification-procedure",
+   "shoulder-joint-positioning-sense",
+   "frozen-shoulder-diagnosis"
+  ]
+ },
+ {
+  "id": "saps",
+  "zh": "肩峰下疼痛症候群／夾擠",
+  "en": "Subacromial Pain Syndrome (SAPS)",
+  "slugs": [
+   "shoulder-impingement-explained",
+   "neer-test",
+   "hawkins-kennedy-test",
+   "painful-arc-sign",
+   "coracoid-pain-test",
+   "subacromial-pain-syndrome-cluster"
+  ]
+ },
+ {
+  "id": "rc",
+  "zh": "旋轉肌袖",
+  "en": "Rotator Cuff",
+  "slugs": [
+   "empty-can-test",
+   "full-can-test",
+   "drop-arm-sign",
+   "lateral-rotation-lag-sign",
+   "hornblowers-sign",
+   "lift-off-sign",
+   "belly-press",
+   "bear-hug-test"
+  ]
+ },
+ {
+  "id": "instab",
+  "zh": "肩關節不穩定",
+  "en": "Glenohumeral Instability",
+  "slugs": [
+   "apprehension-test",
+   "relocation-test",
+   "shoulder-relocation-test",
+   "release-test",
+   "anterior-shoulder-instability-cluster",
+   "sulcus-sign",
+   "load-and-shift-test",
+   "jerk-test",
+   "kims-test",
+   "porcellini-test",
+   "miniaci-test"
+  ]
+ },
+ {
+  "id": "labrum",
+  "zh": "盂唇／SLAP 病灶",
+  "en": "Labrum & SLAP Lesions",
+  "slugs": [
+   "obrien-test",
+   "crank-test",
+   "biceps-load-i-test",
+   "biceps-load-ii-test",
+   "passive-compression-test",
+   "labral-tension-test",
+   "passive-distraction-test",
+   "compression-rotation-test",
+   "dynamic-labral-shear-test",
+   "anterior-slide-test"
+  ]
+ },
+ {
+  "id": "biceps",
+  "zh": "肱二頭肌長頭肌腱",
+  "en": "Long Head of Biceps",
+  "slugs": [
+   "speeds-test",
+   "yergasons-test",
+   "upper-cut-test",
+   "biceps-squeeze-test",
+   "biceps-crease-interval",
+   "3-pack-examination"
+  ]
+ },
+ {
+  "id": "ac",
+  "zh": "肩鎖關節",
+  "en": "Acromioclavicular (AC) Joint",
+  "slugs": [
+   "ac-joint-pain",
+   "cross-body-adduction-test",
+   "ac-joint-line-tenderness",
+   "paxinos-sign",
+   "ac-resisted-extension-test",
+   "ac-shear-test",
+   "ac-joint-cluster",
+   "diagnosis-of-a-symptomatic-ac-joint"
+  ]
+ },
+ {
+  "id": "scap",
+  "zh": "肩胛骨與肌力測試",
+  "en": "Scapula & Muscle Strength",
+  "slugs": [
+   "scapular-dyskinesis-test",
+   "scapular-assistance-test",
+   "scapular-retraction-test",
+   "serratus-anterior-strength-test",
+   "trapezius-strength-test",
+   "rhomboid-strength-test",
+   "latissimus-dorsi-strength-test"
+  ]
+ },
+ {
+  "id": "tos",
+  "zh": "胸廓出口症候群",
+  "en": "Thoracic Outlet Syndrome (TOS)",
+  "slugs": [
+   "adson-test",
+   "costoclavicular-maneuver",
+   "eden-test",
+   "cyriax-release-test",
+   "tinel-sign-tos"
+  ]
+ },
+ {
+  "id": "ex",
+  "zh": "運動治療",
+  "en": "Exercise & Rehab",
+  "slugs": [
+   "best-shoulder-pain-relief-exercises",
+   "scapula-strengthening-exercises",
+   "best-scapular-dyskinesis-exercise"
+  ]
+ }
+]

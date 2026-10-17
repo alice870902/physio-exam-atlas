@@ -1,0 +1,93 @@
+[
+ {
+  "id": "assess",
+  "zh": "整體評估與活動度",
+  "en": "Hip Assessment & ROM",
+  "slugs": [
+   "hip-active-range-of-motion",
+   "hip-passive-range-of-motion",
+   "hip-resisted-isometric-testing",
+   "single-leg-stance-assessment",
+   "hip-osteoarthritis-diagnosis",
+   "groin-pain-classification"
+  ]
+ },
+ {
+  "id": "fai",
+  "zh": "股髖夾擠、盂唇與不穩定",
+  "en": "FAI, Labrum & Instability",
+  "slugs": [
+   "faddir-test",
+   "patricks-test",
+   "external-rotation-stinchfield-test",
+   "anterior-labral-tear-test",
+   "posterior-labral-tear-test",
+   "hip-prone-instability-test"
+  ]
+ },
+ {
+  "id": "length",
+  "zh": "肌肉長度與柔軟度",
+  "en": "Muscle Length & Flexibility",
+  "slugs": [
+   "thomas-test",
+   "obers-test",
+   "elys-test",
+   "90-90-straight-leg-raise-test",
+   "tripod-sign",
+   "phelps-test"
+  ]
+ },
+ {
+  "id": "glute",
+  "zh": "臀肌功能",
+  "en": "Gluteal Function",
+  "slugs": [
+   "trendelenburg-sign",
+   "single-leg-stance-test"
+  ]
+ },
+ {
+  "id": "piri",
+  "zh": "梨狀肌／深臀症候群",
+  "en": "Piriformis & Deep Gluteal Syndrome",
+  "slugs": [
+   "piriformis-test",
+   "active-piriformis-test",
+   "seated-piriformis-stretch-test",
+   "fair-test",
+   "freiberg-sign",
+   "pace-maneuver",
+   "beatty-maneuver"
+  ]
+ },
+ {
+  "id": "sij",
+  "zh": "薦髂關節",
+  "en": "Sacroiliac Joint (SIJ)",
+  "slugs": [
+   "cluster-of-laslett",
+   "thigh-thrust-test",
+   "distraction-test",
+   "sacroiliac-compression-test",
+   "sacral-thrust-test",
+   "gaenslens-test",
+   "yeoman-test",
+   "gillet-test",
+   "sacroiliac-joint-play",
+   "sacroiliac-joint-nutation",
+   "sacroiliac-joint-counternutation"
+  ]
+ },
+ {
+  "id": "ex",
+  "zh": "運動治療",
+  "en": "Exercise & Rehab",
+  "slugs": [
+   "top-5-gluteus-maximus-exercises",
+   "top-5-glutes-medius-exercises",
+   "copenhagen-adduction-exercise",
+   "sacroiliac-joint-pain-exercises"
+  ]
+ }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "scapulohumeral-rythm",
+    "id": 8939,
+    "title": "Scapulohumeral Rhythm",
+    "link": "https://www.physiotutors.com/wiki/scapulohumeral-rythm/",
+    "youtube_ids": ["kkNnc6ssbPI"],
+    "purpose": "Describes the coordinated motion of humerus, scapula and clavicle during full arm elevation, used as an observational screen for scapular control.",
+    "structure": "Scapulothoracic and glenohumeral movement pattern; a disturbed or reversed rhythm (scapula moving more than humerus) suggests impaired scapular or humeral stabilizers, the reversed pattern being typical of frozen shoulder.",
+    "procedure": "Not a formal test; the patient actively abducts the arm while the examiner observes three phases. In the first ~30° the scapula barely moves and the clavicle elevates slightly. Then the humerus abducts ~40° while the scapula upwardly rotates ~20° and the clavicle elevates and starts rotating posteriorly. Finally the humerus abducts a further ~60° and externally rotates ~90° while the scapula rotates ~40° more and begins to elevate.",
+    "positive": "No formal criterion; an abnormal result is a disturbed or reversed rhythm, best judged by comparing sides.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "None reported; page cites Kirby, Showalter & Cook 2007 (Physiother Res Int) without accuracy data"
+    },
+    "notes": "Normal values vary between individuals and authors, so compare bilaterally. Observe both the ascending and descending phase, as loss of scapular control is more visible when lowering the arm.",
+    "status": "ok"
+  },
+  {
+    "slug": "scapular-dyskinesis-test",
+    "id": 10586,
+    "title": "Scapular Dyskinesis Test",
+    "link": "https://www.physiotutors.com/wiki/scapular-dyskinesis-test/",
+    "youtube_ids": ["btp9l6vD330"],
+    "purpose": "A standardized observational method for detecting scapular dyskinesis, offered as an alternative to Kibler's four-type classification.",
+    "structure": "Scapular dyskinesis (abnormal scapular motion), classified per McClure et al. 2009.",
+    "procedure": "The patient holds dumbbells (1.4 kg if body weight under ~68 kg, otherwise 2.3 kg). They perform 5 repetitions of bilateral shoulder flexion and then 5 repetitions of bilateral frontal-plane abduction with straight elbows at a 3-second cadence up and down. The examiner watches the scapulae for winging and/or dysrhythmia.",
+    "positive": "Presence of scapular winging and/or dysrhythmia during the movements, graded as normal, subtle or obvious dyskinesis.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Reliability only: kappa 0.48-0.61 (moderate to substantial), McClure et al. 2009, J Athl Train"
+    },
+    "notes": "Only reliability, not validity, has been reported. Alternatives include Kibler's four-type classification and a simple yes/no judgement.",
+    "status": "ok"
+  },
+  {
+    "slug": "scapular-assistance-test",
+    "id": 10583,
+    "title": "Scapular Assistance Test",
+    "link": "https://www.physiotutors.com/wiki/scapular-assistance-test/",
+    "youtube_ids": ["pfXdmXL9ouM"],
+    "purpose": "A symptom-modification test that checks whether manually assisting scapular motion reduces the patient's shoulder pain.",
+    "structure": "Scapular stabilizer function in the context of scapular dyskinesis; not a diagnostic test for dyskinesis itself.",
+    "procedure": "The patient stands. The examiner stabilizes the clavicle and scapular spine with one hand and holds the inferior angle of the scapula with the other. The patient elevates the arm (e.g. empty-can position) while the examiner assists scapular upward rotation and posterior tilt, and the pain response is compared with the unassisted movement.",
+    "positive": "Less pain with assisted than unassisted elevation, suggesting weak scapular stabilizers.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Reliability only: inter-rater kappa 0.53 (scapular plane) and 0.62 (sagittal plane), Rabin et al. 2006, JOSPT"
+    },
+    "notes": "A positive result supports adding scapular stabilization exercises to the program.",
+    "status": "ok"
+  },
+  {
+    "slug": "scapular-retraction-test",
+    "id": 10576,
+    "title": "Scapular Retraction Test (SRT)",
+    "link": "https://www.physiotutors.com/wiki/scapular-retraction-test/",
+    "youtube_ids": ["tyxDTbVn_gg"],
+    "purpose": "A symptom-modification test that checks whether stabilizing the scapula in retraction reduces shoulder pain or improves strength.",
+    "structure": "Scapular stabilizer weakness in patients with shoulder pain and scapular dyskinesis.",
+    "procedure": "With the patient standing or seated, the examiner fixes the clavicle and scapular spine with one hand and presses the scapula against the thoracic wall with the forearm, holding it retracted. The empty-can test is then performed in this stabilized position and compared with the unassisted empty-can test.",
+    "positive": "Less pain (or more strength) during the assisted empty-can than the unassisted version, suggesting weak scapular stabilizers.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "None reported; page cites Kibler, Sciascia & Dome 2006, Am J Sports Med"
+    },
+    "notes": "A positive result supports including scapular stabilization exercises; the Scapular Assistance Test is the companion test.",
+    "status": "ok"
+  },
+  {
+    "slug": "serratus-anterior-strength-test",
+    "id": 10683,
+    "title": "Serratus Anterior Strength Test",
+    "link": "https://www.physiotutors.com/wiki/serratus-anterior-strength-test/",
+    "youtube_ids": ["jatVx3v7qDI"],
+    "purpose": "Manual strength test of the serratus anterior, a key scapular protractor, upward rotator and stabilizer.",
+    "structure": "Serratus anterior muscle (long thoracic nerve); weakness produces scapular winging.",
+    "procedure": "The patient stands with the arm flexed to 90° and elbow extended. The examiner pushes the arm backward while the patient resists, and the medial border of the scapula is observed. A wall or floor push-up is an alternative loading method.",
+    "positive": "Medial scapular winging during resistance, indicating serratus anterior weakness.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "None reported; page cites Magee, Orthopedic Physical Assessment, 2014"
+    },
+    "notes": "The serratus anterior is a primary scapular stabilizer and is often underdeveloped.",
+    "status": "ok"
+  },
+  {
+    "slug": "trapezius-strength-test",
+    "id": 10726,
+    "title": "Trapezius Strength Test (All 3 Parts)",
+    "link": "https://www.physiotutors.com/wiki/trapezius-strength-test/",
+    "youtube_ids": ["9tfVeIhlY-o"],
+    "purpose": "Manual strength testing of the trapezius as a whole and of its upper, middle and lower portions.",
+    "structure": "Upper (descending), middle (transverse) and lower (ascending) trapezius; no specific pathology named.",
+    "procedure": "Whole muscle: seated, hands overhead at ~120° abduction, patient pushes elbows forward while the examiner watches scapular stabilization. Upper: shoulder shrug with arms slightly abducted, or resisted abduction with ipsilateral head side-bending. Middle: prone, arm abducted 90° and externally rotated, resisted horizontal extension. Lower: prone, arm abducted ~120° and externally rotated, resisted diagonal extension.",
+    "positive": "Middle part: inability to retract the scapula. Lower part: scapular protraction during resistance. Each indicates weakness of that portion.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "None reported; page cites Ekstrom et al. 2003, JOSPT (EMG study)"
+    },
+    "notes": "Slight arm abduction during the upper trapezius test reduces contribution from the rhomboids and levator scapulae.",
+    "status": "ok"
+  },
+  {
+    "slug": "rhomboid-strength-test",
+    "id": 10806,
+    "title": "Rhomboid Strength Test",
+    "link": "https://www.physiotutors.com/wiki/rhomboid-strength-test/",
+    "youtube_ids": ["Gn3s7sVtyWo"],
+    "purpose": "Manual strength test of the rhomboid major and minor as scapular retractors.",
+    "structure": "Rhomboid major and minor (dorsal scapular nerve); no specific pathology named.",
+    "procedure": "The patient lies prone with the test arm behind the back, hand at the level of the opposite back pocket. The examiner slides an index finger along and under the medial scapular border while the patient gently pushes the shoulder forward to relax the trapezius. The patient then lifts the forearm and hand away from the back against the examiner's resistance.",
+    "positive": "Normal if the examiner's finger is pushed out from under the scapula; failure to do so indicates rhomboid weakness.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "None reported; page cites Magee, Orthopedic Physical Assessment, 2014"
+    },
+    "notes": "Relaxing the trapezius before testing is needed to isolate the rhomboids.",
+    "status": "ok"
+  },
+  {
+    "slug": "latissimus-dorsi-strength-test",
+    "id": 10809,
+    "title": "Latissimus Dorsi Strength Test",
+    "link": "https://www.physiotutors.com/wiki/latissimus-dorsi-strength-test/",
+    "youtube_ids": ["BIQtRi0-ECQ"],
+    "purpose": "Manual strength test of the latissimus dorsi as a humeral extensor, adductor and internal rotator.",
+    "structure": "Latissimus dorsi muscle (thoracodorsal nerve); no specific pathology named.",
+    "procedure": "The patient raises the arm to about 90° in the scapular plane. The examiner palpates the muscle belly and then resists as the patient extends and internally rotates the arm.",
+    "positive": "Not explicitly stated; weakness or pain against resistance compared with the other side.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "None reported; page cites Magee, Orthopedic Physical Assessment, 2014"
+    },
+    "notes": "Brief procedural page; usually performed alongside trapezius, rhomboid and serratus anterior strength tests.",
+    "status": "ok"
+  },
+  {
+    "slug": "costoclavicular-maneuver",
+    "id": 11139,
+    "title": "Costoclavicular Maneuver",
+    "link": "https://www.physiotutors.com/wiki/costoclavicular-maneuver/",
+    "youtube_ids": ["XEWO_cFy5YI"],
+    "purpose": "Stresses the costoclavicular space to identify positions that provoke or relieve thoracic outlet syndrome symptoms.",
+    "structure": "Costoclavicular space; compression of subclavian artery/vein or brachial plexus, e.g. by the subclavius or costocoracoid ligament.",
+    "procedure": "The patient sits with forearms resting on the thighs. The examiner guides the shoulder girdle into retraction, depression, elevation and protraction in turn, holding each up to 30 seconds while monitoring the radial pulse and symptoms. Variants use arms at the side with 1-minute holds or the military brace position.",
+    "positive": "No strict criterion; the examiner notes which positions reproduce symptoms or change the pulse, with the military brace position most likely to obliterate the pulse.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "No diagnostic accuracy studies; page cites Illig et al. 2016 and Watson et al. 2009 as background"
+    },
+    "notes": "Clinical value is questionable; its main use is mapping symptom-provoking and symptom-relieving positions to guide therapy.",
+    "status": "ok"
+  },
+  {
+    "slug": "adson-test",
+    "id": 11142,
+    "title": "Adson Test",
+    "link": "https://www.physiotutors.com/wiki/adson-test/",
+    "youtube_ids": ["BnwwvuSagIU"],
+    "purpose": "Screens for thoracic outlet syndrome by narrowing the interscalene triangle.",
+    "structure": "Interscalene triangle (between anterior and middle scalenes and first rib); compression of brachial plexus and/or subclavian vessels.",
+    "procedure": "The patient sits upright with arms supported. They rotate and extend the head toward the test side, take a deep breath and hold it for up to 30 seconds while the examiner palpates the radial pulse. A variant places the shoulder in 15° abduction with the head in the test position for 1 minute of normal breathing.",
+    "positive": "Loss of the radial pulse or reproduction of the patient's familiar symptoms.",
+    "accuracy": {
+      "sensitivity": "79%",
+      "specificity": "76%",
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Gillard et al. 2001, Joint Bone Spine"
+    },
+    "notes": "Accuracy is modest and the reference study did not use MRI as gold standard, so the test's clinical value is weak.",
+    "status": "ok"
+  },
+  {
+    "slug": "eden-test",
+    "id": 11151,
+    "title": "Eden Test (Military Brace Test)",
+    "link": "https://www.physiotutors.com/wiki/eden-test/",
+    "youtube_ids": ["Mifo6ZzkNLA"],
+    "purpose": "Screens for thoracic outlet syndrome by compressing the neurovascular bundle in the costoclavicular space.",
+    "structure": "Costoclavicular space; brachial plexus and/or subclavian vessels (costoclavicular syndrome).",
+    "procedure": "The patient sits upright in a military posture with chest out and shoulders pulled back and down. The examiner extends the shoulder (one or both sides) while palpating the radial pulse for up to 1 minute. Some authors add a deep breath-hold to narrow the space further.",
+    "positive": "Diminished or absent radial pulse, or reproduction of familiar symptoms.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "No diagnostic accuracy studies; page cites Watson, Pizzari & Balster 2009, Man Ther"
+    },
+    "notes": "Clinical value is questionable; adding a breath-hold may cause false positives by narrowing other outlet spaces as well.",
+    "status": "ok"
+  },
+  {
+    "slug": "cyriax-release-test",
+    "id": 11154,
+    "title": "Cyriax Release Test",
+    "link": "https://www.physiotutors.com/wiki/cyriax-release-test/",
+    "youtube_ids": ["kX1mUhyjZwk"],
+    "purpose": "A symptom-relief test for thoracic outlet syndrome that unloads the brachial plexus neurovascular bundle by passively elevating the shoulder girdle.",
+    "structure": "Neurovascular compression of brachial plexus and/or subclavian vessels in the interscalene triangle, costoclavicular space or retropectoralis minor space.",
+    "procedure": "The patient sits and the examiner stands behind, supporting under the forearms with elbows at about 80-90° and forearms, wrists and hands neutral. The examiner leans the patient's trunk back about 15° and passively elevates both shoulder girdles to near end range, holding for up to 3 minutes.",
+    "positive": "A release phenomenon (paresthesia, numbness or pain appearing as the compression is relieved) or reproduction of familiar symptoms.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": "97.4% at 1 min; 87.8% at 3 min",
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Brismee et al. 2004, J Man Manip Ther (asymptomatic population)"
+    },
+    "notes": "Without sensitivity data the test's clinical value is uncertain. Paresthesia is the most common release symptom, followed by numbness and then pain.",
+    "status": "ok"
+  },
+  {
+    "slug": "tinel-sign-tos",
+    "id": 11158,
+    "title": "Tinel Sign for TOS",
+    "link": "https://www.physiotutors.com/wiki/tinel-sign-tos/",
+    "youtube_ids": ["jvWvW3Bk4R8"],
+    "purpose": "Screens for brachial plexus irritation in thoracic outlet syndrome by percussion over the plexus.",
+    "structure": "Brachial plexus (and subclavian vessels) in the interscalene triangle, costoclavicular or retropectoralis minor space.",
+    "procedure": "The patient sits upright with arms relaxed at the sides. The examiner taps the supraclavicular fossa with a reflex hammer or with the index and middle fingers.",
+    "positive": "Local tenderness or reproduction of the patient's familiar symptoms.",
+    "accuracy": {
+      "sensitivity": "46%",
+      "specificity": "56%",
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Gillard et al. 2001, Joint Bone Spine"
+    },
+    "notes": "Accuracy is very low, so clinical value is limited; it is likely positive in both TOS and cervical radiculopathy and cannot distinguish them.",
+    "status": "ok"
+  },
+  {
+    "slug": "best-shoulder-pain-relief-exercises",
+    "id": 8752,
+    "title": "Best Shoulder Pain Relief Exercises | Rotator Cuff Tendinopathy",
+    "link": "https://www.physiotutors.com/wiki/best-shoulder-pain-relief-exercises/",
+    "youtube_ids": ["npIr82HHjXA"],
+    "purpose": "Presents isometric exercises to reduce pain and allow early loading in rotator cuff tendinopathy.",
+    "structure": "Rotator cuff tendons: supraspinatus, infraspinatus/teres minor and subscapularis.",
+    "procedure": "Supraspinatus: press the back of the hand into a wall in the scapular plane (~30° anterior to frontal). Infraspinatus/teres minor: elbow at 90°, press the back of the hand outward into a wall or the other hand (external rotation). Subscapularis: belly press with the hand on the abdomen. Each hold is 15-30 seconds at strong intensity, 3-5 repetitions, several times daily.",
+    "positive": "Not applicable (exercise page); pain during the exercise should stay at or below 4-5/10.",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Koltyn et al. 2001 (isometric analgesia); Hoeger Bement et al. 2008 (~80% MVC sustained contractions gave greatest analgesic effect)"
+    },
+    "notes": "Use the full can test, external rotation lag sign and lift-off test to identify which tendon is involved before choosing the exercise.",
+    "status": "ok"
+  },
+  {
+    "slug": "scapula-strengthening-exercises",
+    "id": 8862,
+    "title": "Scapula Strengthening Exercises | Early Shoulder Rehab",
+    "link": "https://www.physiotutors.com/wiki/scapula-strengthening-exercises/",
+    "youtube_ids": ["4D6_sK6hxLQ"],
+    "purpose": "Presents four low-load scapular exercises suitable for early postoperative or acute shoulder rehab to build global scapulothoracic activation and strength.",
+    "structure": "Scapulothoracic stabilizers, chiefly upper and lower trapezius and serratus anterior.",
+    "procedure": "Inferior glide: seated, arm abducted 90°, fist pressed into a surface while adducting and depressing the scapula for 5 s. Low row: standing, palm pushed back into a bench edge with scapular retraction and depression for 5 s. Lawnmower: trunk rotation and extension toward the trained side with scapular retraction, elbow driven toward the back pocket. Robbery: trunk flexed 40-50°, then trunk and arm extension with elbows flexed and scapulae pinched toward the back pockets for 5 s.",
+    "positive": "Not applicable (exercise page).",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "EMG data: Kibler et al. 2008, Am J Sports Med (high serratus anterior and lower trapezius activity in inferior glide; balanced upper/lower trapezius and serratus activity in lawnmower and robbery)"
+    },
+    "notes": "Changing an individual's scapular motor pattern is unlikely, so the emphasis is on strength and global activation rather than motor control; these exercises replace functional positions that are too demanding early on.",
+    "status": "ok"
+  },
+  {
+    "slug": "best-scapular-dyskinesis-exercise",
+    "id": 9572,
+    "title": "Best Scapular Dyskinesis Exercise",
+    "link": "https://www.physiotutors.com/wiki/best-scapular-dyskinesis-exercise/",
+    "youtube_ids": ["fvfrZ-OpUG0"],
+    "purpose": "Presents the prone Y-lift as the author's preferred exercise for scapular dyskinesis.",
+    "structure": "Scapular dyskinesis linked to subacromial pain; targets upper and lower trapezius, supraspinatus and thoracic extension.",
+    "procedure": "The patient lies prone on a bench with the arm hanging over the edge. The arm is lifted up and outward overhead at roughly 120° with the thumb pointing up to encourage external rotation, then lowered with a controlled eccentric phase. It can be done bilaterally in prone over a Swiss ball.",
+    "positive": "Not applicable (exercise page).",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "Page attributes the claim that ~120° elevation gives strongest supraspinatus activation to Ekstrom et al. 2003 and Reinold et al. 2007"
+    },
+    "notes": "Assess dyskinesis first with scapulohumeral rhythm observation, the scapular assistance test or scapular retraction test; a pain decrease on those tests suggests the patient will benefit from scapular exercises.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-assessment",
+    "id": 10906,
+    "title": "Shoulder Assessment",
+    "link": "https://www.physiotutors.com/wiki/shoulder-assessment/",
+    "youtube_ids": ["cP4LLJie9kw", "n9HQIw1LHDY", "xvst7l2ykMQ"],
+    "purpose": "Overview page introducing the shoulder complex and a basic framework for assessing shoulder pain.",
+    "structure": "Glenohumeral, sternoclavicular, acromioclavicular and scapulothoracic joints; covers epidemiology, prognosis, red flags (tumor, infection, avascular necrosis, visceral referral), cervical differentials, and a list of shoulder pathologies.",
+    "procedure": "Shoulder pain is sorted into three groups: limited passive motion with glenohumeral pain, painful arc without passive limitation, and other complaints without either. Assessment begins with active range of motion looking for a painful arc, followed by passive range of motion comparing range and end-feel with the other side. Five quick shoulder-girdle mobility tests from Stenvers et al. (1977) complete the screen.",
+    "positive": "Not applicable (overview page).",
+    "accuracy": {
+      "sensitivity": null,
+      "specificity": null,
+      "lr_plus": null,
+      "lr_minus": null,
+      "source": "No test accuracy given; epidemiology from Luime et al. 2004 (point prevalence 7-26%, 40-50% still symptomatic at 1 year, recurrence 20-50%), Kuijpers et al. 2006 (54% recovered at 6 months), van der Windt et al. 1996 (median duration 21 weeks)"
+    },
+    "notes": "Screen for red flags and visceral referral (cardiac, hepatic, splenic, biliary) before attributing pain to the shoulder, and examine the cervical spine when neck pain coexists.",
+    "status": "ok"
+  }
+]

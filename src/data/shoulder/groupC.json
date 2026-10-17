@@ -1,0 +1,382 @@
+[
+  {
+    "slug": "speeds-test",
+    "id": 8672,
+    "title": "Speed's Test",
+    "link": "https://www.physiotutors.com/wiki/speeds-test/",
+    "youtube_ids": ["gbG_O9Gv8aQ"],
+    "purpose": "Screens for long head of biceps pathology (tendinopathy) and SLAP lesions.",
+    "structure": "Long head of biceps tendon; superior labrum (SLAP)",
+    "procedure": "Patient extends the elbow and fully supinates the forearm, then flexes the shoulder to 90 degrees. The examiner pushes the arm downward while the patient resists. An older variant resists flexion through 0-60 degrees.",
+    "positive": "Pain localized to the bicipital groove where the tendon enters the capsule.",
+    "accuracy": {
+      "sensitivity": "20% (SLAP)",
+      "specificity": "78% (SLAP)",
+      "lr_plus": "~0.9 (derived, not reported)",
+      "lr_minus": "~1.0 (derived, not reported)",
+      "source": "Hegedus et al. 2012 (meta-analysis, BJSM)"
+    },
+    "notes": "Low value for ruling SLAP lesions or biceps pathology in or out; combine with other tests (e.g. with the Upper Cut test).",
+    "status": "ok"
+  },
+  {
+    "slug": "yergasons-test",
+    "id": 8580,
+    "title": "Yergason's Test",
+    "link": "https://www.physiotutors.com/wiki/yergasons-test/",
+    "youtube_ids": ["_Cjahul5yuI"],
+    "purpose": "Assesses the transverse humeral ligament, long head of biceps pathology and SLAP lesions.",
+    "structure": "Transverse humeral ligament; long head of biceps tendon; superior labrum",
+    "procedure": "Elbow flexed to 90 degrees with the forearm pronated and held against the trunk. The patient supinates against the examiner's resistance while the examiner palpates the biceps tendon in the bicipital groove.",
+    "positive": "Tendon popping out of the groove suggests a transverse humeral ligament tear; pain/tenderness without a pop suggests biceps tendinosis or SLAP lesion.",
+    "accuracy": {
+      "sensitivity": "32% (biceps pathology); 12% (SLAP)",
+      "specificity": "88% (biceps pathology); 87% (SLAP)",
+      "lr_plus": "~2.7 biceps / ~0.9 SLAP (derived)",
+      "lr_minus": "~0.8 biceps / ~1.0 SLAP (derived)",
+      "source": "Micheroli et al. 2015 (biceps); Oh et al. 2008 (SLAP)"
+    },
+    "notes": "Low sensitivity means a negative test does not rule anything out; Biceps Load II and O'Brien's test are suggested as alternatives for SLAP.",
+    "status": "ok"
+  },
+  {
+    "slug": "upper-cut-test",
+    "id": 11363,
+    "title": "Upper Cut Test",
+    "link": "https://www.physiotutors.com/wiki/upper-cut-test/",
+    "youtube_ids": ["G1JnCksdhLM"],
+    "purpose": "Provocation test for the superior biceps-labrum complex and biceps tendon pathology.",
+    "structure": "Long head of biceps tendon; superior labrum (SLAP)",
+    "procedure": "Shoulder in neutral, elbow flexed 90 degrees, forearm supinated with a closed fist. The examiner holds the wrist and resists while the patient quickly brings the fist up and across toward the chin in an uppercut motion.",
+    "positive": "Pain or a painful pop over the anterior shoulder.",
+    "accuracy": {
+      "sensitivity": "79%",
+      "specificity": "78%",
+      "lr_plus": "not reported (~3.6 derived)",
+      "lr_minus": "not reported (~0.27 derived)",
+      "source": "Kibler et al. 2009 (AJSM); values refer to biceps tendinopathy"
+    },
+    "notes": "Was the most accurate single test for biceps tendinopathy in Kibler's study; combining it with Speed's test gave the best regression model.",
+    "status": "ok"
+  },
+  {
+    "slug": "biceps-squeeze-test",
+    "id": 11556,
+    "title": "Biceps Squeeze Test",
+    "link": "https://www.physiotutors.com/wiki/biceps-squeeze-test/",
+    "youtube_ids": ["EGKj3rB2Jn8"],
+    "purpose": "Checks for a distal biceps tendon rupture by observing whether squeezing the muscle still produces supination.",
+    "structure": "Distal biceps tendon (rupture)",
+    "procedure": "Patient sits with the forearm resting on the thigh, elbow flexed about 60-80 degrees and forearm slightly pronated to tension the tendon. The examiner grasps the biceps at the muscle belly and distal myotendinous junction and squeezes firmly.",
+    "positive": "No forearm supination is seen on squeezing.",
+    "accuracy": {
+      "sensitivity": "96%",
+      "specificity": "not determinable (too few negatives in study)",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Ruland & Bowen 2005 (CORR)"
+    },
+    "notes": "Analogue of the Thompson test for the Achilles; source study has methodological limits, so clinical value is rated weak.",
+    "status": "ok"
+  },
+  {
+    "slug": "biceps-crease-interval",
+    "id": 11559,
+    "title": "Biceps Crease Interval",
+    "link": "https://www.physiotutors.com/wiki/biceps-crease-interval/",
+    "youtube_ids": ["i30_n5oZEOA"],
+    "purpose": "Measures retraction of the distal biceps to identify complete ruptures that need prompt surgical referral.",
+    "structure": "Distal biceps tendon (complete rupture with muscle retraction)",
+    "procedure": "Mark the antecubital flexion crease, then with the elbow extended and forearm supinated stroke the distal biceps along its long axis to find the biceps cusp (where the muscle turns sharply toward the fossa) and mark it. Measure the distance between the two marks to 0.1 cm and repeat on the other arm.",
+    "positive": "Interval greater than 6 cm, or an affected/unaffected ratio above 1.2.",
+    "accuracy": {
+      "sensitivity": "88%",
+      "specificity": "50%",
+      "lr_plus": "not reported (~1.8 derived)",
+      "lr_minus": "not reported (~0.24 derived)",
+      "source": "ElMaraghy et al. 2008; updated values Devereaux & ElMaraghy 2013; ICC 0.79"
+    },
+    "notes": "Weak as a stand-alone test; pair with the Hook test or Ludington's test.",
+    "status": "ok"
+  },
+  {
+    "slug": "3-pack-examination",
+    "id": 11345,
+    "title": "3-Pack Examination",
+    "link": "https://www.physiotutors.com/wiki/3-pack-examination/",
+    "youtube_ids": ["r_bfAzWzINY"],
+    "purpose": "Three-test battery to evaluate the biceps-labrum complex across its intra-articular, junctional and bicipital-tunnel zones.",
+    "structure": "Long head of biceps tendon and labrum (SLAP lesions, bicipital tunnel disease)",
+    "procedure": "Active Compression test: shoulder flexed 90 degrees, adducted 10-15 degrees, thumb down, resist downward pressure, then repeat palm up. Throwing test: 90 degrees abduction and elbow flexion in maximal external rotation, isometric resistance as the patient moves into early acceleration. Bicipital tunnel palpation: arm in neutral, palpate the extra-articular tendon and rotate the arm to confirm location.",
+    "positive": "Deep shoulder pain; for active compression, pain thumb-down that eases palm-up; for palpation, pain localized to the bicipital tunnel.",
+    "accuracy": {
+      "sensitivity": "Active compression 88-96%; tunnel palpation 82-98%; throwing test 73-76%",
+      "specificity": "Active compression 46-64%; tunnel palpation 65-79%; throwing test 65-79%",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Taylor et al. 2017 (Arthroscopy)"
+    },
+    "notes": "The two high-sensitivity tests help rule out biceps-labrum lesions; evidence rated moderate as only one study has evaluated the trio.",
+    "status": "ok"
+  },
+  {
+    "slug": "cross-body-adduction-test",
+    "id": 10626,
+    "title": "Cross Body Adduction Test",
+    "link": "https://www.physiotutors.com/wiki/cross-body-adduction-test/",
+    "youtube_ids": ["DKLvt816x6o"],
+    "purpose": "Provokes a sensitized acromioclavicular joint, e.g. in AC osteoarthritis.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Patient's arm is raised to 90 degrees of flexion and then taken into maximal horizontal adduction across the body.",
+    "positive": "Pain on top of the shoulder near the AC joint.",
+    "accuracy": {
+      "sensitivity": "77%",
+      "specificity": "79%",
+      "lr_plus": "not reported (~3.7 derived)",
+      "lr_minus": "not reported (~0.29 derived)",
+      "source": "Chronopoulos et al. 2004 (AJSM)"
+    },
+    "notes": "Not recommended as a stand-alone test; use within an AC joint cluster.",
+    "status": "ok"
+  },
+  {
+    "slug": "ac-joint-line-tenderness",
+    "id": 10630,
+    "title": "AC Joint Line Tenderness",
+    "link": "https://www.physiotutors.com/wiki/ac-joint-line-tenderness/",
+    "youtube_ids": ["U31quA3ZsjY"],
+    "purpose": "Palpation of the AC joint line to detect a sensitized joint.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Patient sits with the arm at the side. The examiner locates the acromion and palpates anteromedially along its rim until reaching the clavicle to find the joint line, then applies pressure.",
+    "positive": "Pain reproduced over the AC joint.",
+    "accuracy": {
+      "sensitivity": "96%",
+      "specificity": "10%",
+      "lr_plus": "~1.1 (derived)",
+      "lr_minus": "0.4",
+      "source": "Walton et al. 2004 (JBJS)"
+    },
+    "notes": "Very sensitive but almost non-specific; LR- of 0.4 is too high to reliably rule out AC pathology despite the high sensitivity.",
+    "status": "ok"
+  },
+  {
+    "slug": "paxinos-sign",
+    "id": 10638,
+    "title": "Paxinos Sign",
+    "link": "https://www.physiotutors.com/wiki/paxinos-sign/",
+    "youtube_ids": ["fiEeyT9VsCc"],
+    "purpose": "Compression test for acromioclavicular joint pathology.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Patient sits with the arm relaxed. Standing behind, the examiner hooks the thumb under the posterolateral acromion and places the index and middle fingers on the mid-clavicle, then pushes the acromion anterosuperiorly while pressing the clavicle inferiorly.",
+    "positive": "Pain in the AC joint region.",
+    "accuracy": {
+      "sensitivity": "79%",
+      "specificity": "50%",
+      "lr_plus": "not reported (~1.6 derived)",
+      "lr_minus": "not reported (~0.42 derived)",
+      "source": "Walton et al. 2004 (JBJS)"
+    },
+    "notes": "Rated weak clinical value on its own because of low specificity; used within the Krill 2018 clusters.",
+    "status": "ok"
+  },
+  {
+    "slug": "ac-resisted-extension-test",
+    "id": 10643,
+    "title": "AC Resisted Extension Test",
+    "link": "https://www.physiotutors.com/wiki/ac-resisted-extension-test/",
+    "youtube_ids": ["CHTIvg9a13M"],
+    "purpose": "Provocation test for a symptomatic acromioclavicular joint.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Patient sits with the arm flexed to 90 degrees. The patient pushes outward (resisting horizontal adduction / into horizontal extension) against the examiner's hand.",
+    "positive": "Pain on top of the shoulder near the AC joint.",
+    "accuracy": {
+      "sensitivity": "72%",
+      "specificity": "85%",
+      "lr_plus": "not reported (~4.8 derived)",
+      "lr_minus": "not reported (~0.33 derived)",
+      "source": "Chronopoulos et al. 2004 (AJSM)"
+    },
+    "notes": "Not a stand-alone diagnostic test but useful as part of the AC joint cluster.",
+    "status": "ok"
+  },
+  {
+    "slug": "ac-shear-test",
+    "id": 10648,
+    "title": "AC Shear Test",
+    "link": "https://www.physiotutors.com/wiki/ac-shear-test/",
+    "youtube_ids": ["lI_iAiJMnOM"],
+    "purpose": "Provocative compression test intended to isolate acromioclavicular joint pathology.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Patient sits. The examiner cups the hands over the shoulder with one hand on the clavicle and the other on the scapular spine, then squeezes the heels of the hands together to shear the AC joint.",
+    "positive": "Abnormal movement (or pain) at the AC joint.",
+    "accuracy": {
+      "sensitivity": "not studied",
+      "specificity": "not studied",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Davies et al. 1981 (description only; no accuracy study)"
+    },
+    "notes": "No validity data exist, so clinical value is questionable.",
+    "status": "ok"
+  },
+  {
+    "slug": "ac-joint-pain",
+    "id": 10651,
+    "title": "AC Joint Pain",
+    "link": "https://www.physiotutors.com/wiki/ac-joint-pain/",
+    "youtube_ids": ["JsOe9kuvrDg"],
+    "purpose": "History-and-examination cluster for identifying non-traumatic acromioclavicular joint pain.",
+    "structure": "Acromioclavicular joint (non-traumatic pain)",
+    "procedure": "Five items are checked: repetitive mechanism of onset; no pain referred below the elbow; thickened or swollen AC joint; no typical pain on passive glenohumeral abduction; no typical pain on external rotation at 90 degrees abduction.",
+    "positive": "Four or more of the five items present.",
+    "accuracy": {
+      "sensitivity": "96% (fewer than 2/5 items rules out)",
+      "specificity": "95% (4+/5 items)",
+      "lr_plus": "4.98",
+      "lr_minus": "0.09",
+      "source": "Cadogan et al. 2013 (BMC Musculoskelet Disord)"
+    },
+    "notes": "Pain referred distal to the elbow makes AC joint pain very unlikely; wide confidence intervals give the cluster moderate clinical value.",
+    "status": "ok"
+  },
+  {
+    "slug": "diagnosis-of-a-symptomatic-ac-joint",
+    "id": 10659,
+    "title": "Diagnosis of a Symptomatic AC Joint",
+    "link": "https://www.physiotutors.com/wiki/diagnosis-of-a-symptomatic-ac-joint/",
+    "youtube_ids": ["iyM5HJd7aLg"],
+    "purpose": "Two special-test clusters for ruling a symptomatic AC joint in or out.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Rule-in cluster: Paxinos sign followed by O'Brien's active compression test (90 degrees flexion, internal rotation, resisted downward pressure thumb-down then palm-up). Rule-out cluster: Paxinos sign plus Hawkins-Kennedy test (90 degrees flexion, elbow 90 degrees, scapula fixed, passive internal rotation).",
+    "positive": "Both Paxinos and O'Brien positive suggests AC joint involvement; both Paxinos and Hawkins-Kennedy negative makes it unlikely.",
+    "accuracy": {
+      "sensitivity": "93.7% (negative Paxinos + negative Hawkins-Kennedy)",
+      "specificity": "95.8% (positive Paxinos + positive O'Brien)",
+      "lr_plus": "2.71 (Paxinos + O'Brien)",
+      "lr_minus": "0.35 (Paxinos + Hawkins-Kennedy)",
+      "source": "Krill et al. 2018 (systematic review, Phys Sportsmed)"
+    },
+    "notes": "Both clusters rated moderate value; accuracy is modest but they are the best available physical tests, and the older Chronopoulos cluster has methodological flaws.",
+    "status": "ok"
+  },
+  {
+    "slug": "ac-joint-cluster",
+    "id": 11419,
+    "title": "AC Joint Cluster",
+    "link": "https://www.physiotutors.com/wiki/ac-joint-cluster/",
+    "youtube_ids": ["npHPXrV6_JI"],
+    "purpose": "Three-test provocation cluster to identify the AC joint as the source of shoulder pain.",
+    "structure": "Acromioclavicular joint",
+    "procedure": "Seated patient. Cross-body adduction: arm at 90 degrees flexion taken into maximal horizontal adduction. AC resisted extension: arm at 90 degrees flexion, patient resists horizontal adduction. O'Brien's test: 90 degrees flexion with 10 degrees horizontal adduction, resisted downward force in internal then external rotation.",
+    "positive": "All three positive: AC-area pain in the first two tests and O'Brien pain in internal rotation that disappears in external rotation.",
+    "accuracy": {
+      "sensitivity": "25%",
+      "specificity": "97%",
+      "lr_plus": "not reported (~8.3 derived)",
+      "lr_minus": "not reported (~0.77 derived)",
+      "source": "Chronopoulos et al. 2004 (AJSM)"
+    },
+    "notes": "Highly specific when all three are positive, but low sensitivity means a negative cluster cannot exclude the AC joint; typical patients are male manual workers and gym-goers.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-active-range-of-motion",
+    "id": 8711,
+    "title": "Shoulder Active Range of Motion",
+    "link": "https://www.physiotutors.com/wiki/shoulder-active-range-of-motion/",
+    "youtube_ids": ["cP4LLJie9kw"],
+    "purpose": "Assesses available active motion of the shoulder complex along with movement quality and compensations.",
+    "structure": "Shoulder complex (glenohumeral and scapulothoracic motion); e.g. frozen shoulder, rotator cuff pathology",
+    "procedure": "Patient sits or stands (supine if very painful or post-op). Active flexion, extension, abduction, adduction, horizontal adduction, internal and external rotation and scapular protraction/retraction and elevation/depression are observed. Internal rotation can be checked with the hitchhiker thumb reaching up the back (T5-T10) or at 90 degrees abduction.",
+    "positive": "Frozen shoulder: marked loss of AROM and PROM with little pain, especially external rotation at 0 degrees abduction. Rotator cuff: painful arc at 60-120 degrees abduction, possibly with scapular dyskinesis.",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "none"
+    },
+    "notes": "Use supine testing for highly painful or post-operative shoulders; test external rotation cautiously after prior dislocation.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-passive-range-of-motion",
+    "id": 8915,
+    "title": "Shoulder Passive Range of Motion",
+    "link": "https://www.physiotutors.com/wiki/shoulder-passive-range-of-motion/",
+    "youtube_ids": ["n9HQIw1LHDY"],
+    "purpose": "Measures passive osteokinematic motion of the glenohumeral joint and assesses end feel when motion is limited.",
+    "structure": "Glenohumeral joint and shoulder girdle (capsule, end feel)",
+    "procedure": "Patient sits on a bench. The examiner fixes the scapula and clavicle and moves the humerus through flexion, extension, abduction, adduction, horizontal adduction/abduction and rotations; rotations can also be tested at 90 degrees abduction with the girdle stabilized by the examiner's thigh and arm.",
+    "positive": "Compared against reference values (approx. GH flexion 80-90 degrees with scapula fixed, extension 60, abduction 90, horizontal adduction 110, external rotation 60, internal rotation 100) and end-feel quality.",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Werner et al. 2014 (JSES) - reliability only; smartphone inclinometer most reliable"
+    },
+    "notes": "Dominant/non-dominant side differences are common and not necessarily symptomatic; endpoint differs with and without scapular fixation.",
+    "status": "ok"
+  },
+  {
+    "slug": "joint-play-shoulder",
+    "id": 9447,
+    "title": "Joint Play Shoulder",
+    "link": "https://www.physiotutors.com/wiki/joint-play-shoulder/",
+    "youtube_ids": ["hKjQw-blrZ4"],
+    "purpose": "Accessory (arthrokinematic) glides of the glenohumeral joint to judge capsular laxity or stiffness.",
+    "structure": "Glenohumeral joint capsule",
+    "procedure": "Performed mostly in the loose-packed position (about 40-55 degrees abduction, 30 degrees horizontal adduction). AP glide: patient supine at the table edge, humerus translated posteriorly. PA glide: shoulder off the table, humerus translated anteriorly. Also lateral distraction, caudal glide (traction), and caudal glide at 90 degrees abduction.",
+    "positive": "Not formally defined; increased or decreased translation / altered end feel compared with the other side.",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "none"
+    },
+    "notes": "Grip the humeral epicondyles if the elbow is problematic; generate the glide with the whole body rather than the arms.",
+    "status": "ok"
+  },
+  {
+    "slug": "apley-scratch-test",
+    "id": 10353,
+    "title": "Apley Scratch Test",
+    "link": "https://www.physiotutors.com/wiki/apley-scratch-test/",
+    "youtube_ids": ["oORkZ2gLlbA"],
+    "purpose": "Quick functional screen of combined shoulder active range of motion.",
+    "structure": "Shoulder AROM (external rotation/abduction/flexion and internal rotation/extension/adduction)",
+    "procedure": "The patient reaches behind the back to bring the hands together, one arm over the shoulder from above and the other from below. The arms are then swapped and the two sides compared.",
+    "positive": "No defined cut-off; restriction or a clear side-to-side difference (dominant side is often tighter).",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "no reliability or validity studies known"
+    },
+    "notes": "A restriction does not localize to the glenohumeral joint, since scapular and clavicular motion contribute; poor scapular control is a common contributor.",
+    "status": "ok"
+  },
+  {
+    "slug": "frozen-shoulder-diagnosis",
+    "id": 8773,
+    "title": "Frozen Shoulder Diagnosis",
+    "link": "https://www.physiotutors.com/wiki/frozen-shoulder-diagnosis/",
+    "youtube_ids": ["5zpXbvEf9j0"],
+    "purpose": "Physical-examination approach for diagnosing adhesive capsulitis.",
+    "structure": "Glenohumeral capsule and capsuloligamentous complex",
+    "procedure": "The examiner stabilizes the scapula (body against the trunk, hand on the coracoid) and measures passive external rotation in the zero position against the other side. Glenohumeral abduction and flexion are then measured with the clavicle and scapula fixed to isolate true joint motion.",
+    "positive": "External rotation loss of at least 50% versus the other side (or under 30 degrees) plus at least 25% loss in two or more other planes.",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Hollmann et al. 2015 cited for muscle guarding findings"
+    },
+    "notes": "Equal loss of active and passive motion with little pain on resisted testing points to a capsular problem; the coracoid pain test can help separate true from pseudo frozen shoulder.",
+    "status": "ok"
+  }
+]

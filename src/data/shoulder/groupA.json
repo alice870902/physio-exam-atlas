@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "neer-test",
+    "id": 8519,
+    "title": "Neer Test for Subacromial Shoulder Pain (SAPS)",
+    "link": "https://www.physiotutors.com/wiki/neer-test/",
+    "youtube_ids": ["nNyax0iocZo"],
+    "purpose": "Provocation test for subacromial pain syndrome (SAPS), formerly called shoulder impingement.",
+    "structure": "Subacromial space; rotator cuff tendons compressed under the coracoacromial ligament and anterior third of the acromion (Neer's theory).",
+    "procedure": "Patient sits. Examiner stands behind, stabilizes the scapula with one hand and passively moves the arm into maximal shoulder flexion. Some authors add internal rotation, which was not part of Neer's original description.",
+    "positive": "Reproduction of the patient's familiar shoulder pain.",
+    "accuracy": {
+      "sensitivity": "59-72%",
+      "specificity": "~60% (page lists 6%, likely a typo; Hegedus 2012 reports ~60%)",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Hegedus et al. 2012; Gismervik et al. 2017"
+    },
+    "notes": "Weak as a stand-alone test; use within a cluster with Hawkins-Kennedy and painful arc.",
+    "status": "ok"
+  },
+  {
+    "slug": "hawkins-kennedy-test",
+    "id": 8522,
+    "title": "Hawkins-Kennedy Test",
+    "link": "https://www.physiotutors.com/wiki/hawkins-kennedy-test/",
+    "youtube_ids": ["X9YiuvQJVJc"],
+    "purpose": "Provocation test for subacromial pain syndrome.",
+    "structure": "Subacromial space; rotator cuff tendons under the coracoacromial arch.",
+    "procedure": "Patient sits with the shoulder and elbow each flexed to 90 degrees. Examiner stabilizes the scapula with one hand, holds the elbow with the other, and passively internally rotates the glenohumeral joint.",
+    "positive": "Reproduction of the patient's familiar shoulder pain.",
+    "accuracy": {
+      "sensitivity": "58-80%",
+      "specificity": "56-67%",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Hegedus et al. 2012; Gismervik et al. 2017; inter-rater reliability kappa 0.38 (Cadogan et al. 2011)"
+    },
+    "notes": "Low inter-rater reliability limits stand-alone value; typically combined with Neer test and painful arc sign.",
+    "status": "ok"
+  },
+  {
+    "slug": "painful-arc-sign",
+    "id": 8735,
+    "title": "Painful Arc Sign",
+    "link": "https://www.physiotutors.com/wiki/painful-arc-sign/",
+    "youtube_ids": ["7-aXHIBRsbU"],
+    "purpose": "Hallmark sign used to assess subacromial pain syndrome.",
+    "structure": "Subacromial structures (rotator cuff tendons, bursa); differentiates from AC joint pathology.",
+    "procedure": "Patient stands and slowly abducts both arms with thumbs pointing up through full range, then lowers them. Examiner observes where pain occurs in the arc.",
+    "positive": "Pain in the mid-range arc, roughly 60-120 degrees of abduction, with less pain at the start and end of range.",
+    "accuracy": {
+      "sensitivity": "53%",
+      "specificity": "76%",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Hegedus et al. 2012 (BJSM meta-analysis)"
+    },
+    "notes": "Moderate accuracy, weak on its own. Pain at 170-180 degrees points to AC joint pathology rather than subacromial pain.",
+    "status": "ok"
+  },
+  {
+    "slug": "empty-can-test",
+    "id": 8678,
+    "title": "Empty Can Test",
+    "link": "https://www.physiotutors.com/wiki/empty-can-test/",
+    "youtube_ids": ["z9a3RWzGX0o", "DeO50UTxwoo"],
+    "purpose": "Resisted test of muscle strength and irritability in subacromial pain syndrome, traditionally aimed at the supraspinatus.",
+    "structure": "Supraspinatus / rotator cuff; subacromial pain syndrome.",
+    "procedure": "Patient stands or sits with both arms elevated to 90 degrees in the scapular plane and fully internally rotated (thumbs down). Examiner pushes the arms downward while the patient resists.",
+    "positive": "Weakness and/or pain on the affected side compared with the unaffected side.",
+    "accuracy": {
+      "sensitivity": "74%",
+      "specificity": "30%",
+      "lr_plus": "not reported (approx. 1.06 derived)",
+      "lr_minus": "not reported (approx. 0.87 derived)",
+      "source": "Hegedus et al. 2012 (BJSM)"
+    },
+    "notes": "Barely shifts post-test probability; combine with Hawkins-Kennedy, Neer, full can and painful arc. The position does not isolate the supraspinatus.",
+    "status": "ok"
+  },
+  {
+    "slug": "full-can-test",
+    "id": 8855,
+    "title": "Full Can Test",
+    "link": "https://www.physiotutors.com/wiki/full-can-test/",
+    "youtube_ids": ["NuBOHdm20cc"],
+    "purpose": "Tests supraspinatus strength and irritability to detect supraspinatus tears and subacromial pain.",
+    "structure": "Supraspinatus tendon (rotator cuff tears); subacromial pain syndrome.",
+    "procedure": "Patient raises both arms to 90 degrees in the scapular plane with thumbs pointing up. Examiner applies a downward force while the patient resists.",
+    "positive": "Shoulder pain (often felt in the deltoid region) or weakness on the tested side.",
+    "accuracy": {
+      "sensitivity": "70%",
+      "specificity": "81%",
+      "lr_plus": "not reported (approx. 3.7 derived)",
+      "lr_minus": "not reported (approx. 0.37 derived)",
+      "source": "Jain et al. 2017 (ROW cohort, Am J Phys Med Rehabil)"
+    },
+    "notes": "EMG work (Boettcher et al. 2009) shows eight other shoulder muscles are similarly active, so the test does not isolate the supraspinatus; moderate value for ruling tears in or out.",
+    "status": "ok"
+  },
+  {
+    "slug": "drop-arm-sign",
+    "id": 8665,
+    "title": "Drop Arm Sign",
+    "link": "https://www.physiotutors.com/wiki/drop-arm-sign/",
+    "youtube_ids": ["JXgRBeqToik"],
+    "purpose": "Screens for full-thickness tears of the supraspinatus and infraspinatus.",
+    "structure": "Supraspinatus and infraspinatus tendons (full-thickness rotator cuff tears).",
+    "procedure": "Patient sits or stands. Examiner passively places the arm in 90 degrees of abduction with external rotation, asks the patient to hold it, then removes support.",
+    "positive": "Patient cannot control the arm as it lowers and it drops.",
+    "accuracy": {
+      "sensitivity": "73% (supraspinatus/infraspinatus FT tears); 43% (infraspinatus tears)",
+      "specificity": "77%; 81%",
+      "lr_plus": "not reported (approx. 3.2 and 2.3 derived)",
+      "lr_minus": "not reported (approx. 0.35 and 0.70 derived)",
+      "source": "Miller et al. 2008; Sgroi et al. 2019"
+    },
+    "notes": "Moderate clinical value; pair with lag signs, infraspinatus test and rent test.",
+    "status": "ok"
+  },
+  {
+    "slug": "lift-off-sign",
+    "id": 8827,
+    "title": "Lift Off Sign",
+    "link": "https://www.physiotutors.com/wiki/lift-off-sign/",
+    "youtube_ids": ["AgkTH52_PBI"],
+    "purpose": "Assesses subscapularis strength when a full-thickness tear is suspected.",
+    "structure": "Subscapularis muscle-tendon unit.",
+    "procedure": "Patient stands with the dorsum of the hand resting on the mid-lumbar spine and lifts the hand away from the back. Examiner watches for compensatory scapular movement. If the patient succeeds, resistance can be added to grade strength.",
+    "positive": "Inability to lift the hand off the back, indicating a subscapularis lesion.",
+    "accuracy": {
+      "sensitivity": "22%",
+      "specificity": "94%",
+      "lr_plus": "not reported (approx. 3.7 derived)",
+      "lr_minus": "not reported (approx. 0.83 derived)",
+      "source": "Jain et al. 2017 (ROW cohort)"
+    },
+    "notes": "Low sensitivity means a negative test cannot exclude a tear; a positive result moderately supports one. Bear hug and belly press are alternatives, especially when hand-behind-back is limited.",
+    "status": "ok"
+  },
+  {
+    "slug": "belly-press",
+    "id": 9675,
+    "title": "Belly Press | Subscapularis Tear | Shoulder Assessment",
+    "link": "https://www.physiotutors.com/wiki/belly-press/",
+    "youtube_ids": ["RDfStbLsj6Q"],
+    "purpose": "Simple test of subscapularis strength and pain.",
+    "structure": "Subscapularis muscle and tendon (tears).",
+    "procedure": "Patient presses the palm into the abdomen against the examiner's hand, keeping the elbow forward. A blood-pressure cuff between hand and belly can quantify the force. Suitable for patients who cannot reach behind the back or tolerate 90 degrees of elevation.",
+    "positive": "Weakness compared with the opposite side, or reproduction of pain.",
+    "accuracy": {
+      "sensitivity": "28%",
+      "specificity": "87%",
+      "lr_plus": "not reported (approx. 2.2 derived)",
+      "lr_minus": "not reported (approx. 0.83 derived)",
+      "source": "Jain et al. 2017 (ROW cohort, MRI-confirmed tears)"
+    },
+    "notes": "Rated weak because of low accuracy. EMG (Pennock et al. 2011) shows subscapularis activation similar to bear hug and lift-off while limiting pectoralis, latissimus and teres major.",
+    "status": "ok"
+  },
+  {
+    "slug": "bear-hug-test",
+    "id": 11550,
+    "title": "Bear Hug Test",
+    "link": "https://www.physiotutors.com/wiki/bear-hug-test/",
+    "youtube_ids": ["30C3DNq-w4g"],
+    "purpose": "Assesses subscapularis strength and pain.",
+    "structure": "Subscapularis muscle-tendon unit, mainly full-thickness tears.",
+    "procedure": "Patient stands and places the palm of the affected arm on the opposite shoulder with fingers extended and elbow in front of the body. Examiner applies an external-rotation force perpendicular to the forearm while the patient resists by holding the hand in place.",
+    "positive": "Patient cannot keep the hand on the opposite shoulder, or recognizable shoulder pain is reproduced.",
+    "accuracy": {
+      "sensitivity": "19-75% (range across studies)",
+      "specificity": "56-99%",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Barth 2006; Pennock 2011; Schiefer 2012; Yoon 2013; Takeda 2016; Kappe 2018"
+    },
+    "notes": "Low sensitivity with moderate-to-high specificity, so useful mainly to confirm rather than exclude a subscapularis tear.",
+    "status": "ok"
+  },
+  {
+    "slug": "hornblowers-sign",
+    "id": 8876,
+    "title": "Hornblower's Sign",
+    "link": "https://www.physiotutors.com/wiki/hornblowers-sign/",
+    "youtube_ids": ["am5XZ1VnoLc"],
+    "purpose": "Tests for full-thickness tears of the teres minor and infraspinatus.",
+    "structure": "Teres minor and infraspinatus (external rotators), including irreparable fatty degeneration.",
+    "procedure": "Patient sits with the arm abducted to 90 degrees in the scapular plane and the elbow flexed to 90 degrees. Examiner asks the patient to externally rotate against resistance.",
+    "positive": "Inability to externally rotate in this position.",
+    "accuracy": {
+      "sensitivity": "100% (Walch, teres minor fatty degeneration); 17% (Jain, infraspinatus tear)",
+      "specificity": "93%; 96%",
+      "lr_plus": "4.25 (Jain 2017)",
+      "lr_minus": "not reported",
+      "source": "Walch et al. 1998 (high risk of bias); Jain et al. 2017 (ROW cohort)"
+    },
+    "notes": "Low sensitivity in the better-quality study, so a negative test does not rule out an infraspinatus tear. Related tests: lateral rotation lag sign, drop arm sign, infraspinatus test, rent test.",
+    "status": "ok"
+  },
+  {
+    "slug": "lateral-rotation-lag-sign",
+    "id": 10428,
+    "title": "Lateral Rotation Lag Sign",
+    "link": "https://www.physiotutors.com/wiki/lateral-rotation-lag-sign/",
+    "youtube_ids": ["iUTxEAOrEMY"],
+    "purpose": "Lag test (also called infraspinatus spring-back test) for weakness or pain of the supraspinatus, infraspinatus and teres minor.",
+    "structure": "Full-thickness rotator cuff tears, mainly supraspinatus and infraspinatus.",
+    "procedure": "Patient stands. Examiner brings the shoulder to 90 degrees of abduction in the scapular plane with the elbow flexed, passively externally rotates to end range, and asks the patient to hold the position before releasing support.",
+    "positive": "Patient cannot hold the position and the arm springs back anteriorly into internal rotation.",
+    "accuracy": {
+      "sensitivity": "46%",
+      "specificity": "94%",
+      "lr_plus": "7.2",
+      "lr_minus": "not reported",
+      "source": "Miller, Forrester, Lewis 2008 (Arch Phys Med Rehabil)"
+    },
+    "notes": "Good for confirming a full-thickness tear, weak for ruling one out; combine with drop arm sign, internal rotation lag sign, infraspinatus test and rent test.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-internal-rotation-test",
+    "id": 12628,
+    "title": "Shoulder Internal Rotation Test | Cubital Tunnel Syndrome",
+    "link": "https://www.physiotutors.com/wiki/shoulder-internal-rotation-test/",
+    "youtube_ids": ["QC5QYwouE7Q"],
+    "purpose": "Alternative to the elbow flexion test for diagnosing cubital tunnel syndrome.",
+    "structure": "Ulnar nerve at the cubital tunnel (entrapment neuropathy).",
+    "procedure": "Patient sits or stands. The shoulder is placed in 90 degrees abduction, full internal rotation and about 10 degrees flexion, with the elbow flexed to 90 degrees, wrist neutral and fingers extended. The position is held for 10 seconds.",
+    "positive": "Reproduction or aggravation of the patient's symptoms or discomfort in the ulnar nerve distribution within 10 seconds.",
+    "accuracy": {
+      "sensitivity": "80%",
+      "specificity": "100%",
+      "lr_plus": "not reported (undefined at 100% specificity)",
+      "lr_minus": "not reported (approx. 0.2 derived)",
+      "source": "Ochi et al. 2011 (J Hand Surg), 25 cases"
+    },
+    "notes": "Moderate clinical value; single small study, not yet validated elsewhere.",
+    "status": "ok"
+  },
+  {
+    "slug": "subacromial-pain-syndrome-cluster",
+    "id": 10680,
+    "title": "Subacromial Pain Syndrome Cluster",
+    "link": "https://www.physiotutors.com/wiki/subacromial-pain-syndrome-cluster/",
+    "youtube_ids": ["UErH4NUsDWQ"],
+    "purpose": "Five-test battery for diagnosing subacromial pain syndrome.",
+    "structure": "Subacromial space and rotator cuff tendons (tendinopathy, partial tears, bursitis).",
+    "procedure": "Perform Hawkins-Kennedy, Neer, painful arc, empty can and resisted external rotation. Painful arc and empty can are done standing, Neer and resisted external rotation sitting, Hawkins-Kennedy in 90 degrees forward flexion.",
+    "positive": "Cluster positive when 3 or more of the 5 tests are positive (pain reproduction for Neer and Hawkins-Kennedy; mid-range arc pain for painful arc; pain and/or weakness for empty can and resisted ER).",
+    "accuracy": {
+      "sensitivity": "not stated",
+      "specificity": "not stated",
+      "lr_plus": "2.93 (3+ positive)",
+      "lr_minus": "0.34 (<3 positive)",
+      "source": "Michener et al. 2009 (Arch Phys Med Rehabil)"
+    },
+    "notes": "Limited clinical value because the shift in post-test probability is small. Empty can does not isolate supraspinatus.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-impingement-explained",
+    "id": 8897,
+    "title": "Shoulder Impingement Explained",
+    "link": "https://www.physiotutors.com/wiki/shoulder-impingement-explained/",
+    "youtube_ids": ["z9a3RWzGX0o", "WgQG4aXjovc"],
+    "purpose": "Explains impingement theory and how to reason toward the underlying pathology behind impingement-type symptoms.",
+    "structure": "Subacromial impingement (bursa and cuff tendons under the acromial arch) and internal impingement (cuff against anterosuperior or posterosuperior glenoid rim); contributors include cuff pathology, scapular dyskinesis, instability, biceps/SLAP lesions and GIRD.",
+    "procedure": "Not a single test. Anterosuperior internal impingement is provoked by flexion with internal rotation; posterosuperior impingement by abduction with maximal external rotation and horizontal abduction (late-cocking throwing position).",
+    "positive": "No defined positive; a mid-range painful arc during active abduction is the typical subacromial presentation.",
+    "accuracy": {
+      "sensitivity": "n/a",
+      "specificity": "n/a",
+      "lr_plus": "n/a",
+      "lr_minus": "n/a",
+      "source": "Cools et al. 2008 (BJSM) clinical reasoning algorithm"
+    },
+    "notes": "'Impingement' is considered an outdated label for a symptom cluster; use clinical tests to narrow the likely mechanism.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-resisted-isometric-testing",
+    "id": 12368,
+    "title": "Shoulder Resisted Isometric Testing",
+    "link": "https://www.physiotutors.com/wiki/shoulder-resisted-isometric-testing/",
+    "youtube_ids": ["zW8SE6WOxD0"],
+    "purpose": "Quick screen of whether a shoulder girdle musculotendinous unit is affected, usually done after active and passive ROM testing.",
+    "structure": "Musculotendinous units of shoulder girdle muscles, plus biceps and triceps.",
+    "procedure": "Patient supine with the arm slightly abducted and elbow flexed to 90 degrees. Examiner supports the distal humerus and the patient resists flexion, extension, abduction, adduction, medial and lateral rotation. Scapular protraction, retraction, elevation and depression are tested sitting.",
+    "positive": "Not explicitly stated; interpreted as pain and/or weakness on resisted contraction.",
+    "accuracy": {
+      "sensitivity": "n/a",
+      "specificity": "n/a",
+      "lr_plus": "n/a",
+      "lr_minus": "n/a",
+      "source": "none given"
+    },
+    "notes": "Include elbow flexion and extension because biceps and triceps cross both joints.",
+    "status": "ok"
+  },
+  {
+    "slug": "coracoid-pain-test",
+    "id": 9678,
+    "title": "Coracoid Pain Test",
+    "link": "https://www.physiotutors.com/wiki/coracoid-pain-test/",
+    "youtube_ids": ["rqCBa2zqASo"],
+    "purpose": "Helps distinguish true frozen shoulder (adhesive capsulitis) from pseudo-frozen shoulder and other stiff-shoulder causes.",
+    "structure": "Coracohumeral ligament, rotator interval and coracoid triangle, which are pressure-sensitive in adhesive capsulitis.",
+    "procedure": "Examiner palpates with the thumb, in turn, the AC joint, the anterolateral subacromial area and the coracoid process. The patient rates pain on a VAS after each site.",
+    "positive": "Coracoid pain above 30 mm on the VAS and greater than at the AC joint and anterolateral subacromial area.",
+    "accuracy": {
+      "sensitivity": "96%",
+      "specificity": "87-89%",
+      "lr_plus": "not reported (approx. 7.4-8.7 derived)",
+      "lr_minus": "not reported (approx. 0.05 derived)",
+      "source": "Carbone et al. 2010 (Int Orthop)"
+    },
+    "notes": "Only one validating study, but considered clinically useful. Hollmann et al. 2015 note that active muscle guarding contributes to ROM loss in frozen shoulder.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-symptom-modification-procedure",
+    "id": 12378,
+    "title": "Shoulder Symptom Modification Procedure",
+    "link": "https://www.physiotutors.com/wiki/shoulder-symptom-modification-procedure/",
+    "youtube_ids": ["sYTW7u6ZoCI"],
+    "purpose": "Identifies positions and movement modifications that reduce or provoke shoulder pain, treating it as a mechanical problem.",
+    "structure": "Subacromial pain / rotator cuff and bursa; contributors include thoracic posture, scapular position, humeral head position and muscle activation.",
+    "procedure": "First identify a painful movement (e.g. flexion). Then work through four stages, re-testing after each: thoracic modification (extension cues, manual therapy or taping), scapular repositioning (manual or taping), humeral head repositioning (sling or AP/PA glide), and repeating the movement with co-contraction of surrounding muscles such as the external rotators.",
+    "positive": "Meaningful reduction of pain during the painful movement; complete relief after a stage directs treatment to that region.",
+    "accuracy": {
+      "sensitivity": "n/a",
+      "specificity": "n/a",
+      "lr_plus": "n/a",
+      "lr_minus": "n/a",
+      "source": "Inter-rater reliability kappa 0.47 (Meakins et al. 2018)"
+    },
+    "notes": "Developed because provocation tests have poor specificity; reliability is only moderate, so interpret cautiously.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-joint-positioning-sense",
+    "id": 12387,
+    "title": "Shoulder Joint Positioning Sense | Shoulder Assessment",
+    "link": "https://www.physiotutors.com/wiki/shoulder-joint-positioning-sense/",
+    "youtube_ids": ["M4gJCkgdXt0"],
+    "purpose": "Simple laser-pointer method to measure shoulder joint position sense (proprioception) without lab equipment.",
+    "structure": "Shoulder proprioception; deficits are linked to laxity, instability, overhead sport, fatigue and pain.",
+    "procedure": "Patient stands about 1 m from a wall holding a laser pointer, flexes the arm to 90 degrees (checked with a phone inclinometer) and the target board is centred on the dot. Flexion, abduction and return from external rotation are each practised three times with eyes open, then scored on a fourth eyes-closed trial (max 10 per movement, 30 total).",
+    "positive": "No formal cut-off; a side-to-side difference greater than about 10% is considered abnormal.",
+    "accuracy": {
+      "sensitivity": "n/a",
+      "specificity": "n/a",
+      "lr_plus": "n/a",
+      "lr_minus": "n/a",
+      "source": "Reliability ICC 0.86 and 0.78 (Vafadar et al. 2016)"
+    },
+    "notes": "Moderate clinical value because protocols vary between studies; useful for baseline and follow-up tracking.",
+    "status": "ok"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "apprehension-test",
+    "id": 8719,
+    "title": "Apprehension Test",
+    "link": "https://www.physiotutors.com/wiki/apprehension-test/",
+    "youtube_ids": ["jZ29dAXKA5M"],
+    "purpose": "Screens for anterior glenohumeral instability by provoking the patient's fear of subluxation at end-range external rotation.",
+    "structure": "Anterior glenohumeral joint instability (anterior capsulolabral complex)",
+    "procedure": "Patient lies supine with the tested shoulder at the edge of the bench, abducted to 90 degrees. The examiner slowly adds external rotation while asking the patient to report any sense of apprehension or impending dislocation.",
+    "positive": "Patient reports fear of the shoulder dislocating as external rotation increases (apprehension, not just pain).",
+    "accuracy": {
+      "sensitivity": "65.6%",
+      "specificity": "95.4%",
+      "lr_plus": "not reported (~14 calculated)",
+      "lr_minus": "not reported (~0.36 calculated)",
+      "source": "Hegedus et al. 2012, Br J Sports Med"
+    },
+    "notes": "High specificity makes it useful to rule in anterior instability; adding horizontal abduction may glide the humeral head anteriorly more effectively. Usually followed by the Relocation and Release tests.",
+    "status": "ok"
+  },
+  {
+    "slug": "relocation-test",
+    "id": 11322,
+    "title": "Relocation Test",
+    "link": "https://www.physiotutors.com/wiki/relocation-test/",
+    "youtube_ids": ["10uSROESJdo"],
+    "purpose": "Follow-up to a positive Apprehension Test that checks whether a posteriorly directed force relieves the patient's apprehension, supporting anterior instability.",
+    "structure": "Anterior glenohumeral joint instability",
+    "procedure": "With the patient supine and the arm at 90 degrees abduction and the external rotation that provoked apprehension, the examiner applies an anterior-to-posterior force on the humeral head. The patient is asked whether the sense of impending dislocation changes.",
+    "positive": "The patient's apprehension decreases or disappears when the posterior pressure is applied.",
+    "accuracy": {
+      "sensitivity": "64.6%",
+      "specificity": "90.2%",
+      "lr_plus": "not reported (~6.6 calculated)",
+      "lr_minus": "not reported (~0.39 calculated)",
+      "source": "Hegedus et al. 2012, Br J Sports Med"
+    },
+    "notes": "Moderate value alone, but strong when clustered with the Apprehension Test. Relief of pain rather than apprehension is not considered a true positive.",
+    "status": "ok"
+  },
+  {
+    "slug": "shoulder-relocation-test",
+    "id": 9620,
+    "title": "Shoulder Relocation Test",
+    "link": "https://www.physiotutors.com/wiki/shoulder-relocation-test/",
+    "youtube_ids": ["YX1uJhjhwWg"],
+    "purpose": "Confirms anterior shoulder instability by testing whether posteriorly stabilising the humeral head relieves apprehension produced by the Apprehension Test.",
+    "structure": "Anterior glenohumeral joint instability",
+    "procedure": "Performed immediately after a positive Apprehension Test. The shoulder is held at about 90 degrees abduction and maximal external rotation at the point where apprehension appeared, and the examiner applies anterior-to-posterior pressure on the humeral head.",
+    "positive": "Fear of dislocation is reduced by the posteriorly directed pressure.",
+    "accuracy": {
+      "sensitivity": "64.6%",
+      "specificity": "90.2%",
+      "lr_plus": "not reported (~6.6 calculated)",
+      "lr_minus": "not reported (~0.39 calculated)",
+      "source": "Hegedus et al. 2012"
+    },
+    "notes": "Older duplicate wiki entry of the Relocation Test with a different video; rated moderate value for confirming anterior instability.",
+    "status": "ok"
+  },
+  {
+    "slug": "release-test",
+    "id": 11325,
+    "title": "Release Test",
+    "link": "https://www.physiotutors.com/wiki/release-test/",
+    "youtube_ids": ["10uSROESJdo"],
+    "purpose": "Third step of the apprehension sequence (also called the Surprise Test) that checks whether apprehension returns when the relocating pressure is suddenly released.",
+    "structure": "Anterior glenohumeral joint instability",
+    "procedure": "After the Relocation Test has reduced the patient's apprehension, the examiner releases the anterior-to-posterior pressure on the humeral head without moving the arm further into external rotation or horizontal abduction.",
+    "positive": "The patient's fear of dislocation returns as soon as the pressure is released.",
+    "accuracy": {
+      "sensitivity": "81.8%",
+      "specificity": "86.1%",
+      "lr_plus": "not reported (~5.9 calculated)",
+      "lr_minus": "not reported (~0.21 calculated)",
+      "source": "Hegedus et al. 2012, Br J Sports Med"
+    },
+    "notes": "Rated moderate value alone; do not push the arm into further end range during the release because of the risk of provoking a true dislocation.",
+    "status": "ok"
+  },
+  {
+    "slug": "sulcus-sign",
+    "id": 8953,
+    "title": "Sulcus Sign",
+    "link": "https://www.physiotutors.com/wiki/sulcus-sign/",
+    "youtube_ids": ["vV7u2JtdYWI"],
+    "purpose": "Assesses inferior glenohumeral laxity or instability.",
+    "structure": "Inferior glenohumeral capsule / inferior instability (multidirectional laxity)",
+    "procedure": "Patient sits or stands with the arm relaxed at the side. The examiner grasps the forearm just below the elbow and pulls distally along the humerus.",
+    "positive": "A visible dip appears below the acromion or the patient reports a sense of subluxation.",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Inter-rater reliability kappa 0.48 (moderate), Eshoj et al. 2018, BMJ Open"
+    },
+    "notes": "A bilateral sulcus is far less meaningful than a unilateral one on the symptomatic side; no diagnostic accuracy data are available.",
+    "status": "ok"
+  },
+  {
+    "slug": "load-and-shift-test",
+    "id": 8950,
+    "title": "Load and Shift Test",
+    "link": "https://www.physiotutors.com/wiki/load-and-shift-test/",
+    "youtube_ids": ["txARar71h5E"],
+    "purpose": "Grades anterior and posterior translation of the humeral head to assess glenohumeral laxity or instability.",
+    "structure": "Anterior and posterior glenohumeral joint stability",
+    "procedure": "Patient sits upright with the arm resting on the thigh and muscles relaxed. The examiner fixes the clavicle and scapula with one hand, grasps the humeral head with the other and first centres (loads) it in the glenoid, then shifts it anteriorly and posteriorly.",
+    "positive": "Symptom reproduction and clearly greater translation than the uninvolved side; roughly 25% anterior and 50% posterior translation of head diameter is considered normal, with grades 1-3 up to subluxation that does not reduce spontaneously.",
+    "accuracy": {
+      "sensitivity": "37.5%",
+      "specificity": "89.2%",
+      "lr_plus": "not reported (~3.5 calculated)",
+      "lr_minus": "not reported (~0.70 calculated)",
+      "source": "Morey et al. 2016 (posterior labral tears); inter-rater kappa 0.48, Eshoj et al. 2018"
+    },
+    "notes": "Anterior laxity often coexists with posterior capsule tightness and vice versa; low sensitivity means a negative test does not exclude instability.",
+    "status": "ok"
+  },
+  {
+    "slug": "jerk-test",
+    "id": 9080,
+    "title": "Jerk Test",
+    "link": "https://www.physiotutors.com/wiki/jerk-test/",
+    "youtube_ids": ["j_qG1MNOws8"],
+    "purpose": "Provocation test for posteroinferior labral tears and posteroinferior glenohumeral instability.",
+    "structure": "Posteroinferior glenoid labrum / posterior instability",
+    "procedure": "Patient sits while the examiner stands behind, stabilising the scapula with one hand. The arm is held at 90 degrees abduction with internal rotation, an axial load is applied through the humerus at the elbow, and the arm is moved into horizontal adduction.",
+    "positive": "Sudden posterior shoulder pain with a click or clunk as the humeral head subluxes and reduces.",
+    "accuracy": {
+      "sensitivity": "90% (Kim 2004); 62.5% (Morey 2016)",
+      "specificity": "85% (Kim 2004); 96.4% (Morey 2016)",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "Kim et al. 2004; Morey et al. 2016"
+    },
+    "notes": "A painful Jerk Test predicts failure of conservative management; rated moderate for ruling in and good for ruling out posteroinferior labral lesions.",
+    "status": "ok"
+  },
+  {
+    "slug": "kims-test",
+    "id": 11520,
+    "title": "Kim's Test",
+    "link": "https://www.physiotutors.com/wiki/kims-test/",
+    "youtube_ids": ["-knsALCdv_A"],
+    "purpose": "Assesses for posteroinferior labral tears that underlie posteroinferior shoulder instability.",
+    "structure": "Posteroinferior glenoid labrum",
+    "procedure": "Patient sits with the examiner behind, stabilising the scapula. The arm is held at 90 degrees abduction in internal rotation, an axial compressive force is applied through the elbow, and the arm is brought into horizontal adduction while the humeral head is pushed posteroinferiorly.",
+    "positive": "Sudden posterior shoulder pain, with or without a click.",
+    "accuracy": {
+      "sensitivity": "80%",
+      "specificity": "94%",
+      "lr_plus": "not reported (~13.3 calculated)",
+      "lr_minus": "not reported (~0.21 calculated)",
+      "source": "Kim et al. 2005, Am J Sports Med"
+    },
+    "notes": "Data come from the test's inventors and have not been independently confirmed, so clinical value is rated moderate; a painful result also predicts failure of conservative treatment.",
+    "status": "ok"
+  },
+  {
+    "slug": "anterior-shoulder-instability-cluster",
+    "id": 12462,
+    "title": "Anterior Shoulder Instability Cluster",
+    "link": "https://www.physiotutors.com/wiki/anterior-shoulder-instability-cluster/",
+    "youtube_ids": ["jZ29dAXKA5M"],
+    "purpose": "Combines the Apprehension and Relocation tests into a cluster to diagnose anterior glenohumeral instability with greater accuracy than either test alone.",
+    "structure": "Anterior glenohumeral joint instability",
+    "procedure": "Patient supine with the shoulder at 90 degrees abduction near the bench edge. The examiner slowly externally rotates the arm while the patient reports apprehension; once apprehension appears, the examiner applies anterior-to-posterior pressure on the humeral head in the same position to see whether it relieves the fear.",
+    "positive": "Apprehension with increasing external rotation that is relieved by the posteriorly directed pressure (both components positive).",
+    "accuracy": {
+      "sensitivity": "81% (cluster); apprehension 65.6%, relocation 64.6%",
+      "specificity": "98% (cluster); apprehension 95.4%, relocation 90.2%",
+      "lr_plus": "not reported (~40 calculated for cluster)",
+      "lr_minus": "not reported (~0.19 calculated for cluster)",
+      "source": "Farber et al. 2006 (cluster); Hegedus et al. 2012 (single tests)"
+    },
+    "notes": "The combined cluster is highly specific and is the recommended way to confirm anterior instability clinically; apprehension rather than pain is the criterion.",
+    "status": "ok"
+  },
+  {
+    "slug": "obrien-test",
+    "id": 8626,
+    "title": "O'Brien Test",
+    "link": "https://www.physiotutors.com/wiki/obrien-test/",
+    "youtube_ids": ["qkDvVBi0gg8"],
+    "purpose": "Active compression test intended to detect SLAP lesions and acromioclavicular joint pathology.",
+    "structure": "Superior labrum (SLAP lesion) and acromioclavicular joint",
+    "procedure": "Patient flexes the shoulder to 90 degrees with about 10 degrees of adduction and full internal rotation (thumb down); the examiner pushes the arm downward while the patient resists. The manoeuvre is repeated with the shoulder fully externally rotated (palm up).",
+    "positive": "Pain in the thumb-down position that lessens or disappears in the palm-up position; deep pain suggests the labrum, superficial pain suggests the AC joint.",
+    "accuracy": {
+      "sensitivity": "67% for SLAP; 14% for AC joint",
+      "specificity": "37% for SLAP; 92% for AC joint",
+      "lr_plus": "not reported (~1.1 SLAP, ~1.8 AC calculated)",
+      "lr_minus": "not reported (~0.9 SLAP, ~0.9 AC calculated)",
+      "source": "Hegedus et al. 2012 (SLAP); Krill et al. 2018 (AC)"
+    },
+    "notes": "Clinical value is weak for both indications; EMG work (Green 2008) found more biceps activity in the palm-up position, contradicting the test's rationale. Biceps Load II or Yergason's may be better alternatives.",
+    "status": "ok"
+  },
+  {
+    "slug": "crank-test",
+    "id": 10040,
+    "title": "Crank Test",
+    "link": "https://www.physiotutors.com/wiki/crank-test/",
+    "youtube_ids": ["HTpejI3FGG4"],
+    "purpose": "Compression-rotation manoeuvre used to detect SLAP lesions and proximal biceps pathology.",
+    "structure": "Superior labrum (SLAP lesion) and proximal long head of biceps",
+    "procedure": "Patient seated or supine with the shoulder elevated to about 160 degrees in the scapular plane and the elbow flexed to 90 degrees. The examiner applies an axial load through the humerus and repeatedly rotates the shoulder internally and externally to trap the labrum.",
+    "positive": "Clicking in the joint, with or without pain or apprehension.",
+    "accuracy": {
+      "sensitivity": "46%",
+      "specificity": "72%",
+      "lr_plus": "not reported (~1.6 calculated)",
+      "lr_minus": "not reported (~0.75 calculated)",
+      "source": "Gismervik et al. 2017, meta-analysis"
+    },
+    "notes": "Weak clinical value for SLAP tears; interpret only in combination with other findings.",
+    "status": "ok"
+  },
+  {
+    "slug": "biceps-load-i-test",
+    "id": 11097,
+    "title": "Biceps Load I Test",
+    "link": "https://www.physiotutors.com/wiki/biceps-load-i-test/",
+    "youtube_ids": ["sL_5OKlqSA8"],
+    "purpose": "Tests whether loading the biceps changes apprehension, as a sign of a SLAP lesion in patients with anterior instability.",
+    "structure": "Superior labrum and biceps anchor (SLAP lesion)",
+    "procedure": "Patient supine with the arm abducted to 90 degrees, forearm supinated and elbow flexed to 90 degrees. The examiner performs an apprehension manoeuvre, stops at the point of apprehension, and then asks the patient to flex the elbow against resistance without changing shoulder position.",
+    "positive": "Apprehension stays the same or the shoulder becomes more painful with resisted elbow flexion (a decrease in apprehension is a negative test).",
+    "accuracy": {
+      "sensitivity": "11.9%",
+      "specificity": "87.5%",
+      "lr_plus": "not reported (~0.95 calculated)",
+      "lr_minus": "not reported (~1.0 calculated)",
+      "source": "Somerville et al. 2017, Surgery Journal"
+    },
+    "notes": "Weak clinical value; likelihood ratios near 1 mean it neither rules in nor rules out a SLAP tear. MR arthrography remains the preferred diagnostic method (Symanski 2017).",
+    "status": "ok"
+  },
+  {
+    "slug": "biceps-load-ii-test",
+    "id": 11101,
+    "title": "Biceps Load II Test",
+    "link": "https://www.physiotutors.com/wiki/biceps-load-ii-test/",
+    "youtube_ids": ["dPh5wQmKTfk"],
+    "purpose": "Resisted biceps loading in elevated abduction to detect superior labral (SLAP) tears.",
+    "structure": "Superior labrum and long head of biceps anchor (SLAP lesion)",
+    "procedure": "Patient supine with the shoulder abducted to 120 degrees, externally rotated, forearm supinated and elbow flexed to 90 degrees. The patient flexes the elbow against the examiner's resistance.",
+    "positive": "Pain reproduced during resisted elbow flexion.",
+    "accuracy": {
+      "sensitivity": "30% (Oh 2008); 27.6% (Somerville 2017); 67% (Cook 2012 meta-analysis)",
+      "specificity": "78% (Oh 2008); 77.8% (Somerville 2017); 51% (Cook 2012)",
+      "lr_plus": "not reported (~1.2-1.4 calculated)",
+      "lr_minus": "not reported (~0.65-0.93 calculated)",
+      "source": "Oh et al. 2008; Somerville et al. 2017; Cook et al. 2012"
+    },
+    "notes": "Despite its popularity, pooled accuracy is limited and clinical value is rated weak; a positive result alone adds little certainty.",
+    "status": "ok"
+  },
+  {
+    "slug": "passive-compression-test",
+    "id": 11348,
+    "title": "Passive Compression Test",
+    "link": "https://www.physiotutors.com/wiki/passive-compression-test/",
+    "youtube_ids": ["G2n0Mu9BmEA"],
+    "purpose": "Compresses the superior labrum against the glenoid to detect SLAP lesions.",
+    "structure": "Superior labrum (SLAP lesion)",
+    "procedure": "Patient lies on the unaffected side with the examiner standing behind. One hand stabilises the AC joint, the other holds the elbow; the arm is externally rotated at about 30 degrees abduction, then pushed proximally while the shoulder is extended so the labrum is compressed onto the glenoid.",
+    "positive": "Pain or a painful click inside the glenohumeral joint.",
+    "accuracy": {
+      "sensitivity": "82%",
+      "specificity": "86%",
+      "lr_plus": "not reported (~5.9 calculated)",
+      "lr_minus": "not reported (~0.21 calculated)",
+      "source": "Kim et al. 2007, Am J Sports Med"
+    },
+    "notes": "Promising figures but from a single study without independent validation, so clinical value is rated moderate. A mirror can help observe the patient's reaction in side-lying.",
+    "status": "ok"
+  },
+  {
+    "slug": "labral-tension-test",
+    "id": 11351,
+    "title": "Labral Tension Test",
+    "link": "https://www.physiotutors.com/wiki/labral-tension-test/",
+    "youtube_ids": ["G2n0Mu9BmEA"],
+    "purpose": "Tensions the biceps-labral complex through resisted supination at end-range external rotation to detect SLAP lesions.",
+    "structure": "Superior labrum (SLAP lesion)",
+    "procedure": "Patient supine with the arm in about 120 degrees of abduction and the forearm in neutral. The examiner takes the shoulder to end-range external rotation, grasps the hand and asks the patient to supinate the forearm against resistance.",
+    "positive": "Increased concordant shoulder pain during resisted supination.",
+    "accuracy": {
+      "sensitivity": "40%",
+      "specificity": "75%",
+      "lr_plus": "not reported (~1.6 calculated)",
+      "lr_minus": "not reported (~0.8 calculated)",
+      "source": "Cook et al. 2012, J Shoulder Elbow Surg"
+    },
+    "notes": "Weak clinical value; isolated SLAP lesions are uncommon and usually coexist with rotator cuff tears or instability. (Video ID on the REST item is shared with the Passive Compression Test page.)",
+    "status": "ok"
+  },
+  {
+    "slug": "passive-distraction-test",
+    "id": 11354,
+    "title": "Passive Distraction Test",
+    "link": "https://www.physiotutors.com/wiki/passive-distraction-test/",
+    "youtube_ids": ["cbHRPFJ5jm8"],
+    "purpose": "Uses forearm pronation in high elevation to peel the biceps anchor off the glenoid and detect SLAP lesions.",
+    "structure": "Superior labrum and long head of biceps anchor (SLAP lesion)",
+    "procedure": "Patient supine at the edge of the table. The examiner elevates the arm to about 150 degrees in the coronal plane with the elbow extended and forearm supinated, stabilises the upper arm to block humeral rotation, then gently pronates the forearm.",
+    "positive": "Deep pain inside the glenohumeral joint, anteriorly or posteriorly.",
+    "accuracy": {
+      "sensitivity": "53%",
+      "specificity": "94%",
+      "lr_plus": "not reported (~8.8 calculated)",
+      "lr_minus": "not reported (~0.5 calculated)",
+      "source": "Schlechter et al. 2009, Arthroscopy"
+    },
+    "notes": "High specificity gives moderate value for confirming a superior labral tear; pronation rotates the radial tuberosity and tensions the biceps anchor.",
+    "status": "ok"
+  },
+  {
+    "slug": "compression-rotation-test",
+    "id": 11357,
+    "title": "Compression Rotation Test",
+    "link": "https://www.physiotutors.com/wiki/compression-rotation-test/",
+    "youtube_ids": ["ONk0DHLKKJk"],
+    "purpose": "Axial compression with rotation of the humeral head to catch a torn superior labrum (SLAP lesion).",
+    "structure": "Superior labrum (SLAP lesion)",
+    "procedure": "Patient supine with the examiner on the affected side. The shoulder is abducted to 90 degrees with the elbow flexed to 90 degrees; the examiner compresses through the humerus at the elbow while repeatedly rotating the arm internally and externally via the wrist.",
+    "positive": "Catching or snapping in the joint, analogous to the McMurray test of the knee.",
+    "accuracy": {
+      "sensitivity": "43%",
+      "specificity": "89%",
+      "lr_plus": "not reported (~3.9 calculated)",
+      "lr_minus": "not reported (~0.64 calculated)",
+      "source": "Gismervik et al. 2017, BMC Musculoskelet Disord (meta-analysis)"
+    },
+    "notes": "Found to be the most accurate SLAP test in the Gismervik meta-analysis; moderate value for ruling in but weak for ruling out, so a negative test does not exclude a lesion.",
+    "status": "ok"
+  },
+  {
+    "slug": "dynamic-labral-shear-test",
+    "id": 11367,
+    "title": "Dynamic Labral Shear Test",
+    "link": "https://www.physiotutors.com/wiki/dynamic-labral-shear-test/",
+    "youtube_ids": ["Vo7YBDwZAbk"],
+    "purpose": "Shears the superior labrum against the glenoid during elevation to detect SLAP lesions.",
+    "structure": "Superior labrum and biceps anchor (SLAP lesion)",
+    "procedure": "The examiner stands behind the patient, holding the affected arm at the wrist with the elbow flexed and the shoulder abducted and externally rotated. The other hand applies an anteriorly directed force to the proximal humerus near the joint line while the arm is elevated from 90 to about 150 degrees.",
+    "positive": "Pain reported by the patient or a click felt by the examiner at the posterior joint line between about 90 and 120 degrees of elevation.",
+    "accuracy": {
+      "sensitivity": "78% isolated SLAP; 57% with concomitant pathology",
+      "specificity": "51% isolated SLAP; 52% with concomitant pathology",
+      "lr_plus": "not reported (~1.6 / ~1.2 calculated)",
+      "lr_minus": "not reported (~0.43 / ~0.83 calculated)",
+      "source": "Sodha et al. 2017, Am J Sports Med"
+    },
+    "notes": "Accuracy falls when other shoulder pathology coexists, which is the usual clinical situation, so clinical value is rated low; combine with other biceps/SLAP tests.",
+    "status": "ok"
+  },
+  {
+    "slug": "anterior-slide-test",
+    "id": 11380,
+    "title": "Anterior Slide Test",
+    "link": "https://www.physiotutors.com/wiki/anterior-slide-test/",
+    "youtube_ids": ["nLRNIiJfPIg"],
+    "purpose": "Drives the humeral head anterosuperiorly against the biceps anchor to detect SLAP lesions.",
+    "structure": "Superior labrum and biceps anchor (SLAP lesion)",
+    "procedure": "Patient sits or stands with hands on hips and thumbs pointing backward. The examiner rests one hand over the shoulder with the index finger on the anterior acromion at the joint line, and with the other hand behind the elbow pushes forward and slightly upward while the patient resists.",
+    "positive": "Anterior shoulder pain under the examiner's finger, a pop or click in that region, or reproduction of the patient's overhead symptoms.",
+    "accuracy": {
+      "sensitivity": "20%",
+      "specificity": "73.8%",
+      "lr_plus": "not reported (~0.76 calculated)",
+      "lr_minus": "not reported (~1.08 calculated)",
+      "source": "Somerville et al. 2017, Surgery Journal"
+    },
+    "notes": "Weak clinical value with likelihood ratios close to or worse than 1; MR arthrography is the preferred diagnostic method for SLAP tears (Symanski 2017).",
+    "status": "ok"
+  },
+  {
+    "slug": "porcellini-test",
+    "id": 11523,
+    "title": "Porcellini Test",
+    "link": "https://www.physiotutors.com/wiki/porcellini-test/",
+    "youtube_ids": ["XqkMk_-LvS4"],
+    "purpose": "Two-part resisted elevation test for posteroinferior labral tears causing posterior instability.",
+    "structure": "Posteroinferior glenoid labrum / posteroinferior instability",
+    "procedure": "Patient sits or stands with the shoulder at 90 degrees flexion, 10-15 degrees adduction and maximal internal rotation (thumb down) while the examiner, standing behind, stabilises the scapula and resists elevation. The manoeuvre is repeated with the examiner's thumb on the posterior joint line pushing the humeral head anteriorly to block posterior subluxation.",
+    "positive": "Pain or weakness in the first part that is reduced or abolished in the second part; pain persisting in part two points instead to AC joint pathology.",
+    "accuracy": {
+      "sensitivity": "100%",
+      "specificity": "99%",
+      "lr_plus": "not reported (~100 calculated)",
+      "lr_minus": "not reported (~0 calculated)",
+      "source": "Morey et al. 2016, Musculoskeletal Surgery"
+    },
+    "notes": "Outperformed the Jerk, Kim's and Load-and-Shift tests with high inter-examiner reliability in the original study, but the figures come from a single unvalidated study, so value is rated moderate.",
+    "status": "ok"
+  },
+  {
+    "slug": "miniaci-test",
+    "id": 11527,
+    "title": "Miniaci Test",
+    "link": "https://www.physiotutors.com/wiki/miniaci-test/",
+    "youtube_ids": ["rMAk8MnscBM"],
+    "purpose": "Provocation-and-relocation manoeuvre for posteroinferior labral tears and posterior shoulder instability.",
+    "structure": "Posteroinferior glenoid labrum / posteroinferior instability",
+    "procedure": "Patient sits. The shoulder is placed in adduction, 70-90 degrees of flexion and internal rotation while a posteriorly directed force is applied through the humerus; the examiner's other hand palpates the anterior and posterior joint. The arm is then moved into horizontal abduction and external rotation.",
+    "positive": "A clunk as the posteriorly subluxed humeral head relocates into the glenoid.",
+    "accuracy": {
+      "sensitivity": "not reported",
+      "specificity": "not reported",
+      "lr_plus": "not reported",
+      "lr_minus": "not reported",
+      "source": "No reliability or accuracy studies available"
+    },
+    "notes": "Clinical use is questionable because the test has never been studied; the Porcellini, Jerk and Kim's tests are the evidence-based alternatives.",
+    "status": "ok"
+  }
+]

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shoulder · Physio Exam Atlas</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: fixed left index (course → category → test), scrolling reading pane with player on top. */
+:root{
+  --bg:#f7f5f1; --panel:#ffffff; --fg:#1d1b17; --muted:#6b665c; --line:#e3ded4;
+  --accent:#1f5f6b; --accent-ink:#ffffff; --accent-soft:#e3eff1; --mark:#c8731b;
+  --done:#2f7d4f; --code:#f0ede6;
+  --display:"Fraunces","Noto Sans TC",Georgia,serif;
+  --body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --sidebar:300px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#15171a; --panel:#1d2024; --fg:#ebe7df; --muted:#a19b90; --line:#2d3137;
+  --accent:#6fb9c6; --accent-ink:#0f1a1d; --accent-soft:#1d3237; --mark:#e49a4c;
+  --done:#6cc68f; --code:#24282d; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#15171a; --panel:#1d2024; --fg:#ebe7df; --muted:#a19b90; --line:#2d3137;
+  --accent:#6fb9c6; --accent-ink:#0f1a1d; --accent-soft:#1d3237; --mark:#e49a4c;
+  --done:#6cc68f; --code:#24282d; color-scheme:dark; }
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.65;display:flex;overflow:hidden}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+h1,h2,h3{text-wrap:balance;margin:0}
+
+/* ---- sidebar ---- */
+#side{width:var(--sidebar);flex:0 0 auto;background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;height:100%;padding-left:env(safe-area-inset-left,0px)}
+.brand{padding:18px 18px 12px;border-bottom:1px solid var(--line)}
+.brand .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.brand h1{font-family:var(--display);font-size:22px;font-weight:700;line-height:1.2;margin-top:4px}
+.brand .sub{color:var(--muted);font-size:12.5px;margin-top:4px}
+.search{padding:10px 14px;border-bottom:1px solid var(--line)}
+.search input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit;font-size:14px}
+.search input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.progress{padding:8px 18px;font-family:var(--mono);font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}
+.bar{height:4px;background:var(--line);border-radius:2px;flex:1;margin:0 10px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--done);width:0}
+nav{overflow-y:auto;flex:1;padding:6px 0 24px}
+.cat>summary{list-style:none;cursor:pointer;padding:9px 18px;display:flex;align-items:baseline;gap:8px;user-select:none}
+.cat>summary::-webkit-details-marker{display:none}
+.cat>summary .n{font-family:var(--mono);font-size:11px;color:var(--muted);min-width:1.6em}
+.cat>summary .zh{font-weight:700}
+.cat>summary .en{color:var(--muted);font-size:12px;margin-left:auto;text-align:right}
+.cat>summary::before{content:"";width:6px;height:6px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(-45deg);margin-right:2px;transition:transform .15s;flex:none;position:relative;top:-2px}
+.cat[open]>summary::before{transform:rotate(45deg)}
+.cat ul{list-style:none;margin:0;padding:0 0 6px}
+.cat li a{display:flex;gap:8px;align-items:flex-start;padding:6px 18px 6px 34px;text-decoration:none;color:var(--fg);font-size:13.5px;line-height:1.4;border-left:3px solid transparent}
+.cat li a:hover{background:var(--accent-soft)}
+.cat li a.active{border-left-color:var(--accent);background:var(--accent-soft);font-weight:500}
+.cat li a .tick{flex:none;width:14px;height:14px;border:1.5px solid var(--line);border-radius:50%;margin-top:4px}
+.cat li a.done .tick{background:var(--done);border-color:var(--done)}
+.cat li a .t{flex:1;min-width:0}
+.cat li a .t small{display:block;color:var(--muted);font-size:11.5px}
+.cat li[hidden]{display:none}
+.cat.nomatch{display:none}
+
+/* ---- main ---- */
+#main{flex:1;min-width:0;height:100%;overflow-y:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.topbar{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:18px}
+#menu{display:none;padding:6px 10px;border:1px solid var(--line);border-radius:6px;font-size:13px}
+.crumb{font-family:var(--mono);font-size:12px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumb b{color:var(--fg);font-weight:500}
+.navbtns{margin-left:auto;display:flex;gap:6px}
+.navbtns button{padding:6px 10px;border:1px solid var(--line);border-radius:6px;font-size:13px;background:var(--panel)}
+.navbtns button:disabled{opacity:.4;cursor:default}
+
+article{max-width:860px}
+.player{position:relative;width:100%;max-width:100%;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.18)}
+.player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vids{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.vids button{font-family:var(--mono);font-size:11.5px;padding:3px 9px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
+.vids button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.vids a{font-family:var(--mono);font-size:11.5px;margin-left:auto;align-self:center}
+
+.head{margin:22px 0 14px}
+.head .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.head h2{font-family:var(--display);font-size:30px;font-weight:600;line-height:1.15;margin-top:6px}
+.head h2 .en{display:block;font-family:var(--body);font-size:16px;font-weight:400;color:var(--muted);margin-top:2px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tags span{font-size:12px;padding:2px 9px;border-radius:999px;background:var(--code);color:var(--muted)}
+.doneRow{display:flex;align-items:center;gap:8px;margin-top:12px;font-size:13.5px}
+.doneRow input{width:16px;height:16px;accent-color:var(--done)}
+
+.sec{display:grid;grid-template-columns:150px 1fr;gap:10px 18px;padding:14px 0;border-top:1px solid var(--line)}
+.sec h3{font-size:13px;font-weight:700;color:var(--muted);letter-spacing:.02em;padding-top:2px}
+.sec h3 small{display:block;font-family:var(--mono);font-weight:400;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.sec p{margin:0;max-width:65ch}
+.sec.positive p{border-left:3px solid var(--mark);padding-left:12px}
+.acc{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+.acc div{background:var(--code);border-radius:6px;padding:8px 10px}
+.acc b{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.acc span{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+.acc .src{grid-column:1/-1;background:none;padding:2px 0;font-size:12px;color:var(--muted)}
+.foot{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.welcome h2{font-family:var(--display);font-size:30px;margin-bottom:8px}
+.welcome p{max-width:65ch;color:var(--muted)}
+.welcome .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-top:18px}
+.welcome .grid button{text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.welcome .grid b{display:block}
+.welcome .grid small{color:var(--muted);font-size:12px}
+.welcome .grid i{display:block;font-family:var(--mono);font-size:11px;color:var(--accent);margin-top:6px;font-style:normal}
+
+#scrim{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:9}
+@media (max-width:820px){
+  #side{position:fixed;left:0;top:0;bottom:0;z-index:10;transform:translateX(-100%);transition:transform .2s;width:min(var(--sidebar),88vw);padding-top:env(safe-area-inset-top,0px)}
+  body.nav-open #side{transform:none}
+  body.nav-open #scrim{display:block}
+  #menu{display:inline-block}
+  .sec{grid-template-columns:1fr;gap:4px}
+  .head h2{font-size:24px}
+  .cat>summary .en{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<aside id="side">
+  <div class="brand">
+    <div class="kicker"><a href="../" style="text-decoration:none;color:inherit">Physio Exam Atlas</a> · Physiotutors</div>
+    <h1>肩部 Shoulder</h1>
+    <div class="sub">理學檢查影片導讀 · 繁中段落 + 英文術語</div>
+  </div>
+  <div class="search"><input id="q" type="search" placeholder="搜尋測試名稱、肌肉、病灶…" aria-label="搜尋測試"></div>
+  <div class="progress"><span id="pct">0%</span><div class="bar"><i id="barfill"></i></div><span id="cnt">0 / 0</span></div>
+  <nav id="nav"></nav>
+</aside>
+<div id="scrim"></div>
+<main id="main">
+  <div class="topbar">
+    <button id="menu" aria-label="開啟目錄">☰ 目錄</button>
+    <div class="crumb" id="crumb">選擇左側測試開始</div>
+    <div class="navbtns"><button id="prev">← 上一個</button><button id="next">下一個 →</button></div>
+  </div>
+  <article id="art"></article>
+</main>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const CATS = DATA.categories, T = DATA.tests;
+const order = CATS.flatMap(c => c.slugs);
+const bySlug = Object.fromEntries(T.map(t => [t.slug, t]));
+const catOf = Object.fromEntries(CATS.flatMap(c => c.slugs.map(s => [s, c])));
+const LS = 'physio-atlas-done-shoulder';
+let done = new Set(); try { done = new Set(JSON.parse(localStorage.getItem(LS) || '[]')); } catch (e) {}
+function saveDone(){ try { localStorage.setItem(LS, JSON.stringify([...done])); } catch (e) {} }
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ----- sidebar ----- */
+const nav = document.getElementById('nav');
+nav.innerHTML = CATS.map((c, i) => `
+<details class="cat" id="cat-${c.id}" ${i === 0 ? 'open' : ''}>
+  <summary><span class="n">${String(i + 1).padStart(2, '0')}</span><span class="zh">${esc(c.zh)}</span><span class="en">${esc(c.en)}</span></summary>
+  <ul>${c.slugs.map(s => { const t = bySlug[s]; return `<li data-slug="${s}"><a href="#${s}" data-slug="${s}"><span class="tick"></span><span class="t">${esc(t.name_zh)}<small>${esc(t.title_en)}</small></span></a></li>`; }).join('')}</ul>
+</details>`).join('');
+
+function refreshNav(){
+  nav.querySelectorAll('a').forEach(a => {
+    a.classList.toggle('done', done.has(a.dataset.slug));
+    a.classList.toggle('active', a.dataset.slug === current);
+  });
+  const n = done.size, N = order.length, pct = Math.round(100 * n / N);
+  document.getElementById('pct').textContent = pct + '%';
+  document.getElementById('cnt').textContent = `${n} / ${N}`;
+  document.getElementById('barfill').style.width = pct + '%';
+}
+
+/* ----- search ----- */
+document.getElementById('q').addEventListener('input', e => {
+  const q = e.target.value.trim().toLowerCase();
+  nav.querySelectorAll('.cat').forEach(cat => {
+    let any = false;
+    cat.querySelectorAll('li').forEach(li => {
+      const t = bySlug[li.dataset.slug];
+      const hay = [t.title_zh, t.title_en, t.structure_zh, (t.tags || []).join(' '), t.purpose_zh].join(' ').toLowerCase();
+      const hit = !q || hay.includes(q);
+      li.hidden = !hit; any = any || hit;
+    });
+    cat.classList.toggle('nomatch', !any);
+    if (q && any) cat.open = true;
+  });
+});
+
+/* ----- rendering ----- */
+let current = null, vidIdx = 0;
+const art = document.getElementById('art');
+function accRow(label, v){ return v && !/^(n\/a|not reported|none|-)$/i.test(v) ? `<div><b>${label}</b><span>${esc(v)}</span></div>` : ''; }
+
+function render(slug){
+  const t = bySlug[slug];
+  if (!t) { renderWelcome(); return; }
+  current = slug; vidIdx = 0;
+  const c = catOf[slug];
+  const zh = t.name_zh, enParts = [t.title_en];
+  const a = t.accuracy || {};
+  const accHtml = [accRow('Sensitivity 敏感度', a.sensitivity), accRow('Specificity 特異度', a.specificity), accRow('LR+', a.lr_plus), accRow('LR−', a.lr_minus)].join('');
+  art.innerHTML = `
+  <div class="player"><iframe id="yt" src="https://www.youtube-nocookie.com/embed/${t.youtube_ids[0]}?rel=0&modestbranding=1" title="${esc(t.title_en)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="vids">${t.youtube_ids.length > 1 ? t.youtube_ids.map((v, i) => `<button data-v="${i}" class="${i === 0 ? 'on' : ''}">影片 ${i + 1}</button>`).join('') : ''}<a href="https://www.youtube.com/watch?v=${t.youtube_ids[0]}" target="_blank" rel="noopener">在 YouTube 開啟 ↗</a></div>
+  <header class="head">
+    <div class="eyebrow">${esc(c.en)} · ${esc(c.zh)}</div>
+    <h2>${esc(zh)}<span class="en">${esc(enParts.join(' ') || t.title_en)}</span></h2>
+    <div class="tags">${(t.tags || []).map(x => `<span>${esc(x)}</span>`).join('')}</div>
+    <label class="doneRow"><input type="checkbox" id="doneBox" ${done.has(slug) ? 'checked' : ''}> 已看完此測試</label>
+  </header>
+  <section class="sec"><h3>目的<small>Purpose</small></h3><p>${esc(t.purpose_zh)}</p></section>
+  <section class="sec"><h3>檢查結構<small>Structure</small></h3><p>${esc(t.structure_zh)}</p></section>
+  <section class="sec"><h3>操作步驟<small>Procedure</small></h3><p>${esc(t.procedure_zh)}</p></section>
+  <section class="sec positive"><h3>陽性判讀<small>Positive finding</small></h3><p>${esc(t.positive_zh)}</p></section>
+  ${accHtml ? `<section class="sec"><h3>診斷準確度<small>Accuracy</small></h3><div class="acc">${accHtml}${a.source ? `<div class="src">來源 Source：${esc(a.source)}</div>` : ''}</div></section>` : ''}
+  <section class="sec"><h3>臨床重點<small>Clinical notes</small></h3><p>${esc(t.notes_zh)}</p></section>
+  <div class="foot"><span>原文頁面：<a href="${t.link}" target="_blank" rel="noopener">physiotutors.com ↗</a></span><span>影片版權屬 Physiotutors；本頁僅嵌入播放與整理筆記。</span></div>`;
+  art.querySelectorAll('.vids button').forEach(b => b.addEventListener('click', () => {
+    vidIdx = +b.dataset.v;
+    document.getElementById('yt').src = `https://www.youtube-nocookie.com/embed/${t.youtube_ids[vidIdx]}?rel=0&modestbranding=1`;
+    art.querySelectorAll('.vids button').forEach(x => x.classList.toggle('on', x === b));
+  }));
+  document.getElementById('doneBox').addEventListener('change', e => { e.target.checked ? done.add(slug) : done.delete(slug); saveDone(); refreshNav(); });
+  document.getElementById('crumb').innerHTML = `${esc(DATA.region.en)} / ${esc(c.en)} / <b>${esc(t.title_en)}</b>`;
+  const i = order.indexOf(slug);
+  document.getElementById('prev').disabled = i <= 0;
+  document.getElementById('next').disabled = i >= order.length - 1;
+  document.getElementById('cat-' + c.id).open = true;
+  refreshNav();
+  document.getElementById('main').scrollTo({ top: 0 });
+  document.body.classList.remove('nav-open');
+  document.title = `${t.title_en} · Physio Exam Atlas`;
+}
+function renderWelcome(){
+  current = null;
+  art.innerHTML = `<div class="welcome"><h2>${esc(DATA.region.zh)}理學檢查影片地圖</h2>
+  <p>${order.length} 支 Physiotutors 影片，依 ${CATS.length} 個主題排列。每支影片附繁中段落筆記（目的、操作、陽性判讀、診斷準確度、臨床重點），醫學名詞保留英文。觀看進度存在你的瀏覽器裡。</p>
+  <div class="grid">${CATS.map((c, i) => `<button data-cat="${c.id}"><b>${esc(c.zh)}</b><small>${esc(c.en)}</small><i>${c.slugs.length} 支影片 · ${c.slugs.filter(s => done.has(s)).length} 已看</i></button>`).join('')}</div></div>`;
+  art.querySelectorAll('button[data-cat]').forEach(b => b.addEventListener('click', () => { location.hash = CATS.find(c => c.id === b.dataset.cat).slugs[0]; }));
+  document.getElementById('crumb').textContent = `${DATA.region.en} · 選擇左側測試開始`;
+  document.getElementById('prev').disabled = true; document.getElementById('next').disabled = false;
+  refreshNav();
+}
+document.getElementById('prev').addEventListener('click', () => { const i = order.indexOf(current); if (i > 0) location.hash = order[i - 1]; });
+document.getElementById('next').addEventListener('click', () => { const i = order.indexOf(current); location.hash = order[i + 1] || order[0]; });
+document.getElementById('menu').addEventListener('click', () => document.body.classList.toggle('nav-open'));
+document.getElementById('scrim').addEventListener('click', () => document.body.classList.remove('nav-open'));
+window.addEventListener('hashchange', () => render(location.hash.slice(1)));
+render(location.hash.slice(1));
+</script>
+</body>
+</html>

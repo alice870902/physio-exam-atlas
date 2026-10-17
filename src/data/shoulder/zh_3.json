@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "ac-joint-pain",
+    "title_zh": "肩鎖關節疼痛病史與理學檢查組合 AC Joint Pain",
+    "purpose_zh": "以病史與理學檢查組成的臨床組合 (cluster)，用於辨識非外傷性的肩鎖關節 (acromioclavicular joint, AC joint) 疼痛。",
+    "structure_zh": "肩鎖關節 (AC joint)，非外傷性疼痛",
+    "procedure_zh": "共檢查五個項目：(1) 發病機轉為重複性動作；(2) 疼痛未轉移至手肘以下；(3) 肩鎖關節 (AC joint) 增厚或腫脹；(4) 被動盂肱關節 (glenohumeral joint) 外展時沒有典型疼痛；(5) 肩外展 90 度下做外旋 (external rotation) 時沒有典型疼痛。",
+    "positive_zh": "五項中有四項以上符合即為陽性。",
+    "notes_zh": "疼痛轉移至手肘遠端時，肩鎖關節 (AC joint) 疼痛的可能性極低；少於 2/5 項可用來排除。由於信賴區間 (confidence interval) 很寬，此組合的臨床價值僅屬中等。",
+    "tags": ["肩鎖關節 AC joint", "cluster", "病史 history"]
+  },
+  {
+    "slug": "cross-body-adduction-test",
+    "title_zh": "跨體內收測試 Cross Body Adduction Test",
+    "purpose_zh": "誘發敏感化的肩鎖關節 (acromioclavicular joint, AC joint)，例如肩鎖關節退化性關節炎 (AC joint osteoarthritis)。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "病人的手臂先抬至肩屈曲 (flexion) 90 度，接著檢查者將手臂帶往身體對側，做最大幅度的水平內收 (horizontal adduction)。",
+    "positive_zh": "肩膀頂端、靠近肩鎖關節 (AC joint) 處出現疼痛。",
+    "notes_zh": "不建議單獨使用，應納入肩鎖關節測試組合 (AC joint cluster) 中判讀；敏感度 77%、特異度 79%。",
+    "tags": ["肩鎖關節 AC joint", "誘發測試 provocation", "cluster"]
+  },
+  {
+    "slug": "ac-joint-line-tenderness",
+    "title_zh": "肩鎖關節線壓痛 AC Joint Line Tenderness",
+    "purpose_zh": "藉由觸診肩鎖關節 (acromioclavicular joint, AC joint) 的關節線，偵測敏感化的關節。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "病人坐姿，手臂自然垂放於體側。檢查者先找到肩峰 (acromion)，沿其邊緣向前內側觸診直到鎖骨 (clavicle)，即可找到關節線，然後施加壓力。",
+    "positive_zh": "在肩鎖關節 (AC joint) 上方重現疼痛。",
+    "notes_zh": "敏感度 96% 但特異度僅 10%，幾乎沒有特異性；儘管敏感度很高，LR- 0.4 仍偏高，無法可靠排除肩鎖關節 (AC joint) 病變。",
+    "tags": ["肩鎖關節 AC joint", "觸診 palpation", "高敏感度 high sensitivity"]
+  },
+  {
+    "slug": "paxinos-sign",
+    "title_zh": "Paxinos 徵象 Paxinos Sign",
+    "purpose_zh": "針對肩鎖關節 (acromioclavicular joint, AC joint) 病變的壓迫測試。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "病人坐姿、手臂放鬆。檢查者站在病人後方，以拇指勾住肩峰 (acromion) 的後外側下緣，食指與中指放在鎖骨 (clavicle) 中段。接著拇指將肩峰向前上方推，同時手指將鎖骨向下壓。",
+    "positive_zh": "肩鎖關節 (AC joint) 區域出現疼痛。",
+    "notes_zh": "敏感度 79%、特異度 50%，單獨使用因特異度低而臨床價值薄弱；主要用於 Krill 2018 的肩鎖關節測試組合 (AC joint clusters) 中。",
+    "tags": ["肩鎖關節 AC joint", "壓迫測試 compression", "cluster"]
+  },
+  {
+    "slug": "ac-resisted-extension-test",
+    "title_zh": "肩鎖關節阻抗伸展測試 AC Resisted Extension Test",
+    "purpose_zh": "用於誘發有症狀的肩鎖關節 (acromioclavicular joint, AC joint) 的激發測試。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "病人坐姿，手臂屈曲 (flexion) 至 90 度。檢查者將手放在病人手臂外側，請病人向外推（抵抗水平內收 / 朝水平伸展方向用力），檢查者給予阻力。",
+    "positive_zh": "肩膀頂端、靠近肩鎖關節 (AC joint) 處出現疼痛。",
+    "notes_zh": "敏感度 72%、特異度 85%，不是可單獨診斷的測試，但作為肩鎖關節測試組合 (AC joint cluster) 的一部分相當有用。",
+    "tags": ["肩鎖關節 AC joint", "阻抗測試 resisted", "cluster"]
+  },
+  {
+    "slug": "ac-shear-test",
+    "title_zh": "肩鎖關節剪力測試 AC Shear Test",
+    "purpose_zh": "意圖單獨誘發肩鎖關節 (acromioclavicular joint, AC joint) 病變的壓迫激發測試。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "病人坐姿。檢查者雙手呈杯狀罩住肩膀，一手置於鎖骨 (clavicle)，另一手置於肩胛棘 (scapular spine)。接著將兩手掌根互相擠壓，使肩鎖關節 (AC joint) 產生剪力。",
+    "positive_zh": "肩鎖關節 (AC joint) 出現異常活動或疼痛。",
+    "notes_zh": "此測試僅有 Davies 1981 的描述，沒有任何效度 (validity) 研究資料，臨床價值存疑。",
+    "tags": ["肩鎖關節 AC joint", "剪力測試 shear", "無效度資料 no validity data"]
+  },
+  {
+    "slug": "ac-joint-cluster",
+    "title_zh": "肩鎖關節測試組合 AC Joint Cluster",
+    "purpose_zh": "由三項激發測試組成的組合 (cluster)，用於辨識肩鎖關節 (acromioclavicular joint, AC joint) 是否為肩痛來源。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "病人坐姿，依序進行三項測試。跨體內收測試 (cross body adduction test)：手臂屈曲 90 度後帶至最大水平內收。肩鎖關節阻抗伸展測試 (AC resisted extension test)：手臂屈曲 90 度，病人抵抗檢查者施加的水平內收力。O'Brien 測試 (O'Brien's active compression test)：手臂屈曲 90 度並水平內收 10 度，先在內旋 (internal rotation) 再在外旋 (external rotation) 下抵抗向下的壓力。",
+    "positive_zh": "三項全部陽性：前兩項在肩鎖關節 (AC joint) 區域出現疼痛，O'Brien 測試在內旋時疼痛、外旋時疼痛消失。",
+    "notes_zh": "三項全陽性時特異度高達 97%，但敏感度僅 25%，因此陰性組合無法排除肩鎖關節 (AC joint) 問題。典型病人為男性體力勞動者與健身族群。",
+    "tags": ["肩鎖關節 AC joint", "cluster", "高特異度 high specificity"]
+  },
+  {
+    "slug": "diagnosis-of-a-symptomatic-ac-joint",
+    "title_zh": "有症狀肩鎖關節的診斷組合 Diagnosis of a Symptomatic AC Joint",
+    "purpose_zh": "以兩組特殊測試組合 (clusters) 分別用於確診 (rule in) 與排除 (rule out) 有症狀的肩鎖關節 (acromioclavicular joint, AC joint)。",
+    "structure_zh": "肩鎖關節 (AC joint)",
+    "procedure_zh": "確診組合 (rule-in cluster)：先做 Paxinos 徵象 (Paxinos sign)，再做 O'Brien 主動壓迫測試 (O'Brien's active compression test)——手臂屈曲 90 度、內旋拇指朝下抵抗向下壓力，再改為掌心朝上重複。排除組合 (rule-out cluster)：Paxinos 徵象 (Paxinos sign) 加上 Hawkins-Kennedy 測試 (Hawkins-Kennedy test)——手臂屈曲 90 度、肘屈曲 90 度，檢查者固定肩胛骨 (scapula) 後被動內旋。",
+    "positive_zh": "Paxinos 與 O'Brien 皆陽性，提示肩鎖關節 (AC joint) 受累（特異度 95.8%）；Paxinos 與 Hawkins-Kennedy 皆陰性，則肩鎖關節病變不太可能（敏感度 93.7%）。",
+    "notes_zh": "兩組組合皆被評為中等價值 (moderate value)；準確度雖不算高（LR+ 2.71、LR- 0.35），但仍是目前最好的理學檢查，而較早的 Chronopoulos 組合在方法學上有缺陷。",
+    "tags": ["肩鎖關節 AC joint", "cluster", "rule in / rule out"]
+  },
+  {
+    "slug": "scapular-dyskinesis-test",
+    "title_zh": "肩胛骨動作障礙測試 Scapular Dyskinesis Test",
+    "purpose_zh": "一種標準化的觀察法，用於偵測肩胛骨動作障礙 (scapular dyskinesis)，可作為 Kibler 四型分類 (Kibler's four-type classification) 的替代方案。",
+    "structure_zh": "肩胛骨動作障礙 (scapular dyskinesis)，依 McClure 等人 2009 年的分類",
+    "procedure_zh": "病人手持啞鈴（體重低於約 68 公斤者用 1.4 公斤，否則用 2.3 公斤）。先做 5 次雙側肩屈曲 (bilateral shoulder flexion)，再做 5 次雙側額狀面外展 (frontal-plane abduction)，過程中手肘打直，上抬與下放各以 3 秒的節奏進行。檢查者從後方觀察兩側肩胛骨 (scapula) 是否出現翼狀突出 (winging) 及/或節律異常 (dysrhythmia)。",
+    "positive_zh": "動作中出現肩胛骨翼狀突出 (scapular winging) 及/或節律異常 (dysrhythmia)，分級為正常 (normal)、輕微 (subtle) 或明顯 (obvious) 的動作障礙。",
+    "notes_zh": "目前僅有信度 (reliability) 資料（kappa 0.48–0.61，中等至相當程度），沒有效度 (validity) 研究。其他替代方案包括 Kibler 四型分類 (Kibler's four-type classification) 與簡單的是/否判斷。",
+    "tags": ["肩胛骨動作障礙 scapular dyskinesis", "觀察 observation", "信度 reliability"]
+  },
+  {
+    "slug": "scapular-assistance-test",
+    "title_zh": "肩胛骨輔助測試 Scapular Assistance Test",
+    "purpose_zh": "一種症狀修飾測試 (symptom-modification test)，檢查以手輔助肩胛骨 (scapula) 動作是否能減輕病人的肩痛。",
+    "structure_zh": "肩胛骨動作障礙 (scapular dyskinesis) 情境下的肩胛穩定肌 (scapular stabilizers) 功能；並非診斷動作障礙本身的測試",
+    "procedure_zh": "病人站姿。檢查者一手固定鎖骨 (clavicle) 與肩胛棘 (scapular spine)，另一手握住肩胛骨下角 (inferior angle of scapula)。病人抬高手臂（例如空罐測試 (empty can) 的姿勢），同時檢查者協助肩胛骨做向上旋轉 (upward rotation) 與後傾 (posterior tilt)，並將疼痛反應與未輔助的抬臂動作比較。",
+    "positive_zh": "輔助下抬臂的疼痛比未輔助時減輕，提示肩胛穩定肌 (scapular stabilizers) 無力。",
+    "notes_zh": "僅有信度資料（評估者間 kappa：肩胛面 0.53、矢狀面 0.62）。陽性結果支持在治療計畫中加入肩胛穩定運動 (scapular stabilization exercises)。",
+    "tags": ["肩胛骨 scapula", "症狀修飾測試 symptom modification", "肩胛穩定肌 scapular stabilizers"]
+  },
+  {
+    "slug": "scapular-retraction-test",
+    "title_zh": "肩胛骨後縮測試 Scapular Retraction Test (SRT)",
+    "purpose_zh": "一種症狀修飾測試 (symptom-modification test)，檢查將肩胛骨 (scapula) 穩定於後縮 (retraction) 位置是否能減輕肩痛或增加肌力。",
+    "structure_zh": "有肩痛與肩胛骨動作障礙 (scapular dyskinesis) 病人的肩胛穩定肌 (scapular stabilizers) 無力",
+    "procedure_zh": "病人站姿或坐姿。檢查者一手固定鎖骨 (clavicle) 與肩胛棘 (scapular spine)，並以前臂將肩胛骨 (scapula) 壓向胸廓壁 (thoracic wall)，維持在後縮位置。接著在此穩定狀態下進行空罐測試 (empty can test)，並與未輔助的空罐測試比較。",
+    "positive_zh": "輔助下的空罐測試疼痛較少（或肌力較強），提示肩胛穩定肌 (scapular stabilizers) 無力。",
+    "notes_zh": "沒有診斷準確度資料（來源為 Kibler 等人 2006）。陽性結果支持加入肩胛穩定運動 (scapular stabilization exercises)；肩胛骨輔助測試 (scapular assistance test) 為其搭配使用的測試。",
+    "tags": ["肩胛骨 scapula", "症狀修飾測試 symptom modification", "空罐測試 empty can"]
+  },
+  {
+    "slug": "serratus-anterior-strength-test",
+    "title_zh": "前鋸肌肌力測試 Serratus Anterior Strength Test",
+    "purpose_zh": "徒手肌力測試前鋸肌 (serratus anterior)，此肌為肩胛骨 (scapula) 前突 (protraction)、向上旋轉 (upward rotation) 與穩定的重要肌肉。",
+    "structure_zh": "前鋸肌 (serratus anterior)，由長胸神經 (long thoracic nerve) 支配；無力時產生肩胛骨翼狀突出 (scapular winging)",
+    "procedure_zh": "病人站姿，手臂屈曲 (flexion) 90 度、手肘伸直。檢查者將手臂向後推，病人抵抗，同時觀察肩胛骨內緣 (medial border of scapula)。另可改用靠牆伏地挺身 (wall push-up) 或地板伏地挺身 (floor push-up) 來施加負荷。",
+    "positive_zh": "抵抗阻力時出現肩胛骨內緣翼狀突出 (medial scapular winging)，表示前鋸肌 (serratus anterior) 無力。",
+    "notes_zh": "沒有診斷準確度資料（來源為 Magee 2014）。前鋸肌 (serratus anterior) 是主要的肩胛穩定肌，常常訓練不足。",
+    "tags": ["前鋸肌 serratus anterior", "肌力測試 strength test", "翼狀肩胛 scapular winging"]
+  },
+  {
+    "slug": "trapezius-strength-test",
+    "title_zh": "斜方肌肌力測試（上、中、下三部分）Trapezius Strength Test (All 3 Parts)",
+    "purpose_zh": "徒手肌力測試斜方肌 (trapezius) 整體以及上、中、下三個部分。",
+    "structure_zh": "上斜方肌 (upper/descending trapezius)、中斜方肌 (middle/transverse trapezius)、下斜方肌 (lower/ascending trapezius)；未指定特定病變",
+    "procedure_zh": "整體：病人坐姿，雙手舉過頭約 120 度外展，病人將手肘向前推，檢查者觀察肩胛骨 (scapula) 的穩定度。上斜方肌 (upper trapezius)：手臂略外展下做聳肩 (shoulder shrug)，或在同側頭部側彎 (ipsilateral side-bending) 下做阻抗外展。中斜方肌 (middle trapezius)：俯臥，手臂外展 90 度並外旋，抵抗水平伸展 (horizontal extension)。下斜方肌 (lower trapezius)：俯臥，手臂外展約 120 度並外旋，抵抗斜向伸展 (diagonal extension)。",
+    "positive_zh": "中斜方肌：無法做肩胛骨後縮 (scapular retraction)。下斜方肌：抵抗時出現肩胛骨前突 (scapular protraction)。各自代表該部分無力。",
+    "notes_zh": "沒有診斷準確度資料（來源為 Ekstrom 等人 2003 的肌電圖研究）。測試上斜方肌 (upper trapezius) 時讓手臂略外展，可減少菱形肌 (rhomboids) 與提肩胛肌 (levator scapulae) 的參與。",
+    "tags": ["斜方肌 trapezius", "肌力測試 strength test", "肩胛穩定肌 scapular stabilizers"]
+  },
+  {
+    "slug": "rhomboid-strength-test",
+    "title_zh": "菱形肌肌力測試 Rhomboid Strength Test",
+    "purpose_zh": "徒手肌力測試作為肩胛骨後縮肌 (scapular retractors) 的大菱形肌 (rhomboid major) 與小菱形肌 (rhomboid minor)。",
+    "structure_zh": "大、小菱形肌 (rhomboid major and minor)，由肩胛背神經 (dorsal scapular nerve) 支配；未指定特定病變",
+    "procedure_zh": "病人俯臥，受測手臂放在背後，手置於對側後口袋的高度。檢查者將食指沿肩胛骨內緣 (medial scapular border) 滑入其下方，同時請病人輕輕將肩膀向前推以放鬆斜方肌 (trapezius)。接著病人將前臂與手抬離背部，檢查者給予阻力。",
+    "positive_zh": "正常時檢查者的手指會被肩胛骨 (scapula) 下方推出；若無法推出，表示菱形肌 (rhomboids) 無力。",
+    "notes_zh": "沒有診斷準確度資料（來源為 Magee 2014）。測試前必須先放鬆斜方肌 (trapezius)，才能單獨評估菱形肌 (rhomboids)。",
+    "tags": ["菱形肌 rhomboids", "肌力測試 strength test", "肩胛骨後縮 scapular retraction"]
+  },
+  {
+    "slug": "latissimus-dorsi-strength-test",
+    "title_zh": "闊背肌肌力測試 Latissimus Dorsi Strength Test",
+    "purpose_zh": "徒手肌力測試作為肱骨 (humerus) 伸展肌、內收肌與內旋肌的闊背肌 (latissimus dorsi)。",
+    "structure_zh": "闊背肌 (latissimus dorsi)，由胸背神經 (thoracodorsal nerve) 支配；未指定特定病變",
+    "procedure_zh": "病人將手臂在肩胛面 (scapular plane) 抬至約 90 度。檢查者觸診闊背肌 (latissimus dorsi) 肌腹，接著在病人做手臂伸展 (extension) 與內旋 (internal rotation) 時給予阻力。",
+    "positive_zh": "來源未明確定義；一般以與對側相比，抵抗阻力時出現無力或疼痛來判讀。",
+    "notes_zh": "沒有診斷準確度資料（來源為 Magee 2014），原頁面內容簡短。通常與斜方肌 (trapezius)、菱形肌 (rhomboids) 及前鋸肌 (serratus anterior) 肌力測試一併進行。",
+    "tags": ["闊背肌 latissimus dorsi", "肌力測試 strength test"]
+  },
+  {
+    "slug": "adson-test",
+    "title_zh": "Adson 測試 Adson Test",
+    "purpose_zh": "藉由縮窄斜角肌三角 (interscalene triangle) 來篩檢胸廓出口症候群 (thoracic outlet syndrome, TOS)。",
+    "structure_zh": "斜角肌三角 (interscalene triangle)：前斜角肌 (anterior scalene)、中斜角肌 (middle scalene) 與第一肋骨 (first rib) 之間；壓迫臂神經叢 (brachial plexus) 及/或鎖骨下血管 (subclavian vessels)",
+    "procedure_zh": "病人坐直，雙臂有支撐。請病人將頭轉向並後仰至受測側，深吸一口氣並閉氣最長 30 秒，檢查者同時觸診橈動脈 (radial artery) 脈搏。另一變化版本是將肩膀置於 15 度外展，頭部維持受測姿勢，正常呼吸 1 分鐘。",
+    "positive_zh": "橈動脈 (radial artery) 脈搏消失，或重現病人熟悉的症狀。",
+    "notes_zh": "敏感度 79%、特異度 76%，準確度僅屬中等，且參考研究 (Gillard 2001) 未以 MRI 作為黃金標準，因此臨床價值薄弱。",
+    "tags": ["TOS", "斜角肌三角 interscalene triangle", "橈動脈脈搏 radial pulse"]
+  },
+  {
+    "slug": "costoclavicular-maneuver",
+    "title_zh": "肋鎖操作測試 Costoclavicular Maneuver",
+    "purpose_zh": "對肋鎖間隙 (costoclavicular space) 施加壓力，找出誘發或緩解胸廓出口症候群 (thoracic outlet syndrome, TOS) 症狀的姿勢。",
+    "structure_zh": "肋鎖間隙 (costoclavicular space)；鎖骨下動脈 (subclavian artery)、鎖骨下靜脈 (subclavian vein) 或臂神經叢 (brachial plexus) 受壓，例如被鎖骨下肌 (subclavius) 或肋喙韌帶 (costocoracoid ligament) 壓迫",
+    "procedure_zh": "病人坐姿，前臂放在大腿上。檢查者依序將肩帶 (shoulder girdle) 帶入後縮 (retraction)、下壓 (depression)、上提 (elevation) 與前突 (protraction)，每個姿勢維持最長 30 秒，同時監測橈動脈 (radial artery) 脈搏與症狀。變化版本包括手臂置於體側維持 1 分鐘，或採用軍姿 (military brace position)。",
+    "positive_zh": "沒有嚴格判定標準；檢查者記錄哪些姿勢會重現症狀或改變脈搏，其中軍姿 (military brace position) 最可能使脈搏消失。",
+    "notes_zh": "沒有診斷準確度研究，臨床價值存疑；主要用途是找出誘發與緩解症狀的姿勢，以引導治療方向。",
+    "tags": ["TOS", "肋鎖間隙 costoclavicular space", "姿勢測試 positional test"]
+  },
+  {
+    "slug": "eden-test",
+    "title_zh": "Eden 測試（軍姿測試）Eden Test (Military Brace Test)",
+    "purpose_zh": "藉由壓迫肋鎖間隙 (costoclavicular space) 內的神經血管束 (neurovascular bundle) 來篩檢胸廓出口症候群 (thoracic outlet syndrome, TOS)。",
+    "structure_zh": "肋鎖間隙 (costoclavicular space)；臂神經叢 (brachial plexus) 及/或鎖骨下血管 (subclavian vessels)（肋鎖症候群 costoclavicular syndrome）",
+    "procedure_zh": "病人坐直，採軍姿 (military posture)：挺胸、雙肩向後向下拉。檢查者將肩膀（單側或雙側）帶入伸展 (extension)，同時觸診橈動脈 (radial artery) 脈搏最長 1 分鐘。部分作者會加上深吸氣閉氣，以進一步縮窄間隙。",
+    "positive_zh": "橈動脈 (radial artery) 脈搏減弱或消失，或重現病人熟悉的症狀。",
+    "notes_zh": "沒有診斷準確度研究（來源為 Watson 等人 2009），臨床價值存疑；加上閉氣可能同時縮窄其他出口間隙而造成偽陽性 (false positive)。",
+    "tags": ["TOS", "肋鎖間隙 costoclavicular space", "軍姿 military brace"]
+  },
+  {
+    "slug": "cyriax-release-test",
+    "title_zh": "Cyriax 釋放測試 Cyriax Release Test",
+    "purpose_zh": "針對胸廓出口症候群 (thoracic outlet syndrome, TOS) 的症狀釋放測試，藉由被動上提肩帶 (shoulder girdle) 來減輕臂神經叢 (brachial plexus) 神經血管束的負荷。",
+    "structure_zh": "斜角肌三角 (interscalene triangle)、肋鎖間隙 (costoclavicular space) 或胸小肌後間隙 (retropectoralis minor space) 內的臂神經叢 (brachial plexus) 及/或鎖骨下血管 (subclavian vessels) 受壓",
+    "procedure_zh": "病人坐姿，檢查者站在後方，從前臂下方托住病人，手肘約 80–90 度，前臂、手腕與手保持中立位。檢查者讓病人軀幹向後靠約 15 度，並被動將雙側肩帶 (shoulder girdle) 上提至接近末端範圍，維持最長 3 分鐘。",
+    "positive_zh": "出現釋放現象 (release phenomenon)——壓迫解除時產生感覺異常 (paresthesia)、麻木 (numbness) 或疼痛——或重現病人熟悉的症狀。",
+    "notes_zh": "特異度 1 分鐘 97.4%、3 分鐘 87.8%（Brismee 2004，無症狀族群），但缺乏敏感度資料，臨床價值不確定。釋放症狀以感覺異常 (paresthesia) 最常見，其次為麻木，再其次為疼痛。",
+    "tags": ["TOS", "釋放測試 release test", "臂神經叢 brachial plexus"]
+  },
+  {
+    "slug": "tinel-sign-tos",
+    "title_zh": "胸廓出口症候群 Tinel 徵象 Tinel Sign for TOS",
+    "purpose_zh": "以叩擊臂神經叢 (brachial plexus) 來篩檢胸廓出口症候群 (thoracic outlet syndrome, TOS) 中的臂神經叢刺激。",
+    "structure_zh": "斜角肌三角 (interscalene triangle)、肋鎖間隙 (costoclavicular space) 或胸小肌後間隙 (retropectoralis minor space) 內的臂神經叢 (brachial plexus)（及鎖骨下血管 subclavian vessels）",
+    "procedure_zh": "病人坐直，雙臂放鬆垂於體側。檢查者以反射鎚 (reflex hammer) 或以食指與中指叩擊鎖骨上窩 (supraclavicular fossa)。",
+    "positive_zh": "局部壓痛，或重現病人熟悉的症狀。",
+    "notes_zh": "敏感度 46%、特異度 56%，準確度非常低，臨床價值有限；在胸廓出口症候群 (TOS) 與頸神經根病變 (cervical radiculopathy) 都可能呈陽性，無法區分兩者。",
+    "tags": ["TOS", "Tinel 徵象 Tinel sign", "臂神經叢 brachial plexus"]
+  },
+  {
+    "slug": "best-shoulder-pain-relief-exercises",
+    "title_zh": "最佳肩痛緩解運動：旋轉肌袖肌腱病變 Best Shoulder Pain Relief Exercises | Rotator Cuff Tendinopathy",
+    "purpose_zh": "介紹等長收縮運動 (isometric exercises)，用於減輕旋轉肌袖肌腱病變 (rotator cuff tendinopathy) 的疼痛並讓肌腱能早期承受負荷。",
+    "structure_zh": "旋轉肌袖肌腱 (rotator cuff tendons)：棘上肌 (supraspinatus)、棘下肌 (infraspinatus)／小圓肌 (teres minor)、肩胛下肌 (subscapularis)",
+    "procedure_zh": "棘上肌 (supraspinatus)：在肩胛面 (scapular plane，約額狀面前方 30 度) 以手背推牆。棘下肌／小圓肌 (infraspinatus/teres minor)：手肘屈曲 90 度，以手背向外推牆或推另一隻手（外旋 external rotation）。肩胛下肌 (subscapularis)：手放在腹部做腹部按壓 (belly press)。每次以強力強度維持 15–30 秒，重複 3–5 次，每天數回。",
+    "positive_zh": "不適用（運動頁面）；運動中疼痛應維持在 4–5/10 以下。",
+    "notes_zh": "先以滿罐測試 (full can test)、外旋落後徵象 (external rotation lag sign) 與離背測試 (lift-off test) 確認受累的肌腱，再選擇對應的運動。等長收縮止痛的依據來自 Koltyn 2001 與 Hoeger Bement 2008（約 80% MVC 的持續收縮止痛效果最佳）。",
+    "tags": ["旋轉肌袖 rotator cuff", "等長收縮 isometric", "肌腱病變 tendinopathy", "運動 exercise"]
+  },
+  {
+    "slug": "scapula-strengthening-exercises",
+    "title_zh": "肩胛骨肌力訓練運動：早期肩部復健 Scapula Strengthening Exercises | Early Shoulder Rehab",
+    "purpose_zh": "介紹四種低負荷肩胛骨運動，適用於術後早期或急性期的肩部復健，以建立肩胛胸廓 (scapulothoracic) 肌群的整體活化與肌力。",
+    "structure_zh": "肩胛胸廓穩定肌 (scapulothoracic stabilizers)，主要為上斜方肌 (upper trapezius)、下斜方肌 (lower trapezius) 與前鋸肌 (serratus anterior)",
+    "procedure_zh": "下滑 (inferior glide)：坐姿，手臂外展 90 度，拳頭壓在平面上，同時做肩胛骨內收與下壓 (adduction and depression)，維持 5 秒。低划船 (low row)：站姿，手掌向後推治療床邊緣，並做肩胛骨後縮與下壓 (retraction and depression)，維持 5 秒。割草機 (lawnmower)：軀幹朝訓練側旋轉並伸展，同時做肩胛骨後縮，手肘朝後口袋方向帶。搶劫動作 (robbery)：軀幹前彎 40–50 度，接著軀幹與手臂伸展、手肘屈曲，將兩側肩胛骨 (scapulae) 朝後口袋方向夾緊，維持 5 秒。",
+    "positive_zh": "不適用（運動頁面）。注意觀察肩胛骨是否確實後縮與下壓，再逐步進階到較具功能性的姿勢。",
+    "notes_zh": "肌電圖資料 (Kibler 2008) 顯示下滑 (inferior glide) 有高度前鋸肌 (serratus anterior) 與下斜方肌 (lower trapezius) 活性，割草機與搶劫動作則有平衡的上／下斜方肌與前鋸肌活性。改變個人的肩胛動作模式不太可能，因此重點放在肌力與整體活化而非動作控制；這些運動用來取代早期過於吃力的功能性姿勢。",
+    "tags": ["肩胛骨 scapula", "肌力訓練 strengthening", "早期復健 early rehab", "運動 exercise"]
+  },
+  {
+    "slug": "best-scapular-dyskinesis-exercise",
+    "title_zh": "最佳肩胛骨動作障礙運動 Best Scapular Dyskinesis Exercise",
+    "purpose_zh": "介紹作者偏好用於肩胛骨動作障礙 (scapular dyskinesis) 的運動——俯臥 Y 字上抬 (prone Y-lift)。",
+    "structure_zh": "與肩峰下疼痛 (subacromial pain) 相關的肩胛骨動作障礙 (scapular dyskinesis)；目標為上斜方肌 (upper trapezius)、下斜方肌 (lower trapezius)、棘上肌 (supraspinatus) 與胸椎伸展 (thoracic extension)",
+    "procedure_zh": "病人俯臥於治療床上，手臂垂於床緣外。將手臂向上、向外抬至頭頂約 120 度的位置，拇指朝上以促進外旋 (external rotation)，再以受控的離心收縮 (eccentric phase) 緩慢放下。也可俯臥在抗力球 (Swiss ball) 上雙側同時進行。",
+    "positive_zh": "不適用（運動頁面）。注意拇指朝上與放下時的離心控制；可由單側進階至抗力球上的雙側版本。",
+    "notes_zh": "應先以肩胛肱骨節律 (scapulohumeral rhythm) 觀察、肩胛骨輔助測試 (scapular assistance test) 或肩胛骨後縮測試 (scapular retraction test) 評估動作障礙；若這些測試可使疼痛減輕，提示病人會從肩胛骨運動中獲益。頁面引用 Ekstrom 2003 與 Reinold 2007，指出約 120 度上抬時棘上肌 (supraspinatus) 活化最強。",
+    "tags": ["肩胛骨動作障礙 scapular dyskinesis", "俯臥 Y 字上抬 prone Y-lift", "運動 exercise"]
+  }
+]

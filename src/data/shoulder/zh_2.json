@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "apprehension-test",
+    "title_zh": "恐懼測試 Apprehension Test",
+    "purpose_zh": "藉由在末端外轉 (end-range external rotation) 時誘發病人對肩關節半脫位 (subluxation) 的恐懼感，篩檢前向盂肱關節不穩定 (anterior glenohumeral instability)。",
+    "structure_zh": "前向盂肱關節不穩定 (anterior glenohumeral instability)；前側關節囊盂唇複合體 (anterior capsulolabral complex)",
+    "procedure_zh": "病人仰臥，受測肩位於床緣，肩外展 (abduction) 90 度。檢查者緩慢增加外轉 (external rotation)，同時請病人回報是否出現恐懼感或即將脫臼的感覺。",
+    "positive_zh": "隨外轉角度增加，病人表示害怕肩關節脫臼 (apprehension)；僅有疼痛不算陽性。",
+    "notes_zh": "特異度高 (95.4%)，適合用來確認 (rule in) 前向不穩定；加入水平外展 (horizontal abduction) 可讓肱骨頭 (humeral head) 更有效向前滑動。通常接著做復位測試 (Relocation Test) 與釋放測試 (Release Test)。",
+    "tags": ["前向不穩定 anterior instability", "恐懼 apprehension", "cluster"]
+  },
+  {
+    "slug": "relocation-test",
+    "title_zh": "復位測試 Relocation Test",
+    "purpose_zh": "恐懼測試 (Apprehension Test) 陽性後的接續測試，檢查向後方施力是否能緩解病人的恐懼感，以支持前向不穩定 (anterior instability) 的診斷。",
+    "structure_zh": "前向盂肱關節不穩定 (anterior glenohumeral instability)",
+    "procedure_zh": "病人仰臥，手臂維持在 90 度外展 (abduction) 與剛才誘發恐懼感的外轉 (external rotation) 角度。檢查者對肱骨頭 (humeral head) 施加由前向後 (anterior-to-posterior) 的力量，並詢問病人即將脫臼的感覺是否改變。",
+    "positive_zh": "施加向後壓力後，病人的恐懼感減輕或消失。",
+    "notes_zh": "單獨使用價值中等，但與恐懼測試 (Apprehension Test) 組成群集 (cluster) 時效力很強。若只是疼痛減輕而非恐懼感減輕，不視為真正的陽性。",
+    "tags": ["前向不穩定 anterior instability", "復位 relocation", "cluster"]
+  },
+  {
+    "slug": "shoulder-relocation-test",
+    "title_zh": "肩關節復位測試 Shoulder Relocation Test",
+    "purpose_zh": "藉由將肱骨頭 (humeral head) 向後穩定，檢查是否能緩解恐懼測試 (Apprehension Test) 所引發的恐懼感，以確認前向肩關節不穩定 (anterior shoulder instability)。",
+    "structure_zh": "前向盂肱關節不穩定 (anterior glenohumeral instability)",
+    "procedure_zh": "緊接在恐懼測試 (Apprehension Test) 陽性之後進行。肩關節維持約 90 度外展 (abduction) 及出現恐懼感時的最大外轉 (external rotation) 角度，檢查者對肱骨頭 (humeral head) 施加由前向後的壓力。",
+    "positive_zh": "向後方施壓後，病人對脫臼的恐懼感減輕。",
+    "notes_zh": "此為復位測試 (Relocation Test) 的舊版重複條目，僅影片不同；用於確認前向不穩定的價值評為中等。",
+    "tags": ["前向不穩定 anterior instability", "復位 relocation"]
+  },
+  {
+    "slug": "release-test",
+    "title_zh": "釋放測試 Release Test",
+    "purpose_zh": "恐懼測試序列的第三步（又稱驚嚇測試 Surprise Test），檢查突然放開復位壓力時恐懼感是否重新出現。",
+    "structure_zh": "前向盂肱關節不穩定 (anterior glenohumeral instability)",
+    "procedure_zh": "在復位測試 (Relocation Test) 已使病人恐懼感減輕之後，檢查者放開施加於肱骨頭 (humeral head) 的由前向後壓力，過程中不再將手臂推往更大的外轉 (external rotation) 或水平外展 (horizontal abduction)。",
+    "positive_zh": "壓力一放開，病人對脫臼的恐懼感立即重新出現。",
+    "notes_zh": "單獨使用價值評為中等；釋放時切勿再把手臂推向更末端的角度，以免真的引發脫臼。",
+    "tags": ["前向不穩定 anterior instability", "驚嚇測試 surprise test", "cluster"]
+  },
+  {
+    "slug": "anterior-shoulder-instability-cluster",
+    "title_zh": "前向肩關節不穩定測試群集 Anterior Shoulder Instability Cluster",
+    "purpose_zh": "將恐懼測試 (Apprehension Test) 與復位測試 (Relocation Test) 組合成群集，以比單一測試更高的準確度診斷前向盂肱關節不穩定 (anterior glenohumeral instability)。",
+    "structure_zh": "前向盂肱關節不穩定 (anterior glenohumeral instability)",
+    "procedure_zh": "病人仰臥，肩關節 90 度外展 (abduction) 並靠近床緣。檢查者緩慢將手臂外轉 (external rotation)，病人回報恐懼感；一旦出現恐懼感，檢查者在同一姿勢下對肱骨頭 (humeral head) 施加由前向後的壓力，觀察恐懼感是否緩解。",
+    "positive_zh": "外轉增加時出現恐懼感，且向後方施壓後恐懼感緩解（兩個成分皆為陽性）。",
+    "notes_zh": "群集的特異度極高 (98%)，是臨床上確認前向不穩定的建議方式；判定標準是恐懼感而非疼痛。",
+    "tags": ["前向不穩定 anterior instability", "cluster", "恐懼 apprehension"]
+  },
+  {
+    "slug": "sulcus-sign",
+    "title_zh": "溝槽徵象 Sulcus Sign",
+    "purpose_zh": "評估下方盂肱關節鬆弛 (inferior glenohumeral laxity) 或下向不穩定 (inferior instability)。",
+    "structure_zh": "下方盂肱關節囊 (inferior glenohumeral capsule)；下向不穩定／多方向鬆弛 (multidirectional laxity)",
+    "procedure_zh": "病人坐姿或站姿，手臂放鬆垂於身側。檢查者握住手肘下方的前臂，沿肱骨 (humerus) 長軸向遠端牽拉。",
+    "positive_zh": "肩峰 (acromion) 下方出現可見的凹陷，或病人表示有半脫位 (subluxation) 的感覺。",
+    "notes_zh": "雙側皆有溝槽徵象的意義遠低於僅症狀側單側出現；目前沒有診斷準確度資料，評估者間信度僅為中等 (kappa 0.48)。",
+    "tags": ["下向不穩定 inferior instability", "多方向不穩定 MDI", "鬆弛 laxity"]
+  },
+  {
+    "slug": "load-and-shift-test",
+    "title_zh": "負荷位移測試 Load and Shift Test",
+    "purpose_zh": "分級評估肱骨頭 (humeral head) 的前向與後向位移量，以評估盂肱關節鬆弛 (laxity) 或不穩定 (instability)。",
+    "structure_zh": "盂肱關節前向與後向穩定度 (anterior and posterior glenohumeral stability)",
+    "procedure_zh": "病人端坐，手臂放鬆置於大腿上。檢查者一手固定鎖骨 (clavicle) 與肩胛骨 (scapula)，另一手握住肱骨頭 (humeral head)，先將其壓入關節盂 (glenoid) 中央（load），再分別向前、向後推移（shift）。",
+    "positive_zh": "重現症狀，且位移量明顯大於健側；正常約為肱骨頭直徑的 25%（前向）與 50%（後向），第 1 到 3 級依序增加，第 3 級為無法自行復位的半脫位 (subluxation)。",
+    "notes_zh": "前向鬆弛常合併後側關節囊 (posterior capsule) 緊縮，反之亦然；敏感度低 (37.5%)，陰性結果無法排除不穩定。",
+    "tags": ["不穩定 instability", "鬆弛 laxity", "位移分級 translation grading"]
+  },
+  {
+    "slug": "jerk-test",
+    "title_zh": "急推測試 Jerk Test",
+    "purpose_zh": "誘發性測試，用於檢測後下盂唇撕裂 (posteroinferior labral tear) 與後下向盂肱關節不穩定 (posteroinferior glenohumeral instability)。",
+    "structure_zh": "後下盂唇 (posteroinferior glenoid labrum)；後向不穩定 (posterior instability)",
+    "procedure_zh": "病人坐姿，檢查者站在身後，一手固定肩胛骨 (scapula)。手臂置於 90 度外展 (abduction) 並內轉 (internal rotation)，經手肘沿肱骨 (humerus) 施加軸向負荷，再將手臂帶入水平內收 (horizontal adduction)。",
+    "positive_zh": "肱骨頭 (humeral head) 半脫位再復位時，出現突發的後側肩痛並伴隨喀噠聲 (click/clunk)。",
+    "notes_zh": "急推測試若引發疼痛，可預測保守治療失敗；對後下盂唇病灶的評價為「確認 (rule in) 中等、排除 (rule out) 良好」。",
+    "tags": ["後向不穩定 posterior instability", "後下盂唇 posteroinferior labrum", "誘發測試 provocation"]
+  },
+  {
+    "slug": "kims-test",
+    "title_zh": "Kim 氏測試 Kim's Test",
+    "purpose_zh": "評估造成後下向肩關節不穩定 (posteroinferior shoulder instability) 的後下盂唇撕裂 (posteroinferior labral tear)。",
+    "structure_zh": "後下盂唇 (posteroinferior glenoid labrum)",
+    "procedure_zh": "病人坐姿，檢查者站在身後固定肩胛骨 (scapula)。手臂置於 90 度外展 (abduction) 與內轉 (internal rotation)，經手肘施加軸向壓迫力，再將手臂帶入水平內收 (horizontal adduction)，同時把肱骨頭 (humeral head) 向後下方推。",
+    "positive_zh": "出現突發的後側肩痛，可伴隨或不伴隨喀噠聲 (click)。",
+    "notes_zh": "準確度數據 (敏感度 80%、特異度 94%) 來自測試發明者本身，尚未經獨立驗證，故臨床價值評為中等；若測試引發疼痛，亦可預測保守治療失敗。",
+    "tags": ["後向不穩定 posterior instability", "後下盂唇 posteroinferior labrum", "未獨立驗證 unvalidated"]
+  },
+  {
+    "slug": "porcellini-test",
+    "title_zh": "Porcellini 測試 Porcellini Test",
+    "purpose_zh": "分兩階段的阻抗上舉測試，用於檢測造成後向不穩定 (posterior instability) 的後下盂唇撕裂 (posteroinferior labral tear)。",
+    "structure_zh": "後下盂唇 (posteroinferior glenoid labrum)；後下向不穩定 (posteroinferior instability)",
+    "procedure_zh": "病人坐姿或站姿，肩關節屈曲 (flexion) 90 度、內收 (adduction) 10-15 度並最大內轉 (internal rotation，拇指朝下)；檢查者站在身後固定肩胛骨 (scapula)，並對上舉動作給予阻力。第二階段重複相同動作，但檢查者將拇指置於後側關節線 (posterior joint line)，把肱骨頭 (humeral head) 向前推，以阻擋後向半脫位。",
+    "positive_zh": "第一階段出現疼痛或無力，第二階段減輕或消失；若第二階段疼痛持續，則指向肩鎖關節 (acromioclavicular joint) 病變。",
+    "notes_zh": "原始研究中表現優於急推測試 (Jerk Test)、Kim 氏測試 (Kim's Test) 與負荷位移測試 (Load and Shift Test)，且檢查者間信度高；但數據 (敏感度 100%、特異度 99%) 僅來自單一未經驗證的研究，故價值評為中等。",
+    "tags": ["後向不穩定 posterior instability", "後下盂唇 posteroinferior labrum", "單一研究 single study"]
+  },
+  {
+    "slug": "miniaci-test",
+    "title_zh": "Miniaci 測試 Miniaci Test",
+    "purpose_zh": "針對後下盂唇撕裂 (posteroinferior labral tear) 與後向肩關節不穩定 (posterior shoulder instability) 的「誘發再復位」操作。",
+    "structure_zh": "後下盂唇 (posteroinferior glenoid labrum)；後下向不穩定 (posteroinferior instability)",
+    "procedure_zh": "病人坐姿。肩關節置於內收 (adduction)、70-90 度屈曲 (flexion) 與內轉 (internal rotation)，同時沿肱骨 (humerus) 施加向後的力量；檢查者另一手觸診前、後側關節線。接著將手臂帶入水平外展 (horizontal abduction) 與外轉 (external rotation)。",
+    "positive_zh": "向後半脫位的肱骨頭 (humeral head) 復位回關節盂 (glenoid) 時產生喀噠聲 (clunk)。",
+    "notes_zh": "此測試從未被研究過，沒有任何信度或準確度資料，臨床使用價值存疑；Porcellini 測試 (Porcellini Test)、急推測試 (Jerk Test) 與 Kim 氏測試 (Kim's Test) 是有實證依據的替代選擇。",
+    "tags": ["後向不穩定 posterior instability", "後下盂唇 posteroinferior labrum", "無實證 no evidence"]
+  },
+  {
+    "slug": "obrien-test",
+    "title_zh": "O'Brien 測試 O'Brien Test",
+    "purpose_zh": "主動壓迫測試 (active compression test)，目的在檢測 SLAP 病灶 (SLAP lesion) 與肩鎖關節 (acromioclavicular joint) 病變。",
+    "structure_zh": "上盂唇 (superior labrum / SLAP lesion)；肩鎖關節 (acromioclavicular joint)",
+    "procedure_zh": "病人肩關節屈曲 (flexion) 90 度、內收 (adduction) 約 10 度並完全內轉 (internal rotation，拇指朝下)；檢查者向下壓手臂，病人抵抗。接著在肩關節完全外轉 (external rotation，掌心朝上) 的姿勢下重複。",
+    "positive_zh": "拇指朝下時疼痛，掌心朝上時疼痛減輕或消失；深層疼痛指向盂唇 (labrum)，表淺疼痛指向肩鎖關節 (AC joint)。",
+    "notes_zh": "對 SLAP 與肩鎖關節兩種適應症的臨床價值皆弱 (SLAP 敏感度 67%、特異度 37%)；肌電圖研究 (Green 2008) 發現掌心朝上時肱二頭肌 (biceps) 活動反而較多，與測試原理相矛盾。可考慮改用肱二頭肌負荷 II 測試 (Biceps Load II Test) 或 Yergason 測試 (Yergason's Test)。",
+    "tags": ["SLAP", "肩鎖關節 AC joint", "主動壓迫 active compression", "價值弱 weak"]
+  },
+  {
+    "slug": "crank-test",
+    "title_zh": "曲柄測試 Crank Test",
+    "purpose_zh": "壓迫加旋轉的操作，用於檢測 SLAP 病灶 (SLAP lesion) 與近端肱二頭肌 (proximal biceps) 病變。",
+    "structure_zh": "上盂唇 (superior labrum / SLAP lesion)；肱二頭肌長頭近端 (proximal long head of biceps)",
+    "procedure_zh": "病人坐姿或仰臥，肩關節在肩胛骨平面 (scapular plane) 上舉約 160 度，手肘屈曲 90 度。檢查者沿肱骨 (humerus) 施加軸向負荷，並反覆將肩關節內轉 (internal rotation) 與外轉 (external rotation)，以夾住盂唇 (labrum)。",
+    "positive_zh": "關節內出現喀噠聲 (clicking)，可伴隨或不伴隨疼痛或恐懼感。",
+    "notes_zh": "對 SLAP 撕裂的臨床價值弱 (敏感度 46%、特異度 72%)；應與其他檢查結果合併判讀。",
+    "tags": ["SLAP", "壓迫旋轉 compression-rotation", "價值弱 weak"]
+  },
+  {
+    "slug": "biceps-load-i-test",
+    "title_zh": "肱二頭肌負荷 I 測試 Biceps Load I Test",
+    "purpose_zh": "在有前向不穩定 (anterior instability) 的病人身上，測試負荷肱二頭肌 (biceps) 是否改變恐懼感，作為 SLAP 病灶 (SLAP lesion) 的徵象。",
+    "structure_zh": "上盂唇與肱二頭肌附著點 (superior labrum and biceps anchor / SLAP lesion)",
+    "procedure_zh": "病人仰臥，手臂外展 (abduction) 90 度，前臂旋後 (supination)，手肘屈曲 90 度。檢查者先執行恐懼測試 (Apprehension Test) 的操作，在出現恐懼感的角度停住，然後在不改變肩關節姿勢下，請病人抵抗阻力屈曲手肘。",
+    "positive_zh": "抵抗屈肘時恐懼感不變，或肩部疼痛加劇；若恐懼感減輕則為陰性。",
+    "notes_zh": "臨床價值弱 (敏感度 11.9%、特異度 87.5%)，概似比接近 1，既無法確認也無法排除 SLAP 撕裂；MR 關節攝影 (MR arthrography) 仍是較佳的診斷方式 (Symanski 2017)。",
+    "tags": ["SLAP", "肱二頭肌負荷 biceps load", "前向不穩定 anterior instability", "價值弱 weak"]
+  },
+  {
+    "slug": "biceps-load-ii-test",
+    "title_zh": "肱二頭肌負荷 II 測試 Biceps Load II Test",
+    "purpose_zh": "在高角度外展下阻抗肱二頭肌 (biceps) 負荷，用於檢測上盂唇撕裂 (SLAP lesion)。",
+    "structure_zh": "上盂唇與肱二頭肌長頭附著點 (superior labrum and long head of biceps anchor / SLAP lesion)",
+    "procedure_zh": "病人仰臥，肩關節外展 (abduction) 120 度並外轉 (external rotation)，前臂旋後 (supination)，手肘屈曲 90 度。病人抵抗檢查者的阻力屈曲手肘。",
+    "positive_zh": "抵抗屈肘時重現疼痛。",
+    "notes_zh": "雖然廣受使用，但綜合準確度有限（敏感度 28-67%、特異度 51-78%，依研究而異），臨床價值評為弱；單獨陽性所能增加的診斷確定性不多。",
+    "tags": ["SLAP", "肱二頭肌負荷 biceps load", "價值弱 weak"]
+  },
+  {
+    "slug": "passive-compression-test",
+    "title_zh": "被動壓迫測試 Passive Compression Test",
+    "purpose_zh": "將上盂唇 (superior labrum) 壓迫至關節盂 (glenoid) 上，以檢測 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "上盂唇 (superior labrum / SLAP lesion)",
+    "procedure_zh": "病人以健側側臥，檢查者站在身後。一手固定肩鎖關節 (AC joint)，另一手握住手肘；在約 30 度外展 (abduction) 下將手臂外轉 (external rotation)，再向近端推壓並同時伸展 (extension) 肩關節，使盂唇 (labrum) 被壓迫於關節盂上。",
+    "positive_zh": "盂肱關節 (glenohumeral joint) 內出現疼痛或疼痛性喀噠聲 (painful click)。",
+    "notes_zh": "數據 (敏感度 82%、特異度 86%) 看來不錯，但僅來自單一研究且未經獨立驗證，故臨床價值評為中等。側臥時可用鏡子觀察病人的反應。",
+    "tags": ["SLAP", "側臥 side-lying", "單一研究 single study"]
+  },
+  {
+    "slug": "labral-tension-test",
+    "title_zh": "盂唇張力測試 Labral Tension Test",
+    "purpose_zh": "在末端外轉 (end-range external rotation) 下以阻抗旋後 (resisted supination) 拉緊肱二頭肌-盂唇複合體 (biceps-labral complex)，以檢測 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "上盂唇 (superior labrum / SLAP lesion)",
+    "procedure_zh": "病人仰臥，手臂約 120 度外展 (abduction)，前臂中立位。檢查者將肩關節帶至末端外轉 (external rotation)，握住病人的手，請病人抵抗阻力做前臂旋後 (supination)。",
+    "positive_zh": "阻抗旋後時出現與主訴一致的肩痛加劇。",
+    "notes_zh": "臨床價值弱 (敏感度 40%、特異度 75%)；單獨的 SLAP 病灶並不常見，通常合併旋轉肌袖撕裂 (rotator cuff tear) 或不穩定 (instability)。",
+    "tags": ["SLAP", "阻抗旋後 resisted supination", "價值弱 weak"]
+  },
+  {
+    "slug": "passive-distraction-test",
+    "title_zh": "被動牽張測試 Passive Distraction Test",
+    "purpose_zh": "在高角度上舉下藉由前臂旋前 (pronation) 將肱二頭肌附著點 (biceps anchor) 自關節盂 (glenoid) 剝離，以檢測 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "上盂唇與肱二頭肌長頭附著點 (superior labrum and long head of biceps anchor / SLAP lesion)",
+    "procedure_zh": "病人仰臥於床緣。檢查者將手臂在冠狀面 (coronal plane) 上舉至約 150 度，手肘伸直、前臂旋後 (supination)；固定上臂以阻擋肱骨 (humerus) 旋轉，然後輕柔地將前臂旋前 (pronation)。",
+    "positive_zh": "盂肱關節 (glenohumeral joint) 內出現深層疼痛，位於前側或後側。",
+    "notes_zh": "特異度高 (94%)，對確認上盂唇撕裂具中等價值；旋前時橈骨粗隆 (radial tuberosity) 轉動，使肱二頭肌附著點 (biceps anchor) 受到張力。",
+    "tags": ["SLAP", "旋前 pronation", "確認 rule in"]
+  },
+  {
+    "slug": "compression-rotation-test",
+    "title_zh": "壓迫旋轉測試 Compression Rotation Test",
+    "purpose_zh": "對肱骨頭 (humeral head) 施加軸向壓迫並旋轉，以夾住撕裂的上盂唇 (superior labrum / SLAP lesion)。",
+    "structure_zh": "上盂唇 (superior labrum / SLAP lesion)",
+    "procedure_zh": "病人仰臥，檢查者站在患側。肩關節外展 (abduction) 90 度、手肘屈曲 90 度；檢查者經手肘沿肱骨 (humerus) 施加壓迫，同時透過手腕反覆將手臂內轉 (internal rotation) 與外轉 (external rotation)。",
+    "positive_zh": "關節內出現卡住感或彈響 (catching/snapping)，類似膝關節的 McMurray 測試 (McMurray test)。",
+    "notes_zh": "在 Gismervik 統合分析中為最準確的 SLAP 測試 (敏感度 43%、特異度 89%)；確認 (rule in) 價值中等，但排除 (rule out) 價值弱，陰性結果無法排除病灶。",
+    "tags": ["SLAP", "壓迫旋轉 compression-rotation", "確認 rule in"]
+  },
+  {
+    "slug": "dynamic-labral-shear-test",
+    "title_zh": "動態盂唇剪力測試 Dynamic Labral Shear Test",
+    "purpose_zh": "在上舉過程中讓上盂唇 (superior labrum) 與關節盂 (glenoid) 之間產生剪力，以檢測 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "上盂唇與肱二頭肌附著點 (superior labrum and biceps anchor / SLAP lesion)",
+    "procedure_zh": "檢查者站在病人身後，握住患側手腕，手肘屈曲，肩關節外展 (abduction) 並外轉 (external rotation)。另一手在近端肱骨 (proximal humerus) 靠近關節線處施加向前的力量，同時將手臂從 90 度上舉至約 150 度。",
+    "positive_zh": "在約 90 到 120 度上舉之間，病人回報疼痛，或檢查者在後側關節線 (posterior joint line) 感覺到喀噠聲 (click)。",
+    "notes_zh": "合併其他肩部病變時準確度下降（特異度僅約 51-52%），而這正是常見的臨床情境，故臨床價值評為低；應與其他肱二頭肌／SLAP 測試合併使用。",
+    "tags": ["SLAP", "剪力 shear", "價值弱 weak"]
+  },
+  {
+    "slug": "anterior-slide-test",
+    "title_zh": "前向滑動測試 Anterior Slide Test",
+    "purpose_zh": "將肱骨頭 (humeral head) 向前上方推向肱二頭肌附著點 (biceps anchor)，以檢測 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "上盂唇與肱二頭肌附著點 (superior labrum and biceps anchor / SLAP lesion)",
+    "procedure_zh": "病人坐姿或站姿，雙手叉腰、拇指朝後。檢查者一手放在肩上，食指置於肩峰 (acromion) 前緣的關節線上；另一手在手肘後方向前並略向上推，病人抵抗。",
+    "positive_zh": "檢查者手指下方出現前側肩痛、該處出現彈響或喀噠聲 (pop/click)，或重現病人過頭動作時的症狀。",
+    "notes_zh": "臨床價值弱 (敏感度 20%、特異度 73.8%)，概似比接近 1 甚至更差；MR 關節攝影 (MR arthrography) 是 SLAP 撕裂較佳的診斷方式 (Symanski 2017)。",
+    "tags": ["SLAP", "前向滑動 anterior slide", "價值弱 weak"]
+  },
+  {
+    "slug": "speeds-test",
+    "title_zh": "Speed 測試 Speed's Test",
+    "purpose_zh": "篩檢肱二頭肌長頭 (long head of biceps) 病變（肌腱病變 tendinopathy）與 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "肱二頭肌長頭肌腱 (long head of biceps tendon)；上盂唇 (superior labrum / SLAP)",
+    "procedure_zh": "病人手肘伸直、前臂完全旋後 (supination)，肩關節屈曲 (flexion) 至 90 度。檢查者向下壓手臂，病人抵抗。較舊的版本則是在 0 到 60 度屈曲範圍內阻抗。",
+    "positive_zh": "疼痛局限於肱二頭肌溝 (bicipital groove)，即肌腱進入關節囊處。",
+    "notes_zh": "對 SLAP 病灶或肱二頭肌病變的確認與排除價值皆低 (SLAP 敏感度 20%、特異度 78%)；應與其他測試合併使用，例如上勾拳測試 (Upper Cut Test)。",
+    "tags": ["肱二頭肌長頭 LHB", "SLAP", "價值弱 weak"]
+  },
+  {
+    "slug": "yergasons-test",
+    "title_zh": "Yergason 測試 Yergason's Test",
+    "purpose_zh": "評估肱骨橫韌帶 (transverse humeral ligament)、肱二頭肌長頭 (long head of biceps) 病變與 SLAP 病灶 (SLAP lesion)。",
+    "structure_zh": "肱骨橫韌帶 (transverse humeral ligament)；肱二頭肌長頭肌腱 (long head of biceps tendon)；上盂唇 (superior labrum)",
+    "procedure_zh": "手肘屈曲 90 度，前臂旋前 (pronation) 並貼住軀幹。病人抵抗檢查者的阻力做旋後 (supination)，檢查者同時在肱二頭肌溝 (bicipital groove) 觸診肱二頭肌肌腱。",
+    "positive_zh": "肌腱自溝中彈出，提示肱骨橫韌帶 (transverse humeral ligament) 撕裂；僅有疼痛或壓痛而無彈出，提示肱二頭肌肌腱病變 (biceps tendinosis) 或 SLAP 病灶。",
+    "notes_zh": "敏感度低（肱二頭肌病變 32%、SLAP 12%），陰性結果無法排除任何病灶；針對 SLAP，建議改用肱二頭肌負荷 II 測試 (Biceps Load II Test) 或 O'Brien 測試 (O'Brien Test)。",
+    "tags": ["肱二頭肌長頭 LHB", "肱骨橫韌帶 transverse humeral ligament", "SLAP"]
+  },
+  {
+    "slug": "upper-cut-test",
+    "title_zh": "上勾拳測試 Upper Cut Test",
+    "purpose_zh": "針對上方肱二頭肌-盂唇複合體 (superior biceps-labrum complex) 與肱二頭肌肌腱 (biceps tendon) 病變的誘發測試。",
+    "structure_zh": "肱二頭肌長頭肌腱 (long head of biceps tendon)；上盂唇 (superior labrum / SLAP)",
+    "procedure_zh": "肩關節中立位，手肘屈曲 90 度，前臂旋後 (supination) 並握拳。檢查者握住手腕給予阻力，病人快速將拳頭向上、向對側朝下巴方向揮出，如同上勾拳 (uppercut) 動作。",
+    "positive_zh": "前側肩部出現疼痛或疼痛性彈響 (painful pop)。",
+    "notes_zh": "在 Kibler 的研究中是肱二頭肌肌腱病變 (biceps tendinopathy) 最準確的單一測試 (敏感度 79%、特異度 78%)；與 Speed 測試 (Speed's Test) 合併可得到最佳的迴歸模型。",
+    "tags": ["肱二頭肌長頭 LHB", "肌腱病變 tendinopathy", "cluster"]
+  },
+  {
+    "slug": "biceps-squeeze-test",
+    "title_zh": "肱二頭肌擠壓測試 Biceps Squeeze Test",
+    "purpose_zh": "藉由觀察擠壓肌腹是否仍能引發前臂旋後 (supination)，檢查遠端肱二頭肌肌腱斷裂 (distal biceps tendon rupture)。",
+    "structure_zh": "遠端肱二頭肌肌腱 (distal biceps tendon)，斷裂 (rupture)",
+    "procedure_zh": "病人坐姿，前臂置於大腿上，手肘屈曲約 60-80 度，前臂略為旋前 (pronation) 以拉緊肌腱。檢查者握住肱二頭肌 (biceps) 的肌腹與遠端肌腱交界處 (myotendinous junction)，用力擠壓。",
+    "positive_zh": "擠壓時觀察不到前臂旋後 (supination)。",
+    "notes_zh": "相當於阿基里斯腱 (Achilles tendon) 的 Thompson 測試 (Thompson test)；原始研究方法學有限制（特異度無法計算），故臨床價值評為弱。",
+    "tags": ["遠端肱二頭肌 distal biceps", "肌腱斷裂 rupture", "價值弱 weak"]
+  },
+  {
+    "slug": "biceps-crease-interval",
+    "title_zh": "肱二頭肌皺褶間距 Biceps Crease Interval",
+    "purpose_zh": "測量遠端肱二頭肌 (distal biceps) 的回縮程度，以辨識需要及早轉介手術的完全斷裂 (complete rupture)。",
+    "structure_zh": "遠端肱二頭肌肌腱 (distal biceps tendon)，完全斷裂合併肌肉回縮 (complete rupture with muscle retraction)",
+    "procedure_zh": "先標記肘前窩屈曲皺褶 (antecubital flexion crease)；接著在手肘伸直、前臂旋後 (supination) 下，沿長軸撫觸遠端肱二頭肌，找出肌肉急轉向肘窩的「肱二頭肌尖 (biceps cusp)」並標記。測量兩個標記間的距離（精確至 0.1 公分），並於對側手臂重複。",
+    "positive_zh": "間距大於 6 公分，或患側／健側比值大於 1.2。",
+    "notes_zh": "單獨使用價值弱 (敏感度 88%、特異度 50%，ICC 0.79)；應搭配 Hook 測試 (Hook test) 或 Ludington 測試 (Ludington's test)。",
+    "tags": ["遠端肱二頭肌 distal biceps", "肌腱斷裂 rupture", "測量 measurement"]
+  },
+  {
+    "slug": "3-pack-examination",
+    "title_zh": "三合一檢查 3-Pack Examination",
+    "purpose_zh": "由三項測試組成的檢查組合，評估肱二頭肌-盂唇複合體 (biceps-labrum complex) 的關節內區、交界區與肱二頭肌隧道區 (bicipital tunnel) 三個區域。",
+    "structure_zh": "肱二頭肌長頭肌腱 (long head of biceps tendon) 與盂唇 (labrum)；SLAP 病灶 (SLAP lesion)、肱二頭肌隧道疾病 (bicipital tunnel disease)",
+    "procedure_zh": "主動壓迫測試 (Active Compression Test)：肩關節屈曲 90 度、內收 10-15 度、拇指朝下，抵抗向下壓力，再以掌心朝上重複。投擲測試 (Throwing Test)：肩外展 90 度、手肘屈曲 90 度並最大外轉 (external rotation)，病人進入投擲早期加速期動作時給予等長阻力。肱二頭肌隧道觸診 (Bicipital Tunnel Palpation)：手臂中立位，觸診關節外的肌腱段，並旋轉手臂以確認位置。",
+    "positive_zh": "深層肩痛；主動壓迫測試為拇指朝下疼痛而掌心朝上減輕，觸診則為疼痛局限於肱二頭肌隧道 (bicipital tunnel)。",
+    "notes_zh": "兩項高敏感度測試（主動壓迫 88-96%、隧道觸診 82-98%）有助於排除 (rule out) 肱二頭肌-盂唇病灶；但僅有一項研究評估過此組合，證據等級評為中等。",
+    "tags": ["肱二頭肌-盂唇複合體 biceps-labrum complex", "SLAP", "cluster", "排除 rule out"]
+  }
+]

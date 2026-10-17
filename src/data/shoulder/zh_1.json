@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "shoulder-assessment",
+    "title_zh": "肩關節理學檢查總論 Shoulder Assessment",
+    "purpose_zh": "介紹肩關節複合體 (shoulder complex) 並提供評估肩痛的基本架構。",
+    "structure_zh": "盂肱關節 (glenohumeral joint)、胸鎖關節 (sternoclavicular joint)、肩鎖關節 (acromioclavicular joint) 與肩胛胸廓關節 (scapulothoracic joint)",
+    "procedure_zh": "先將肩痛分為三類：被動活動受限合併盂肱關節疼痛、有疼痛弧 (painful arc) 但被動活動不受限、以及兩者皆無的其他主訴。評估由主動活動度 (active range of motion, AROM) 開始並觀察疼痛弧，接著以被動活動度 (passive range of motion, PROM) 比較雙側的活動範圍與末端感覺 (end-feel)。最後以 Stenvers 等人 (1977) 的五項快速肩帶活動度測試 (shoulder-girdle mobility tests) 完成篩檢。",
+    "positive_zh": "不適用（總論頁面）。",
+    "notes_zh": "在將疼痛歸因於肩關節之前，須先篩檢紅旗 (red flags)（腫瘤、感染、缺血性壞死 (avascular necrosis)）與內臟轉移痛 (visceral referral)（心臟、肝臟、脾臟、膽道）；若合併頸部疼痛，應同時檢查頸椎 (cervical spine)。流行病學：盛行率 7–26%，約 40–50% 一年後仍有症狀，復發率 20–50%。",
+    "tags": ["總論 overview", "紅旗 red flags", "頸椎鑑別 cervical differential"]
+  },
+  {
+    "slug": "shoulder-active-range-of-motion",
+    "title_zh": "肩關節主動活動度 Shoulder Active Range of Motion",
+    "purpose_zh": "評估肩關節複合體 (shoulder complex) 的主動活動範圍，同時觀察動作品質與代償。",
+    "structure_zh": "肩關節複合體（盂肱關節 (glenohumeral) 與肩胛胸廓 (scapulothoracic) 動作）；例如冰凍肩 (frozen shoulder)、旋轉肌袖病變 (rotator cuff pathology)",
+    "procedure_zh": "病人採坐姿或站姿（疼痛劇烈或術後可改仰臥）。觀察主動屈曲、伸展、外展、內收、水平內收、內旋與外旋，以及肩胛骨 (scapula) 的前突/後縮與上提/下壓。內旋可用拇指向上沿背部往上摸 (hitchhiker thumb，正常可達 T5–T10) 或在 90 度外展位檢查。",
+    "positive_zh": "冰凍肩 (frozen shoulder)：AROM 與 PROM 明顯受限但疼痛不多，尤其是 0 度外展位的外旋。旋轉肌袖 (rotator cuff)：外展 60–120 度出現疼痛弧 (painful arc)，可能合併肩胛骨運動障礙 (scapular dyskinesis)。",
+    "notes_zh": "疼痛劇烈或術後肩關節建議採仰臥檢查；曾有脫臼 (dislocation) 病史者，外旋測試須謹慎。",
+    "tags": ["主動活動度 AROM", "疼痛弧 painful arc", "冰凍肩 frozen shoulder"]
+  },
+  {
+    "slug": "shoulder-passive-range-of-motion",
+    "title_zh": "肩關節被動活動度 Shoulder Passive Range of Motion",
+    "purpose_zh": "測量盂肱關節 (glenohumeral joint) 的被動骨運動學 (osteokinematic) 活動度，並在活動受限時評估末端感覺 (end-feel)。",
+    "structure_zh": "盂肱關節 (glenohumeral joint) 與肩帶 (shoulder girdle)：關節囊 (capsule)、末端感覺 (end-feel)",
+    "procedure_zh": "病人坐於治療床上。檢查者固定肩胛骨 (scapula) 與鎖骨 (clavicle)，帶動肱骨 (humerus) 做屈曲、伸展、外展、內收、水平內收/外展與內外旋。旋轉亦可在 90 度外展位測試，此時檢查者以大腿與手臂穩定肩帶。",
+    "positive_zh": "與參考值比較（固定肩胛骨時盂肱關節屈曲約 80–90 度、伸展 60 度、外展 90 度、水平內收 110 度、外旋 60 度、內旋 100 度），並評估末端感覺的性質。",
+    "notes_zh": "慣用側與非慣用側常有差異，不一定代表有症狀；有無固定肩胛骨會影響測得的終點。Werner 等人 (2014) 僅報告信度，智慧型手機傾斜儀 (smartphone inclinometer) 信度最佳。",
+    "tags": ["被動活動度 PROM", "末端感覺 end-feel", "關節囊 capsule"]
+  },
+  {
+    "slug": "joint-play-shoulder",
+    "title_zh": "肩關節關節間隙活動 Joint Play Shoulder",
+    "purpose_zh": "以盂肱關節 (glenohumeral joint) 的附屬關節運動學 (arthrokinematic) 滑動判斷關節囊 (capsule) 鬆弛或僵硬。",
+    "structure_zh": "盂肱關節囊 (glenohumeral joint capsule)",
+    "procedure_zh": "多在鬆弛位 (loose-packed position，約 40–55 度外展、30 度水平內收) 執行。前後向滑動 (AP glide)：病人仰臥於床緣，將肱骨 (humerus) 向後推移；後前向滑動 (PA glide)：肩關節懸於床外，將肱骨向前推移。另有側向牽引 (lateral distraction)、尾向滑動 (caudal glide，即牽引) 及 90 度外展位的尾向滑動。",
+    "positive_zh": "無正式定義；與對側相比滑動量增加或減少，或末端感覺 (end-feel) 改變。",
+    "notes_zh": "若肘關節 (elbow) 有問題，可改握肱骨上髁 (humeral epicondyles)；滑動應以全身帶動而非只用手臂出力。無診斷準確度資料。",
+    "tags": ["關節間隙 joint play", "關節囊 capsule", "滑動 glide"]
+  },
+  {
+    "slug": "apley-scratch-test",
+    "title_zh": "Apley 抓癢測試 Apley Scratch Test",
+    "purpose_zh": "快速功能性篩檢肩關節複合動作的主動活動度 (AROM)。",
+    "structure_zh": "肩關節 AROM：外旋/外展/屈曲，以及內旋/伸展/內收",
+    "procedure_zh": "病人將雙手伸到背後試圖互相碰觸，一手從肩上方往下、另一手從下方往上。接著交換兩手位置，比較兩側。",
+    "positive_zh": "無明確切點；活動受限或雙側差異明顯即為異常（慣用側通常較緊）。",
+    "notes_zh": "受限無法定位到盂肱關節 (glenohumeral joint)，因為肩胛骨 (scapula) 與鎖骨 (clavicle) 的動作也參與其中；肩胛骨控制不佳是常見原因。目前無已知的信度或效度研究。",
+    "tags": ["主動活動度 AROM", "功能性篩檢 functional screen", "肩胛控制 scapular control"]
+  },
+  {
+    "slug": "scapulohumeral-rythm",
+    "title_zh": "肩胛肱骨節律 Scapulohumeral Rhythm",
+    "purpose_zh": "描述手臂完全上舉時肱骨 (humerus)、肩胛骨 (scapula) 與鎖骨 (clavicle) 的協調動作，作為肩胛骨控制的觀察性篩檢。",
+    "structure_zh": "肩胛胸廓 (scapulothoracic) 與盂肱 (glenohumeral) 動作模式；節律紊亂或反轉（肩胛骨動得比肱骨多）提示肩胛或肱骨穩定肌 (stabilizers) 功能受損，反轉模式為冰凍肩 (frozen shoulder) 的典型表現",
+    "procedure_zh": "並非正式測試；病人主動外展手臂，檢查者觀察三個階段。前約 30 度肩胛骨幾乎不動，鎖骨輕微上提；接著肱骨外展約 40 度，同時肩胛骨上旋 (upward rotation) 約 20 度，鎖骨上提並開始後旋；最後肱骨再外展約 60 度並外旋約 90 度，肩胛骨再上旋約 40 度並開始上提。",
+    "positive_zh": "無正式判準；節律紊亂或反轉即為異常，最好與對側比較判斷。",
+    "notes_zh": "正常值在個體與文獻間差異大，故應雙側比較。上舉與放下階段都要觀察，肩胛骨控制喪失在放下手臂時更明顯。無準確度資料。",
+    "tags": ["肩胛肱骨節律 scapulohumeral rhythm", "肩胛骨運動障礙 scapular dyskinesis", "觀察 observation"]
+  },
+  {
+    "slug": "shoulder-resisted-isometric-testing",
+    "title_zh": "肩關節阻力等長測試 Shoulder Resisted Isometric Testing",
+    "purpose_zh": "快速篩檢肩帶 (shoulder girdle) 的肌肉肌腱單位 (musculotendinous unit) 是否受影響，通常在主動與被動活動度測試之後進行。",
+    "structure_zh": "肩帶肌群的肌肉肌腱單位，加上肱二頭肌 (biceps) 與肱三頭肌 (triceps)",
+    "procedure_zh": "病人仰臥，手臂輕微外展、肘關節屈曲 90 度。檢查者托住肱骨遠端，病人依序抵抗屈曲、伸展、外展、內收、內旋與外旋的阻力。肩胛骨前突、後縮、上提與下壓則採坐姿測試。",
+    "positive_zh": "來源未明確定義；一般解讀為阻力收縮時出現疼痛和/或無力。",
+    "notes_zh": "因肱二頭肌 (biceps) 與肱三頭肌 (triceps) 跨越肩與肘兩個關節，應一併測試肘屈曲與伸展。無準確度資料。",
+    "tags": ["等長阻力測試 resisted isometric", "肌肉肌腱單位 musculotendinous unit", "篩檢 screen"]
+  },
+  {
+    "slug": "shoulder-symptom-modification-procedure",
+    "title_zh": "肩關節症狀修正程序 Shoulder Symptom Modification Procedure",
+    "purpose_zh": "將肩痛視為力學問題，找出能減輕或誘發疼痛的姿勢與動作修正方式。",
+    "structure_zh": "肩峰下疼痛 (subacromial pain)/旋轉肌袖 (rotator cuff) 與滑囊 (bursa)；影響因子包括胸椎姿勢、肩胛骨位置、肱骨頭位置與肌肉活化",
+    "procedure_zh": "先找出一個會痛的動作（例如屈曲）。接著依序進行四個階段並在每階段後重測：胸椎修正（伸展提示、徒手治療或貼紮）、肩胛骨重新定位（徒手或貼紮）、肱骨頭 (humeral head) 重新定位（吊帶或前後/後前向滑動），最後在周圍肌肉（如外旋肌群 (external rotators)）共同收縮下重複該動作。",
+    "positive_zh": "疼痛動作中的疼痛有意義地減輕；某階段後疼痛完全緩解，即指引治療應針對該區域。",
+    "notes_zh": "此程序是因誘發測試 (provocation tests) 特異度差而發展出來；評估者間信度僅中等 (kappa 0.47，Meakins 等人 2018)，解讀須謹慎。",
+    "tags": ["症狀修正 symptom modification", "SAPS", "信度 reliability"]
+  },
+  {
+    "slug": "shoulder-joint-positioning-sense",
+    "title_zh": "肩關節位置覺測試 Shoulder Joint Positioning Sense",
+    "purpose_zh": "以簡易雷射筆方法測量肩關節位置覺（本體感覺 (proprioception)），不需實驗室設備。",
+    "structure_zh": "肩關節本體感覺 (proprioception)；缺損與鬆弛 (laxity)、不穩定 (instability)、過頂運動、疲勞及疼痛有關",
+    "procedure_zh": "病人站在距牆約 1 公尺處手持雷射筆，將手臂屈曲至 90 度（以手機傾斜儀確認），並將靶板中心對準光點。屈曲、外展與自外旋回復三種動作各在睜眼下練習三次，第四次閉眼執行並計分（每個動作最高 10 分，總分 30）。",
+    "positive_zh": "無正式切點；雙側差異大於約 10% 視為異常。",
+    "notes_zh": "各研究的操作流程不一，臨床價值中等；適合作為基準值與追蹤用。信度 ICC 0.86 與 0.78 (Vafadar 等人 2016)。",
+    "tags": ["本體感覺 proprioception", "位置覺 joint position sense", "不穩定 instability"]
+  },
+  {
+    "slug": "frozen-shoulder-diagnosis",
+    "title_zh": "冰凍肩的診斷 Frozen Shoulder Diagnosis",
+    "purpose_zh": "以理學檢查診斷沾黏性關節囊炎 (adhesive capsulitis) 的方法。",
+    "structure_zh": "盂肱關節囊 (glenohumeral capsule) 與關節囊韌帶複合體 (capsuloligamentous complex)",
+    "procedure_zh": "檢查者穩定肩胛骨 (scapula)（身體貼住病人軀幹、一手放在喙突 (coracoid)），在零位 (zero position) 測量被動外旋並與對側比較。接著固定鎖骨 (clavicle) 與肩胛骨，測量盂肱關節的外展與屈曲，以分離出真正的關節動作。",
+    "positive_zh": "外旋較對側喪失至少 50%（或小於 30 度），加上其他兩個以上平面喪失至少 25%。",
+    "notes_zh": "主動與被動活動度等量喪失、阻力測試少有疼痛，指向關節囊 (capsule) 問題；喙突疼痛測試 (Coracoid Pain Test) 有助區分真性與假性冰凍肩。Hollmann 等人 (2015) 指出肌肉防衛 (muscle guarding) 也會造成活動度喪失。",
+    "tags": ["冰凍肩 frozen shoulder", "沾黏性關節囊炎 adhesive capsulitis", "被動活動度 PROM"]
+  },
+  {
+    "slug": "shoulder-impingement-explained",
+    "title_zh": "肩夾擠理論解析 Shoulder Impingement Explained",
+    "purpose_zh": "說明夾擠 (impingement) 理論，以及如何推論夾擠型症狀背後的真正病理。",
+    "structure_zh": "肩峰下夾擠 (subacromial impingement)（滑囊 (bursa) 與旋轉肌袖肌腱 (rotator cuff tendons) 在肩峰弓 (acromial arch) 下）與內夾擠 (internal impingement)（旋轉肌袖撞擊關節盂 (glenoid) 前上或後上緣）；影響因子包括旋轉肌袖病變、肩胛骨運動障礙 (scapular dyskinesis)、不穩定 (instability)、肱二頭肌/SLAP 病灶 (SLAP lesion) 與盂肱內旋缺損 (GIRD)",
+    "procedure_zh": "並非單一測試。前上內夾擠 (anterosuperior internal impingement) 以屈曲合併內旋誘發；後上內夾擠 (posterosuperior impingement) 以外展合併最大外旋與水平外展誘發（投擲的晚期揮臂期 (late-cocking) 姿勢）。",
+    "positive_zh": "無明確陽性定義；主動外展時中段的疼痛弧 (painful arc) 是典型的肩峰下表現。",
+    "notes_zh": "「夾擠 (impingement)」被視為過時的症狀群標籤；應以臨床測試縮小可能的機轉。參考 Cools 等人 (2008) 的臨床推理流程。",
+    "tags": ["夾擠 impingement", "SAPS", "內夾擠 internal impingement", "臨床推理 clinical reasoning"]
+  },
+  {
+    "slug": "neer-test",
+    "title_zh": "尼爾氏測試 Neer Test",
+    "purpose_zh": "肩峰下疼痛症候群 (subacromial pain syndrome, SAPS，舊稱肩夾擠) 的誘發測試。",
+    "structure_zh": "肩峰下空間 (subacromial space)；旋轉肌袖肌腱 (rotator cuff tendons) 受喙肩韌帶 (coracoacromial ligament) 與肩峰 (acromion) 前三分之一壓迫（Neer 理論）",
+    "procedure_zh": "病人坐姿。檢查者站在病人身後，一手穩定肩胛骨 (scapula)，另一手將手臂被動帶到最大肩屈曲。部分作者會加上內旋，但這不在 Neer 原始描述中。",
+    "positive_zh": "誘發出病人熟悉的肩痛。",
+    "notes_zh": "單獨使用證據力弱，應與 Hawkins-Kennedy 測試 (Hawkins-Kennedy Test) 及疼痛弧徵象 (Painful Arc Sign) 組成測試群 (cluster) 使用。敏感度 59–72%、特異度約 60%（原頁面寫 6% 疑為筆誤）。",
+    "tags": ["SAPS", "誘發測試 provocation", "cluster"]
+  },
+  {
+    "slug": "hawkins-kennedy-test",
+    "title_zh": "Hawkins-Kennedy 測試 Hawkins-Kennedy Test",
+    "purpose_zh": "肩峰下疼痛症候群 (subacromial pain syndrome, SAPS) 的誘發測試。",
+    "structure_zh": "肩峰下空間 (subacromial space)；喙肩弓 (coracoacromial arch) 下的旋轉肌袖肌腱 (rotator cuff tendons)",
+    "procedure_zh": "病人坐姿，肩關節與肘關節各屈曲 90 度。檢查者一手穩定肩胛骨 (scapula)，另一手握住肘部，被動將盂肱關節 (glenohumeral joint) 內旋。",
+    "positive_zh": "誘發出病人熟悉的肩痛。",
+    "notes_zh": "評估者間信度低 (kappa 0.38，Cadogan 等人 2011)，單獨使用價值有限；通常與尼爾氏測試 (Neer Test) 及疼痛弧徵象 (Painful Arc Sign) 合併使用。敏感度 58–80%、特異度 56–67%。",
+    "tags": ["SAPS", "誘發測試 provocation", "cluster"]
+  },
+  {
+    "slug": "painful-arc-sign",
+    "title_zh": "疼痛弧徵象 Painful Arc Sign",
+    "purpose_zh": "評估肩峰下疼痛症候群 (subacromial pain syndrome, SAPS) 的標誌性徵象。",
+    "structure_zh": "肩峰下構造（旋轉肌袖肌腱 (rotator cuff tendons)、滑囊 (bursa)）；可與肩鎖關節 (AC joint) 病變區分",
+    "procedure_zh": "病人站姿，拇指朝上，雙臂緩慢外展至全範圍後再放下。檢查者觀察疼痛出現在弧線的哪個區段。",
+    "positive_zh": "外展約 60–120 度的中段出現疼痛，動作起始與終末疼痛較少。",
+    "notes_zh": "準確度中等，單獨使用證據力弱（敏感度 53%、特異度 76%，Hegedus 等人 2012）。若疼痛在 170–180 度出現，指向肩鎖關節 (AC joint) 病變而非肩峰下疼痛。",
+    "tags": ["SAPS", "疼痛弧 painful arc", "肩鎖關節 AC joint", "cluster"]
+  },
+  {
+    "slug": "coracoid-pain-test",
+    "title_zh": "喙突疼痛測試 Coracoid Pain Test",
+    "purpose_zh": "協助區分真性冰凍肩（沾黏性關節囊炎 (adhesive capsulitis)）與假性冰凍肩及其他造成肩僵硬的原因。",
+    "structure_zh": "喙肱韌帶 (coracohumeral ligament)、旋轉肌間隙 (rotator interval) 與喙突三角 (coracoid triangle)，在沾黏性關節囊炎中對壓力敏感",
+    "procedure_zh": "檢查者以拇指依序按壓肩鎖關節 (AC joint)、前外側肩峰下區域 (anterolateral subacromial area) 與喙突 (coracoid process)。每個部位按壓後，病人以視覺類比量表 (VAS) 評分疼痛。",
+    "positive_zh": "喙突疼痛 VAS 大於 30 mm，且高於肩鎖關節與前外側肩峰下區域。",
+    "notes_zh": "僅有一篇驗證研究 (Carbone 等人 2010，敏感度 96%、特異度 87–89%)，但臨床上被認為實用。Hollmann 等人 (2015) 指出主動肌肉防衛 (muscle guarding) 也會造成冰凍肩的活動度喪失。",
+    "tags": ["冰凍肩 frozen shoulder", "沾黏性關節囊炎 adhesive capsulitis", "喙突 coracoid"]
+  },
+  {
+    "slug": "subacromial-pain-syndrome-cluster",
+    "title_zh": "肩峰下疼痛症候群測試群 Subacromial Pain Syndrome Cluster",
+    "purpose_zh": "診斷肩峰下疼痛症候群 (subacromial pain syndrome, SAPS) 的五項測試組合。",
+    "structure_zh": "肩峰下空間 (subacromial space) 與旋轉肌袖肌腱 (rotator cuff tendons)：肌腱病變 (tendinopathy)、部分撕裂 (partial tears)、滑囊炎 (bursitis)",
+    "procedure_zh": "依序執行 Hawkins-Kennedy 測試 (Hawkins-Kennedy Test)、尼爾氏測試 (Neer Test)、疼痛弧徵象 (Painful Arc Sign)、空罐測試 (Empty Can Test) 與阻力外旋測試 (resisted external rotation)。疼痛弧與空罐測試採站姿，尼爾氏與阻力外旋採坐姿，Hawkins-Kennedy 在 90 度前屈位進行。",
+    "positive_zh": "五項中有 3 項以上陽性即測試群陽性（尼爾氏與 Hawkins-Kennedy 以疼痛再現為準；疼痛弧以中段疼痛為準；空罐與阻力外旋以疼痛和/或無力為準）。",
+    "notes_zh": "臨床價值有限，因為檢後機率改變幅度小 (LR+ 2.93、LR− 0.34，Michener 等人 2009)。空罐測試並不能單獨分離棘上肌 (supraspinatus)。",
+    "tags": ["SAPS", "cluster", "旋轉肌袖 rotator cuff"]
+  },
+  {
+    "slug": "empty-can-test",
+    "title_zh": "空罐測試 Empty Can Test",
+    "purpose_zh": "肩峰下疼痛症候群 (subacromial pain syndrome, SAPS) 中評估肌力與激惹性的阻力測試，傳統上針對棘上肌 (supraspinatus)。",
+    "structure_zh": "棘上肌 (supraspinatus)/旋轉肌袖 (rotator cuff)；肩峰下疼痛症候群 (SAPS)",
+    "procedure_zh": "病人站姿或坐姿，雙臂在肩胛平面 (scapular plane) 上舉 90 度並完全內旋（拇指朝下）。檢查者向下壓雙臂，病人抵抗。",
+    "positive_zh": "患側相較健側出現無力和/或疼痛。",
+    "notes_zh": "幾乎不改變檢後機率（敏感度 74%、特異度 30%，Hegedus 等人 2012），應與 Hawkins-Kennedy 測試 (Hawkins-Kennedy Test)、尼爾氏測試 (Neer Test)、滿罐測試 (Full Can Test) 及疼痛弧徵象 (Painful Arc Sign) 合併使用。此姿勢並不能分離棘上肌 (supraspinatus)。",
+    "tags": ["棘上肌 supraspinatus", "SAPS", "cluster"]
+  },
+  {
+    "slug": "full-can-test",
+    "title_zh": "滿罐測試 Full Can Test",
+    "purpose_zh": "測試棘上肌 (supraspinatus) 的肌力與激惹性，以偵測棘上肌撕裂與肩峰下疼痛。",
+    "structure_zh": "棘上肌肌腱 (supraspinatus tendon)（旋轉肌袖撕裂 (rotator cuff tears)）；肩峰下疼痛症候群 (SAPS)",
+    "procedure_zh": "病人雙臂在肩胛平面 (scapular plane) 上舉 90 度，拇指朝上。檢查者施加向下的力，病人抵抗。",
+    "positive_zh": "測試側出現肩痛（常位於三角肌 (deltoid) 區域）或無力。",
+    "notes_zh": "肌電圖研究 (Boettcher 等人 2009) 顯示另有八條肩部肌肉活化程度相近，故此測試無法分離棘上肌 (supraspinatus)；對於確認或排除撕裂的價值中等（敏感度 70%、特異度 81%，Jain 等人 2017）。",
+    "tags": ["棘上肌 supraspinatus", "旋轉肌袖撕裂 rotator cuff tear", "SAPS"]
+  },
+  {
+    "slug": "drop-arm-sign",
+    "title_zh": "落臂徵象 Drop Arm Sign",
+    "purpose_zh": "篩檢棘上肌 (supraspinatus) 與棘下肌 (infraspinatus) 的全層撕裂 (full-thickness tear)。",
+    "structure_zh": "棘上肌 (supraspinatus) 與棘下肌 (infraspinatus) 肌腱（旋轉肌袖全層撕裂 (full-thickness rotator cuff tears)）",
+    "procedure_zh": "病人坐姿或站姿。檢查者被動將手臂放在 90 度外展合併外旋的位置，請病人維持該姿勢，然後放開支撐。",
+    "positive_zh": "病人無法控制手臂緩慢放下，手臂直接掉落。",
+    "notes_zh": "臨床價值中等（棘上肌/棘下肌全層撕裂敏感度 73%、特異度 77%；棘下肌撕裂敏感度 43%、特異度 81%），應與落後徵象 (lag signs)、棘下肌測試 (Infraspinatus Test) 及裂隙測試 (Rent Test) 搭配使用。",
+    "tags": ["棘上肌 supraspinatus", "棘下肌 infraspinatus", "全層撕裂 full-thickness tear"]
+  },
+  {
+    "slug": "lateral-rotation-lag-sign",
+    "title_zh": "外旋落後徵象 Lateral Rotation Lag Sign",
+    "purpose_zh": "評估棘上肌 (supraspinatus)、棘下肌 (infraspinatus) 與小圓肌 (teres minor) 無力或疼痛的落後測試 (lag test)，又稱棘下肌回彈測試 (infraspinatus spring-back test)。",
+    "structure_zh": "旋轉肌袖全層撕裂 (full-thickness rotator cuff tears)，主要為棘上肌 (supraspinatus) 與棘下肌 (infraspinatus)",
+    "procedure_zh": "病人站姿。檢查者將肩關節帶到肩胛平面 (scapular plane) 90 度外展、肘關節屈曲，被動外旋至末端，請病人維持該姿勢後放開支撐。",
+    "positive_zh": "病人無法維持姿勢，手臂向前回彈進入內旋。",
+    "notes_zh": "適合確認全層撕裂但不適合排除（敏感度 46%、特異度 94%、LR+ 7.2，Miller 等人 2008）；應與落臂徵象 (Drop Arm Sign)、內旋落後徵象 (Internal Rotation Lag Sign)、棘下肌測試 (Infraspinatus Test) 及裂隙測試 (Rent Test) 合併使用。",
+    "tags": ["棘下肌 infraspinatus", "落後徵象 lag sign", "全層撕裂 full-thickness tear"]
+  },
+  {
+    "slug": "hornblowers-sign",
+    "title_zh": "吹號手徵象 Hornblower's Sign",
+    "purpose_zh": "測試小圓肌 (teres minor) 與棘下肌 (infraspinatus) 的全層撕裂 (full-thickness tear)。",
+    "structure_zh": "小圓肌 (teres minor) 與棘下肌 (infraspinatus)（外旋肌群 (external rotators)），包括無法修補的脂肪變性 (fatty degeneration)",
+    "procedure_zh": "病人坐姿，手臂在肩胛平面 (scapular plane) 外展 90 度、肘關節屈曲 90 度。檢查者請病人在此姿勢下抵抗阻力做外旋。",
+    "positive_zh": "在此姿勢下無法外旋。",
+    "notes_zh": "品質較佳的研究顯示敏感度低（Jain 等人 2017 棘下肌撕裂敏感度 17%、特異度 96%、LR+ 4.25；Walch 等人 1998 針對小圓肌脂肪變性報告敏感度 100%、特異度 93%，但偏差風險高），因此陰性結果不能排除棘下肌撕裂。相關測試：外旋落後徵象 (Lateral Rotation Lag Sign)、落臂徵象 (Drop Arm Sign)、棘下肌測試 (Infraspinatus Test)、裂隙測試 (Rent Test)。",
+    "tags": ["小圓肌 teres minor", "棘下肌 infraspinatus", "全層撕裂 full-thickness tear"]
+  },
+  {
+    "slug": "lift-off-sign",
+    "title_zh": "離背測試 Lift Off Sign",
+    "purpose_zh": "懷疑肩胛下肌 (subscapularis) 全層撕裂時評估其肌力。",
+    "structure_zh": "肩胛下肌肌肉肌腱單位 (subscapularis muscle-tendon unit)",
+    "procedure_zh": "病人站姿，手背貼在腰椎中段，然後將手抬離背部。檢查者觀察是否出現肩胛骨 (scapula) 代償動作。若病人能完成，可再施加阻力以分級肌力。",
+    "positive_zh": "無法將手抬離背部，提示肩胛下肌 (subscapularis) 病灶。",
+    "notes_zh": "敏感度低（22%）故陰性不能排除撕裂，特異度高（94%）故陽性中度支持撕裂 (Jain 等人 2017)。熊抱測試 (Bear Hug Test) 與壓腹測試 (Belly Press Test) 為替代方案，尤其當手背後動作受限時。",
+    "tags": ["肩胛下肌 subscapularis", "全層撕裂 full-thickness tear", "內旋 internal rotation"]
+  },
+  {
+    "slug": "belly-press",
+    "title_zh": "壓腹測試 Belly Press Test",
+    "purpose_zh": "簡單評估肩胛下肌 (subscapularis) 肌力與疼痛的測試。",
+    "structure_zh": "肩胛下肌 (subscapularis) 肌肉與肌腱（撕裂）",
+    "procedure_zh": "病人以手掌壓向腹部，抵抗檢查者的手，並保持肘部朝前。可在手與腹部之間放置血壓計袖帶以量化施力。適合無法將手伸到背後或無法耐受 90 度上舉的病人。",
+    "positive_zh": "相較對側出現無力，或誘發疼痛。",
+    "notes_zh": "因準確度低而評為弱（敏感度 28%、特異度 87%，Jain 等人 2017，MRI 確診撕裂）。肌電圖 (Pennock 等人 2011) 顯示肩胛下肌活化程度與熊抱測試 (Bear Hug Test)、離背測試 (Lift Off Sign) 相近，同時能限制胸大肌 (pectoralis)、闊背肌 (latissimus) 與大圓肌 (teres major) 的參與。",
+    "tags": ["肩胛下肌 subscapularis", "全層撕裂 full-thickness tear", "內旋 internal rotation"]
+  },
+  {
+    "slug": "bear-hug-test",
+    "title_zh": "熊抱測試 Bear Hug Test",
+    "purpose_zh": "評估肩胛下肌 (subscapularis) 的肌力與疼痛。",
+    "structure_zh": "肩胛下肌肌肉肌腱單位 (subscapularis muscle-tendon unit)，主要為全層撕裂 (full-thickness tears)",
+    "procedure_zh": "病人站姿，患側手掌放在對側肩上，手指伸直、肘部在身體前方。檢查者施加與前臂垂直的外旋力量，病人以保持手掌在原位來抵抗。",
+    "positive_zh": "病人無法將手保持在對側肩上，或誘發出可辨識的肩痛。",
+    "notes_zh": "各研究敏感度差異大 (19–75%) 且偏低、特異度中至高 (56–99%)，因此主要用於確認而非排除肩胛下肌 (subscapularis) 撕裂。",
+    "tags": ["肩胛下肌 subscapularis", "全層撕裂 full-thickness tear", "內旋 internal rotation"]
+  }
+]
