@@ -7,13 +7,16 @@
    "shoulder-assessment",
    "shoulder-active-range-of-motion",
    "shoulder-passive-range-of-motion",
+   "glenohumeral-internal-rotation-deficit",
    "joint-play-shoulder",
    "apley-scratch-test",
    "scapulohumeral-rythm",
+   "stenvers-test",
    "shoulder-resisted-isometric-testing",
    "shoulder-symptom-modification-procedure",
    "shoulder-joint-positioning-sense",
-   "frozen-shoulder-diagnosis"
+   "frozen-shoulder-diagnosis",
+   "shoulder-shrug-sign"
   ]
  },
  {
@@ -26,7 +29,9 @@
    "hawkins-kennedy-test",
    "painful-arc-sign",
    "coracoid-pain-test",
-   "subacromial-pain-syndrome-cluster"
+   "yocum-test",
+   "subacromial-pain-syndrome-cluster",
+   "posterior-impingement-test"
   ]
  },
  {
@@ -36,8 +41,13 @@
   "slugs": [
    "empty-can-test",
    "full-can-test",
+   "whipple-test",
+   "why-can-tests-suck",
    "drop-arm-sign",
    "lateral-rotation-lag-sign",
+   "infraspinatus-test",
+   "internal-rotation-lag-sign",
+   "rent-test",
    "hornblowers-sign",
    "lift-off-sign",
    "belly-press",
@@ -55,6 +65,7 @@
    "release-test",
    "anterior-shoulder-instability-cluster",
    "sulcus-sign",
+   "gagey-test",
    "load-and-shift-test",
    "jerk-test",
    "kims-test",
@@ -76,7 +87,11 @@
    "passive-distraction-test",
    "compression-rotation-test",
    "dynamic-labral-shear-test",
-   "anterior-slide-test"
+   "anterior-slide-test",
+   "supine-flexion-resistance-test",
+   "resisted-supination-external-rotation-test",
+   "slap-lesion-cluster",
+   "slap-lesion-cluster-2"
   ]
  },
  {
@@ -112,13 +127,16 @@
   "zh": "肩胛骨與肌力測試",
   "en": "Scapula & Muscle Strength",
   "slugs": [
+   "scapular-alignment",
    "scapular-dyskinesis-test",
+   "4-type-classification",
    "scapular-assistance-test",
    "scapular-retraction-test",
    "serratus-anterior-strength-test",
    "trapezius-strength-test",
    "rhomboid-strength-test",
-   "latissimus-dorsi-strength-test"
+   "latissimus-dorsi-strength-test",
+   "pectoralis-major-length-test"
   ]
  },
  {

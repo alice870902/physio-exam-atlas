@@ -1,0 +1,255 @@
+[
+ {
+  "slug": "slap-lesion-cluster",
+  "title_zh": "SLAP 病灶組合測試一 SLAP Lesion Cluster 1",
+  "purpose_zh": "Schlechter 等人 (2009) 的兩項組合測試，以 O'Brien 主動壓迫測試 (active compression test) 搭配另一項盂唇測試來確認或排除 SLAP 病灶 (superior labrum anterior to posterior lesion)。",
+  "structure_zh": "上盂唇 (superior labrum)／肱二頭肌長頭附著點 (biceps anchor)；原頁推測該手法會拉緊二頭肌附著點，使盂唇「剝離」(peel back)。",
+  "procedure_zh": "測試 A（原頁標題為「被動壓迫測試 Passive Compression Test」）：病人仰臥於床緣，患側手臂在冠狀面上舉 150°、肘伸直、前臂旋後，固定上臂避免旋轉，再輕柔地把前臂旋前；盂肱關節深處前側或後側疼痛為陽性。測試 B（O'Brien 主動壓迫）：雙肩屈曲 90°、內收 10°、完全內轉，對抗向下的壓力；再改成完全外轉重複；第一姿勢的疼痛在第二姿勢減輕或消失為陽性。",
+  "positive_zh": "兩項皆陽性（LR+ 7.0）；兩項皆陰性（LR− 0.33）；一正一負則無參考價值。",
+  "notes_zh": "確認或排除 SLAP 病灶的臨床價值中等。⚠ 來源問題：原頁文字說是被動牽張測試 (passive distraction test，Schlechter 論文的測試)，但操作段落的標題與內容描述的是被動壓迫測試 (passive compression test)；兩者是不同的測試，各自有頁面。本頁有兩支影片；第一支影片標題為「Passive Distraction Test」，與 Schlechter 的組合一致，所以以影片為準、文字有誤。配套：SLAP 病灶組合測試二。",
+  "tags": [
+   "SLAP",
+   "盂唇 labrum",
+   "cluster",
+   "來源有誤 source issue"
+  ]
+ },
+ {
+  "slug": "slap-lesion-cluster-2",
+  "title_zh": "SLAP 病灶組合測試二 SLAP Lesion Cluster 2",
+  "purpose_zh": "Rosas 等人 (2017) 文獻回顧提出的兩項組合（上勾拳測試 uppercut test 加肱二頭肌長頭觸診），用於近端二頭肌病變。",
+  "structure_zh": "二頭肌溝 (bicipital groove) 內的肱二頭肌長頭肌腱 (long head of biceps)；上盂唇。",
+  "procedure_zh": "上勾拳測試：肩中立、肘屈 90°、前臂完全旋後並握拳；檢查者以手覆住病人手腕給阻力，病人像出上勾拳一樣快速把手往上往對側下巴方向帶；前肩疼痛或痛性彈響為陽性。觸診：手臂中立，先摸到喙突 (coracoid process) 再往外 1–2 公分即二頭肌溝，被動內外轉肩時應感覺到肌腱在指下滑動（前三角肌發達者較難）；壓痛為陽性。",
+  "positive_zh": "兩項皆陽性＝組合陽性；兩項皆陰性＝陰性；一正一負無參考價值，因為各自單獨的診斷準確度都弱。",
+  "notes_zh": "Rosas 等人 (2017)：上勾拳加長頭壓痛的敏感度 88.3%、特異度 93.3%，尚未被其他研究確認，原頁給中等臨床價值。配套：SLAP 病灶組合測試一與各項二頭肌／SLAP 測試頁。",
+  "tags": [
+   "SLAP",
+   "肱二頭肌長頭 long head of biceps",
+   "cluster"
+  ]
+ },
+ {
+  "slug": "supine-flexion-resistance-test",
+  "title_zh": "仰臥屈曲阻力測試 Supine Flexion Resistance Test",
+  "purpose_zh": "Ebinger 等人 (2008) 的 SLAP 病灶測試：仰臥、手臂完全上舉時做阻力前屈，模擬投擲動作。",
+  "structure_zh": "上盂唇／二頭肌附著點；需要肩關節活動度正常。",
+  "procedure_zh": "病人仰臥，手臂放在頭上方完全上舉、掌心朝上。檢查者站在受測肩側、握住肘關節遠端，病人像投擲一樣做前屈對抗阻力。",
+  "positive_zh": "只有在阻力動作中出現肩關節深處疼痛或肩後側關節線疼痛才算陽性；健側應無痛。",
+  "notes_zh": "⚠ 來源問題：原頁的準確度段落（Gismervik 等人 2017 統合分析，敏感度 43%、特異度 89%）描述的是壓迫旋轉測試 (compression-rotation test)，不是本測試；Ebinger 的研究只說本測試特異度高於 O'Brien 與 Speed's、在無旋轉肌袖病變的單純 SLAP 病人中敏感度較高，原頁未給數字。限制：只能用於活動度正常的病人，部分僵硬者光是擺到起始姿勢就會因關節囊沾黏而痛。",
+  "tags": [
+   "SLAP",
+   "盂唇 labrum",
+   "來源有誤 source issue"
+  ]
+ },
+ {
+  "slug": "resisted-supination-external-rotation-test",
+  "title_zh": "阻力旋後外轉測試 Resisted Supination External Rotation Test",
+  "purpose_zh": "SLAP 病灶（上盂唇由前至後撕裂）測試，主要用於過頭投擲運動員。",
+  "structure_zh": "上盂唇；SLAP 很少單獨發生，常合併旋轉肌袖撕裂或不穩定，機轉包括牽拉、急性過頭外傷、剝離 (peel-back) 與重物提舉。影像以 MR 關節攝影 (MR arthrography) 為首選（Symanski 等人）。",
+  "procedure_zh": "病人仰臥、患側肩胛靠近床緣。檢查者托住肘與手，肩外展 90°、肘屈 65–70°、前臂中立或略旋前。病人用力旋後，同時檢查者把肩最大外轉，再請病人描述症狀。",
+  "positive_zh": "前側或深層肩痛、彈響或卡住感，或重現投擲時的症狀。後側痛、恐懼感或無痛都算陰性。",
+  "notes_zh": "Somerville 等人 (2017)：敏感度 14.3%、特異度 80.8%，概似比差，臨床價值弱。",
+  "tags": [
+   "SLAP",
+   "投擲運動員 throwing athlete",
+   "臨床價值弱 weak"
+  ]
+ },
+ {
+  "slug": "gagey-test",
+  "title_zh": "Gagey 測試（過度外展測試） Gagey Test",
+  "purpose_zh": "評估下盂肱韌帶 (inferior glenohumeral ligament) 鬆弛（下向不穩定）的過度外展測試。",
+  "structure_zh": "下盂肱韌帶，控制被動盂肱外展（Gagey & Gagey 2001，100 具大體：被動外展只發生在盂肱關節；95% 正常人兩側數值恆定；85% 不穩定者超過 105°）。",
+  "procedure_zh": "病人坐直。檢查者在鎖骨與肩胛固定肩帶以防上提，被動將手臂帶到外展末端（原頁文字寫「水平外展」）；可在前方放鏡子以便判讀角度。",
+  "positive_zh": "被動外展超過 105°，表示下盂肱韌帶鬆弛。",
+  "notes_zh": "Eshoj 等人 (2018) 施測者間信度 0.73；原頁不知有任何診斷準確度研究，臨床價值存疑。其他不穩定測試：sulcus 徵象、恐懼測試、復位測試、釋放測試、load and shift。",
+  "tags": [
+   "下向不穩定 inferior instability",
+   "韌帶鬆弛 laxity",
+   "效度未知 unvalidated"
+  ]
+ },
+ {
+  "slug": "posterior-impingement-test",
+  "title_zh": "後側夾擠測試 Posterior Impingement Test",
+  "purpose_zh": "偵測內夾擠 (internal impingement)，過頭投擲運動員後肩痛的常見原因。",
+  "structure_zh": "肩外展外轉時肱骨大結節與旋轉肌袖關節面頂到後上盂緣 (posterosuperior glenoid)；成因多重：肩關節生理性重塑、後關節囊攣縮、肩胛運動障礙 (scapular dyskinesis)。",
+  "procedure_zh": "病人仰臥。把肩帶到外展 90–110°、伸直 10–15°、最大外轉。",
+  "positive_zh": "深層後肩痛；在漸進起病的過頭運動員中與旋轉肌袖下表面撕裂及／或後盂唇撕裂相關。",
+  "notes_zh": "Meister 等人 (2004)：敏感度 76%、特異度 85%，但研究有多項方法學缺陷，原頁在更多研究前給弱臨床價值。為「外夾擠」設計的測試（Neer、Hawkins-Kennedy）在內夾擠時可能偽陽性（Leschinger 等人 2017）。",
+  "tags": [
+   "內夾擠 internal impingement",
+   "投擲運動員 throwing athlete",
+   "後肩痛 posterior shoulder pain"
+  ]
+ },
+ {
+  "slug": "yocum-test",
+  "title_zh": "Yocum 測試 Yocum Test",
+  "purpose_zh": "主動誘發肩峰下結構的測試（Yocum 1983）。",
+  "structure_zh": "肩峰下空間：棘上肌 (supraspinatus) 肌腱、肩峰下-三角肌下滑囊。",
+  "procedure_zh": "坐或站，病人把患側手放在對側肩上，在不移動肩膀的情況下把手肘抬高。",
+  "positive_zh": "重現病人熟悉的疼痛。",
+  "notes_zh": "Silva 等人 (2008)：以 MRI 棘上肌肌腱病變為對照敏感度 79%、特異度 40%；以肩峰下-三角肌下滑囊炎為對照敏感度 80%、特異度 36%。樣本少、肌腱退化很常見、MRI 作為黃金標準並不可靠，臨床價值偏弱。相關 SAPS 測試：Hawkins-Kennedy、疼痛弧。",
+  "tags": [
+   "SAPS",
+   "肩峰下 subacromial",
+   "臨床價值弱 weak"
+  ]
+ },
+ {
+  "slug": "whipple-test",
+  "title_zh": "Whipple 測試 Whipple Test",
+  "purpose_zh": "棘上肌肌腱撕裂／肩峰下疼痛的測試。",
+  "structure_zh": "棘上肌 (supraspinatus) 肌腱。",
+  "procedure_zh": "病人把患側手掌心向下放在對側肩前方，對抗檢查者向下的力。",
+  "positive_zh": "肩痛及／或相較對側對抗向下力時無力。",
+  "notes_zh": "Ackmann 等人（內文寫 2019、文獻 2021）：敏感度 88.6%、特異度 29.4%；Sgroi 等人 (2018)：敏感度 68%、特異度 31%。概似比接近 1，準確度弱、實務上無用。兩篇研究也顯示 Whipple、空罐與滿罐測試都無法區分部分與全層棘上肌撕裂；EMG 顯示無法單獨測一條旋轉肌袖肌肉（Boettcher 等人 2009）。",
+  "tags": [
+   "棘上肌 supraspinatus",
+   "SAPS",
+   "臨床價值弱 weak"
+  ]
+ },
+ {
+  "slug": "why-can-tests-suck",
+  "title_zh": "罐測試為何不可靠 Why Can Tests Suck",
+  "purpose_zh": "說明頁（非測試）：為什麼空罐 (empty can) 與滿罐 (full can) 測試無法選擇性測棘上肌，並提供較好的棘上肌／棘下肌測試姿勢。",
+  "structure_zh": "棘上肌 (supraspinatus)、棘下肌 (infraspinatus) 與三角肌、斜方肌。Boettcher 等人 (2009a)：空罐與滿罐分別同時活化其他 9 與 8 條肩部肌肉；2009b：零位 (zero position) 外轉較能降低三角肌活動。",
+  "procedure_zh": "建議姿勢：病人俯臥（三角肌與斜方肌放鬆），肩外展 90°、肘屈 90°，在手腕給阻力。",
+  "positive_zh": "不適用（說明頁）。即使在此姿勢也無法把棘上肌與棘下肌分開。",
+  "notes_zh": "觀念頁而非特殊測試。相關：Hawkins-Kennedy、Neer、滿罐、疼痛弧。",
+  "tags": [
+   "觀念 concept",
+   "棘上肌 supraspinatus",
+   "肌電圖 EMG"
+  ]
+ },
+ {
+  "slug": "rent-test",
+  "title_zh": "Rent 測試（經三角肌觸診） Rent Test",
+  "purpose_zh": "經三角肌觸診旋轉肌袖全層撕裂。",
+  "structure_zh": "肩峰前方、隔著三角肌觸診的旋轉肌袖肌腱；肱骨大結節。",
+  "procedure_zh": "病人坐姿、手臂放鬆，檢查者站後方。一手在肩峰前緣的前方觸診，另一手握肘把手臂帶到伸直，並小心加入內外轉以觸診旋轉肌袖肌腱。",
+  "positive_zh": "肩峰前方摸到壓痛的凹陷（裂隙 rent），其遠端可摸到隆起的大結節。",
+  "notes_zh": "Hanchard 等人 (2013) Cochrane 回顧：敏感度 96%、特異度 97%；Lyon 等人 (1992) 結果相反但因臨床理由被排除於回顧外，原頁因此儘管概似比高仍給中等臨床價值。其他全層撕裂測試：內轉落後徵象、外轉落後徵象、棘下肌測試、落臂徵象。⚠ API 中本頁頁首區塊標題寫成「Drop Arm Sign」。",
+  "tags": [
+   "旋轉肌袖 rotator cuff",
+   "全層撕裂 full-thickness tear",
+   "觸診 palpation"
+  ]
+ },
+ {
+  "slug": "infraspinatus-test",
+  "title_zh": "棘下肌測試 Infraspinatus Test",
+  "purpose_zh": "以阻力外轉測試棘下肌 (infraspinatus) 撕裂。",
+  "structure_zh": "棘下肌。背景：60 歲以上約 40% 有旋轉肌袖撕裂且常無症狀；肌袖退化從 50 歲起快速增加、80 歲達高峰，而非創傷性肩痛在 60 歲後反而減少。",
+  "procedure_zh": "坐或站，雙臂放鬆垂在身側但不貼身，雙肘屈 90°；檢查者手掌放在病人手背上，病人雙肩對抗阻力外轉。",
+  "positive_zh": "外轉無力（棘下肌撕裂通常不痛）。",
+  "notes_zh": "Micheroli 等人 (2015)（以高解析超音波為對照）：敏感度 90%、特異度 74%，與以 MRI 為對照的研究相近；臨床價值中等，陰性較適合用來排除撕裂。其他全層撕裂測試：落臂徵象、外轉落後徵象、內轉落後徵象、rent 測試。",
+  "tags": [
+   "棘下肌 infraspinatus",
+   "全層撕裂 full-thickness tear",
+   "排除用 rule-out"
+  ]
+ },
+ {
+  "slug": "internal-rotation-lag-sign",
+  "title_zh": "內轉落後徵象 Internal Rotation Lag Sign",
+  "purpose_zh": "偵測肩胛下肌 (subscapularis) 全層撕裂。",
+  "structure_zh": "肩胛下肌。",
+  "procedure_zh": "病人坐姿，患側手放在腰部。檢查者一手握腕、一手握肘，把手被動抬離背部到接近完全內轉，請病人主動維持，然後放開腕部的手。",
+  "positive_zh": "出現落後 (lag)：病人無法讓手維持離開背部。",
+  "notes_zh": "Miller 等人 (2008)：敏感度 100%、特異度 84%，但樣本小、信賴區間寬，原頁給中等臨床價值。其他全層撕裂測試：落臂徵象、外轉落後徵象、棘下肌測試、rent 測試。",
+  "tags": [
+   "肩胛下肌 subscapularis",
+   "全層撕裂 full-thickness tear",
+   "落後徵象 lag sign"
+  ]
+ },
+ {
+  "slug": "shoulder-shrug-sign",
+  "title_zh": "聳肩徵象 Shoulder Shrug Sign",
+  "purpose_zh": "盂肱關節退化性關節炎 (osteoarthritis) 與冰凍肩 (frozen shoulder) 的篩檢徵象。",
+  "structure_zh": "盂肱關節；肩胛胸廓代償。",
+  "procedure_zh": "病人雙肘屈 90°，雙臂在身體平面外展到 90° 並短暫維持。",
+  "positive_zh": "病人必須抬起整個肩胛／肩帶（聳肩）才能達到 90° 外展。",
+  "notes_zh": "Jia 等人 (2008)：肩 OA 敏感度 91%、特異度 57%；冰凍肩敏感度 95%、特異度 50%。適合排除這兩種狀況，臨床價值中等。喙突疼痛測試 (coracoid pain test) 可區分冰凍肩與偽冰凍肩；冰凍肩的正式診斷依被動活動度受限準則。",
+  "tags": [
+   "冰凍肩 frozen shoulder",
+   "退化性關節炎 OA",
+   "排除用 rule-out"
+  ]
+ },
+ {
+  "slug": "glenohumeral-internal-rotation-deficit",
+  "title_zh": "盂肱關節內轉缺損評估 Glenohumeral Internal Rotation Deficit",
+  "purpose_zh": "評估盂肱關節內轉缺損 (glenohumeral internal rotation deficit, GIRD)，投擲運動造成的後肩適應，可能引起夾擠。",
+  "structure_zh": "後關節囊與外轉肌；三種理論：後關節囊攣縮（有時伴外轉增加）、早年投擲造成的骨性適應、反覆離心負荷造成外轉肌肥大。",
+  "procedure_zh": "仰臥、肩外展 90°，用數位傾斜儀（最可靠）。一手拇指觸診喙突以偵測肩胛移動，另一手握腕做內轉；同時量外轉以得到總旋轉活動度 (total range of motion, TROM，正常 135–180°)。",
+  "positive_zh": "內轉兩側相差超過 10° 提示 GIRD，但應以內轉加外轉的總活動度兩側相差超過 10° 來診斷；內轉較少的一側可能靠外轉增加而總活動度相同。",
+  "notes_zh": "量測與判準頁面，而非誘發測試（參考 Cools 等人 2008 的臨床推理流程）。",
+  "tags": [
+   "GIRD",
+   "投擲運動員 throwing athlete",
+   "活動度 ROM"
+  ]
+ },
+ {
+  "slug": "stenvers-test",
+  "title_zh": "Stenvers 五項測試組 Stenvers Test Battery",
+  "purpose_zh": "Stenvers (1977) 的五項肩帶活動度快速測試：肩胛後傾、鎖骨旋轉、肩胛下降、頸胸交界，以及後關節囊／AC／SC 關節。",
+  "structure_zh": "胸鎖關節 (sternoclavicular joint)、肩鎖關節 (acromioclavicular joint)、盂肱關節、肩胛胸廓關節與頸胸交界 (cervicothoracic junction)。",
+  "procedure_zh": "1) 坐姿、手臂最大屈曲；肩胛下角停在腋毛線後方為陽性（後傾受限）。2) 手指放在鎖骨幹上方後側觸診完全屈曲時的鎖骨：正常先上提前旋到約 45°，之後下降並後旋；偏離為陽性。3) 觸診下角，最大屈曲到約 170° 時下角應下降 1–2 公分。4) 拇指頂在 C7 棘突，肩屈曲應伴頸胸交界往對側旋轉。5) 肩與肘各 90°，檢查者固定肩胛外緣，做最大水平內收（約 100°），放開固定後應再多 20°。",
+  "positive_zh": "偏離各項描述的正常表現。",
+  "notes_zh": "Baertschi 等人 (2013) 施測者間 kappa 0.63–0.84，臨床價值存疑。原頁錯字「flexes the below」（應為 elbow）。肩部總論頁也提到此測試組。",
+  "tags": [
+   "肩帶活動度 shoulder girdle",
+   "測試組 test battery",
+   "信度 reliability"
+  ]
+ },
+ {
+  "slug": "scapular-alignment",
+  "title_zh": "肩胛排列觀察 Scapular Alignment",
+  "purpose_zh": "觀察肩帶與肩胛的排列，推論哪些肌肉可能縮短、拉長或無力。",
+  "structure_zh": "正常：肩高略低於 T1、側面鉛垂線通過肩峰；肩胛上角在 T2、下角在 T7，內緣與脊椎平行、距離約 3 吋（7.5 公分，約四指寬），肩胛平貼胸廓、相對冠狀面前旋 30°。斜方肌與前鋸肌 (serratus anterior) 為力偶 (force couple)；提肩胛肌 (levator scapulae)、菱形肌 (rhomboids)、胸小肌 (pectoralis minor) 為下旋肌。",
+  "procedure_zh": "從後、側、前觀察：上提、下降（上角低於 T2、鎖骨較水平、AC 低於 SC）、前突、下旋（下角比上角更靠近脊椎）、內收（< 3 吋）或外展（> 3 吋）、翼狀 (winging，內緣翹起) 與傾斜 (tilting，下角翹起)。",
+  "positive_zh": "依型態推論：下旋 → 提肩胛肌／菱形肌短 ± 上斜方肌長／前鋸肌弱；下降 → 胸大肌／闊背肌短 ± 上斜方肌長；上提 → 只有上角高為提肩胛肌短、AC 也高為上斜方肌、整個肩胛棘高則加菱形肌；內收 → 菱形肌／上斜方肌短或前鋸肌長／弱；外展 → 前鋸肌／胸大肌短；翼狀 → 前鋸肌無力（長胸神經）、平背或駝背、脊椎側彎、肩胛下肌肥大；傾斜 → 胸小肌、二頭肌短頭、喙肱肌短。",
+  "notes_zh": "觀察頁；原頁的總表與圖片不在 API 文字中。3 吋在原頁同時寫成 7.5 與 7.6 公分。相關：肩胛肱骨節律、肩胛運動障礙測試、肩胛輔助與後縮測試（參考 O'Leary 2015、Tate 2009）。",
+  "tags": [
+   "肩胛 scapula",
+   "姿勢觀察 posture",
+   "肩胛運動障礙 dyskinesis"
+  ]
+ },
+ {
+  "slug": "4-type-classification",
+  "title_zh": "Kibler 四型分類 4-Type Classification",
+  "purpose_zh": "Kibler (2002) 的肩胛運動障礙 (scapular dyskinesis) 四型分類，是研究中最常用的方法。",
+  "structure_zh": "肩胛胸廓動作：上舉時的翼狀 (winging) 與節律異常 (dysrhythmia)。",
+  "procedure_zh": "雙側在肩胛平面上舉 3 次、速度 45°/秒，再雙側外展 3 次、45°/秒；觀察翼狀及／或節律異常並歸入四型之一。",
+  "positive_zh": "歸入 Kibler 的四型（各型描述是圖片、不在 API 文字中）。",
+  "notes_zh": "分類頁而非測試。Kibler 等人 (2002) 自評信度：施測者內 kappa 0.5、施測者間 kappa 0.4（中等）。替代方法：McClure 的肩胛運動障礙測試、是／否法。",
+  "tags": [
+   "肩胛運動障礙 dyskinesis",
+   "分類 classification",
+   "信度 reliability"
+  ]
+ },
+ {
+  "slug": "pectoralis-major-length-test",
+  "title_zh": "胸大肌長度測試 Pectoralis Major Length Test",
+  "purpose_zh": "評估胸大肌 (pectoralis major) 長度；久坐、肩前突內轉內收的工作姿勢常使其縮短。",
+  "structure_zh": "胸大肌。",
+  "procedure_zh": "病人雙臂屈曲 90°、雙手交扣在頭後；檢查者嘗試把雙肘壓到床面。",
+  "positive_zh": "雙肘無法壓到床面；病人的伸展感也可提供資訊。",
+  "notes_zh": "參考 Magee (2014)，無準確度數值。相關長度測試：胸小肌、肱二頭肌、肱三頭肌。",
+  "tags": [
+   "胸大肌 pectoralis major",
+   "肌肉長度 muscle length",
+   "姿勢 posture"
+  ]
+ }
+]

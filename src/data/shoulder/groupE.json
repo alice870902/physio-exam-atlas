@@ -1,0 +1,399 @@
+[
+ {
+  "slug": "slap-lesion-cluster",
+  "id": 12493,
+  "title": "SLAP Lesion Cluster 1",
+  "link": "https://www.physiotutors.com/wiki/slap-lesion-cluster/",
+  "youtube_ids": [
+   "cbHRPFJ5jm8",
+   "qkDvVBi0gg8"
+  ],
+  "purpose": "Two-test cluster (Schlechter et al. 2009) combining O'Brien's active compression test with a second labral test to confirm or rule out SLAP lesions.",
+  "structure": "Superior labrum / long head of biceps anchor; the described manoeuvre is thought to tension the biceps anchor and 'peel back' the labrum.",
+  "procedure": "Test A as written on the page (headed 'Passive Compression Test'): patient supine at the table edge, affected arm elevated to 150° in the coronal plane with elbow extended and forearm supinated, upper arm stabilized against rotation; gently pronate the forearm; positive if pain is felt deep in the glenohumeral joint anteriorly or posteriorly. Test B, O'Brien active compression: shoulders flexed 90°, 10° adduction, full internal rotation, resist downward pressure; repeat in full external rotation; positive if pain in position 1 lessens or disappears in position 2.",
+  "positive": "Both tests positive (LR+ 7.0); both negative (LR− 0.33); one positive and one negative is not informative.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "7.0 (2 of 2 positive)",
+   "lr_minus": "0.33 (2 of 2 negative)",
+   "source": "Schlechter et al. 2009"
+  },
+  "notes": "Moderate clinical value to confirm or rule out SLAP lesions. SOURCE ISSUE: the page text names the Passive Distraction test (Schlechter's paper) but the execution paragraph describes and is headed 'Passive Compression Test'; the two are different tests, both of which have their own pages. Page has two videos; the first embedded video is titled 'Passive Distraction Test', matching Schlechter's cluster, so the video (not the text) shows the intended test. Companion: SLAP lesion cluster 2.",
+  "status": "ok (source mixes passive distraction / passive compression)"
+ },
+ {
+  "slug": "slap-lesion-cluster-2",
+  "id": 12497,
+  "title": "SLAP Lesion Cluster 2",
+  "link": "https://www.physiotutors.com/wiki/slap-lesion-cluster-2/",
+  "youtube_ids": [
+   "4F1b8umWInQ"
+  ],
+  "purpose": "Two-item cluster from the literature review of Rosas et al. 2017 (uppercut test plus palpation of the long head of biceps) for proximal biceps pathology.",
+  "structure": "Long head of biceps tendon in the bicipital groove; superior labrum.",
+  "procedure": "Uppercut test: shoulder neutral, elbow 90°, forearm fully supinated, fist; the examiner covers the wrist and resists while the patient rapidly brings the hand up and across toward the chin like an uppercut; positive = pain or painful pop over the anterior shoulder. Palpation: arm neutral, find the coracoid and move 1-2 cm lateral into the bicipital groove, confirm by feeling the tendon move during passive internal/external rotation (harder with a bulky anterior deltoid); positive = tenderness.",
+  "positive": "Both tests positive = cluster positive; both negative = negative; one positive/one negative = not informative because each test alone is weak.",
+  "accuracy": {
+   "sensitivity": "88.3%",
+   "specificity": "93.3%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Rosas et al. 2017 literature review (uppercut + LHB tenderness); not confirmed by other studies"
+  },
+  "notes": "Page rates moderate clinical value. Companion: SLAP lesion cluster 1 and the individual biceps/SLAP test pages.",
+  "status": "ok"
+ },
+ {
+  "slug": "supine-flexion-resistance-test",
+  "id": 11360,
+  "title": "Supine Flexion Resistance Test | SLAP Lesions",
+  "link": "https://www.physiotutors.com/wiki/supine-flexion-resistance-test/",
+  "youtube_ids": [
+   "PzxPsFXcozs"
+  ],
+  "purpose": "SLAP lesion test (Ebinger et al. 2008) using resisted forward flexion from full elevation in supine, simulating a throwing motion.",
+  "structure": "Superior labrum / biceps anchor; requires a free range of motion.",
+  "procedure": "Patient supine, arm resting above the head in full elevation, palm up. The examiner stands at the tested shoulder and grasps the arm just distal to the elbow; the patient performs resisted forward flexion as if throwing.",
+  "positive": "Pain deep inside the shoulder joint or at the dorsal joint line during the resisted movement only; the unaffected shoulder should be pain-free.",
+  "accuracy": {
+   "sensitivity": "not reported for this test",
+   "specificity": "not reported for this test",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Ebinger et al. 2008 (higher specificity than O'Brien and Speed's, higher sensitivity in isolated SLAP lesions; no figures on the page). SOURCE ISSUE: the page's accuracy paragraph (Gismervik et al. 2017, Sn 43%, Sp 89%) describes the Compression-Rotation test, not this test"
+  },
+  "notes": "Limitation: usable only with free shoulder range; patients with partial stiffness feel pain just reaching the start position because of capsular adhesions.",
+  "status": "ok (page accuracy paragraph belongs to compression-rotation test)"
+ },
+ {
+  "slug": "resisted-supination-external-rotation-test",
+  "id": 11342,
+  "title": "Resisted Supination External Rotation Test | Biceps / SLAP Lesion",
+  "link": "https://www.physiotutors.com/wiki/resisted-supination-external-rotation-test/",
+  "youtube_ids": [
+   "6sgovZIATZI"
+  ],
+  "purpose": "SLAP (superior labrum anterior to posterior) lesion test, mainly for overhead throwing athletes.",
+  "structure": "Superior labrum; SLAP injuries are rarely isolated, often with cuff tears or instability; mechanisms include traction, acute overhead trauma, peel-back and heavy lifting. MR arthrography is the preferred imaging (Symanski et al.).",
+  "procedure": "Patient supine with the scapula near the table edge. The examiner supports the arm at elbow and hand, 90° abduction, elbow flexed 65-70°, forearm neutral or slightly pronated. The patient supinates maximally while the examiner maximally externally rotates the shoulder, then describes the symptoms.",
+  "positive": "Anterior or deep shoulder pain, clicking or catching, or reproduction of throwing symptoms. Posterior pain, apprehension or no pain = negative.",
+  "accuracy": {
+   "sensitivity": "14.3%",
+   "specificity": "80.8%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Somerville et al. 2017"
+  },
+  "notes": "Poor likelihood ratios; clinical value weak.",
+  "status": "ok"
+ },
+ {
+  "slug": "gagey-test",
+  "id": 12470,
+  "title": "Gagey Test | Inferior Shoulder Instability Assessment",
+  "link": "https://www.physiotutors.com/wiki/gagey-test/",
+  "youtube_ids": [
+   "FTxQ1O6X7g4"
+  ],
+  "purpose": "Hyperabduction test for laxity of the inferior glenohumeral ligament (inferior instability).",
+  "structure": "Inferior glenohumeral ligament, which controls passive glenohumeral abduction (Gagey & Gagey 2001, 100 cadavers: passive abduction occurs in the glenohumeral joint only; constant bilateral value in 95% of normals; > 105° in 85% of unstable shoulders).",
+  "procedure": "Patient sitting upright. The examiner stabilizes the shoulder girdle on clavicle and scapula to prevent elevation and passively moves the arm to end-range abduction (page text says 'horizontal abduction'); a mirror helps judge the angle.",
+  "positive": "Passive abduction exceeding 105°, indicating inferior glenohumeral ligament laxity.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Reliability only: Eshoj et al. 2018 inter-rater 0.73; no diagnostic accuracy studies known"
+  },
+  "notes": "Clinical value questionable. Other instability tests: sulcus sign, apprehension, relocation, release, load and shift.",
+  "status": "ok"
+ },
+ {
+  "slug": "posterior-impingement-test",
+  "id": 12459,
+  "title": "Posterior Impingement Test | Internal Impingement",
+  "link": "https://www.physiotutors.com/wiki/posterior-impingement-test/",
+  "youtube_ids": [
+   "oMxUGcHpg-Q"
+  ],
+  "purpose": "Detect internal (posterosuperior) impingement, a common cause of posterior shoulder pain in overhead-throwing athletes.",
+  "structure": "Greater tuberosity and articular surface of the rotator cuff abutting the posterosuperior glenoid in abduction/external rotation; contributing factors: shoulder remodelling, posterior capsular contracture, scapular dyskinesis.",
+  "procedure": "Patient supine. Bring the shoulder into 90-110° abduction, 10-15° extension and maximal external rotation.",
+  "positive": "Deep posterior shoulder pain; correlated with undersurface cuff tears and/or posterior labral tears in athletes with gradual-onset posterior pain.",
+  "accuracy": {
+   "sensitivity": "76%",
+   "specificity": "85%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Meister et al. 2004 (several methodological flaws)"
+  },
+  "notes": "Page rates weak clinical value pending better studies. Tests designed for 'external' impingement (Neer, Hawkins-Kennedy) can be false-positive in internal impingement (Leschinger et al. 2017).",
+  "status": "ok"
+ },
+ {
+  "slug": "yocum-test",
+  "id": 12456,
+  "title": "Yocum Test | Subacromial Shoulder Pain",
+  "link": "https://www.physiotutors.com/wiki/yocum-test/",
+  "youtube_ids": [
+   "40tc1PvrQGk"
+  ],
+  "purpose": "Active provocation of the subacromial structures (Yocum 1983).",
+  "structure": "Subacromial space: supraspinatus tendon, subacromial-subdeltoid bursa.",
+  "procedure": "Sitting or standing, the patient places the hand of the affected arm on the opposite shoulder and raises the elbow without moving the shoulder.",
+  "positive": "Reproduction of the patient's familiar pain.",
+  "accuracy": {
+   "sensitivity": "79% (supraspinatus tendinopathy on MRI); 80% (subacromial-subdeltoid bursitis on MRI)",
+   "specificity": "40% (tendinopathy); 36% (bursitis)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Silva et al. 2008"
+  },
+  "notes": "Weak clinical value: small sample, tendon degeneration is common, and MRI is not a robust reference standard here. Related SAPS tests: Hawkins-Kennedy, painful arc.",
+  "status": "ok"
+ },
+ {
+  "slug": "whipple-test",
+  "id": 12392,
+  "title": "Whipple Test | Subacromial Pain Syndrome | Supraspinatus Tears",
+  "link": "https://www.physiotutors.com/wiki/whipple-test/",
+  "youtube_ids": [
+   "Op94AFv6aHM"
+  ],
+  "purpose": "Test for supraspinatus tendon tears / subacromial pain.",
+  "structure": "Supraspinatus tendon.",
+  "procedure": "The patient holds the hand of the affected side palm-down in front of the contralateral shoulder and resists a downward force from the examiner.",
+  "positive": "Shoulder pain and/or weakness against the downward force compared with the other arm.",
+  "accuracy": {
+   "sensitivity": "88.6% (Ackmann); 68% (Sgroi 2018)",
+   "specificity": "29.4% (Ackmann); 31% (Sgroi 2018)",
+   "lr_plus": "not reported (approaching 1)",
+   "lr_minus": "not reported (approaching 1)",
+   "source": "Ackmann et al. (text says 2019, reference list 2021); Sgroi et al. 2018"
+  },
+  "notes": "Likelihood ratios near 1: weak accuracy, no practical usefulness. Neither Whipple nor empty/full can distinguish partial from full-thickness tears; EMG shows no single cuff muscle can be isolated (Boettcher et al. 2009).",
+  "status": "ok"
+ },
+ {
+  "slug": "why-can-tests-suck",
+  "id": 12414,
+  "title": "Why Can Tests Suck | Proper Supra- & Infraspinatus Assessment",
+  "link": "https://www.physiotutors.com/wiki/why-can-tests-suck/",
+  "youtube_ids": [
+   "nphhgdDlHBE"
+  ],
+  "purpose": "Explainer (not a test) on why the empty-can and full-can tests are not selective for supraspinatus, with a better position for supra-/infraspinatus testing.",
+  "structure": "Supraspinatus and infraspinatus versus deltoid and trapezius. Boettcher et al. 2009a: empty can and full can activate 9 and 8 other shoulder muscles to the same degree; 2009b: external rotation in the zero position reduces deltoid activity.",
+  "procedure": "Suggested position: patient prone (deltoid and trapezius relax), shoulder abducted 90°, elbow flexed 90°, resistance applied at the wrist.",
+  "positive": "n/a (explainer page). Even in this position supraspinatus cannot be isolated from infraspinatus.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a (EMG studies Boettcher et al. 2009a, 2009b)"
+  },
+  "notes": "Concept page rather than a special test. Related: Hawkins-Kennedy, Neer, full can, painful arc.",
+  "status": "ok (explainer page, not a test)"
+ },
+ {
+  "slug": "rent-test",
+  "id": 11704,
+  "title": "Rent Test | Full-Thickness Rotator Cuff Tear",
+  "link": "https://www.physiotutors.com/wiki/rent-test/",
+  "youtube_ids": [
+   "RUh2bz4CXvE"
+  ],
+  "purpose": "Transdeltoid palpation for full-thickness rotator cuff tears.",
+  "structure": "Rotator cuff tendons palpated through the deltoid anterior to the acromion; greater tuberosity.",
+  "procedure": "Patient sitting with the arm relaxed; examiner behind. One hand palpates just anterior to the anterior edge of the acromion; the other hand holds the elbow and brings the arm into extension, adding careful internal and external rotation to palpate the cuff tendons.",
+  "positive": "A tender depression (rent) anterior to the acromion, with the greater tuberosity felt as an eminence just distal to it.",
+  "accuracy": {
+   "sensitivity": "96%",
+   "specificity": "97%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Hanchard et al. 2013 Cochrane review; Lyon et al. 1992 had conflicting results and was excluded from the review"
+  },
+  "notes": "Page rates moderate clinical value despite the high ratios. Other full-thickness tear tests: internal rotation lag sign, external rotation lag sign, infraspinatus test, drop arm sign. SOURCE NOTE: the page's header section is titled 'Drop Arm Sign' in the API.",
+  "status": "ok (header title copy error on source)"
+ },
+ {
+  "slug": "infraspinatus-test",
+  "id": 11587,
+  "title": "Infraspinatus Test | Infraspinatus Tear Assessment",
+  "link": "https://www.physiotutors.com/wiki/infraspinatus-test/",
+  "youtube_ids": [
+   "vzl97bB2hzQ"
+  ],
+  "purpose": "Resisted external rotation test for infraspinatus tears.",
+  "structure": "Infraspinatus. Context: rotator cuff tears affect about 40% of people over 60 and are often asymptomatic; cuff degeneration rises from age 50, peaking at 80, while non-traumatic shoulder pain decreases after 60.",
+  "procedure": "Sitting or standing, arms hanging relaxed beside but not touching the trunk, both elbows flexed 90°; the examiner places the palms on the dorsum of the patient's hands and the patient externally rotates both shoulders against resistance.",
+  "positive": "Weakness in external rotation (infraspinatus tears are usually painless).",
+  "accuracy": {
+   "sensitivity": "90%",
+   "specificity": "74%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Micheroli et al. 2015 (vs high-resolution ultrasound; similar to MRI-based studies)"
+  },
+  "notes": "Moderate clinical value; better suited to rule out a tear when negative. Other full-thickness tear tests: drop arm, lateral rotation lag, internal rotation lag, rent test.",
+  "status": "ok"
+ },
+ {
+  "slug": "internal-rotation-lag-sign",
+  "id": 11584,
+  "title": "Internal Rotation Lag Sign | Subscapularis Full-Thickness Tear",
+  "link": "https://www.physiotutors.com/wiki/internal-rotation-lag-sign/",
+  "youtube_ids": [
+   "FbxrdmtjwN8"
+  ],
+  "purpose": "Detect full-thickness subscapularis tears (medial rotation lag sign).",
+  "structure": "Subscapularis.",
+  "procedure": "Patient seated with the hand of the painful side on the lumbar region. The examiner passively lifts the hand off the back (one hand at the wrist, one at the elbow) to almost full internal rotation, asks the patient to hold the position, and releases the wrist.",
+  "positive": "A lag: the patient cannot keep the hand off the back.",
+  "accuracy": {
+   "sensitivity": "100%",
+   "specificity": "84%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Miller et al. 2008 (small sample, wide confidence intervals)"
+  },
+  "notes": "Page rates moderate clinical value. Other full-thickness tear tests: drop arm, lateral rotation lag, infraspinatus test, rent test.",
+  "status": "ok"
+ },
+ {
+  "slug": "shoulder-shrug-sign",
+  "id": 11572,
+  "title": "Shoulder Shrug Sign | Shoulder OA Exam | Frozen Shoulder Assessment",
+  "link": "https://www.physiotutors.com/wiki/shoulder-shrug-sign/",
+  "youtube_ids": [
+   "tInWp-2DlN8"
+  ],
+  "purpose": "Screening sign for glenohumeral osteoarthritis and frozen shoulder.",
+  "structure": "Glenohumeral joint; scapulothoracic compensation.",
+  "procedure": "The patient flexes both elbows to 90° and abducts both arms to 90° in the plane of the body, holding briefly.",
+  "positive": "The patient must elevate the whole scapula/shoulder girdle (shrug) to reach 90° abduction.",
+  "accuracy": {
+   "sensitivity": "91% (shoulder OA); 95% (frozen shoulder)",
+   "specificity": "57% (shoulder OA); 50% (frozen shoulder)",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Jia et al. 2008"
+  },
+  "notes": "Useful to rule out both conditions; moderate clinical value. Coracoid pain test distinguishes frozen from pseudo-frozen shoulder; formal frozen shoulder diagnosis rests on passive ROM criteria.",
+  "status": "ok"
+ },
+ {
+  "slug": "glenohumeral-internal-rotation-deficit",
+  "id": 12374,
+  "title": "Glenohumeral Internal Rotation Deficit (GIRD) Assessment",
+  "link": "https://www.physiotutors.com/wiki/glenohumeral-internal-rotation-deficit/",
+  "youtube_ids": [
+   "RtTa4dvZsYc"
+  ],
+  "purpose": "Assess glenohumeral internal rotation deficit (GIRD), a throwing-sport adaptation of the posterior shoulder that can cause impingement.",
+  "structure": "Posterior capsule and external rotators; three theories: posterior capsule contracture (sometimes with gained external rotation), bony adaptation from early overhead throwing, hypertrophy of external rotators from eccentric loading.",
+  "procedure": "Supine, arm abducted 90°; use a digital inclinometer (most reliable). Palpate the coracoid with one thumb to detect scapular movement and internally rotate the arm at the wrist. Also measure external rotation to obtain total range of motion (TROM, normally 135-180°).",
+  "positive": "Internal rotation loss > 10° between sides suggests GIRD, but diagnose GIRD by a side difference > 10° in total rotation range (IR + ER); a shoulder with less IR may show equal TROM through increased ER.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a (Cools et al. 2008 clinical reasoning algorithm)"
+  },
+  "notes": "Measurement/criteria page rather than a provocation test.",
+  "status": "ok"
+ },
+ {
+  "slug": "stenvers-test",
+  "id": 12371,
+  "title": "Stenvers Test Battery I to V",
+  "link": "https://www.physiotutors.com/wiki/stenvers-test/",
+  "youtube_ids": [
+   "xvst7l2ykMQ"
+  ],
+  "purpose": "Stenvers' (1977) five quick tests of shoulder-girdle mobility: scapular backward tilt, clavicular rotation, scapular depression, cervicothoracic junction, and posterior capsule/AC/SC joints.",
+  "structure": "Sternoclavicular, acromioclavicular, glenohumeral and scapulothoracic joints and the cervicothoracic junction.",
+  "procedure": "1) Sitting, arm into maximal flexion; positive if the inferior scapular angle stays behind the axillary hairline (limited posterior tilt). 2) Finger on/behind the clavicle shaft during full flexion; normal = elevation and forward rotation to about 45°, then downward movement and posterior rotation; deviation = positive. 3) Palpate the inferior angle during maximal flexion; it should drop 1-2 cm at about 170°. 4) Thumb against the C7 spinous process; shoulder flexion should couple with contralateral rotation at the cervicothoracic junction. 5) Shoulder and elbow 90°, examiner fixes the lateral scapular border, moves into maximal horizontal adduction (about 100°), then releases the fixation and expects a further 20°.",
+  "positive": "Deviation from the normal findings described for each test.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Reliability only: Baertschi et al. 2013 inter-rater kappa 0.63-0.84"
+  },
+  "notes": "Clinical value questionable. Page typo: 'flexes the below' (elbow). Also referenced on the shoulder-assessment overview page.",
+  "status": "ok"
+ },
+ {
+  "slug": "scapular-alignment",
+  "id": 12431,
+  "title": "Scapular Alignment | Scapular Dyskinesis Assessment",
+  "link": "https://www.physiotutors.com/wiki/scapular-alignment/",
+  "youtube_ids": [
+   "n2HN3AAepwE"
+  ],
+  "purpose": "Observe shoulder-girdle and scapular alignment and infer which muscles may be short, lengthened or weak.",
+  "structure": "Normal: shoulder height slightly below T1, plumb line through the acromion from the side; superior scapular angle at T2, inferior angle at T7, medial border parallel to the spine about 3 inches (7.5 cm, four fingers) away, scapula flat on the thorax rotated 30° anterior to the frontal plane. Force couple trapezius/serratus anterior; levator scapulae, rhomboids and pectoralis minor as downward rotators.",
+  "procedure": "Inspect from behind, side and front for elevation, depression (superior angle below T2, horizontal clavicle, AC below SC), protraction, downward rotation (inferior angle more medial than superior), adduction (< 3 inches) or abduction (> 3 inches), winging (medial border lifts off) and tilting (inferior angle lifts off).",
+  "positive": "Pattern-based: downward rotation → short levator/rhomboids ± long upper trapezius/weak serratus; depression → short pectoralis major/latissimus ± long upper trapezius; elevation → short levator (superior angle only), upper trapezius (AC elevated too), plus rhomboids (whole spine elevated); adduction → short rhomboids/upper trapezius or long/weak serratus; abduction → short serratus/pectoralis major; winging → serratus weakness (long thoracic nerve), flat thoracic spine/hyperkyphosis, scoliosis, subscapularis hypertrophy; tilt → short pectoralis minor, short head of biceps, coracobrachialis.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a (O'Leary et al. 2015 reliability study; Tate et al. 2009)"
+  },
+  "notes": "Observation page; the overview table and pictures are not in the API text. Page gives both 7.5 and 7.6 cm for 3 inches. Related: scapulohumeral rhythm, scapular dyskinesis test, scapular assistance and retraction tests.",
+  "status": "ok"
+ },
+ {
+  "slug": "4-type-classification",
+  "id": 10590,
+  "title": "4-Type Classification by Kibler | Scapular Dyskinesis Assessment",
+  "link": "https://www.physiotutors.com/wiki/4-type-classification/",
+  "youtube_ids": [
+   "Y3SEovfixjg"
+  ],
+  "purpose": "Kibler's (2002) four-type classification of scapular dyskinesis, the most used method in research.",
+  "structure": "Scapulothoracic movement: winging and dysrhythmia during elevation.",
+  "procedure": "3 repetitions of bilateral shoulder elevation in the scapular plane at 45°/s, then 3 repetitions of bilateral abduction at 45°/s; observe for winging and/or dysrhythmia and assign one of four types.",
+  "positive": "Classification into Kibler's types (the type descriptions are an image not present in the API text).",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Reliability only: Kibler et al. 2002 intra-rater kappa 0.5, inter-rater kappa 0.4 (moderate)"
+  },
+  "notes": "Classification page rather than a test. Alternatives: McClure's scapular dyskinesis test, yes/no method.",
+  "status": "ok (classification page)"
+ },
+ {
+  "slug": "pectoralis-major-length-test",
+  "id": 12417,
+  "title": "Pectoralis Major Length Test",
+  "link": "https://www.physiotutors.com/wiki/pectoralis-major-length-test/",
+  "youtube_ids": [
+   "6WSybz0modY"
+  ],
+  "purpose": "Assess pectoralis major length, commonly shortened by desk work with protracted, internally rotated and adducted shoulders.",
+  "structure": "Pectoralis major.",
+  "procedure": "Patient flexes the arms to 90° and clasps the hands behind the head; the examiner tries to bring the elbows down to the bench.",
+  "positive": "Elbows cannot be brought down to the bench; the patient's stretch sensation adds information.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a (Magee 2014)"
+  },
+  "notes": "Related length tests: pectoralis minor, biceps brachii, triceps brachii.",
+  "status": "ok"
+ }
+]

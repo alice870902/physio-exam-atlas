@@ -1,0 +1,192 @@
+[
+ {
+  "slug": "weber-barstow-maneuver",
+  "title_zh": "Weber-Barstow 手法 Weber-Barstow Maneuver",
+  "purpose_zh": "篩檢功能性腿長差異 (functional leg length difference)：因姿勢（如脊椎側彎、足過度旋前）代償而非結構造成的差異。",
+  "structure_zh": "重設骨盆後比較兩側內踝 (medial malleoli)。",
+  "procedure_zh": "病人仰臥，略施牽引使雙腿位置一致。觸診內踝遠端，請病人屈髖屈膝並把骨盆抬離床面，再被動伸直雙膝、雙腳併攏，以拇指比較兩側內踝高度。",
+  "positive_zh": "內踝高度不同表示不對稱。",
+  "notes_zh": "Gomez-Aguilar 等人 (2021) 施測者間 kappa 0.52（中等一致）。約 90% 的人有腿長不等（平均 5.2 公釐），解剖性腿長差通常要到約 20 公釐以上才有臨床意義（Knutson 2005）。與髖 AROM、PROM 同屬基礎評估。",
+  "tags": ["腿長差 leg length", "基礎評估 basic assessment"]
+ },
+ {
+  "slug": "cluster-of-sutlive",
+  "title_zh": "Sutlive 組合測試 Cluster of Sutlive",
+  "purpose_zh": "Sutlive 等人 (2008) 的五項臨床預測規則，用於單側髖痛病人髖退化性關節炎 (osteoarthritis, OA) 的初步診斷，減少 X 光需求並及早開始保守治療。",
+  "structure_zh": "髖關節；影像參考為 Kellgren-Lawrence 分級。",
+  "procedure_zh": "1) 髖刮除測試 (scour test) 陽性：仰臥髖屈 90°，往對側肩方向移動並沿股骨軸向加壓，再內轉加壓、內收加壓，評估鼠蹊疼痛或症狀。2) 被動髖內轉 ≤ 25°（俯臥髖中立、膝屈 90°，傾斜儀放外踝近端，最大內轉直到對側臀部抬起）。3) 下蹲時髖痛。4) 主動髖屈曲引起外側痛。5) 主動髖伸直疼痛。",
+  "positive_zh": "5 項中 3 項陽性 → LR+ 5.2；4 項陽性 → LR+ 24.3（95% CI 4.4–142.1，須謹慎）。",
+  "notes_zh": "需進一步驗證，原頁給中等臨床價值。相關：Patrick's 測試、Trendelenburg 徵象、髖 OA 徵象與症狀。",
+  "tags": ["退化性關節炎 OA", "cluster", "臨床預測規則 CPR"]
+ },
+ {
+  "slug": "mccarthy-test",
+  "title_zh": "McCarthy 測試 McCarthy Test",
+  "purpose_zh": "多篇臨床診斷文獻提到的髖盂唇病變／股髖夾擠 (femoroacetabular impingement, FAI) 測試。",
+  "structure_zh": "髖臼盂唇 (acetabular labrum)；股髖夾擠。",
+  "procedure_zh": "病人仰臥，檢查者把雙腿最大屈曲；病人抱住非測試腿維持完全屈曲。檢查者先在外轉下把測試腿伸直，再在內轉下重複；之後在無症狀側重複。",
+  "positive_zh": "重現病人的髖痛，伴或不伴彈響。",
+  "notes_zh": "從未經正式診斷準確度研究（引用 Springer 等人 2009），臨床價值存疑。相關：Thomas 測試、前／後盂唇撕裂測試、FADDIR、足部前進角步行測試。",
+  "tags": ["股髖夾擠 FAI", "盂唇 labrum", "效度未知 unvalidated"]
+ },
+ {
+  "slug": "foot-progression-angle-walking-test",
+  "title_zh": "足部前進角步行測試 Foot Progression Angle Walking Test",
+  "purpose_zh": "Ranawat 等人 (2017) 的動態步行測試，以步態改變重現活動相關症狀：內八步行針對 FAI，外八步行針對髖不穩定。",
+  "structure_zh": "內轉時股骨頭頸交界的頂撞（FAI）；外轉時的覆蓋不足／不穩定。",
+  "procedure_zh": "病人先以正常中立足角行走，再以腿內轉約 15° 的內八步態行走，接著以外八步態行走。",
+  "positive_zh": "改變足部前進角時誘發疼痛，或原有疼痛加劇：FAI 在內八時陽性，不穩定在外八時陽性。",
+  "notes_zh": "Ranawat 等人 (2017)（與 FADIR、FABER 一起評估）：FAI 敏感度 61%、特異度 56%；髖不穩定敏感度 67%、特異度 70%。概似比差，待驗證前臨床價值弱。相關：Thomas、前／後盂唇撕裂測試、FADDIR、McCarthy。",
+  "tags": ["股髖夾擠 FAI", "髖不穩定 instability", "動態測試 dynamic"]
+ },
+ {
+  "slug": "heer-test",
+  "title_zh": "HEER 測試（過度伸直外轉） HEER Test",
+  "purpose_zh": "以過度伸直加外轉 (hyperextension-external rotation) 評估年輕病人的髖關節微不穩定 (hip microinstability)。",
+  "structure_zh": "髖關節穩定結構：髖臼、盂唇、圓韌帶、關節囊韌帶複合體與肌肉；創傷性與非創傷性起病皆有，推測為有解剖異常下反覆軸向／旋轉負荷。",
+  "procedure_zh": "病人仰臥、雙腿垂出床尾；病人抱住健側腿維持屈曲。檢查者將患側腿過度伸直並外轉。",
+  "positive_zh": "前側髖痛。",
+  "notes_zh": "Hoppe 等人 (2017)：敏感度 71%、特異度 85.1%；第一篇效度研究且有限制，原頁給中等臨床價值，應合併病史與 Beighton 評分。相關：髖俯臥不穩定測試、AB-HEER、足部前進角步行。",
+  "tags": ["微不穩定 microinstability", "確認用 rule-in"]
+ },
+ {
+  "slug": "ab-heer-test",
+  "title_zh": "AB-HEER 測試 AB-HEER Test",
+  "purpose_zh": "以外展-過度伸直-外轉加大轉子前推評估髖關節微不穩定。",
+  "structure_zh": "髖關節穩定結構（髖臼、盂唇、圓韌帶、關節囊韌帶複合體、肌肉）。",
+  "procedure_zh": "病人健側在下側臥。患側腿外展 30–45°、伸直並外轉，同時檢查者在大轉子 (greater trochanter) 後方施加向前的力。",
+  "positive_zh": "前側髖痛。",
+  "notes_zh": "Hoppe 等人 (2017)：敏感度 80.6%、特異度 89.4%；第一篇效度研究且有限制，原頁給中等臨床價值。相關：髖俯臥不穩定測試、HEER、足部前進角步行。",
+  "tags": ["微不穩定 microinstability", "確認用 rule-in"]
+ },
+ {
+  "slug": "kendall-test",
+  "title_zh": "Kendall 測試（改良 Thomas 測試） Kendall Test",
+  "purpose_zh": "評估股直肌 (rectus femoris) 長度。",
+  "structure_zh": "股直肌。",
+  "procedure_zh": "病人仰臥、雙腿垂出床尾；病人把一側膝抱向胸口並維持。兩側都測，可加觸診確認是股直肌緊繃。",
+  "positive_zh": "垂下的腿抬起、無法維持膝屈 90°。",
+  "notes_zh": "參考 Magee (2014)，無準確度數值。⚠ 本頁嵌入的影片 ID 與 Phelps 測試頁相同 (NDsPj1qATiU)，請確認實際播放的影片。相關長度測試：Ober's、Ely's、Phelps、90-90 直膝抬腿、Backsaver 坐姿體前彎、三腳架徵象、Thomas。",
+  "tags": ["股直肌 rectus femoris", "肌肉長度 muscle length", "來源存疑 source issue"]
+ },
+ {
+  "slug": "backsaver-sit-and-reach-test",
+  "title_zh": "Backsaver 坐姿體前彎測試 Backsaver Sit and Reach Test",
+  "purpose_zh": "標準化的腿後肌群 (hamstrings) 長度測試，研究中常配合坐姿體前彎箱使用。",
+  "structure_zh": "腿後肌群。",
+  "procedure_zh": "坐姿，一膝屈曲抵住胸口以穩定骨盆，另一膝伸直；病人軀幹前屈、嘗試以手指碰到伸直腿的腳趾。換邊重複。",
+  "positive_zh": "至少碰不到腳趾＝腿後肌緊繃。",
+  "notes_zh": "Ayala 等人 (2012) 施測者內 ICC 0.97（極高）；改變 5.59° 才算真正的柔軟度改變。相關長度測試：Ober's、Ely's、Phelps、90-90 直膝抬腿、Kendall、三腳架徵象、Thomas。",
+  "tags": ["腿後肌群 hamstrings", "肌肉長度 muscle length", "信度 reliability"]
+ },
+ {
+  "slug": "greater-trochanter-palpation",
+  "title_zh": "大轉子觸診 Greater Trochanter Palpation",
+  "purpose_zh": "觸診臀中肌／臀小肌附著處以評估臀肌肌腱病變 (gluteal tendinopathy，大轉子疼痛症候群 GTPS)。",
+  "structure_zh": "大轉子「鐘面」(Falvey 等人)：臀中肌及其滑囊在 12 點、臀小肌及其滑囊在 1 點、臀大肌 2–6 點（股外側肌在其外）、股方肌 7–8 點、孖肌與閉孔內肌聯合腱 8–10 點、梨狀肌 10–11 點。",
+  "procedure_zh": "病人健側在下側臥、髖屈約 60°、雙膝併攏；觸診大轉子周圍結構，特別是臀中肌／臀小肌附著處。",
+  "positive_zh": "觸診臀中肌／臀小肌附著處重現外側髖痛，至少 2/10 NPRS。",
+  "notes_zh": "Grimaldi 等人（內文 2016、文獻 2017）以 MRI 為對照：敏感度 80%、特異度 46.7%，為該研究中最敏感的測試，LR− 0.43，排除臀肌肌腱病變的臨床價值中等。其他 GTPS 測試：阻力外側去旋轉、單腳站立、FADER／FADER-R、ADD／ADD-R。",
+  "tags": ["臀肌肌腱病變 gluteal tendinopathy", "GTPS", "觸診 palpation"]
+ },
+ {
+  "slug": "resisted-external-derotation-test",
+  "title_zh": "阻力外側去旋轉測試 Resisted External Derotation Test",
+  "purpose_zh": "臀肌肌腱病變（大轉子疼痛症候群 GTPS）的測試。",
+  "structure_zh": "大轉子處的臀中肌／臀小肌肌腱。",
+  "procedure_zh": "⚠ 來源問題：原頁的操作段落是從 Puranen-Orava 頁複製來的（站姿、髖屈 90°、膝伸直、腳放床上伸展腿後肌），並未描述阻力外側去旋轉測試；實際操作（Lequesne 2008）只在影片中。",
+  "positive_zh": "依原頁文字：病人熟悉的症狀加劇（複製的措辭）。",
+  "notes_zh": "Lequesne 等人 (2008)：敏感度 88%、特異度 97.3%，但只有這一篇、僅 17 人，原頁給中等臨床價值。其他 GTPS 測試：單腳站立、大轉子觸診、FADER／FADER-R、ADD／ADD-R。",
+  "tags": ["臀肌肌腱病變 gluteal tendinopathy", "GTPS", "來源有誤 source issue"]
+ },
+ {
+  "slug": "fader-test",
+  "title_zh": "FADER 測試 FADER Test",
+  "purpose_zh": "屈曲-內收-外轉 (Flexion-ADduction-External Rotation) 測試，加阻力內轉即 FADER-R，用於臀肌肌腱病變。",
+  "structure_zh": "受拉伸與壓迫負荷的臀中肌／臀小肌肌腱。",
+  "procedure_zh": "病人仰臥。髖屈 90°、內收並外轉到末端；再請病人對抗阻力做等長內轉（FADER-R）。",
+  "positive_zh": "重現大轉子區域的外側髖痛，至少 2/10 NPRS。",
+  "notes_zh": "Grimaldi 等人（內文 2016、文獻 2017）以 MRI 為對照：FADER 敏感度 30%、特異度 86.7%；加阻力內轉後敏感度 44%、特異度 93.3%。陽性可增加對臀肌肌腱病變的信心，陰性不太改變檢後機率，臨床價值中等。其他 GTPS 測試：阻力外側去旋轉、單腳站立、大轉子觸診、ADD／ADD-R。",
+  "tags": ["臀肌肌腱病變 gluteal tendinopathy", "GTPS", "確認用 rule-in"]
+ },
+ {
+  "slug": "add-test",
+  "title_zh": "ADD 測試（改良 Ober's） ADD Test",
+  "purpose_zh": "被動髖內收測試（改良 Ober's），加阻力外展即 ADD-R，用於臀肌肌腱病變。",
+  "structure_zh": "受被動與主動拉伸及壓迫負荷的臀中肌／臀小肌肌腱。",
+  "procedure_zh": "病人健側在下斜側臥，下方髖膝屈 80–90°；患側腿膝伸直、與軀幹成一直線，ASIS 與床面垂直。穩定骨盆後把腿帶到內收末端並加壓；再請病人對抗阻力做等長外展（ADD-R）。",
+  "positive_zh": "重現大轉子區域的外側髖痛，至少 2/10 NPRS。",
+  "notes_zh": "Grimaldi 等人（內文 2016、文獻 2017）以 MRI 為對照：ADD 敏感度 20%、特異度 86.7%；加阻力外展後敏感度 38%、特異度 93.3%。排除能力有限、第一篇研究，臨床價值中等。其他 GTPS 測試：阻力外側去旋轉、單腳站立、大轉子觸診、FADER／FADER-R。",
+  "tags": ["臀肌肌腱病變 gluteal tendinopathy", "GTPS", "確認用 rule-in"]
+ },
+ {
+  "slug": "heel-contralateral-knee-maneuver",
+  "title_zh": "腳跟對側膝手法 Heel Contralateral Knee Maneuver",
+  "purpose_zh": "深臀症候群 (deep gluteal syndrome，梨狀肌症候群) 的誘發手法 (HCLK)。",
+  "structure_zh": "臀下間隙內的梨狀肌 (piriformis) 與坐骨神經 (sciatic nerve)（背景同其他梨狀肌頁）。",
+  "procedure_zh": "先排除腰椎與薦髂關節病變。病人仰臥，將受測髖外轉、腳跟放在對側膝上；檢查者將對側髖屈曲。作者建議此姿勢可能要維持數十秒到 1 分鐘才會誘發症狀。",
+  "positive_zh": "重現熟悉的臀部疼痛及／或向下肢後側放射的感覺異常。",
+  "notes_zh": "Michel 等人 (2013)（深臀症候群 vs 有症狀的 L5／S1 椎間盤-神經根衝突）：敏感度 100%、特異度 60%，但黃金標準不明，臨床效用存疑。其他 DGS 測試：Freiberg、Pace、坐姿梨狀肌伸展、FAIR、梨狀肌測試、Beatty、主動梨狀肌測試。",
+  "tags": ["深臀症候群 DGS", "梨狀肌 piriformis", "效度存疑 questionable"]
+ },
+ {
+  "slug": "long-stride-walking-test",
+  "title_zh": "長步幅步行測試 Long Stride Walking Test",
+  "purpose_zh": "坐骨股骨夾擠 (ischiofemoral impingement, IFI) 的步行測試；IFI 是小轉子與坐骨外側之間的關節外夾擠，造成後髖痛。",
+  "structure_zh": "坐骨股骨間隙（坐骨外側到小轉子）與股方肌間隙（小轉子到近端腿後肌腱）在 IFI 都變窄（Torriani 等人 2009）；Johnson 1977 首度描述，至今仍有爭議。疼痛在步態的離地／擺盪前期、髖終末伸直時出現在坐骨外側；坐骨神經被卡在間隙內時可放射。",
+  "procedure_zh": "病人以長步幅行走（終末伸直時誘發夾擠），再以短步幅行走避免最大伸直。",
+  "positive_zh": "長步幅時重現坐骨外側的後髖痛，短步幅時緩解。",
+  "notes_zh": "Gómez-Hoyos 等人 (2016)：敏感度 95%、特異度 84%；回溯性設計，參考標準為後髖痛＋MRI 異常＋減壓手術後疼痛減輕 ≥ 60%，未評估信度，臨床價值暫時存疑。配套：坐骨股骨夾擠測試。原頁的鑑別診斷圖（Gómez-Hoyos 2018）不在 API 文字中。",
+  "tags": ["坐骨股骨夾擠 IFI", "後髖痛 posterior hip pain", "單一研究 single study"]
+ },
+ {
+  "slug": "ischiofemoral-impingement-test",
+  "title_zh": "坐骨股骨夾擠測試 Ischiofemoral Impingement Test",
+  "purpose_zh": "坐骨股骨夾擠 (IFI) 的誘發測試。",
+  "structure_zh": "坐骨股骨間隙與股方肌間隙（見長步幅步行測試）。",
+  "procedure_zh": "病人健側在下側臥。檢查者一手觸診坐骨外側，另一手在髖內收或中立下把患側髖帶到最大伸直；若重現熟悉的後髖痛，改在髖外展下重複。",
+  "positive_zh": "內收／中立伸直時重現熟悉的後髖痛，外展時無法重現。",
+  "notes_zh": "Gómez-Hoyos 等人 (2016)：敏感度 82%、特異度 85%；回溯性、複合參考標準、未評估信度，臨床價值暫時存疑。配套：長步幅步行測試。",
+  "tags": ["坐骨股骨夾擠 IFI", "後髖痛 posterior hip pain", "單一研究 single study"]
+ },
+ {
+  "slug": "puranen-orava-test",
+  "title_zh": "Puranen-Orava 測試 Puranen-Orava Test",
+  "purpose_zh": "運動員慢性近端腿後肌肌腱病變 (proximal hamstring tendinopathy) 的疼痛誘發測試。",
+  "structure_zh": "坐骨粗隆 (ischial tuberosity) 處的近端腿後肌腱。",
+  "procedure_zh": "站姿，病人主動伸展腿後肌：髖屈約 90°、膝完全伸直、腳放在治療床上。",
+  "positive_zh": "病人熟悉的症狀加劇。",
+  "notes_zh": "Cacchio 等人 (2012)（症狀 ≥ 6 個月、專家診斷經 MRI 確認；施測者內／間信度 > 0.8）：敏感度 76%、特異度 82%，中等臨床價值，為第一篇也是唯一的研究。相關：臀部徵象、屈膝伸展測試、改良屈膝伸展測試。",
+  "tags": ["近端腿後肌肌腱病變 proximal hamstring tendinopathy", "坐骨粗隆 ischial tuberosity"]
+ },
+ {
+  "slug": "bent-knee-stretch-test",
+  "title_zh": "屈膝伸展測試 Bent Knee Stretch Test",
+  "purpose_zh": "慢性近端腿後肌肌腱病變的疼痛誘發測試。",
+  "structure_zh": "近端腿後肌腱。",
+  "procedure_zh": "病人仰臥。檢查者把髖與膝最大屈曲，再緩慢伸直膝。",
+  "positive_zh": "病人熟悉的症狀加劇。",
+  "notes_zh": "Cacchio 等人 (2012)（信度 > 0.8）：敏感度 84%、特異度 87%；第一篇也是唯一的研究，待確認前給中等臨床價值。原頁文字結尾殘留影片結語。相關：臀部徵象、改良屈膝伸展測試、Puranen-Orava。",
+  "tags": ["近端腿後肌肌腱病變 proximal hamstring tendinopathy", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "modified-bent-knee-stretch-test",
+  "title_zh": "改良屈膝伸展測試 Modified Bent Knee Stretch Test",
+  "purpose_zh": "慢性近端腿後肌肌腱病變的快速伸展變化型。",
+  "structure_zh": "近端腿後肌腱。",
+  "procedure_zh": "病人仰臥、雙腿伸直。檢查者一手握患側腳跟後方、一手握膝，把髖與膝最大屈曲，再快速伸直膝。",
+  "positive_zh": "病人熟悉的症狀加劇。",
+  "notes_zh": "Cacchio 等人 (2012)（信度 > 0.8）：敏感度 89%、特異度 91%；第一篇也是唯一的研究，待確認前給中等臨床價值。相關：臀部徵象、屈膝伸展測試、Puranen-Orava。",
+  "tags": ["近端腿後肌肌腱病變 proximal hamstring tendinopathy", "疼痛誘發 pain provocation"]
+ },
+ {
+  "slug": "sign-of-the-buttock",
+  "title_zh": "臀部徵象 Sign of the Buttock",
+  "purpose_zh": "原本是篩檢臀部嚴重病變（坐骨滑囊炎、腫瘤、膿瘍）的徵象，也用於近端腿後肌肌腱病變。",
+  "structure_zh": "臀部／髖關節；近端腿後肌。",
+  "procedure_zh": "先做直膝抬腿；一旦受限，把膝屈曲，看髖屈曲能否再增加。",
+  "positive_zh": "屈膝後髖屈曲仍無法增加＝臀部徵象陽性（坐骨滑囊炎、腫瘤、臀部膿瘍或髖關節病變）。若繼續屈曲時疼痛，則可能是近端腿後肌肌腱病變。",
+  "notes_zh": "原頁未列參考文獻，無準確度數值。相關：屈膝伸展測試、改良屈膝伸展測試、Puranen-Orava。",
+  "tags": ["紅旗 red flags", "近端腿後肌肌腱病變 proximal hamstring tendinopathy"]
+ }
+]

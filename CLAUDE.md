@@ -9,8 +9,8 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 
 | Region | State | Notes |
 |---|---|---|
-| shoulder | **live** (74 videos, 10 categories) | `shoulder/index.html` |
-| hip | **live** (42 videos, 7 categories) | `hip/index.html`; source quirks (Pace page duplicates FAIR procedure, compression/sacral-thrust share one YouTube ID) are flagged in `groupC/D.json` notes |
+| shoulder | **live** (92 videos, 10 categories) | `shoulder/index.html`; all 81 'Shoulder Assessment' wiki pages are in (18 backfilled 2026-10-17 as groupE/zh_4) |
+| hip | **live** (61 videos, 8 categories) | `hip/index.html`; all 43 'Hip Assessment' wiki pages are in (19 backfilled 2026-10-17 as groupE/zh_4); source quirks (Pace page duplicates FAIR procedure, resisted-external-derotation page duplicates Puranen-Orava, compression/sacral-thrust and Kendall/Phelps share YouTube IDs) are flagged in record notes |
 | knee | **live** (61 videos, 12 categories) | `knee/index.html`; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
 | lumbar | **live** (36 videos, 8 categories) | `lumbar/index.html`; 24 'Lumbar Spine Assessment' pages + referred pain, fracture red flags, Babinski, 4 SIJ pages not in hip, CPRs, direction-specific exercises; `myotomes-lower-limb` is deliberately in both knee and lumbar; SIJ provocation tests stay in hip |
 
@@ -85,7 +85,7 @@ workers (≈25 slugs each); each worker writes its own groupX.json / zh_N.json.
 - The build replaces three literal strings in the template (title, `<h1>`, localStorage key)
   — keep those exact strings in template.html if you edit it.
 - Region names: zh/en pairs used so far — 肩部 Shoulder, 髖部 Hip, 膝部 Knee, 腰椎 Lumbar spine.
-- Home-page card count line is hand-written (`74 支影片 · 10 個主題`); update when rebuilding.
+- Home-page card count line is hand-written (`92 支影片 · 10 個主題`); update when rebuilding.
 - Commit messages: short imperative English summary; the owner writes in Traditional Chinese
   in conversation.
 
@@ -99,8 +99,5 @@ related-video or reference links.
 
 1. Possible new regions from the same wiki: Ankle & Foot (31 pages), Elbow (28), Wrist & Hand (27),
    Cervical spine (17), Thoracic spine (13), Dizziness/vestibular (14), fracture-screening rules.
-   Six 'Hip Assessment' pages were never added to hip: puranen-orava-test, sign-of-the-buttock,
-   bent-knee-stretch-test, modified-bent-knee-stretch-test, heel-contralateral-knee-maneuver,
-   ischiofemoral-impingement-test.
 2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
    page; timestamped segments within a video (needs transcripts); an "all regions" search.
