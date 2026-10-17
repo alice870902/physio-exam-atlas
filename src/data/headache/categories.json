@@ -1,0 +1,8 @@
+[
+  {"id": "primary", "zh": "原發性頭痛診斷準則（ICHD-3）", "en": "Primary Headaches: ICHD-3 Criteria",
+   "slugs": ["tension-type-headache", "migraine", "cluster-headache"]},
+  {"id": "secondary", "zh": "續發性頭痛：頸因性與藥物過度使用", "en": "Secondary Headaches: Cervicogenic & Medication Overuse",
+   "slugs": ["cervicogenic-headache", "medication-overuse-headache"]},
+  {"id": "cgh", "zh": "頸因性頭痛：轉移痛機轉與誘發測試", "en": "Cervicogenic Headache: Referred Pain Mechanism & Provocation Test",
+   "slugs": ["cervicogenic-headache-explained", "watson-headache-test"]}
+]

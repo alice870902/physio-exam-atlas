@@ -1,0 +1,12 @@
+[
+  {"id": "bppvdx", "zh": "BPPV 診斷手法", "en": "BPPV Diagnostic Manoeuvres",
+   "slugs": ["dix-hallpike-test", "supine-head-roll-test"]},
+  {"id": "bppvtx", "zh": "BPPV 耳石復位治療", "en": "BPPV Canalith Repositioning Treatment",
+   "slugs": ["epley-maneuver", "semont-maneuver", "bbq-roll-maneuver"]},
+  {"id": "vestib", "zh": "周邊 vs 中樞前庭：頭脈衝測試", "en": "Peripheral vs Central Vestibular: Head Impulse Test",
+   "slugs": ["head-impulse-test"]},
+  {"id": "cgd", "zh": "頸因性眩暈：頸部扭轉測試", "en": "Cervicogenic Dizziness: Neck Torsion Tests",
+   "slugs": ["cervical-torsion-test", "head-neck-differentiation-test", "smooth-pursuit-neck-torsion-test"]},
+  {"id": "sensorimotor", "zh": "感覺運動控制：本體感覺、眼動與姿勢穩定", "en": "Sensorimotor Control: Proprioception, Eye Movement & Postural Stability",
+   "slugs": ["joint-position-sense-error", "gaze-stability", "saccadic-eye-movement", "eye-head-coordination", "postural-stability"]}
+]

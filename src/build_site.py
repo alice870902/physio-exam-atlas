@@ -11,6 +11,8 @@ ROOT = BASE.parent
 
 REGIONS = [  # learning order on the page
     {"id": "cervical", "zh": "頸椎", "en": "Cervical spine"},
+    {"id": "headache", "zh": "頭痛", "en": "Headache"},
+    {"id": "dizziness", "zh": "眩暈", "en": "Dizziness & Vertigo"},
     {"id": "shoulder", "zh": "肩部", "en": "Shoulder"},
     {"id": "elbow", "zh": "肘部", "en": "Elbow"},
     {"id": "wrist", "zh": "腕手", "en": "Wrist & Hand"},
@@ -21,7 +23,7 @@ REGIONS = [  # learning order on the page
     {"id": "screen", "zh": "篩檢", "en": "Screening"},   # cross-region: cranial nerves, UMN signs, fracture rules
 ]
 
-# Cross-region themes for chapter 01. Keys are "<region>.<category id>" or "*.<category id>".
+# Cross-region themes for chapter 01 (8 since 2026-10-17: headache/dizziness got their own). Keys are "<region>.<category id>" or "*.<category id>".
 THEMES = [
     {"id": "basics", "zh": "基礎評估與活動度", "en": "Basics & Range of Motion",
      "cats": ["*.assess", "lumbar.screen", "lumbar.rom", "lumbar.neuro", "ankle.stress",
@@ -41,6 +43,9 @@ THEMES = [
     {"id": "rtp", "zh": "功能與回場測試", "en": "Functional & Return-to-Play Testing", "cats": ["*.rtp"]},
     {"id": "treat", "zh": "治療決策與運動治療", "en": "Treatment Decisions & Exercise",
      "cats": ["*.ex", "lumbar.tx"]},
+    {"id": "headvest", "zh": "頭痛、眩暈與前庭", "en": "Headache, Dizziness & Vestibular",
+     "cats": ["headache.primary", "headache.secondary", "headache.cgh",
+              "dizziness.bppvdx", "dizziness.bppvtx", "dizziness.vestib", "dizziness.cgd", "dizziness.sensorimotor"]},
 ]
 
 SAMPLE_SLUG = "lachman-test"   # "快速試看" card on the hero
