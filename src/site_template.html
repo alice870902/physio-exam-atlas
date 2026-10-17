@@ -606,7 +606,8 @@ function route(){
 window.addEventListener('hashchange', route);
 route();
 // 冷啟動時字型與版面載入後高度會變，深連結再捲一次才會停在對的位置
-window.addEventListener('load', () => { if (location.hash) route(); });
+window.addEventListener('load', () => { if (location.hash) { route(); setTimeout(route, 800); } });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (location.hash) route(); });
 </script>
 </body>
 </html>
