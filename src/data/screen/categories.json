@@ -1,0 +1,18 @@
+[
+  {"id": "cranial", "zh": "腦神經篩檢（CN I–XII）", "en": "Cranial Nerve Screening (CN I-XII)",
+   "slugs": ["olfactory-nerve", "optic-nerve", "oculomotor-nerve", "trochlear-nerve", "abducens-nerve", "trigeminal-nerve", "facial-nerve", "vestibulocochlear-nerve", "glossopharyngeal-nerve", "vagus-nerve", "accessory-nerve", "hypoglossal-nerve"]},
+  {"id": "umn", "zh": "上運動神經元徵象", "en": "Upper Motor Neuron Signs",
+   "slugs": ["hoffmanns-sign", "inverted-supinator-sign", "babinski-sign"]},
+  {"id": "cspine", "zh": "頸椎骨折決策規則", "en": "Cervical Spine Fracture Rules",
+   "slugs": ["canadian-c-spine-rules", "nexus-criteria"]},
+  {"id": "spine", "zh": "胸腰椎壓迫性骨折篩檢", "en": "Thoracolumbar Compression Fracture Screening",
+   "slugs": ["closed-fist-percussion-test", "supine-sign"]},
+  {"id": "upper", "zh": "上肢骨折篩檢（肘、腕）", "en": "Upper Limb Fracture Screening (Elbow, Wrist)",
+   "slugs": ["elbow-extension-test", "caradeniz-wrist-rule"]},
+  {"id": "lower", "zh": "髖、股骨與膝骨折篩檢", "en": "Hip, Femur & Knee Fracture Screening",
+   "slugs": ["patellar-pubic-percussion-test", "fulcrum-test", "ottawa-knee-rules", "pittsburgh-decision-rule"]},
+  {"id": "ankle", "zh": "踝足骨折決策規則（含兒童）", "en": "Ankle & Foot Fracture Rules (incl. Children)",
+   "slugs": ["ottawa-ankle-rules", "bernese-ankle-rules", "low-risk-ankle-rule", "malleolar-zone-algorithm", "midfoot-zone-algorithm"]},
+  {"id": "general", "zh": "通用骨折篩檢：音叉聽診", "en": "General Fracture Screening: Tuning Fork Auscultation",
+   "slugs": ["tuning-fork-auscultation-test"]}
+]

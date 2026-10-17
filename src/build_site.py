@@ -16,12 +16,14 @@ REGIONS = [  # learning order on the page
     {"id": "knee", "zh": "膝部", "en": "Knee"},
     {"id": "ankle", "zh": "踝足", "en": "Ankle & Foot"},
     {"id": "lumbar", "zh": "腰椎", "en": "Lumbar spine"},
+    {"id": "screen", "zh": "篩檢", "en": "Screening"},   # cross-region: cranial nerves, UMN signs, fracture rules
 ]
 
 # Cross-region themes for chapter 01. Keys are "<region>.<category id>" or "*.<category id>".
 THEMES = [
     {"id": "basics", "zh": "基礎評估與活動度", "en": "Basics & Range of Motion",
-     "cats": ["*.assess", "lumbar.screen", "lumbar.rom", "lumbar.neuro", "ankle.stress"]},
+     "cats": ["*.assess", "lumbar.screen", "lumbar.rom", "lumbar.neuro", "ankle.stress",
+              "screen.cspine", "screen.spine", "screen.upper", "screen.lower", "screen.ankle", "screen.general"]},
     {"id": "structure", "zh": "結構特殊測試（韌帶／肌腱／盂唇／關節）", "en": "Structural Special Tests",
      "cats": ["*.saps", "*.rc", "shoulder.instab", "*.labrum", "*.biceps", "*.ac", "*.fai", "*.glute", "*.posthip",
               "*.effusion", "*.acl", "*.rotatory", "*.pcl", "*.plc", "*.collateral", "*.meniscus", "*.pf", "*.tendon",
@@ -30,7 +32,7 @@ THEMES = [
     {"id": "motor", "zh": "肌力、肌肉長度與動作控制", "en": "Strength, Muscle Length & Motor Control",
      "cats": ["*.scap", "*.length", "lumbar.instab"]},
     {"id": "neuro", "zh": "神經、神經動力學與卡壓", "en": "Nerve, Neurodynamics & Entrapment",
-     "cats": ["*.tos", "*.piri", "*.radic", "*.stenosis", "elbow.cubital", "ankle.nerve"]},
+     "cats": ["*.tos", "*.piri", "*.radic", "*.stenosis", "elbow.cubital", "ankle.nerve", "screen.cranial", "screen.umn"]},
     {"id": "sij", "zh": "薦髂關節與骨盆", "en": "Sacroiliac Joint & Pelvis", "cats": ["*.sij"]},
     {"id": "rtp", "zh": "功能與回場測試", "en": "Functional & Return-to-Play Testing", "cats": ["*.rtp"]},
     {"id": "treat", "zh": "治療決策與運動治療", "en": "Treatment Decisions & Exercise",
@@ -104,7 +106,7 @@ def main():
         cats, t = load_region(r)
         regions.append(r | {"cats": cats, "n": len(t)})
         tests.extend(t)
-    # a slug may legitimately appear in two regions (myotomes-lower-limb: knee + lumbar); keys stay unique per region
+    # a slug may legitimately appear in two regions (myotomes-lower-limb: knee + lumbar; 5 fracture/UMN pages: knee/lumbar + screen); keys stay unique per region
     keys = [f"{t['region']}/{t['slug']}" for t in tests]
     assert len(keys) == len(set(keys)), "duplicate region/slug"
     themes = []

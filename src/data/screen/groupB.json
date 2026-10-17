@@ -1,0 +1,112 @@
+[
+ {
+  "slug": "babinski-sign",
+  "id": 8480,
+  "title": "Babinski Sign to Screen for Upper Motor Neuron Lesions",
+  "link": "https://www.physiotutors.com/wiki/babinski-sign/",
+  "youtube_ids": [
+   "iV_a2WSbdM8"
+  ],
+  "purpose": "Screen for upper motor neuron (pyramidal tract) lesions.",
+  "structure": "Pyramidal (corticospinal) system.",
+  "procedure": "Run a pointed object from the heel along the lateral border of the sole forward toward the great toe.",
+  "positive": "Extension of the big toe with fanning (abduction) of the other toes (fan sign, signe de l'éventail); in severe cases with hip and knee flexion. Normal response: flexor/grasping of the toes. Indicates structural pyramidal damage or temporary disturbance (epilepsy, intoxication).",
+  "accuracy": {
+   "sensitivity": "51%",
+   "specificity": "99%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Jaramillo et al. 2014"
+  },
+  "notes": "Other UMN screens on the page: Hoffmann's sign, Lhermitte's sign, inverted supinator sign (cervical). SOURCE NOTE: the page writes 'signe de Levante' (correct term is signe de l'éventail) and its first reference is garbled (Jaramillo citation merged with an unrelated BPPV guideline). Listed in both the lumbar region and the screening region (copy of the lumbar record).",
+  "status": "ok"
+ },
+ {
+  "slug": "closed-fist-percussion-test",
+  "id": 12111,
+  "title": "Closed Fist Percussion Test | Thoracic Compression Fracture",
+  "link": "https://www.physiotutors.com/wiki/closed-fist-percussion-test/",
+  "youtube_ids": [
+   "kkD8o5vlV8I"
+  ],
+  "purpose": "Red-flag screening for symptomatic vertebral (osteoporotic) compression fractures in patients presenting with sudden back pain.",
+  "structure": "Vertebral bodies; osteoporotic compression fractures are the most common spinal red flag (prevalence 25% in women over 65 and 40% over 80).",
+  "procedure": "Patient stands in front of a mirror so the reaction can be seen; the examiner stands behind, places one hand on the spine and percusses along the spine with the closed fist of the other hand.",
+  "positive": "Sharp, sudden pain.",
+  "accuracy": {
+   "sensitivity": "87.5%",
+   "specificity": "90%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Langdon et al. 2010"
+  },
+  "notes": "Companion test: supine sign. Other fracture screens listed: Caradeniz wrist rules, elbow extension test, patellar-pubic percussion, fulcrum test, Ottawa knee and ankle rules. Listed in both the lumbar region and the screening region (copy of the lumbar record).",
+  "status": "ok"
+ },
+ {
+  "slug": "supine-sign",
+  "id": 12108,
+  "title": "Supine Sign | Thoracic Compression Fracture",
+  "link": "https://www.physiotutors.com/wiki/supine-sign/",
+  "youtube_ids": [
+   "5OQUYTuQrlM"
+  ],
+  "purpose": "Red-flag screening for symptomatic vertebral compression fractures.",
+  "structure": "Vertebral bodies, mostly thoracic; lying supine increases compression there.",
+  "procedure": "Ask the patient to lie supine on the bench with only one pillow.",
+  "positive": "The patient is unable to lie supine because of severe pain. History often reveals sleeping in a chair.",
+  "accuracy": {
+   "sensitivity": "81%",
+   "specificity": "93%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Langdon et al. 2010"
+  },
+  "notes": "Companion test: closed-fist percussion test. Listed in both the lumbar region and the screening region (copy of the lumbar record).",
+  "status": "ok"
+ },
+ {
+  "slug": "ottawa-knee-rules",
+  "id": 12114,
+  "title": "Ottawa Knee Rules | Knee Fractures",
+  "link": "https://www.physiotutors.com/wiki/ottawa-knee-rules/",
+  "youtube_ids": [
+   "ku_E2aneq-M"
+  ],
+  "purpose": "Clinical decision rule to identify which acute knee injuries need radiography.",
+  "structure": "Knee: patella, fibular head, knee flexion, weight-bearing ability.",
+  "procedure": "Order X-rays if any applies: age 55 or older; isolated tenderness of the patella; tenderness at the fibular head; inability to flex the knee to 90°; inability to walk four consecutive weight-bearing steps both immediately after injury and in the emergency department (limping is allowed).",
+  "positive": "Any criterion present = imaging indicated.",
+  "accuracy": {
+   "sensitivity": "84.6-100% (range across studies)",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Stiell et al. 1995; Yao & Haque 2012; Cheung et al. 2013"
+  },
+  "notes": "Comparable rule: Pittsburgh Decision Rule (more specific per Cheung et al. 2013). Listed in both the knee region and the screening region (copy of the knee record).",
+  "status": "ok"
+ },
+ {
+  "slug": "pittsburgh-decision-rule",
+  "id": 12173,
+  "title": "Pittsburgh Decision Rule | Knee Fracture Screening",
+  "link": "https://www.physiotutors.com/wiki/pittsburgh-decision-rule/",
+  "youtube_ids": [
+   "TMw6SJP784U"
+  ],
+  "purpose": "Clinical decision rule (1994) to decide which knee injuries need radiography and reduce unnecessary X-rays.",
+  "structure": "Knee after fall or blunt trauma.",
+  "procedure": "Mechanism of a fall or blunt trauma, combined with either inability to walk four full weight-bearing steps or age younger than 12 or older than 50 years → X-ray.",
+  "positive": "Criteria met = imaging indicated.",
+  "accuracy": {
+   "sensitivity": "77-100% across evaluations; 100% for the stated rule",
+   "specificity": "57-79% across evaluations; 79% for the stated rule",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Seaberg & Jackson 1994; Cheung et al. 2013"
+  },
+  "notes": "Significantly more specific than the Ottawa knee rules in Cheung et al. 2013. The flow diagram on the page is an image not in the API text. Listed in both the knee region and the screening region (copy of the knee record).",
+  "status": "ok"
+ }
+]

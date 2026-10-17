@@ -15,6 +15,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 | knee | **live** (61 videos, 12 categories) | redirect page; 50 'Knee Assessment' wiki pages + screening/RTP/rehab pages; source quirks (duck-walk, decline-step-down, Renne pages duplicate other pages' procedures; varus page titled 'Valgus') flagged in record notes |
 | ankle | **live** (34 videos, 8 categories) | redirect page; all 25 'Ankle & Foot Assessment' + 6 'Ankle/Foot Assessment' + 2 'Ankle & Foot Treatment' + 1 'Ankle & Foot Exercises' wiki pages are in (added 2026-10-17 as groupA/groupB + zh_1/zh_2). Source quirks (heel thrust and forced dorsiflexion share YouTube ID IbRCCIDa5-8; fibular translation cites Beumer 2011 in text but lists 2002; syndesmosis incidence quoted as 1% / ~25% / 1-24% on different pages; cuboid syndrome page is a treatment technique filed under assessment; hop test states no positive criterion; Tinel ankle describes only one of two sites; heel thrust reference list empty) are flagged in record notes |
 | lumbar | **live** (36 videos, 8 categories) | redirect page; 24 'Lumbar Spine Assessment' pages + referred pain, fracture red flags, Babinski, 4 SIJ pages not in hip, CPRs, direction-specific exercises; `myotomes-lower-limb` is deliberately in both knee and lumbar; SIJ provocation tests stay in hip |
+| screen | **live** (31 entries, 8 categories) | cross-region 'Screening' region placed after lumbar; 26 new wiki pages (12 cranial nerves, Hoffmann + inverted supinator, Canadian C-spine, NEXUS, elbow extension, Caradeniz wrist, patellar-pubic percussion, fulcrum, 5 ankle/foot fracture rules, tuning fork) + 5 deliberate parallel copies of pages that also live in knee (`ottawa-knee-rules`, `pittsburgh-decision-rule`) and lumbar (`closed-fist-percussion-test`, `supine-sign`, `babinski-sign`). Added 2026-10-17 as groupA (new) / groupB (copies) + zh_1 / zh_2. Source quirks (CN III/IV/VI share one video, CN IX/X share one video, Ottawa ankle page joins tenderness AND inability to walk with 'and', 'low sensitivity' wording on Ottawa ankle/midfoot pages, Caradeniz vs Karadeniz spelling, Kerr 2010 not in optic references) are flagged in record notes |
 
 ## Repo layout
 
@@ -22,7 +23,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 index.html                 built single-page site — DO NOT edit by hand, rebuild from src/
 <region>/index.html        built redirect stubs → ../#region-<id> (or ../#test-<slug> if a hash is present)
 src/site_template.html     single-page template; build replaces __DATA__, __N_TESTS__, __N_REGIONS__, __N_TOPICS__, __N_ACC__
-src/build_site.py          python3 src/build_site.py   (no args) → writes index.html + 6 redirect pages
+src/build_site.py          python3 src/build_site.py   (no args) → writes index.html + 7 redirect pages
 src/data/<region>/
   categories.json          [{id, zh, en, slugs:[...]}]  ← defines order & grouping
   group*.json              English source records fetched from physiotutors (any number of files)
@@ -93,20 +94,20 @@ Google Fonts Noto Serif TC + Noto Sans TC; no framework; one self-contained HTML
 
 - Videos are only embedded, never downloaded; keep the copyright footer line.
 - The build asserts every placeholder (`__DATA__`, `__N_*__`) exists in site_template.html.
-- Region names: zh/en pairs used so far — 肩部 Shoulder, 肘部 Elbow, 髖部 Hip, 膝部 Knee, 踝足 Ankle & Foot, 腰椎 Lumbar spine.
+- Region names: zh/en pairs used so far — 肩部 Shoulder, 肘部 Elbow, 髖部 Hip, 膝部 Knee, 踝足 Ankle & Foot, 腰椎 Lumbar spine, 篩檢 Screening (cross-region).
 - Counts on the page are all computed by build_site.py; nothing is hand-written.
 - Commit messages: short imperative English summary; the owner writes in Traditional Chinese
   in conversation.
 
 ## Suggested next steps
 
-All six regions (shoulder, elbow, hip, knee, ankle, lumbar) are live as of 2026-10-17. Slug discovery tip
+All six body regions plus the cross-region screening section (shoulder, elbow, hip, knee, ankle, lumbar, screen) are live as of 2026-10-17. Slug discovery tip
 for any new region: fetch all wiki entries with `?per_page=20&page=N&_fields=id,slug,title,link,acf`
 and group by the `page-header-detail-page` section's `subheading`. Only count `[embed]`
 shortcodes (and `youtube.com/embed/` iframes) as videos; plain YouTube links in the text are
 related-video or reference links.
 
-1. Possible new regions from the same wiki (owner order): Screening (24 unfiled), Wrist & Hand (27),
+1. Possible new regions from the same wiki (owner order): Wrist & Hand (27),
    Cervical spine (17), Thoracic spine (13), Dizziness/vestibular (14), fracture-screening rules.
 2. Possible features the owner mentioned: an "其他" bucket for channel videos with no wiki
    page; timestamped segments within a video (needs transcripts — deferred 2026-10-17).

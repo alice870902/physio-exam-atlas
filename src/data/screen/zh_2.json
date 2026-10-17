@@ -1,0 +1,70 @@
+[
+ {
+  "slug": "babinski-sign",
+  "title_zh": "Babinski 徵象 Babinski Sign",
+  "purpose_zh": "篩檢上運動神經元 (upper motor neuron, UMN)／錐體徑 (pyramidal tract) 病變。",
+  "structure_zh": "錐體系統（皮質脊髓徑 corticospinal tract）。",
+  "procedure_zh": "以尖物從腳跟沿足底外側緣向前劃到大腳趾。",
+  "positive_zh": "大腳趾伸直、其他腳趾扇形外展（扇形徵象 fan sign，signe de l'éventail）；嚴重時伴髖膝屈曲。正常反應為腳趾屈曲／抓握。陽性表示錐體系統的結構性損傷，或癲癇、中毒造成的暫時性干擾。",
+  "notes_zh": "Jaramillo 等人 (2014)：敏感度 51%、特異度 99%。原頁列的其他 UMN 篩檢：Hoffmann 徵象、Lhermitte 徵象、inverted supinator 徵象（頸椎）。⚠ 原頁把 signe de l'éventail 寫成「signe de Levante」，且第一筆參考文獻錯亂（Jaramillo 與一篇無關的 BPPV 指引黏在一起）。（此頁同時列在腰椎與篩檢兩區，紀錄為腰椎版的複本。）",
+  "tags": [
+   "上運動神經元 UMN",
+   "神經學篩檢 neurological screening",
+   "紅旗 red flags"
+  ]
+ },
+ {
+  "slug": "closed-fist-percussion-test",
+  "title_zh": "握拳叩擊測試 Closed Fist Percussion Test",
+  "purpose_zh": "突發背痛病人的紅旗篩檢：偵測有症狀的脊椎（骨質疏鬆性）壓迫性骨折 (compression fracture)。",
+  "structure_zh": "椎體；骨質疏鬆性壓迫性骨折是脊椎最常見的紅旗（65 歲以上女性盛行率 25%、80 歲以上 40%）。",
+  "procedure_zh": "病人站在鏡子前以便觀察反應，檢查者站在病人後方，一手放在脊椎上，另一手握拳沿脊椎叩擊。",
+  "positive_zh": "尖銳、突發的疼痛。",
+  "notes_zh": "Langdon 等人 (2010)：敏感度 87.5%、特異度 90%。配套測試：仰臥徵象 (supine sign)。原頁也列出其他部位的骨折篩檢：Caradeniz 腕部規則、肘伸直測試、髕骨-恥骨叩擊、fulcrum 測試、渥太華膝／踝規則。（此頁同時列在腰椎與篩檢兩區，紀錄為腰椎版的複本。）",
+  "tags": [
+   "紅旗 red flags",
+   "壓迫性骨折 compression fracture",
+   "骨折篩檢 fracture screening"
+  ]
+ },
+ {
+  "slug": "supine-sign",
+  "title_zh": "仰臥徵象 Supine Sign",
+  "purpose_zh": "有症狀脊椎壓迫性骨折的紅旗篩檢。",
+  "structure_zh": "椎體，多在胸椎；仰臥會增加該處的壓迫。",
+  "procedure_zh": "請病人只用一個枕頭仰臥在檢查床上。",
+  "positive_zh": "因劇痛無法仰臥。病史中常會聽到病人只能坐在椅子上睡。",
+  "notes_zh": "Langdon 等人 (2010)：敏感度 81%、特異度 93%。配套測試：握拳叩擊測試。（此頁同時列在腰椎與篩檢兩區，紀錄為腰椎版的複本。）",
+  "tags": [
+   "紅旗 red flags",
+   "壓迫性骨折 compression fracture",
+   "骨折篩檢 fracture screening"
+  ]
+ },
+ {
+  "slug": "ottawa-knee-rules",
+  "title_zh": "渥太華膝部規則 Ottawa Knee Rules",
+  "purpose_zh": "判斷急性膝部外傷哪些需要照 X 光的臨床決策規則。",
+  "structure_zh": "膝部：髕骨、腓骨頭、膝屈曲角度、負重能力。",
+  "procedure_zh": "符合任一項即照 X 光：年齡 55 歲以上；髕骨單獨壓痛；腓骨頭壓痛；膝無法屈曲到 90°；受傷當下與急診室都無法連續負重走四步（跛行也算能走）。",
+  "positive_zh": "任一準則成立＝需要影像檢查。",
+  "notes_zh": "各研究敏感度 84.6–100%（Stiell 1995、Yao & Haque 2012、Cheung 2013）。類似規則：Pittsburgh 決策規則，依 Cheung 等人 (2013) 特異度較高。（此頁同時列在膝部與篩檢兩區，紀錄為膝部版的複本。）",
+  "tags": [
+   "骨折篩檢 fracture screening",
+   "臨床決策規則 decision rule"
+  ]
+ },
+ {
+  "slug": "pittsburgh-decision-rule",
+  "title_zh": "匹茲堡決策規則 Pittsburgh Decision Rule",
+  "purpose_zh": "1994 年提出的臨床決策規則，判斷膝部外傷是否需要 X 光，以減少不必要的攝影。",
+  "structure_zh": "跌倒或鈍挫傷後的膝部。",
+  "procedure_zh": "跌倒或鈍挫傷機轉，合併「無法完全負重走四步」或「年齡小於 12 歲或大於 50 歲」其中之一 → 照 X 光。",
+  "positive_zh": "準則成立＝需要影像檢查。",
+  "notes_zh": "各評估研究敏感度 77–100%、特異度 57–79%；原頁敘述的規則本身敏感度 100%、特異度 79%（Seaberg & Jackson 1994、Cheung 2013）。Cheung 等人 (2013) 中顯著比渥太華膝部規則更特異。原頁的流程圖是圖片、不在 API 文字中。（此頁同時列在膝部與篩檢兩區，紀錄為膝部版的複本。）",
+  "tags": [
+   "骨折篩檢 fracture screening",
+   "臨床決策規則 decision rule"
+  ]
+ }
+]
