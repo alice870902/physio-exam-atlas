@@ -1,0 +1,24 @@
+[
+ {
+  "slug": "upper-limb-tension-test-1",
+  "id": 8595,
+  "title": "Upper Limb Tension Test 1",
+  "link": "https://www.physiotutors.com/wiki/upper-limb-tension-test-1/",
+  "youtube_ids": [
+   "rir6x6Iiqc4"
+  ],
+  "purpose": "Neurodynamic test (ULNT A) biased to the median nerve, anterior interosseous nerve and C5-C7 roots; used for cervical radiculopathy and carpal tunnel syndrome. The upper-limb equivalent of the straight leg raise.",
+  "structure": "Median nerve, anterior interosseous nerve, nerve roots C5-C7.",
+  "procedure": "Test the good side first. Depress the shoulder, abduct the arm to 110 degrees, flex the elbow 90 degrees, externally rotate the shoulder to 90 degrees, extend the wrist and fingers, then slowly extend the elbow. Sensitise with contralateral cervical lateral flexion.",
+  "positive": "Reproduction of the patient's familiar arm symptoms (shooting pain, paraesthesia); some authors also score a marked loss of mobility (>10 degrees) as positive.",
+  "accuracy": {
+   "sensitivity": "97%",
+   "specificity": "22%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Wainner et al. 2003 (Spine), cervical radiculopathy"
+  },
+  "notes": "Filed by the source under Cervical Spine Assessment; collected here with ULTT 2-4 by owner decision (all four pages embed the same video rir6x6Iiqc4 at different timestamps). ULTT1 is also listed by the source as a CTS test. ⚠ The ULTT1 page does not state the positive criterion; the criterion above is taken from the ULTT2-4 pages. Listed in both the wrist region and the cervical region (copy of the wrist record).",
+  "status": "ok"
+ }
+]

@@ -10,6 +10,7 @@ BASE = pathlib.Path(__file__).parent
 ROOT = BASE.parent
 
 REGIONS = [  # learning order on the page
+    {"id": "cervical", "zh": "頸椎", "en": "Cervical spine"},
     {"id": "shoulder", "zh": "肩部", "en": "Shoulder"},
     {"id": "elbow", "zh": "肘部", "en": "Elbow"},
     {"id": "wrist", "zh": "腕手", "en": "Wrist & Hand"},
@@ -24,17 +25,18 @@ REGIONS = [  # learning order on the page
 THEMES = [
     {"id": "basics", "zh": "基礎評估與活動度", "en": "Basics & Range of Motion",
      "cats": ["*.assess", "lumbar.screen", "lumbar.rom", "lumbar.neuro", "ankle.stress",
-              "screen.cspine", "screen.spine", "screen.upper", "screen.lower", "screen.ankle", "screen.general", "wrist.vasc"]},
+              "screen.cspine", "screen.spine", "screen.upper", "screen.lower", "screen.ankle", "screen.general", "wrist.vasc",
+              "cervical.screen", "cervical.neuro"]},
     {"id": "structure", "zh": "結構特殊測試（韌帶／肌腱／盂唇／關節）", "en": "Structural Special Tests",
      "cats": ["*.saps", "*.rc", "shoulder.instab", "*.labrum", "*.biceps", "*.ac", "*.fai", "*.glute", "*.posthip",
               "*.effusion", "*.acl", "*.rotatory", "*.pcl", "*.plc", "*.collateral", "*.meniscus", "*.pf", "*.tendon",
               "elbow.lateral", "elbow.medial", "elbow.plri",
               "ankle.sprain", "ankle.syndesmosis", "ankle.achilles", "ankle.plantar",
-              "wrist.tfcc", "wrist.instab", "wrist.cmc", "wrist.dq"]},
+              "wrist.tfcc", "wrist.instab", "wrist.cmc", "wrist.dq", "cervical.instab"]},
     {"id": "motor", "zh": "肌力、肌肉長度與動作控制", "en": "Strength, Muscle Length & Motor Control",
-     "cats": ["*.scap", "*.length", "lumbar.instab"]},
+     "cats": ["*.scap", "*.length", "lumbar.instab", "cervical.motor"]},
     {"id": "neuro", "zh": "神經、神經動力學與卡壓", "en": "Nerve, Neurodynamics & Entrapment",
-     "cats": ["*.tos", "*.piri", "*.radic", "*.stenosis", "elbow.cubital", "ankle.nerve", "screen.cranial", "screen.umn", "wrist.cts", "wrist.ultt"]},
+     "cats": ["*.tos", "*.piri", "*.radic", "*.stenosis", "elbow.cubital", "ankle.nerve", "screen.cranial", "screen.umn", "wrist.cts", "wrist.ultt", "cervical.myelo"]},
     {"id": "sij", "zh": "薦髂關節與骨盆", "en": "Sacroiliac Joint & Pelvis", "cats": ["*.sij"]},
     {"id": "rtp", "zh": "功能與回場測試", "en": "Functional & Return-to-Play Testing", "cats": ["*.rtp"]},
     {"id": "treat", "zh": "治療決策與運動治療", "en": "Treatment Decisions & Exercise",
