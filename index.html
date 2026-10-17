@@ -594,6 +594,7 @@ $('accTable').querySelector('thead').addEventListener('click', e => {
 runAcc();
 
 /* ---------- hash routing ---------- */
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';   // 避免瀏覽器把上次的捲動位置蓋過深連結定位
 function route(){
   const h = decodeURIComponent(location.hash.replace(/^#/, ''));
   let m;
