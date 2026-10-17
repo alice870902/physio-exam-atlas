@@ -4,12 +4,20 @@
   "id": 8890,
   "title": "Hip Active Range of Motion (AROM)",
   "link": "https://www.physiotutors.com/wiki/hip-active-range-of-motion/",
-  "youtube_ids": ["3OiJqAtPQUc"],
+  "youtube_ids": [
+   "3OiJqAtPQUc"
+  ],
   "purpose": "Basic assessment of the range a patient can move the hip actively, to detect symptoms (pain location, quality, intensity), observe how freely the joint moves and spot compensatory movements from the lumbar spine or pelvis.",
   "structure": "Hip joint (osteokinematic movements: flexion, extension, abduction, adduction, internal and external rotation). Page lists norm values: flexion 110-120°, extension 10-15°, adduction 30°, abduction 30-50°, internal rotation 30-40°, external rotation 40-60°.",
   "procedure": "Hands-off assessment; start with the unaffected leg and warn the patient symptoms may be provoked. Assess as many movements as possible in one position before changing position. Supine: flexion = bring knee to chest; adduction = examiner lifts one leg, patient crosses the other leg underneath; abduction = move leg as far off the bench as possible; rotation = hip flexed about 90°, heel outward for internal rotation, heel inward for external rotation. Extension = patient lifts the leg off the table.",
   "positive": "Not a positive/negative test: record pain (location, quality, intensity), available range versus norm values, and compensations.",
-  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "n/a"},
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a"
+  },
   "notes": "Companion page to passive ROM. No references listed on the page.",
   "status": "ok"
  },
@@ -18,12 +26,20 @@
   "id": 8958,
   "title": "Hip Passive Range of Motion",
   "link": "https://www.physiotutors.com/wiki/hip-passive-range-of-motion/",
-  "youtube_ids": ["g0Xg68ytaYQ"],
+  "youtube_ids": [
+   "g0Xg68ytaYQ"
+  ],
   "purpose": "Assess osteokinematic hip movements passively to measure range in degrees and, when range is limited, evaluate the end-feel.",
   "structure": "Hip joint; pelvis monitored at the ASIS or fixated at the ischial tuberosity so that end range is detected before the pelvis starts moving.",
   "procedure": "Flexion: supine, palpate the ipsilateral ASIS, hold the distal femur and flex until the pelvis starts to move. Extension: prone, fixate the pelvis at the ischial tuberosity with the hypothenar of one hand, extend the hip with the other. Internal/external rotation: either in 90° hip flexion supine (forearm supports the lower leg, hand cups the knee to protect against valgus torque) or in neutral hip (supine with leg over the edge, or prone with the ischial tuberosity fixated). Abduction: supine, thumb on the ipsilateral ASIS, lift the leg on the forearm and abduct. Adduction: supine, foot of the non-tested leg placed lateral to the tested knee, thumb on the contralateral ASIS, adduct.",
   "positive": "Not a positive/negative test: compare range with reference values and side to side, and note end-feel at limitation.",
-  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "n/a"},
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a"
+  },
   "notes": "Reliability per Charlton et al. 2015 and Prather et al. 2010: moderate to excellent intra-tester, poor to excellent inter-tester depending on the movement. The page says 'the following table shows standard values' but the table is an image not present in the API text, so no PROM norm values are recorded here (references: McKay 2017, Soucie 2011).",
   "status": "ok"
  },
@@ -32,12 +48,20 @@
   "id": 12854,
   "title": "Hip Resisted Isometric Testing",
   "link": "https://www.physiotutors.com/wiki/hip-resisted-isometric-testing/",
-  "youtube_ids": ["k12rDoTog4w"],
+  "youtube_ids": [
+   "k12rDoTog4w"
+  ],
   "purpose": "Quick indication of muscular status and pain provocation of the hip muscles; strength can be graded with the MRC scale, always comparing both sides.",
   "structure": "Musculotendinous tissues around the hip (joint placed in resting/neutral position so stress on inert structures is minimal). Gluteus maximus is the only muscle involved in extension, adduction and external rotation together; rectus femoris and hamstrings are biarticular, so knee flexion/extension are tested as well.",
   "procedure": "Instruct 'do not let me move you' and hold each resistance at least 5 seconds without limb movement. Flexion: hip about 60° flexion, support the lower leg, resist into extension. Extension: hip about 30° flexion, resist into flexion. Adduction/abduction: lift the leg, one hand distal and one proximal to the knee, patient pushes inward or outward. Internal/external rotation: hip 90° flexion, patient moves the ankle outward (IR) or inward (ER) against resistance. Knee flexion: hip about 30° flexion, hand proximal to the ankle. Knee extension: forearm under the leg resting on the opposite leg, other hand proximal to the ankle, patient extends.",
   "positive": "Pain and/or weakness during a resisted movement, interpreted by which muscles produce that movement (e.g. pain in extension, adduction and external rotation together points to gluteus maximus).",
-  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "n/a"},
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a"
+  },
   "notes": "Part of basic hip assessment together with AROM and PROM. No references listed on the page.",
   "status": "ok"
  },
@@ -46,13 +70,21 @@
   "id": 9148,
   "title": "Single-Leg Stance Assessment",
   "link": "https://www.physiotutors.com/wiki/single-leg-stance-assessment/",
-  "youtube_ids": ["cmFExKxV0dE", "A9pi7_JRgwQ"],
+  "youtube_ids": [
+   "A9pi7_JRgwQ"
+  ],
   "purpose": "Observational assessment of static postural control and stabilization strategy in single-leg stance; useful beyond fall-risk screening because about 40% of the gait cycle is spent in single-leg stance and stair climbing depends on it.",
   "structure": "Whole kinetic chain: foot/ankle stability, knee alignment (patella over dorsum of foot, knee valgus, tibial torsion), gluteus maximus and medius, contralateral quadratus lumborum, ribcage/breathing (core), head and eye position.",
   "procedure": "Already observe the patient taking off shoes and socks and rising from sitting. Note weight distribution in standing. Ask the patient to look straight ahead, arms at the side, and stand on one leg without specifying which leg or how high to lift. Observe breathing/ribcage, toe gripping or blanching, foot inversion/eversion searching, Trendelenburg sign, knee caving in, eye movement. Repeat with eyes closed.",
   "positive": "Findings rather than a binary result: holding with good form 20 s eyes closed and 40 s eyes open is described as acceptable. Trendelenburg sign suggests gluteus medius weakness or contralateral quadratus lumborum inhibition; toe gripping/foot searching suggests foot instability or gluteus maximus inhibition; knee valgus/tibial torsion may indicate gluteus maximus weakness.",
-  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "n/a"},
-  "notes": "Page has two videos. Only reference is a Dynamic Chiropractic web article; interpretations (e.g. eye-muscle facilitation after neck trauma) are the page's own clinical reasoning, not cited studies.",
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a"
+  },
+  "notes": "Page embeds one video; the 'functional assessment' link (cmFExKxV0dE) is a related-video link, not an embed. Only reference is a Dynamic Chiropractic web article; interpretations (e.g. eye-muscle facilitation after neck trauma) are the page's own clinical reasoning, not cited studies.",
   "status": "ok"
  },
  {
@@ -60,12 +92,20 @@
   "id": 13015,
   "title": "Hip Osteoarthritis Diagnosis | Signs & Symptoms of Hip OA",
   "link": "https://www.physiotutors.com/wiki/hip-osteoarthritis-diagnosis/",
-  "youtube_ids": ["MpMFvF4XHSs"],
+  "youtube_ids": [
+   "MpMFvF4XHSs"
+  ],
   "purpose": "Clinical (non-radiographic) classification of hip osteoarthritis using the ACR criteria of Altman et al. 1991.",
   "structure": "Hip joint; diagnosis historically based on Kellgren-Lawrence radiographic grading, but imaging correlates poorly with pain and limitation; central sensitization and psychosocial factors matter.",
   "procedure": "Hip pain PLUS either (a) hip internal rotation < 15° and hip flexion ≤ 115°, OR (b) internal rotation ≥ 15°, pain on internal rotation, morning stiffness < 60 minutes, and age > 50 years.",
   "positive": "Criteria met as above. Morning stiffness < 60 min helps distinguish OA from rheumatoid arthritis (usually longer); prevalence peaks around 78-79 years.",
-  "accuracy": {"sensitivity": "86%", "specificity": "75%", "lr_plus": "not reported", "lr_minus": "not reported", "source": "Altman et al. 1991 (page rates clinical value as moderate)"},
+  "accuracy": {
+   "sensitivity": "86%",
+   "specificity": "75%",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "Altman et al. 1991 (page rates clinical value as moderate)"
+  },
   "notes": "Kim et al. 2015 (two large cohorts): only 20% of hips with radiographic OA were frequently painful, supporting load management, strengthening, mobility exercise and patient education. Related tests listed on the page: Patrick's/FABER test, Trendelenburg sign, Cluster of Sutlive.",
   "status": "ok"
  },
@@ -74,12 +114,20 @@
   "id": 10134,
   "title": "Groin Pain Classification in Athletes | Doha Agreement",
   "link": "https://www.physiotutors.com/wiki/groin-pain-classification/",
-  "youtube_ids": ["pDaTliU76dE"],
+  "youtube_ids": [
+   "pDaTliU76dE"
+  ],
   "purpose": "Classify groin pain in athletes according to the Doha agreement (Weir et al. 2015) into defined clinical entities, hip-related groin pain and other causes.",
   "structure": "Adductors, iliopsoas, inguinal canal, pubic symphysis and adjacent bone, hip joint. Epidemiology on the page: groin injuries are 4-19% of all injuries in male club football and 2-14% in women.",
   "procedure": "History: pain in the affected region worsening with exercise. Then palpation, resistance testing and stretching of the muscle group. Adductor-related: pain in the adductors on resisted adduction plus adductor tenderness. Iliopsoas-related: pain on resisted hip flexion and on hip-flexor stretch (iliopsoas itself is nearly impossible to palpate). Inguinal-related: pain and tenderness in the inguinal canal region with no palpable hernia, aggravated by resisted abdominal testing or Valsalva/cough/sneeze. Pubic-related: local tenderness of the pubic symphysis and immediately adjacent bone. Hip-related: always consider the hip joint (FAI, labral tear) when history or examination raises suspicion. Other: orthopedic, neurological, rheumatological, urological, gastrointestinal, dermatological, oncological, surgical causes.",
   "positive": "Assignment to an entity requires the pain on resistance testing to be felt in that structure (e.g. pain in the inguinal region during resisted adduction does not count as adductor-related).",
-  "accuracy": {"sensitivity": "not reported", "specificity": "not reported", "lr_plus": "not reported", "lr_minus": "not reported", "source": "n/a (Hölmich 2004 reliability study is cited but no values given on the page)"},
+  "accuracy": {
+   "sensitivity": "not reported",
+   "specificity": "not reported",
+   "lr_plus": "not reported",
+   "lr_minus": "not reported",
+   "source": "n/a (Hölmich 2004 reliability study is cited but no values given on the page)"
+  },
   "notes": "Copenhagen adduction exercise is named as a valuable prevention tool for adductor-related groin pain. The 'table' of other causes mentioned on the page is not in the API text.",
   "status": "ok"
  }
