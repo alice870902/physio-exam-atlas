@@ -14,7 +14,7 @@ medical terms kept alongside. Live at https://alice870902.github.io/physio-exam-
 | thoracic | **live** (11 videos, 4 categories) | after cervical (added 2026-10-17 as groupA/zh_1): 8 'Thoracic Spine Assessment' + 1 'Thoracic Spine' (referred pain) + 2 'Thoracic Spine Treatment'. The 5 TOS pages (`thoracic-outlet-syndrome-explained`, `neurological-thoracic-outlet-syndrome`, `morley-test`, `wrights-test`, `roos-test`) are deliberately also in shoulder/tos (shoulder groupG/zh_6, copies of the thoracic records). Source quirks (TOS classification table and entrapment intervals are images; 'pancast' tumour; Sikandar sentence attributes autonomic phenomena to somatic pain; strengthening page lead-in copied from the mobility page; Heiderscheidt/Lindren spellings) are flagged in notes |
 | headache | **live** (7 videos, 3 categories) | after thoracic; all 7 'Headache' wiki pages (ICHD-3 criteria pages for tension-type, migraine, cluster, cervicogenic, medication overuse; cervicogenic mechanism; Watson headache test). Owner decided 2026-10-17: own region, not merged into cervical. Only the Watson test is a physical test; the others are criteria/explanation pages (accuracy n/a). Source quirks (TTH page lists medication overuse among primary headaches; CGH-explained body heading copied from the referred-pain post; subtype table is an image) are flagged in notes |
 | dizziness | **live** (14 videos, 5 categories) | after headache; 9 'Dizziness Assessment' + 2 'Dizziness & Vertigo' (Dix-Hallpike, supine head roll) + 3 'Dizziness & Vertigo Treatment' (Epley, Semont, BBQ roll; treatment pages, accuracy n/a). Owner decided 2026-10-17: own region. Source quirks (Semont page says 'Epley can lead to nausea'; BBQ page's background says posterior canal 85-95%; Treleaven 2019 vs 2020; head impulse page gives no positive criterion) are flagged in notes |
-| shoulder | **live** (100 entries, 11 categories) | redirect page; all 81 'Shoulder Assessment' wiki pages are in (18 backfilled 2026-10-17 as groupE/zh_4); 2026-10-17 batch 2 added a `length` category (pectoralis-minor from 'Chest Assessment', biceps/triceps length tests from 'Shoulder & Elbow Assessment'; groupF/zh_5) and the 5 TOS parallel copies in `tos` (groupG/zh_6). `pectoralis-major-length-test` moved from `scap` into `length` on 2026-10-18 (owner decision; category renamed 肌肉長度與柔軟度 Muscle Length & Flexibility) |
+| shoulder | **live** (100 entries, 11 categories) | redirect page; all 81 'Shoulder Assessment' wiki pages are in (18 backfilled 2026-10-17 as groupE/zh_4); 2026-10-17 batch 2 added a `length` category (pectoralis-minor from 'Chest Assessment', biceps/triceps length tests from 'Shoulder & Elbow Assessment'; groupF/zh_5) and the 5 TOS parallel copies in `tos` (groupG/zh_6). `pectoralis-major-length-test` moved from `scap` into `length` on 2026-10-18 (owner decision; category renamed 肌肉長度與柔軟度 Muscle Length & Flexibility). 2026-10-19: every shoulder card got a 解剖 row linking to the owner's private anatomy atlas (`anatomy.json`, 100 slugs → 268 structure links; see Data pipeline step 6) |
 | elbow | **live** (32 videos, 7 categories) | redirect page; all 28 'Elbow Assessment' wiki pages are in (added 2026-10-17 as groupA/zh_1); 2026-10-17 batch 2 added the 3 'Basic Assessment' elbow AROM/PROM/isometric pages to `assess` and a new `ex` category with `tennis-elbow-exercises` (groupB/zh_2). `biceps-squeeze-test` and `biceps-crease-interval` are deliberately in both shoulder (biceps) and elbow (biceps); `shoulder-internal-rotation-test` (cubital tunnel) lives in elbow only. Source quirks (PL rotatory drawer and tabletop relocation share a YouTube ID; varus test cites a BPPV guideline; PEPPER/SALT report PPV/NPV only; Ludington is a proximal test filed under elbow) are flagged in record notes |
 | wrist | **live** (32 videos, 8 categories) | redirect page; 20 'Wrist & Hand Assessment' + 7 'Hand/Wrist Assessment' + 1 'Wrist & Hand' (ULTT4) + 3 'Basic Assessment' wrist/hand ROM-strength pages + `upper-limb-tension-test-1` (source files it under Cervical Spine Assessment; owner decided 2026-10-17 to keep all four ULTTs together here and parallel them into cervical later). Added 2026-10-17 as groupA/groupB + zh_1/zh_2. Source quirks (all four ULTT pages share YouTube ID rir6x6Iiqc4; ULTT3 page quotes Wainner figures under the name ULTT1; DRUJ page's accuracy sentence names the LT ballottement test; Eichhoff page repeats Finkelstein staging text; Sela cited as 2017 but listed as 2019; Allen test comma decimals) are flagged in record notes |
 | hip | **live** (63 videos, 9 categories) | redirect page; all 43 'Hip Assessment' wiki pages are in (19 backfilled 2026-10-17 as groupE/zh_4); 2026-10-17 batch 2 added a `groin` category with the 2 'Groin Assessment' core-muscle-injury tests (groupF/zh_5); source quirks (Pace page duplicates FAIR procedure, resisted-external-derotation page duplicates Puranen-Orava, compression/sacral-thrust and Kendall/Phelps share YouTube IDs) are flagged in record notes |
@@ -35,6 +35,10 @@ src/data/<region>/
   group*.json              English source records fetched from physiotutors (any number of files)
   zh_*.json                Traditional Chinese notes (any number of files)
   slugs.json               (hip only) discovery list of candidate slugs
+  anatomy.json             (shoulder only so far) slug → anatomy-atlas structure ids + zh/en names; GENERATED by
+                           src/make_anatomy_json.py, do not hand-edit (build validates every slug and structure id)
+src/make_anatomy_json.py   python3 src/make_anatomy_json.py <region> → writes src/data/<region>/anatomy.json from the
+                           private anatomy-atlas repo's coverage_<region>.tsv + structures.json (names and ids only)
 .nojekyll                  keep; GitHub Pages must not run Jekyll
 ```
 
@@ -74,6 +78,23 @@ The old per-region `build.py` / `template.html` were removed in the 2026-10-17 r
      reliability caveats. Faithful to source, no invented findings.
    - tags: 2–4 short bilingual tags, e.g. `"棘上肌 supraspinatus"`, `"SAPS"`, `"cluster"`.
 5. **Build, check, commit, push.** `git push origin main` deploys automatically.
+6. **Anatomy links (optional, per region).** Each card can carry a 解剖 row that links every
+   structure the test loads to the owner's private anatomy atlas
+   (`https://anatomy-atlas.alice870902.workers.dev/#s-<structure-id>`, password-protected). The
+   mapping lives in `src/data/<region>/anatomy.json` and is **generated, never hand-written**:
+   - In the private repo `/Users/yitzu_wu/dev/anatomy-atlas`, make `data/coverage_<region>.tsv`
+     (columns `slug`, `構造編號` comma-separated, `Atlas 目標構造欄位` for reference) and make sure
+     every id exists in `data/structures.json`.
+   - Run `python3 src/make_anatomy_json.py <region>` here. It refuses to write if a slug is not in
+     this region's `categories.json` or an id is not in structures.json, and it copies only
+     `id`/`zh`/`en` — ⛔ nothing else from anatomy-atlas (its `data/excerpts`, `data/entries`,
+     `data/figures`, `dist` hold copyrighted textbook text and crops and must never enter this
+     public repo).
+   - `python3 src/build_site.py` re-validates the file, expands each pair into a full URL on the
+     test record (`anat: [{id,url,zh,en}]`), and aborts unless the number of
+     `…workers.dev/#s-` links in index.html equals the number of (slug, structure) pairs. Cards
+     without a mapping (all non-shoulder regions today) render no 解剖 row at all.
+   - Done for shoulder 2026-10-19 (100 slugs, 39 structures used, 268 links).
 
 Shoulder was done with ~4 parallel fetch workers (≈20 slugs each) and 3 translate
 workers (≈25 slugs each); each worker writes its own groupX.json / zh_N.json.

@@ -1,0 +1,631 @@
+{
+ "base_url": "https://anatomy-atlas.alice870902.workers.dev/#s-",
+ "structures": {
+  "acromioclavicular-joint": {
+   "zh": "肩鎖關節與韌帶",
+   "en": "Acromioclavicular joint and ligaments"
+  },
+  "biceps-brachii": {
+   "zh": "肱二頭肌",
+   "en": "Biceps brachii"
+  },
+  "brachial-plexus": {
+   "zh": "臂神經叢（肩部段）",
+   "en": "Brachial plexus (shoulder segment)"
+  },
+  "coracoacromial-ligament": {
+   "zh": "喙肩韌帶",
+   "en": "Coracoacromial ligament"
+  },
+  "coracohumeral-ligament": {
+   "zh": "喙肱韌帶",
+   "en": "Coracohumeral ligament"
+  },
+  "costoclavicular-space": {
+   "zh": "肋鎖間隙",
+   "en": "Costoclavicular space"
+  },
+  "deltoid": {
+   "zh": "三角肌",
+   "en": "Deltoid"
+  },
+  "dorsal-scapular-nerve": {
+   "zh": "肩胛背神經",
+   "en": "Dorsal scapular nerve"
+  },
+  "first-rib": {
+   "zh": "第一肋",
+   "en": "First rib"
+  },
+  "glenohumeral-joint": {
+   "zh": "盂肱關節（含關節囊與隱窩）",
+   "en": "Glenohumeral joint (capsule and recesses)"
+  },
+  "glenohumeral-ligaments": {
+   "zh": "盂肱韌帶（上、中、下）",
+   "en": "Glenohumeral ligaments (superior, middle, inferior)"
+  },
+  "glenoid-labrum": {
+   "zh": "盂唇（上、前、後下）",
+   "en": "Glenoid labrum (superior, anterior, posteroinferior)"
+  },
+  "infraspinatus": {
+   "zh": "棘下肌",
+   "en": "Infraspinatus"
+  },
+  "interscalene-triangle": {
+   "zh": "斜角肌三角",
+   "en": "Interscalene triangle"
+  },
+  "latissimus-dorsi": {
+   "zh": "闊背肌",
+   "en": "Latissimus dorsi"
+  },
+  "levator-scapulae": {
+   "zh": "提肩胛肌",
+   "en": "Levator scapulae"
+  },
+  "long-head-biceps-tendon": {
+   "zh": "肱二頭肌長頭肌腱",
+   "en": "Long head of biceps tendon"
+  },
+  "long-thoracic-nerve": {
+   "zh": "長胸神經",
+   "en": "Long thoracic nerve"
+  },
+  "pectoralis-major": {
+   "zh": "胸大肌",
+   "en": "Pectoralis major"
+  },
+  "pectoralis-minor": {
+   "zh": "胸小肌",
+   "en": "Pectoralis minor"
+  },
+  "proximal-humerus": {
+   "zh": "肱骨近端（大結節、小結節、結節間溝、解剖頸）",
+   "en": "Proximal humerus (greater and lesser tuberosity, bicipital groove, anatomical neck)"
+  },
+  "retropectoralis-minor-space": {
+   "zh": "胸小肌後間隙",
+   "en": "Retropectoralis minor space"
+  },
+  "rhomboids": {
+   "zh": "菱形肌（大、小）",
+   "en": "Rhomboid major and minor"
+  },
+  "rotator-interval": {
+   "zh": "旋轉肌間隙",
+   "en": "Rotator interval"
+  },
+  "scalenes": {
+   "zh": "斜角肌（前、中）",
+   "en": "Anterior and middle scalenes"
+  },
+  "scapula": {
+   "zh": "肩胛骨（肩峰、喙突、肩胛棘、切跡、內緣、下角）",
+   "en": "Scapula (acromion, coracoid, spine, notches, medial border, inferior angle)"
+  },
+  "scapulothoracic-joint": {
+   "zh": "肩胛胸廓關節（功能性關節）",
+   "en": "Scapulothoracic joint (functional articulation)"
+  },
+  "serratus-anterior": {
+   "zh": "前鋸肌",
+   "en": "Serratus anterior"
+  },
+  "sternoclavicular-joint": {
+   "zh": "胸鎖關節",
+   "en": "Sternoclavicular joint"
+  },
+  "subacromial-space": {
+   "zh": "肩峰下空間（喙肩弓）",
+   "en": "Subacromial space (coracoacromial arch)"
+  },
+  "subacromial-subdeltoid-bursa": {
+   "zh": "肩峰下三角肌下滑囊",
+   "en": "Subacromial-subdeltoid bursa"
+  },
+  "subclavian-vessels": {
+   "zh": "鎖骨下動靜脈",
+   "en": "Subclavian artery and vein"
+  },
+  "subscapularis": {
+   "zh": "肩胛下肌",
+   "en": "Subscapularis"
+  },
+  "supraspinatus": {
+   "zh": "棘上肌",
+   "en": "Supraspinatus"
+  },
+  "teres-minor": {
+   "zh": "小圓肌",
+   "en": "Teres minor"
+  },
+  "thoracodorsal-nerve": {
+   "zh": "胸背神經",
+   "en": "Thoracodorsal nerve"
+  },
+  "transverse-humeral-ligament": {
+   "zh": "肱骨橫韌帶",
+   "en": "Transverse humeral ligament"
+  },
+  "trapezius": {
+   "zh": "斜方肌（上、中、下）",
+   "en": "Trapezius (upper, middle, lower)"
+  },
+  "triceps-brachii": {
+   "zh": "肱三頭肌（長頭）",
+   "en": "Triceps brachii (long head)"
+  }
+ },
+ "tests": {
+  "neer-test": [
+   "coracoacromial-ligament",
+   "infraspinatus",
+   "scapula",
+   "subacromial-space",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "hawkins-kennedy-test": [
+   "infraspinatus",
+   "subacromial-space",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "painful-arc-sign": [
+   "acromioclavicular-joint",
+   "infraspinatus",
+   "subacromial-space",
+   "subacromial-subdeltoid-bursa",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "empty-can-test": [
+   "infraspinatus",
+   "subacromial-space",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "full-can-test": [
+   "infraspinatus",
+   "subacromial-space",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "drop-arm-sign": [
+   "infraspinatus",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "lift-off-sign": [
+   "subscapularis"
+  ],
+  "belly-press": [
+   "subscapularis"
+  ],
+  "bear-hug-test": [
+   "subscapularis"
+  ],
+  "hornblowers-sign": [
+   "infraspinatus",
+   "teres-minor"
+  ],
+  "lateral-rotation-lag-sign": [
+   "infraspinatus",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "subacromial-pain-syndrome-cluster": [
+   "infraspinatus",
+   "subacromial-space",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "shoulder-impingement-explained": [
+   "glenohumeral-joint",
+   "glenoid-labrum",
+   "scapula",
+   "scapulothoracic-joint",
+   "subacromial-space",
+   "subacromial-subdeltoid-bursa"
+  ],
+  "shoulder-resisted-isometric-testing": [
+   "triceps-brachii"
+  ],
+  "coracoid-pain-test": [
+   "coracohumeral-ligament",
+   "glenohumeral-joint",
+   "rotator-interval",
+   "scapula"
+  ],
+  "shoulder-symptom-modification-procedure": [
+   "infraspinatus",
+   "proximal-humerus",
+   "subacromial-space",
+   "subacromial-subdeltoid-bursa",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "shoulder-joint-positioning-sense": [
+   "glenohumeral-joint"
+  ],
+  "apprehension-test": [
+   "glenohumeral-joint"
+  ],
+  "relocation-test": [
+   "glenohumeral-joint"
+  ],
+  "shoulder-relocation-test": [
+   "glenohumeral-joint"
+  ],
+  "release-test": [
+   "glenohumeral-joint"
+  ],
+  "sulcus-sign": [
+   "glenohumeral-joint"
+  ],
+  "load-and-shift-test": [
+   "glenohumeral-joint"
+  ],
+  "jerk-test": [
+   "glenohumeral-joint",
+   "glenoid-labrum",
+   "scapula"
+  ],
+  "kims-test": [
+   "glenoid-labrum",
+   "scapula"
+  ],
+  "anterior-shoulder-instability-cluster": [
+   "glenohumeral-joint"
+  ],
+  "obrien-test": [
+   "acromioclavicular-joint",
+   "glenoid-labrum"
+  ],
+  "crank-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "biceps-load-i-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "biceps-load-ii-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "passive-compression-test": [
+   "glenoid-labrum"
+  ],
+  "labral-tension-test": [
+   "glenoid-labrum"
+  ],
+  "passive-distraction-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "compression-rotation-test": [
+   "glenoid-labrum"
+  ],
+  "dynamic-labral-shear-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "anterior-slide-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "porcellini-test": [
+   "glenohumeral-joint",
+   "glenoid-labrum",
+   "scapula"
+  ],
+  "miniaci-test": [
+   "glenohumeral-joint",
+   "glenoid-labrum",
+   "scapula"
+  ],
+  "speeds-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "yergasons-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon",
+   "transverse-humeral-ligament"
+  ],
+  "upper-cut-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "biceps-squeeze-test": [
+   "biceps-brachii"
+  ],
+  "biceps-crease-interval": [
+   "biceps-brachii"
+  ],
+  "3-pack-examination": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "cross-body-adduction-test": [
+   "acromioclavicular-joint"
+  ],
+  "ac-joint-line-tenderness": [
+   "acromioclavicular-joint"
+  ],
+  "paxinos-sign": [
+   "acromioclavicular-joint"
+  ],
+  "ac-resisted-extension-test": [
+   "acromioclavicular-joint"
+  ],
+  "ac-shear-test": [
+   "acromioclavicular-joint"
+  ],
+  "ac-joint-pain": [
+   "acromioclavicular-joint"
+  ],
+  "diagnosis-of-a-symptomatic-ac-joint": [
+   "acromioclavicular-joint"
+  ],
+  "ac-joint-cluster": [
+   "acromioclavicular-joint"
+  ],
+  "shoulder-active-range-of-motion": [
+   "glenohumeral-joint",
+   "infraspinatus",
+   "scapulothoracic-joint",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "shoulder-passive-range-of-motion": [
+   "glenohumeral-joint"
+  ],
+  "joint-play-shoulder": [
+   "glenohumeral-joint"
+  ],
+  "apley-scratch-test": [
+   "glenohumeral-joint"
+  ],
+  "frozen-shoulder-diagnosis": [
+   "glenohumeral-joint"
+  ],
+  "scapulohumeral-rythm": [
+   "glenohumeral-joint",
+   "scapula",
+   "scapulothoracic-joint"
+  ],
+  "scapular-dyskinesis-test": [
+   "scapulothoracic-joint"
+  ],
+  "scapular-assistance-test": [
+   "scapulothoracic-joint",
+   "serratus-anterior",
+   "trapezius"
+  ],
+  "scapular-retraction-test": [
+   "scapulothoracic-joint",
+   "serratus-anterior",
+   "trapezius"
+  ],
+  "serratus-anterior-strength-test": [
+   "long-thoracic-nerve",
+   "scapulothoracic-joint",
+   "serratus-anterior"
+  ],
+  "trapezius-strength-test": [
+   "trapezius"
+  ],
+  "rhomboid-strength-test": [
+   "dorsal-scapular-nerve",
+   "rhomboids"
+  ],
+  "latissimus-dorsi-strength-test": [
+   "latissimus-dorsi",
+   "thoracodorsal-nerve"
+  ],
+  "costoclavicular-maneuver": [
+   "brachial-plexus",
+   "costoclavicular-space",
+   "subclavian-vessels"
+  ],
+  "adson-test": [
+   "brachial-plexus",
+   "first-rib",
+   "interscalene-triangle",
+   "scalenes",
+   "subclavian-vessels"
+  ],
+  "eden-test": [
+   "brachial-plexus",
+   "costoclavicular-space",
+   "subclavian-vessels"
+  ],
+  "cyriax-release-test": [
+   "brachial-plexus",
+   "costoclavicular-space",
+   "interscalene-triangle",
+   "retropectoralis-minor-space",
+   "subclavian-vessels"
+  ],
+  "tinel-sign-tos": [
+   "brachial-plexus",
+   "costoclavicular-space",
+   "interscalene-triangle",
+   "retropectoralis-minor-space",
+   "subclavian-vessels"
+  ],
+  "best-shoulder-pain-relief-exercises": [
+   "infraspinatus",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "scapula-strengthening-exercises": [
+   "scapula",
+   "scapulothoracic-joint",
+   "serratus-anterior",
+   "trapezius"
+  ],
+  "best-scapular-dyskinesis-exercise": [
+   "scapulothoracic-joint",
+   "subacromial-space",
+   "supraspinatus",
+   "trapezius"
+  ],
+  "shoulder-assessment": [
+   "acromioclavicular-joint",
+   "glenohumeral-joint",
+   "scapulothoracic-joint",
+   "sternoclavicular-joint"
+  ],
+  "slap-lesion-cluster": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "slap-lesion-cluster-2": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon",
+   "proximal-humerus"
+  ],
+  "supine-flexion-resistance-test": [
+   "glenoid-labrum",
+   "long-head-biceps-tendon"
+  ],
+  "resisted-supination-external-rotation-test": [
+   "glenohumeral-joint",
+   "glenoid-labrum"
+  ],
+  "gagey-test": [
+   "glenohumeral-joint",
+   "glenohumeral-ligaments"
+  ],
+  "posterior-impingement-test": [
+   "glenohumeral-joint",
+   "infraspinatus",
+   "proximal-humerus",
+   "scapula",
+   "scapulothoracic-joint",
+   "subacromial-space",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "yocum-test": [
+   "subacromial-space",
+   "subacromial-subdeltoid-bursa",
+   "supraspinatus"
+  ],
+  "whipple-test": [
+   "subacromial-space",
+   "supraspinatus"
+  ],
+  "why-can-tests-suck": [
+   "deltoid",
+   "infraspinatus",
+   "supraspinatus",
+   "trapezius"
+  ],
+  "rent-test": [
+   "deltoid",
+   "infraspinatus",
+   "proximal-humerus",
+   "scapula",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "infraspinatus-test": [
+   "infraspinatus",
+   "subscapularis",
+   "supraspinatus",
+   "teres-minor"
+  ],
+  "internal-rotation-lag-sign": [
+   "subscapularis"
+  ],
+  "shoulder-shrug-sign": [
+   "glenohumeral-joint",
+   "scapulothoracic-joint"
+  ],
+  "glenohumeral-internal-rotation-deficit": [
+   "glenohumeral-joint",
+   "infraspinatus",
+   "teres-minor"
+  ],
+  "stenvers-test": [
+   "acromioclavicular-joint",
+   "glenohumeral-joint",
+   "scapulothoracic-joint",
+   "sternoclavicular-joint"
+  ],
+  "scapular-alignment": [
+   "levator-scapulae",
+   "pectoralis-minor",
+   "rhomboids",
+   "scapula",
+   "scapulothoracic-joint",
+   "serratus-anterior",
+   "trapezius"
+  ],
+  "4-type-classification": [
+   "scapulothoracic-joint"
+  ],
+  "pectoralis-major-length-test": [
+   "pectoralis-major"
+  ],
+  "pectoralis-minor-length-test": [
+   "pectoralis-minor",
+   "scapula"
+  ],
+  "biceps-brachii-length-test": [
+   "biceps-brachii"
+  ],
+  "triceps-brachii-length-test": [
+   "triceps-brachii"
+  ],
+  "thoracic-outlet-syndrome-explained": [
+   "brachial-plexus",
+   "costoclavicular-space",
+   "interscalene-triangle",
+   "retropectoralis-minor-space",
+   "subclavian-vessels"
+  ],
+  "neurological-thoracic-outlet-syndrome": [
+   "brachial-plexus",
+   "interscalene-triangle",
+   "pectoralis-minor",
+   "retropectoralis-minor-space",
+   "scalenes"
+  ],
+  "morley-test": [
+   "brachial-plexus",
+   "interscalene-triangle",
+   "subclavian-vessels"
+  ],
+  "wrights-test": [
+   "brachial-plexus",
+   "costoclavicular-space",
+   "retropectoralis-minor-space",
+   "subclavian-vessels"
+  ],
+  "roos-test": [
+   "costoclavicular-space",
+   "interscalene-triangle",
+   "retropectoralis-minor-space"
+  ]
+ }
+}

@@ -468,6 +468,13 @@ function notes(txt){
   return out.join('') || '<p class="source">無備註</p>';
 }
 function num(v){ return v && !/^\s*not reported/i.test(v) ? `<b>${esc(v)}</b>` : `<b class="na">未報告</b>`; }
+/* 解剖列：只有 anatomy.json 有對照的測試（目前肩部）才有 t.anat；每個構造一個連結，連到私人解剖資料庫的構造頁 */
+function anatomy(t){
+  if (!t.anat || !t.anat.length) return '';
+  const links = t.anat.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.zh)} ${esc(a.en)}</a>`).join(' · ');
+  const note = lang === 'en' ? 'Anatomy atlas (private site, password required)' : '解剖資料庫（私人站，需密碼）';
+  return `<p><span class="lbl">${lang === 'en' ? 'Anatomy' : '解剖'}</span>${links} <span class="source">${note}</span></p>`;
+}
 function renderDetail(el, t){
   if (!t) { el.innerHTML = '<div class="empty">從上方列表選一支測試</div>'; return; }
   const c = catName(t), th = themeById[t.theme], r = regionById[t.region];
@@ -481,7 +488,7 @@ function renderDetail(el, t){
     <span><button class="langbtn" data-lang="zh" aria-pressed="${lang==='zh'}">中文</button> <button class="langbtn" data-lang="en" aria-pressed="${lang==='en'}">EN</button></span></div>
   <div class="videos">${t.youtube_ids.map(id => `<div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/${esc(id)}?rel=0&modestbranding=1" title="${esc(t.title_en)}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`).join('') || '<p class="source">原頁沒有嵌入影片</p>'}</div>
   <div class="seg">
-    <div class="card"><h4>${L.p}</h4><p>${esc(B.purpose)}</p>${B.structure ? `<p><span class="lbl">${lang==='en'?'Structure':'檢測結構'}</span>${esc(B.structure)}</p>` : ''}</div>
+    <div class="card"><h4>${L.p}</h4><p>${esc(B.purpose)}</p>${B.structure ? `<p><span class="lbl">${lang==='en'?'Structure':'檢測結構'}</span>${esc(B.structure)}</p>` : ''}${anatomy(t)}</div>
     <div class="card"><h4>${L.s}</h4>${steps(B.procedure)}</div>
     <div class="card"><h4>${L.pos}</h4><p>${esc(B.positive)}</p></div>
     <div class="card"><h4>${L.a}</h4>
